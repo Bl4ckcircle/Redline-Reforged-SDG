@@ -1,0 +1,8 @@
+GameProject {
+ ID "RedlineReforgedSDG"
+ GUID "68D68619182CAE93"
+ TITLE "Redline Reforged SDG"
+ Dependencies {
+  "670D4C8ADF1C0707" "58D0FB3206B6F859"
+ }
+}

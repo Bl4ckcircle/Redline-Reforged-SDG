@@ -1,0 +1,486 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ BareRidge {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
+   SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
+    m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
+     Name "BareRidge Military base"
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "BareRidge Military base"
+    m_sBaseNameUpper "BareRidge Military base"
+    m_sMapLocationName "BareRidge Military base"
+   }
+  }
+  coords 7754.709 312.498 8165.362
+  angles -4.125 -175.907 2.232
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -7.459 -0.075 13.383
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords -35.54 -1.887 82.572
+   }
+  }
+ }
+ Komsomolsk {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
+   SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
+    m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
+     Name "Komsomolsk"
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Komsomolsk"
+    m_sBaseNameUpper "Komsomolsk"
+    m_sMapLocationName "Komsomolsk"
+   }
+  }
+  coords 8707.486 4.738 10215.091
+  angles -1.903 -20.916 1.043
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 22.812 1.813 -17.383
+   }
+  }
+ }
+ NadezhdaMilitaryBase {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 80
+    m_sBaseName "Nadezhda Military base"
+    m_sBaseNameUpper "Nadezhda Military base"
+    m_sMapLocationName "Nadezhda Military base"
+   }
+  }
+  coords 7099.623 313.39 6007.952
+  angles 0 -98.052 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -0.001 -0.045 26.902
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords -8.264 2.962 -16.858
+   }
+  }
+ }
+ Harbour {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Harbour"
+    m_sBaseNameUpper "Harbour"
+    m_sMapLocationName "Harbour"
+   }
+  }
+  coords 7608.367 21.098 4930.156
+  angles 0 -84.572 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 15.095 1.194 -8.976
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords -26.632 -0.876 14.002
+   }
+  }
+ }
+ Langonnet {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
+   SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
+    m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
+     Name "Langonnet"
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Langonnet"
+    m_sBaseNameUpper "Langonnet"
+    m_sMapLocationName "Langonnet"
+   }
+  }
+  coords 9701.029 128.904 10074.252
+  angles 0 155.953 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 40.883 -0.07 5.518
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords 11.118 -0.688 -19.345
+   }
+  }
+ }
+ NadezhdaMine {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "NadezhdaMine"
+    m_sBaseNameUpper "NadezhdaMine"
+    m_sMapLocationName "NadezhdaMine"
+   }
+  }
+  coords 7679.727 208.568 6815.005
+  angles 0 148.762 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 8.26 -0.711 20.913
+    angles 0 35.382 0
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords -30.566 -1.187 43.552
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -6.675 0.222 -0.117
+    angles 0 35.382 0
+   }
+  }
+ }
+ LeRocher {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "LeRocher"
+    m_sBaseNameUpper "LeRocher"
+    m_sMapLocationName "LeRocher"
+   }
+  }
+  coords 11308.874 88.659 10480.258
+  angles 0 -21.649 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 0 1.748 27.625
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords 14.888 -2.731 -22.821
+   }
+  }
+ }
+ Hamertin {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
+   SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
+    m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
+     Name "Hamertin"
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Hamertin"
+    m_sBaseNameUpper "Hamertin"
+    m_sMapLocationName "Hamertin"
+   }
+  }
+  coords 3358.845 267.789 6862.693
+  angles 0 -89.11 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -0.001 -0.01 23.336
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords 17.062 1 -15.582
+   }
+  }
+ }
+ Michurino {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Michurino"
+    m_sBaseNameUpper "Michurino"
+    m_sMapLocationName "Michurino"
+   }
+  }
+  coords 3442.604 17.937 4232.832
+  angles -0.17 -60.907 -5.203
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 20.813 -1.044 -4.736
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords -16.557 0.006 7.081
+   }
+  }
+ }
+ Krasnyy0ktabrMine {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Krasnyy0ktabrMine"
+    m_sBaseNameUpper "Krasnyy0ktabrMine"
+    m_sMapLocationName "Krasnyy0ktabrMine"
+   }
+  }
+  coords 3693.849 175.87 5195.782
+  angles -0.957 -86.223 -3.329
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -9.25 0.334 12
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords -28.27 -0.989 -48.563
+   }
+  }
+ }
+ Stupka {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
+   SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
+    m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
+     Name "Stupka"
+     Description "Stupka"
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Stupka"
+    m_sBaseNameUpper "Stupka"
+    m_sMapLocationName "Stupka"
+   }
+  }
+  coords 5736.932 420.979 6889.797
+  angles 0 -146.242 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 0.001 1.616 32.4
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords -24.839 0.943 -8.578
+   }
+  }
+ }
+ SosnovyMys {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
+   SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
+    m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
+     Name "SosnovyMys"
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "SosnovyMys"
+    m_sBaseNameUpper "SosnovyMys"
+    m_sMapLocationName "SosnovyMys"
+   }
+  }
+  coords 4404.332 2.413 8149.772
+  angles 0.169 147.91 -1.368
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -0.018 -0.762 15
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords -12.861 1.15 -15.29
+   }
+  }
+ }
+ Udarnik {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
+   SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
+    m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
+     Name "Udarnik"
+     Description "Udarnik"
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Udarnik"
+    m_sBaseNameUpper "Udarnik"
+    m_sMapLocationName "Udarnik"
+   }
+  }
+  coords 4375.446 42.575 3384.946
+  angles 1.072 -105.459 -2.067
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 25.222 0.678 12
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords -20.358 -0.129 -12.775
+   }
+  }
+ }
+ NorthernBeach {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
+   SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
+    m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
+     Name "NorthernBeach"
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "NorthernBeach"
+    m_sBaseNameUpper "NorthernBeach"
+    m_sMapLocationName "NorthernBeach"
+   }
+  }
+  coords 9663.879 9.648 8656.815
+  angles 0 136.572 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 20.794 0.602 4.448
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords -12.4 -0.122 -1.812
+    {
+     $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+      {
+       coords -19.679 0 -8.656
+      }
+      {
+       coords 21.875 2.246 38.176
+      }
+      {
+       coords 42.243 1.143 6.482
+      }
+     }
+    }
+   }
+  }
+ }
+ Soumont {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
+   SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
+    m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
+     Name "Soumont"
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Soumont"
+    m_sBaseNameUpper "Soumont"
+    m_sMapLocationName "Soumont"
+   }
+  }
+  coords 5201.9 411.795 5378.121
+  angles -4.371 165.141 -2.534
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 0.025 0.559 22.342
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords -3.813 -2.059 -16.824
+   }
+  }
+ }
+ PebbleMilitary {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
+   SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
+    m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
+     Name "Pebblebay Military base"
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Pebblebay Military base"
+    m_sBaseNameUpper "Pebblebay Military base"
+    m_sMapLocationName "Pebblebay Military base"
+   }
+  }
+  coords 5347.425 65.329 3409.866
+  angles 0.164 73.155 -1.714
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -1.862 0.287 6.557
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords 19.532 -0.652 -0.521
+    {
+     $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+      {
+       coords 0 0 0
+      }
+      {
+       coords 0.135 4.484 60.854
+      }
+      {
+       coords -63.598 2.914 69.341
+      }
+      {
+       coords -63.376 0.835 0
+      }
+     }
+    }
+   }
+  }
+ }
+}

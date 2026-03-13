@@ -1,0 +1,246 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ GreenHill {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
+   SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
+    m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
+     Name "GreenHill"
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bIsSupplyHub 1
+    m_sBaseName "GreenHill"
+    m_sBaseNameUpper "GreenHill"
+    m_sMapLocationName "GreenHill"
+   }
+  }
+  coords 6800.554 438.941 6674.458
+  angles 0 -95.973 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -18.502 0 17.787
+    {
+     $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+      {
+       coords 0 0 -4.25
+      }
+      {
+       coords 46.674 0 0.065
+      }
+      {
+       coords 0 1.785 58.605
+      }
+      {
+       coords -56.369 1.808 13.906
+      }
+     }
+    }
+   }
+  }
+ }
+ Ugoldar {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
+   SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
+    m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
+     Name "Ugoldar"
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bIsSupplyHub 1
+    m_sBaseName "Ugoldar"
+    m_sBaseNameUpper "Ugoldar"
+    m_sMapLocationName "Ugoldar"
+   }
+  }
+  coords 6642.245 25.821 3908.298
+  angles 0 -131.4 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -5.489 -0.062 23.033
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords 13.542 0 5.453
+   }
+  }
+ }
+ Mineraly {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bIsSupplyHub 1
+    m_sBaseName "Mineraly"
+    m_sBaseNameUpper "Mineraly"
+    m_sMapLocationName "Mineraly"
+   }
+  }
+  coords 6170.192 38.256 7992.373
+  angles 0 56.067 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -13.152 0.001 21.832
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords 56.833 1.551 52.978
+    {
+     $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+      {
+       coords 0 0 0
+      }
+      {
+       coords -77.882 -1.113 4.161
+      }
+      {
+       coords -117.668 -1.551 -49.342
+      }
+      {
+       coords -36.771 -1.55 -72.52
+      }
+     }
+    }
+   }
+  }
+ }
+ Gorshkovo {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
+   SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
+    m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
+     Name "Gorshkovo"
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bIsSupplyHub 1
+    m_sBaseName "Gorshkovo"
+    m_sBaseNameUpper "Gorshkovo"
+    m_sMapLocationName "Gorshkovo"
+   }
+  }
+  coords 8509.429 16.182 6613.285
+  angles 0 108.893 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -17.818 0.001 12
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    {
+     $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+      {
+       coords 0 0 0
+      }
+      {
+       coords 11.596 2.211 74.081
+      }
+      {
+       coords 42.596 1.188 47.478
+      }
+      {
+       coords -22.441 1.188 46.347
+      }
+      {
+       coords -24.529 -1.606 -34.36
+      }
+      {
+       coords 41.941 -1.48 -46.966
+      }
+     }
+    }
+   }
+  }
+ }
+ MilitaryHospital {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bIsSupplyHub 1
+    m_sBaseName "Military Hospital"
+    m_sBaseNameUpper "Military Hospital"
+    m_sMapLocationName "Military Hospital"
+   }
+  }
+  coords 8621.326 95.91 9287.943
+  angles 0 -134.467 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 26.06 -0.729 12
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords -22.389 -0.468 14
+    {
+     $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+      {
+       coords -18.195 0.084 -15.777
+      }
+      {
+       coords 9.346 -0.101 39.518
+      }
+      {
+       coords 54.517 -0.487 0
+      }
+     }
+    }
+   }
+  }
+ }
+ AIrfield {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
+   SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
+    m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
+     Name "Ugoldar"
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bIsSupplyHub 1
+    m_sBaseName "Ugoldar"
+    m_sBaseNameUpper "Ugoldar"
+    m_sMapLocationName "Ugoldar"
+   }
+  }
+  coords 2757.451 24.657 5666.986
+  angles 0 -131.4 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -5.489 -0.062 23.033
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords 13.542 0 5.453
+   }
+  }
+ }
+}

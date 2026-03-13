@@ -1,0 +1,3668 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ QGNorthOldManPond {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 150
+     }
+    }
+   }
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 150
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 150
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSupplies 0
+    m_iSuppliesMax 0
+    m_fOperationalRadius 150
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 150
+    m_bCanBeHQ 1
+    m_sBaseName "QG du Vieil Homme"
+    m_sBaseNameUpper "QG DU VIEIL HOMME"
+   }
+  }
+  coords 5332.413 37.943 11300.32
+  angles 0 -40.043 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      Enabled 0
+      m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+      m_eGroupType TEAM_SENTRY
+      m_fAILimitThreshold 0.33
+     }
+    }
+    coords 2.523 0.53 17.297
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 19.012 -0.746 46.295
+    angles 0 169.885 0
+   }
+  }
+ }
+ VictoryPointFishermansBay {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 100
+     }
+    }
+   }
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bIgnoreNonPlayableAttackers 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_fOperationalRadius 100
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Base du Pêcheur"
+    m_sBaseNameUpper "BASE DU PECHEUR"
+   }
+  }
+  coords 7452.008 7.943 6712.987
+  angles 0 64.035 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 4.144 -0.739 24.188
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -15.448 -0.849 38.269
+    angles 0 151.598 0
+   }
+  }
+ }
+ SmallBaseSeagull {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 100
+     }
+    }
+   }
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bIgnoreNonPlayableAttackers 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_fOperationalRadius 100
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bSeizedByMajority 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Avant-poste des Mouettes"
+    m_sBaseNameUpper "AVANT-POSTE DES MOUETTES"
+   }
+  }
+  coords 5762.208 6.231 3499.614
+  angles 0 133.605 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+      m_eGroupType FIRETEAM
+     }
+    }
+    coords -18.211 -0.101 21.833
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -0.525 -0.007 24.372
+    angles 0 167.44 0
+   }
+  }
+ }
+ SmallBaseMilitaryLevie {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 100
+     }
+    }
+   }
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bIgnoreNonPlayableAttackers 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_fOperationalRadius 100
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bSeizedByMajority 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Avant-poste de la Base"
+    m_sBaseNameUpper "AVANT-POSTE DE LA BASE"
+   }
+  }
+  coords 7452.394 164.562 4305.011
+  angles 0 103.907 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -9.051 0.5 18.777
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -0.25 0 -0.101
+    angles 0 0.798 0
+   }
+  }
+ }
+ VictoryPointTillersFind {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 100
+     }
+    }
+   }
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bIgnoreNonPlayableAttackers 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_fOperationalRadius 100
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Base du Soc"
+    m_sBaseNameUpper "BASE DU SOC"
+   }
+  }
+  coords 3579.175 74.329 6743.649
+  angles -1.47 133.363 -1.358
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -6.712 1.432 16.949
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 12.268 -1.679 -9.143
+    angles 0 -51.887 0
+   }
+   DecalEntity : "{AF4AA779A4546D51}Prefabs/Decals/Dirt/Decal_Dirt_Patch_02.et" {
+    coords 8.629 -1.452 -7.645
+    angles -86.837 -4.928 125.275
+    scale 5
+   }
+   SCR_DestructibleBuildingEntity : "{D61A7F2891D457C6}Prefabs/Structures/Houses/Shed/Shed_02/Shed_02_square.et" {
+    coords 11.78 -1.705 -9.418
+    angles 1.922 -58.932 -0.558
+   }
+  }
+ }
+ QGSouthBlackLake {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 150
+     }
+    }
+   }
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 150
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 150
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSupplies 0
+    m_iSuppliesMax 0
+    m_fOperationalRadius 150
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 150
+    m_bCanBeHQ 1
+    m_sBaseName "QG du Lac Noir"
+    m_sBaseNameUpper "QG DU LAC NOIR"
+   }
+  }
+  coords 9480.879 257.896 3343.602
+  angles 0 -93.494 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      Enabled 0
+      m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+      m_eGroupType TEAM_SENTRY
+     }
+    }
+    coords 0.001 -0.352 14.996
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -29.368 -0.687 2.834
+    angles 0 87.207 0
+   }
+   SCR_DestructibleBuildingEntity : "{6FA58B435F69B179}Prefabs/Structures/Houses/Shed/Shed_02/Shed_02_big_V1.et" {
+    coords -29.505 -0.778 4.322
+    angles 0 76.911 0
+   }
+  }
+ }
+ SmallBaseCamurac {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 100
+     }
+    }
+   }
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bIgnoreNonPlayableAttackers 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_fOperationalRadius 100
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bSeizedByMajority 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Avant-poste de Camurac"
+    m_sBaseNameUpper "AVANT-POSTE DE CAMURAC"
+   }
+  }
+  coords 6623.691 5.075 3121.354
+  angles 0 -178.517 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+      m_eGroupType FIRETEAM
+     }
+    }
+    coords -15.961 0.016 7.891
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 27.373 0.588 10.398
+    angles 0 -89.416 0
+   }
+  }
+ }
+ SmallBaseWesternHeights {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 100
+     }
+    }
+   }
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bIgnoreNonPlayableAttackers 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_fOperationalRadius 100
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bSeizedByMajority 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Avant-poste des Monts"
+    m_sBaseNameUpper "AVANT-POSTE DES MONTS"
+   }
+  }
+  coords 7828.292 340.577 3365.561
+  angles 0 -85.908 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+      m_eGroupType FIRETEAM
+     }
+    }
+    coords 0.102 -0.327 12.67
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0.059 -0.008 0.178
+    angles 0 -0.087 0
+   }
+  }
+ }
+ VictoryPointPinewoodLake {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 100
+     }
+    }
+   }
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bIgnoreNonPlayableAttackers 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_fOperationalRadius 100
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Base du Lac des Pins"
+    m_sBaseNameUpper "BASE DU LAC DES PINS"
+   }
+  }
+  coords 4179.52 70.524 5798.922
+  angles 0 -5.969 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 3.353 -0.366 9.971
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0.109 1.004 0.521
+    angles 0 -1.604 0
+   }
+  }
+ }
+ SmallBaseEtoupe {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 100
+     }
+    }
+   }
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bIgnoreNonPlayableAttackers 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_fOperationalRadius 100
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bSeizedByMajority 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Avant-poste d'Etoupe"
+    m_sBaseNameUpper "AVANT-POSTE D'ETOUPE"
+   }
+  }
+  coords 5293.863 21.312 9845.805
+  angles 0 16.683 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+      m_eGroupType FIRETEAM
+     }
+    }
+    coords 19.859 -0.032 0.296
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -0.135 -0.001 0.441
+    angles 0 -0.965 0
+   }
+  }
+ }
+ SmallBaseGreenValley {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 100
+     }
+    }
+   }
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bIgnoreNonPlayableAttackers 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_fOperationalRadius 100
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bSeizedByMajority 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Avant-poste du Moulin"
+    m_sBaseNameUpper "AVANT-POSTE DU MOULIN"
+   }
+  }
+  coords 8503.617 148.131 3551.247
+  angles 0 -18.068 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+      m_eGroupType FIRETEAM
+     }
+    }
+    coords -0.001 0.494 15
+    angles 3.404 0.179 -1.098
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 9.957 0.229 0.151
+    angles 0 -18.202 0
+   }
+  }
+ }
+ VictoryPointMoonstonePond {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 100
+     }
+    }
+   }
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bIgnoreNonPlayableAttackers 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_fOperationalRadius 100
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Base de Pierrelune"
+    m_sBaseNameUpper "BASE DE PIERRELUNE"
+   }
+  }
+  coords 4539.221 64.1 4993.633
+  angles -1 -89.382 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -20.515 0.271 -1.143
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+   }
+  }
+ }
+ VictoryPointShepherds {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 100
+     }
+    }
+   }
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bIgnoreNonPlayableAttackers 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_fOperationalRadius 100
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Base du Berger"
+    m_sBaseNameUpper "BASE DU BERGER"
+   }
+  }
+  coords 3294.714 120.147 4471.09
+  angles 0 142.86 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+      m_eGroupType FIRETEAM
+     }
+    }
+    coords -15.841 -1.491 -33.402
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+   }
+  }
+ }
+ VictoryPointAlderPond {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 100
+     }
+    }
+   }
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bIgnoreNonPlayableAttackers 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_fOperationalRadius 100
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Base des Vernes"
+    m_sBaseNameUpper "BASE DES VERNES"
+   }
+  }
+  coords 6154.905 83.142 5785.817
+  angles 0.871 26.337 2.159
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -13.141 1.055 11.481
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -12.877 0.493 -23.95
+    angles 0 0.12 0
+   }
+  }
+ }
+ SmallBaseDurras {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 100
+     }
+    }
+   }
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bIgnoreNonPlayableAttackers 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_fOperationalRadius 100
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bSeizedByMajority 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Avant-poste de Durras"
+    m_sBaseNameUpper "AVANT-POSTE DE DURRAS"
+   }
+  }
+  coords 8887.731 95.432 2740.623
+  angles 0 133 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+      m_eGroupType FIRETEAM
+     }
+    }
+    coords -0.087 0.828 14.806
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -12.929 0.303 6.097
+    angles 0 51.818 0
+   }
+   SCR_DestructibleBuildingEntity : "{6FA58B435F69B179}Prefabs/Structures/Houses/Shed/Shed_02/Shed_02_big_V1.et" {
+    coords -13.667 0.206 7.158
+    angles 0 37.891 0
+   }
+   Tree : "{BAB8054438C72A04}Prefabs/Vegetation/Bush/b_sambucus_nigra_2.et" {
+    coords -18.735 0.171 7.143
+    angles -1.402 12.949 -1.045
+    scale 0.698
+   }
+  }
+ }
+ VictoryPointEntreDeux {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 100
+     }
+    }
+   }
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bIgnoreNonPlayableAttackers 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_fOperationalRadius 100
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Base d'Entre-Deux"
+    m_sBaseNameUpper "BASE D'ENTRE-DEUX"
+   }
+  }
+  coords 5865.871 144.083 6641.278
+  angles 0 144.854 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -9.316 -0.569 17.384
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0.925 0.103 15.603
+    angles 0 -158.113 0
+   }
+   SCR_DestructibleBuildingEntity : "{6FA58B435F69B179}Prefabs/Structures/Houses/Shed/Shed_02/Shed_02_big_V1.et" {
+    coords 2.021 0.046 15.282
+    angles 0 -174.377 0
+   }
+  }
+ }
+ VictoryPointFigari {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 100
+     }
+    }
+   }
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bIgnoreNonPlayableAttackers 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_fOperationalRadius 100
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Base de Figari"
+    m_sBaseNameUpper "BASE DE FIGARI"
+   }
+  }
+  coords 4986.693 53.972 5469.755
+  angles -1.997 55.166 -0.714
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -12.614 0.354 7.881
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0.003 -0.001 -0.045
+    angles 0 3.106 0
+   }
+  }
+ }
+ VictoryPointGravette {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 100
+     }
+    }
+   }
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bIgnoreNonPlayableAttackers 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_fOperationalRadius 100
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Base de Gravette"
+    m_sBaseNameUpper "BASE DE GRAVETTE"
+   }
+  }
+  coords 4108.388 38.625 7908.531
+  angles -0.741 -105.131 -0.672
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -15.894 0.101 -6.64
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0.035 -0.001 -0.074
+    angles 0 -0.159 0
+   }
+  }
+ }
+ SmallBaseKermovan {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 100
+     }
+    }
+   }
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bIgnoreNonPlayableAttackers 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_fOperationalRadius 100
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bSeizedByMajority 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Avant-poste de Kermovan"
+    m_sBaseNameUpper "AVANT-POSTE DE KERMOVAN"
+   }
+  }
+  coords 6482.316 9.255 9680.832
+  angles 1.373 -133.954 -0.116
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+      m_eGroupType FIRETEAM
+     }
+    }
+    coords -11.996 -0.366 26.154
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 0.001 0
+   }
+  }
+ }
+ VictoryPointSawmill {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 100
+     }
+    }
+   }
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bIgnoreNonPlayableAttackers 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_fOperationalRadius 100
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Base de la Scierie"
+    m_sBaseNameUpper "BASE DE LA SCIERIE"
+   }
+  }
+  coords 3279.788 114.565 5148.799
+  angles -1.924 132.531 -0.55
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 9.374 0.658 9.656
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -9.031 -0.103 -10.994
+    angles 0 3.309 0
+   }
+  }
+ }
+ SmallBaseLevie {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 100
+     }
+    }
+   }
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bIgnoreNonPlayableAttackers 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_fOperationalRadius 100
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bSeizedByMajority 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Avant-poste de Levie"
+    m_sBaseNameUpper "AVANT-POSTE DE LEVIE"
+   }
+  }
+  coords 6683.967 65.606 4911.713
+  angles 1.684 -130.067 1.607
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+      m_eGroupType FIRETEAM
+     }
+    }
+    coords -26.465 -1.399 1.937
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0.211 0.003 0.064
+    angles 0 2.476 0
+   }
+  }
+ }
+ VictoryPointMontignac {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 100
+     }
+    }
+   }
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bIgnoreNonPlayableAttackers 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_fOperationalRadius 100
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Base de Montignac"
+    m_sBaseNameUpper "BASE DE MONTIGNAC"
+   }
+  }
+  coords 4448.73 149.71 6907.2
+  angles 0 -1.826 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 4.246 -0.009 15.547
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -11.252 0.591 -18.281
+    angles 0 3.589 0
+   }
+  }
+ }
+ QGSouthRegina {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 150
+     }
+    }
+   }
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 150
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 150
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSupplies 0
+    m_iSuppliesMax 0
+    m_fOperationalRadius 150
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 150
+    m_bCanBeHQ 1
+    m_sBaseName "QG de Regina"
+    m_sBaseNameUpper "QG DE REGINA"
+   }
+  }
+  coords 7289.881 152.29 2067.115
+  angles 0 57.601 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      Enabled 0
+      m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+      m_eGroupType TEAM_SENTRY
+     }
+    }
+    coords 0.991 -1.151 14.998
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -0.055 -0.007 0.342
+    angles 0 0.464 0
+   }
+  }
+ }
+ SmallBaseTyrone {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 100
+     }
+    }
+   }
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bIgnoreNonPlayableAttackers 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_fOperationalRadius 100
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bSeizedByMajority 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Avant-poste de Tyrone"
+    m_sBaseNameUpper "AVANT-POSTE DE TYRONE"
+   }
+  }
+  coords 5009.318 38.564 9075.481
+  angles 0 98.089 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 11.767 0.17 16.008
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -5.043 -0.382 27.353
+    angles 0 163.655 0
+   }
+   $grp DecalEntity : "{AF4AA779A4546D51}Prefabs/Decals/Dirt/Decal_Dirt_Patch_02.et" {
+    {
+     components {
+      Hierarchy "{56E0B29E66335D7C}" {
+      }
+     }
+     coords -2.95 -0.256 27.163
+     angles -90 -74.365 -122.743
+     scale 10
+     FarPlane 1.5
+    }
+    {
+     components {
+      Hierarchy "{56E0B29E66335D7C}" {
+      }
+     }
+     coords -1.884 -0.173 20.165
+     angles -90 105.635 50.713
+     scale 8
+     FarPlane 1.5
+    }
+    {
+     components {
+      Hierarchy "{56E0B29E66335D7C}" {
+      }
+     }
+     coords -4.583 -0.226 21.42
+     angles -90 -74.365 -122.743
+     scale 2
+     FarPlane 1.5
+    }
+    {
+     components {
+      Hierarchy "{56E0B29E66335D7C}" {
+      }
+     }
+     coords -6.396 -0.421 31.196
+     angles -90 -74.365 -36.416
+     scale 2
+     FarPlane 1.5
+    }
+    {
+     components {
+      Hierarchy "{56E0B29E66335D7C}" {
+      }
+     }
+     coords -5.664 -0.402 28.92
+     angles -90 105.635 52.236
+     scale 3
+     FarPlane 1.5
+    }
+    {
+     components {
+      Hierarchy "{56E0B29E66335D7C}" {
+      }
+     }
+     coords -3.112 -0.125 23.803
+     angles -90 -74.365 -122.743
+     scale 2
+     FarPlane 1.5
+    }
+   }
+   SCR_DestructibleBuildingEntity : "{F5A2DC0597B53E19}Prefabs/Structures/Agriculture/Barn/Barn_E_02/Barn_E_02.et" {
+    coords -3.098 -0.325 27.145
+    angles 0 -16.948 0
+   }
+  }
+ }
+ VictoryPointCalvaryHill {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 100
+     }
+    }
+   }
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bIgnoreNonPlayableAttackers 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_fOperationalRadius 100
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Base du Calvaire"
+    m_sBaseNameUpper "BASE DU CALVAIRE"
+   }
+  }
+  coords 3508.981 181.725 5815.749
+  angles 0 -27.315 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -12.565 -1.42 -6.58
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -27.888 -1.497 2.009
+    angles 0 -113.525 0
+   }
+  }
+ }
+ SmallBaseFactory {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 100
+     }
+    }
+   }
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bIgnoreNonPlayableAttackers 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSupplies 0
+    m_iSuppliesMax 0
+    m_fOperationalRadius 100
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bSeizedByMajority 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Avant-poste de l'Usine"
+    m_sBaseNameUpper "AVANT-POSTE DE L'USINE"
+   }
+  }
+  coords 4525.528 16.712 10511.552
+  angles 0.889 83.048 -0.108
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+      m_eGroupType FIRETEAM
+     }
+    }
+    coords -15.767 -0.709 25.218
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -23.47 0.683 1.032
+    angles 0 90.067 0
+   }
+  }
+ }
+ VictoryPointSchooner {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 100
+     }
+    }
+   }
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bIgnoreNonPlayableAttackers 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_fOperationalRadius 100
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Base de la Goélette"
+    m_sBaseNameUpper "BASE DE LA GOELETTE"
+   }
+  }
+  coords 7671.177 13.619 8092.843
+  angles 0 130.991 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -16.972 -0.651 12.447
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -34.561 0.25 3.009
+    angles 0 -146.033 0
+   }
+  }
+ }
+ VictoryPointPeriwinklePond {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 100
+     }
+    }
+   }
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bIgnoreNonPlayableAttackers 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_fOperationalRadius 100
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Base des Pervenches"
+    m_sBaseNameUpper "BASE DES PERVENCHES"
+   }
+  }
+  coords 6935.343 121.153 6655.864
+  angles -1.893 -21.452 1.06
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -18.381 1.404 13.01
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+   }
+  }
+ }
+ VictoryPointWolf {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 100
+     }
+    }
+   }
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bIgnoreNonPlayableAttackers 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_fOperationalRadius 100
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Base du Loup"
+    m_sBaseNameUpper "BASE DU LOUP"
+   }
+  }
+  coords 3305.857 8.518 3580.843
+  angles 0 3.211 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_fAILimitThreshold 0.33
+     }
+    }
+    coords -5.69 -0.314 23.842
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 8.267 0.138 -60.651
+    angles 1.228 -42.18 -5.58
+   }
+   GenericEntity : "{2BC1606244F9F491}Prefabs/Compositions/Misc/SubCompositions/SandbagCover_US_05.et" {
+    coords 5.506 0.66 -51.993
+    angles 2.864 -20.927 -2.79
+   }
+   SCR_IndestructibleEnvironmentalEntity : "{50E63E69B37539DB}Prefabs/Rocks/Granite/GraniteSurfaceStone_01.et" {
+    coords 8.699 3.389 -60.901
+    angles -0.589 -23.675 -3.138
+   }
+   SCR_IndestructibleEnvironmentalEntity : "{533CDABD77C4C43E}Prefabs/Rocks/Granite/GraniteCliff_02.et" {
+    coords 7.564 -16.817 -64.46
+    angles 0 173.661 0
+   }
+   SCR_IndestructibleEnvironmentalEntity : "{9633134198F3AB1A}Prefabs/Rocks/Granite/GraniteRock_01.et" {
+    coords -0.707 -2.709 -60.698
+    angles 0 -3.211 -11.549
+   }
+   GenericEntity : "{E08F31F0EC81F2AD}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Barricade_US_05.et" {
+    coords -1.79 0.12 -53.328
+    angles -0.215 -92.311 -3.401
+   }
+   SCR_IndestructibleEnvironmentalEntity : "{FA6727A124372434}Prefabs/Rocks/Granite/GraniteRock_02.et" {
+    coords 14.62 0.744 -59.278
+    angles 0 -146.028 0
+   }
+  }
+ }
+ VictoryPointHumboldt {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 100
+     }
+    }
+   }
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bIgnoreNonPlayableAttackers 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_fOperationalRadius 100
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Base de Humboldt"
+    m_sBaseNameUpper "BASE DE HUMBOLDT"
+   }
+  }
+  coords 2439.478 50.754 6867.825
+  angles 0 0.249 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_fAILimitThreshold 0.33
+     }
+    }
+    coords -0.605 0.932 13.956
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 11.335 -0.128 -21.996
+    angles 0.772 153.387 2.871
+   }
+   SCR_DestructibleBuildingEntity : "{A2726797F70F52D8}Prefabs/Structures/Military/Bunkers/Bunker_01/Bunker_01_1fp_Camo.et" {
+    coords 11.705 -0.328 -22.779
+    angles 0 -27.796 0
+   }
+  }
+ }
+ VictoryPointIndustrialBay {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 100
+     }
+    }
+   }
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bIgnoreNonPlayableAttackers 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_fOperationalRadius 100
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Base de l'Industrie"
+    m_sBaseNameUpper "BASE DE L'INDUSTRIE"
+   }
+  }
+  coords 7276.333 43.789 7712.843
+  angles 0 58.44 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -9.003 -0.92 13.394
+    angles -0.794 0.062 -4.486
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -0.118 -0.01 0.003
+    angles 0 -3.491 0
+   }
+  }
+ }
+ VictoryPointBenac {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 100
+     }
+    }
+   }
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bIgnoreNonPlayableAttackers 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_fOperationalRadius 100
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Base de Bénac"
+    m_sBaseNameUpper "BASE DE BENAC"
+   }
+  }
+  coords 6392.501 174.602 7398.37
+  angles 0 -90.733 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 0.121 0.899 18.659
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -18.044 0.864 18.259
+    angles 0 91.183 0
+   }
+   SCR_DestructibleBuildingEntity : "{A548C1C5370D0734}Prefabs/Structures/Houses/Garage/Garage_E_01/Garage_E_01.et" {
+    coords -16.978 0.861 18.239
+    angles 0 91.183 0
+   }
+   $grp DecalEntity : "{AF4AA779A4546D51}Prefabs/Decals/Dirt/Decal_Dirt_Patch_02.et" {
+    {
+     components {
+      Hierarchy "{56E0B29E66335D7C}" {
+      }
+     }
+     coords -12.332 0.766 18.15
+     angles -90 -89.267 -151.326
+     scale 5
+     FarPlane 1.5
+    }
+    {
+     components {
+      Hierarchy "{56E0B29E66335D7C}" {
+      }
+     }
+     coords -8.331 0.812 17.278
+     angles -90 -89.267 -151.326
+     scale 5
+     FarPlane 1.5
+    }
+    {
+     components {
+      Hierarchy "{56E0B29E66335D7C}" {
+      }
+     }
+     coords -5.316 0.976 19.576
+     angles -90 -89.267 -151.326
+     scale 5
+     FarPlane 1.5
+    }
+    {
+     components {
+      Hierarchy "{56E0B29E66335D7C}" {
+      }
+     }
+     coords -2.986 1.145 22.843
+     angles -90 90.733 -4.784
+     scale 5
+     FarPlane 1.5
+    }
+   }
+  }
+ }
+ VictoryPointMortonWest {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 100
+     }
+    }
+   }
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bIgnoreNonPlayableAttackers 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_fOperationalRadius 100
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Base de Morton Ouest"
+    m_sBaseNameUpper "BASE DE MORTON OUEST"
+   }
+  }
+  coords 4381.619 74.978 3971.41
+  angles 0 74.783 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 21.86 -0.813 -4.869
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 22.093 -0.479 7.337
+    angles 0 -79.312 0
+   }
+   SCR_DestructibleBuildingEntity : "{D61A7F2891D457C6}Prefabs/Structures/Houses/Shed/Shed_02/Shed_02_square.et" {
+    coords 21.626 -0.53 7.006
+    angles 0 -91.283 0
+   }
+  }
+ }
+ VictoryPointSimonsWood {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 100
+     }
+    }
+   }
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bIgnoreNonPlayableAttackers 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_fOperationalRadius 100
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Base de Simon"
+    m_sBaseNameUpper "BASE DE SIMON"
+   }
+  }
+  coords 5767.573 64.104 4756.663
+  angles 0 -140.444 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 10.016 0.45 -15.512
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -0.084 -0.003 0.19
+    angles 0 2.355 0
+   }
+  }
+ }
+ QGNorthAirport {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 150
+     }
+    }
+   }
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 150
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 150
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSupplies 0
+    m_iSuppliesMax 0
+    m_fOperationalRadius 150
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 150
+    m_bCanBeHQ 1
+    m_sBaseName "QG de l'Aéroport"
+    m_sBaseNameUpper "QG DE L'AEROPORT"
+   }
+  }
+  coords 4686.98 27.843 11098.676
+  angles 0 88.661 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      Enabled 0
+      m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+      m_eGroupType TEAM_SENTRY
+      m_fAILimitThreshold 0.33
+     }
+    }
+    coords -0.605 0.011 13.956
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -23.089 0.2 -7.852
+    angles 0 17.74 0
+   }
+   SCR_DestructibleBuildingEntity : "{CCE6A451A226AF4E}Prefabs/Structures/Military/Houses/GuardHouse_01/GuardHouse_01_beige.et" {
+    coords -24.93 0 -7.943
+    angles 0 -87.39 0
+    {
+     GenericEntity : "{363032002DD275E4}Prefabs/Structures/BuildingParts/Graffiti/Graffiti_Leave_V1.et" {
+      coords 3.73 1.261 -2.202
+      angles 0 90 -4.405
+      scale 1.26
+     }
+    }
+   }
+  }
+ }
+ VictoryPointChotain {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 100
+     }
+    }
+   }
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bIgnoreNonPlayableAttackers 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_fOperationalRadius 100
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Base de Chotain"
+    m_sBaseNameUpper "BASE DE CHOTAIN"
+   }
+  }
+  coords 7102.206 117.432 5996.548
+  angles 0 48.248 2.002
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -6.34 0.137 14.336
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 15.403 0.271 6.725
+    angles 0 -92.841 0
+   }
+  }
+ }
+ VictoryPointRaccoonRock {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 100
+     }
+    }
+   }
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bIgnoreNonPlayableAttackers 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_fOperationalRadius 100
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Base du Raton"
+    m_sBaseNameUpper "BASE DU RATON"
+   }
+  }
+  coords 4937.006 150.946 7529.895
+  angles 0 35.402 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 6.594 -1.366 16.853
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 19.634 0.823 -2.104
+    angles 0 -38.237 0
+   }
+   SCR_DestructibleBuildingEntity : "{6FA58B435F69B179}Prefabs/Structures/Houses/Shed/Shed_02/Shed_02_big_V1.et" {
+    coords 18.153 0.726 -3.048
+    angles 0 -40.936 0
+   }
+  }
+ }
+ SmallBasePetersPass {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 100
+     }
+    }
+   }
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bIgnoreNonPlayableAttackers 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_fOperationalRadius 100
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bSeizedByMajority 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Avant-poste de Peters"
+    m_sBaseNameUpper "AVANT-POSTE DE PETERS"
+   }
+  }
+  coords 8244.716 223.891 4293.467
+  angles 0 -5.561 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -5.462 -0.755 11.314
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0.082 0.008 0.173
+    angles 0 2.963 0
+   }
+  }
+ }
+ QGSouthVernon {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 150
+     }
+    }
+   }
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 150
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 150
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSupplies 0
+    m_iSuppliesMax 0
+    m_fOperationalRadius 150
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 150
+    m_bCanBeHQ 1
+    m_sBaseName "QG de Vernon"
+    m_sBaseNameUpper "QG DE VERNON"
+   }
+  }
+  coords 9166.768 67.402 2154.752
+  angles 0 34.399 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      Enabled 0
+      m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+      m_eGroupType TEAM_SENTRY
+     }
+    }
+    coords -0.014 0.25 13.601
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -0.092 -0.003 0.496
+   }
+  }
+ }
+ SmallBaseMilitaryHospital {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 100
+     }
+    }
+   }
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bIgnoreNonPlayableAttackers 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_fOperationalRadius 100
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bSeizedByMajority 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Avant-poste de l'Hôpital"
+    m_sBaseNameUpper "AVANT-POSTE DE l'HOPITAL"
+   }
+  }
+  coords 3926.874 14.904 8485.6
+  angles 0 -82.181 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+      m_eGroupType FIRETEAM
+     }
+    }
+    coords 4.402 -0.286 11.534
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -0.668 0.402 27.534
+    angles 0 173.512 0
+   }
+  }
+ }
+ BaseNorthHeliport {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 100
+     }
+    }
+   }
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignMilitaryBaseMapDescriptorComponent "{5C669672B19BFE5A}" {
+    MainType "Military Base"
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSupplies 0
+    m_iSuppliesMax 0
+    m_fOperationalRadius 100
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bSeizedByMajority 1
+    m_bDisableWhenUnusedAsHQ 0
+   }
+  }
+  coords 4915.604 28.593 11845.193
+  angles 0 -90 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+     }
+    }
+   }
+  }
+ }
+ BaseSouthHeliport {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 100
+     }
+    }
+   }
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignMilitaryBaseMapDescriptorComponent "{5C669672B19BFE5A}" {
+    MainType "Military Base"
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSupplies 0
+    m_iSuppliesMax 0
+    m_fOperationalRadius 100
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bSeizedByMajority 1
+    m_bDisableWhenUnusedAsHQ 0
+   }
+  }
+  coords 10077.453 2.531 1547.978
+  angles 0 13.885 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+     }
+    }
+   }
+  }
+ }
+ SmallBaseMilitaryNorth {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 100
+     }
+    }
+   }
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bIgnoreNonPlayableAttackers 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSupplies 0
+    m_iSuppliesMax 0
+    m_fOperationalRadius 100
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bSeizedByMajority 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Avant-poste Militaire"
+    m_sBaseNameUpper "AVANT-POSTE MILITAIRE"
+   }
+  }
+  coords 5226.312 39.967 10481.098
+  angles -0.608 -42.828 -0.657
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+      m_eGroupType FIRETEAM
+     }
+    }
+    coords -0.175 -0.188 13.42
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -14.844 0.624 -3.55
+    angles 0 90.067 0
+   }
+  }
+ }
+ QGNorthLandfill {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 150
+     }
+    }
+   }
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 150
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 150
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSupplies 0
+    m_iSuppliesMax 0
+    m_fOperationalRadius 150
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 150
+    m_bCanBeHQ 1
+    m_sBaseName "QG de la Décharge"
+    m_sBaseNameUpper "QG DE LA DECHARGE"
+   }
+  }
+  coords 5327.637 52.045 10927.602
+  angles 0 165.051 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      Enabled 0
+      m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+      m_eGroupType TEAM_SENTRY
+      m_fAILimitThreshold 0.33
+     }
+    }
+    coords 6.324 0.053 15.888
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -0.033 0.001 -0.065
+    angles 0 4.629 0
+   }
+  }
+ }
+ SmallBaseMeaux {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 100
+     }
+    }
+   }
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bIgnoreNonPlayableAttackers 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_fOperationalRadius 100
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bSeizedByMajority 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Avant-poste de Meaux"
+    m_sBaseNameUpper "AVANT-POSTE DE MEAUX"
+   }
+  }
+  coords 4518.942 21.034 9774.188
+  angles 0 -13.848 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+      m_eGroupType FIRETEAM
+     }
+    }
+    coords 0.839 -0.22 11.869
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0.368 0.008 0.442
+    angles 0 -0.055 0
+   }
+  }
+ }
+ SmallBaseLacans {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 100
+     }
+    }
+   }
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bIgnoreNonPlayableAttackers 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_fOperationalRadius 100
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bSeizedByMajority 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Avant-poste de Lacans"
+    m_sBaseNameUpper "AVANT-POSTE DE LACANS"
+   }
+  }
+  coords 5366.728 10.531 8690.112
+  angles 0 -18.579 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+      m_eGroupType FIRETEAM
+     }
+    }
+    coords 0.77 0.023 9.255
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0.368 0.008 0.442
+    angles 0 -0.055 0
+   }
+  }
+ }
+ SmallBaseRegina {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 100
+     }
+    }
+   }
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bIgnoreNonPlayableAttackers 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_fOperationalRadius 100
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bSeizedByMajority 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Avant-poste du Calvaire"
+    m_sBaseNameUpper "AVANT-POSTE DU CALVAIRE"
+   }
+  }
+  coords 7206.469 138.463 2424.606
+  angles 0 0.301 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+      m_eGroupType FIRETEAM
+     }
+    }
+    coords -17.372 -0.481 17.028
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -0.045 0.005 0.171
+    angles 0 -6.708 0
+   }
+  }
+ }
+ SmallBaseLaruns {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 100
+     }
+    }
+   }
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bIgnoreNonPlayableAttackers 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_fOperationalRadius 100
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bSeizedByMajority 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Avant-poste de Laruns"
+    m_sBaseNameUpper "AVANT-POSTE DE LARUNS"
+   }
+  }
+  coords 7681.23 118.144 5235.396
+  angles 0 133.102 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+      m_eGroupType FIRETEAM
+     }
+    }
+    coords 23.553 -0.955 4.868
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0.135 0.008 0.186
+    angles 0 -0.055 0
+   }
+  }
+ }
+ VictoryPointLamentin {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 100
+     }
+    }
+   }
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bIgnoreNonPlayableAttackers 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_fOperationalRadius 100
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Base du Lamentin"
+    m_sBaseNameUpper "BASE DU LAMENTIN"
+   }
+  }
+  coords 1740.158 78.75 5715.185
+  angles -1.082 94.838 -1.824
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 0.426 0.126 8.497
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0.003 -0.001 -0.045
+    angles 0 3.106 0
+   }
+  }
+ }
+ VictoryPointLeMoule {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 100
+     }
+    }
+   }
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bIgnoreNonPlayableAttackers 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_fOperationalRadius 100
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Base du Démoulage"
+    m_sBaseNameUpper "BASE DU DEMOULAGE"
+   }
+  }
+  coords 2579.644 87.733 5323.885
+  angles 1.876 -116.677 0.99
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 14.886 0.034 9.158
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0.003 -0.001 -0.045
+    angles 0 3.106 0
+   }
+  }
+ }
+ VictoryPointMorton {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 100
+     }
+    }
+   }
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bIgnoreNonPlayableAttackers 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_fOperationalRadius 100
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Base du Cimetière"
+    m_sBaseNameUpper "BASE DU CIMETIERE"
+   }
+  }
+  coords 5470.707 44.687 4137.504
+  angles -2.086 25.038 0.385
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 8.517 -1.707 -14.115
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0.003 -0.001 -0.045
+    angles 0 3.106 0
+   }
+  }
+ }
+ VictoryPointAluettePond {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 100
+     }
+    }
+   }
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bIgnoreNonPlayableAttackers 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_fOperationalRadius 100
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Base de l'Aluette"
+    m_sBaseNameUpper "BASE DE L'ALUETTE"
+   }
+  }
+  coords 6290.418 7.105 8795.521
+  angles 0 -76.26 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -0.149 -0.845 18.08
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0.356 -0.001 0.189
+    angles 0 -4.365 0
+   }
+  }
+ }
+ VictoryPointScythe {
+  components {
+   BaseRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 100
+     }
+    }
+   }
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_bIgnoreNonPlayableAttackers 0
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_fOperationalRadius 100
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bDisableWhenUnusedAsHQ 0
+    m_sBaseName "Base du Faucheur"
+    m_sBaseNameUpper "BASE DU FAUCHEUR"
+   }
+  }
+  coords 7560.077 7.342 8887.992
+  angles 0 60.162 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 16.321 -0.106 7.134
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0.356 -0.001 0.189
+    angles 0 -4.365 0
+   }
+  }
+ }
+}
+$grp GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRelayRadio.et" {
+ Relay1kmMeaux {
+  components {
+   BaseRadioComponent "{5C727AD73024FB2A}" {
+    Transceivers {
+     RelayTransceiver "{5C727AD73024FB39}" {
+      "Transmitting Range" 1000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_sBaseName "Relais de Meaux [1km]"
+    m_sBaseNameUpper "RELAIS DE MEAUX [1KM]"
+   }
+  }
+  coords 4582.421 8.363 9238.624
+  angles 0 -140.374 0
+  {
+   GenericEntity {
+    ID "5C727AD606EB0C1C"
+    components {
+     ActionsManagerComponent "{5C727AD65C3206FA}" {
+      additionalActions {
+       SCR_CampaignReconfigureRelayUserAction "{5C727AD67B0A97A0}" {
+        Duration 60
+       }
+      }
+     }
+    }
+    coords -0.008 0.947 -0.974
+    angles 0 -180 0
+   }
+   StaticModelEntity : "{6A004A8F0571D456}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_small.et" {
+    coords 0.012 0.001 -0.006
+   }
+   GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+      m_eGroupType TEAM_SENTRY
+     }
+    }
+    coords 0.11 -0.635 -14.138
+   }
+  }
+ }
+ Relay1kmSixBells {
+  components {
+   BaseRadioComponent "{5C727AD73024FB2A}" {
+    Transceivers {
+     RelayTransceiver "{5C727AD73024FB39}" {
+      "Transmitting Range" 1000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_sBaseName "Relais des Six Cloches [1km]"
+    m_sBaseNameUpper "RELAIS DES SIX CLOCHES [1KM]"
+   }
+  }
+  coords 7078.508 116.273 5430.573
+  angles 0 41.165 0
+  {
+   GenericEntity {
+    ID "5C727AD606EB0C1C"
+    components {
+     ActionsManagerComponent "{5C727AD65C3206FA}" {
+      additionalActions {
+       SCR_CampaignReconfigureRelayUserAction "{5C727AD67B0A97A0}" {
+        Duration 60
+       }
+      }
+     }
+    }
+    coords -0.008 0.947 -0.974
+    angles 0 -180 0
+   }
+   StaticModelEntity : "{6A004A8F0571D456}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_small.et" {
+    coords 0.012 0.001 -0.006
+   }
+   $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    {
+     components {
+      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+       m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+       m_eGroupType TEAM_SENTRY
+      }
+     }
+     coords 11.242 0.46 -7.36
+    }
+    {
+     components {
+      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+       m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+       m_eGroupType TEAM_SENTRY
+      }
+     }
+     coords -13.472 -0.135 10.376
+     angles 0 -41.165 0
+    }
+   }
+   $grp DecalEntity : "{BAA55688399B3545}Prefabs/Decals/Dirt/Decal_Dirt_Patch_01.et" {
+    {
+     coords -0.115 -0.191 -1.844
+     angles -88.923 -132.723 -180
+     scale 2.5
+    }
+    {
+     coords -0.035 -0.119 -3.029
+     angles -90 95.758 -48.481
+     scale 2.5
+    }
+   }
+  }
+ }
+ Relay1kmBonfire {
+  components {
+   BaseRadioComponent "{5C727AD73024FB2A}" {
+    Transceivers {
+     RelayTransceiver "{5C727AD73024FB39}" {
+      "Transmitting Range" 1000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_sBaseName "Relais du Feu de Joie [1km]"
+    m_sBaseNameUpper "RELAIS DU FEU DE JOIE [1KM]"
+   }
+  }
+  coords 5263.963 131.088 4622.051
+  angles 0 -67.419 0
+  {
+   GenericEntity {
+    ID "5C727AD606EB0C1C"
+    components {
+     ActionsManagerComponent "{5C727AD65C3206FA}" {
+      additionalActions {
+       SCR_CampaignReconfigureRelayUserAction "{5C727AD67B0A97A0}" {
+        Duration 60
+       }
+      }
+     }
+    }
+    coords -0.008 0.947 -0.974
+    angles 0 -180 0
+   }
+   StaticModelEntity : "{6A004A8F0571D456}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_small.et" {
+    coords 0.012 0.001 -0.006
+   }
+   $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    {
+     components {
+      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+       m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+       m_eGroupType TEAM_SENTRY
+      }
+     }
+     coords 35.853 -1.54 -11.152
+     angles 0 4.215 0
+    }
+    {
+     components {
+      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+       m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+       m_eGroupType TEAM_SENTRY
+      }
+     }
+     coords -39.932 0.891 -11.228
+     angles 0 71.634 0
+    }
+   }
+  }
+ }
+ Relay1kmTyroneBay {
+  components {
+   BaseRadioComponent "{5C727AD73024FB2A}" {
+    Transceivers {
+     RelayTransceiver "{5C727AD73024FB39}" {
+      "Transmitting Range" 1000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_sBaseName "Relais de la Baie de Tyrone [1km]"
+    m_sBaseNameUpper "RELAIS DE LA BAIE DE TYRONE [1KM]"
+   }
+  }
+  coords 6766.211 5.274 9055.021
+  angles 0 -32.71 0
+  {
+   GenericEntity {
+    ID "5C727AD606EB0C1C"
+    components {
+     ActionsManagerComponent "{5C727AD65C3206FA}" {
+      additionalActions {
+       SCR_CampaignReconfigureRelayUserAction "{5C727AD67B0A97A0}" {
+        Duration 60
+       }
+      }
+     }
+    }
+    coords -0.008 0.947 -0.974
+    angles 0 -180 0
+   }
+   StaticModelEntity : "{6A004A8F0571D456}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_small.et" {
+    coords 0.012 0.001 -0.006
+   }
+   $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    {
+     components {
+      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+       m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+       m_eGroupType TEAM_SENTRY
+      }
+     }
+     coords -23.062 -0.622 -10.027
+    }
+    {
+     components {
+      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+       m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+       m_eGroupType TEAM_SENTRY
+      }
+     }
+     coords 20.33 -2.944 -8.502
+     angles 0 32.71 0
+    }
+   }
+  }
+ }
+ Relay1kmPerelle {
+  components {
+   BaseRadioComponent "{5C727AD73024FB2A}" {
+    Transceivers {
+     RelayTransceiver "{5C727AD73024FB39}" {
+      "Transmitting Range" 1000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_sBaseName "Relais de Perelle [1km]"
+    m_sBaseNameUpper "RELAIS DE PERELLE [1KM]"
+   }
+  }
+  coords 8317.297 250.802 4671.324
+  angles 0 0.988 0
+  {
+   GenericEntity {
+    ID "5C727AD606EB0C1C"
+    components {
+     ActionsManagerComponent "{5C727AD65C3206FA}" {
+      additionalActions {
+       SCR_CampaignReconfigureRelayUserAction "{5C727AD67B0A97A0}" {
+        Duration 60
+       }
+      }
+     }
+    }
+    coords -0.008 0.947 -0.974
+    angles 0 -180 0
+   }
+   StaticModelEntity : "{6A004A8F0571D456}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_small.et" {
+    coords 0.012 0.001 -0.006
+   }
+   $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    {
+     components {
+      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+       m_sCycleWaypointPrefab "{97FB527ECC7CA49E}Prefabs/AI/Waypoints/AIWaypoint_ObservationPost.et"
+       m_sDefaultWaypointPrefab "{531EC45063C1F57B}Prefabs/AI/Waypoints/AIWaypoint_Wait.et"
+       m_eGroupType TEAM_SENTRY
+      }
+     }
+     coords 0.053 -0.349 -3.189
+     angles 0 179.273 0
+    }
+    {
+     components {
+      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+       m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+      }
+     }
+     coords -22.605 -21.962 0.69
+     angles 0 63.89 0
+    }
+   }
+  }
+ }
+ Relay1kmQuarry {
+  components {
+   BaseRadioComponent "{5C727AD73024FB2A}" {
+    Transceivers {
+     RelayTransceiver "{5C727AD73024FB39}" {
+      "Transmitting Range" 1000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_sBaseName "Relais de la Carrière [1km]"
+    m_sBaseNameUpper "RELAIS DE LA CARRIERE [1KM]"
+   }
+  }
+  coords 8919.021 231.453 3982.192
+  angles 0 -141.394 0
+  {
+   GenericEntity {
+    ID "5C727AD606EB0C1C"
+    components {
+     ActionsManagerComponent "{5C727AD65C3206FA}" {
+      additionalActions {
+       SCR_CampaignReconfigureRelayUserAction "{5C727AD67B0A97A0}" {
+        Duration 60
+       }
+      }
+     }
+    }
+    coords -0.298 0.878 -0.956
+    angles 0 -169.614 0
+   }
+   StaticModelEntity : "{6A004A8F0571D456}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_small.et" {
+    coords -0.102 0 -0.001
+    angles 0 10.407 0
+   }
+   SCR_IndestructibleEnvironmentalEntity : "{735E970ACBB1B473}Prefabs/Rocks/Granite/Granite_Boulder_01.et" {
+    coords -4.816 -0.515 -1.57
+    angles 14.869 171.864 -85.987
+    scale 0.926
+    {
+     $grp GenericEntity : "{500D32CE09A605EC}Prefabs/Structures/Signs/Tourist/TrackSign_01/TrackSign_01_Flat_arrow_yellow.et" {
+      Arrow19 {
+       coords 1.633 0.608 1.466
+       angles -11.544 42.124 48.79
+      }
+      Arrow20 {
+       coords 1.542 0.727 1.58
+       angles -8.304 43.81 141.623
+      }
+      Arrow76 {
+       coords 1.624 0.875 1.506
+       angles 3.479 46.751 -128.359
+       scale 1.296
+      }
+     }
+     GenericEntity : "{AFA280912DAA83C2}Prefabs/Structures/Signs/Tourist/TrackSign_01/TrackSign_01_Flat_shape_L_blue.et" {
+      coords 1.765 0.806 1.346
+      angles 9.319 50.944 -83.201
+      scale 1.62
+     }
+    }
+   }
+   $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    {
+     components {
+      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+       m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+       m_eGroupType TEAM_SENTRY
+      }
+     }
+     coords -33.983 2.069 -8.143
+    }
+    {
+     components {
+      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+       m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+       m_eGroupType TEAM_SENTRY
+      }
+     }
+     coords 23.523 4.783 -23.661
+     angles 0 42.154 0
+    }
+   }
+  }
+ }
+ Relay1kmEtoupe {
+  components {
+   BaseRadioComponent "{5C727AD73024FB2A}" {
+    Transceivers {
+     RelayTransceiver "{5C727AD73024FB39}" {
+      "Transmitting Range" 1000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_sBaseName "Relais d'Etoupe [1km]"
+    m_sBaseNameUpper "RELAIS D'ETOUPE [1KM]"
+   }
+  }
+  coords 4978.968 26.165 9863.355
+  angles 0 -81.379 0
+  {
+   GenericEntity {
+    ID "5C727AD606EB0C1C"
+    components {
+     ActionsManagerComponent "{5C727AD65C3206FA}" {
+      additionalActions {
+       SCR_CampaignReconfigureRelayUserAction "{5C727AD67B0A97A0}" {
+        Duration 60
+       }
+      }
+     }
+    }
+    coords 0.75 1.203 0.126
+    angles 0 80.64 0
+   }
+   StaticModelEntity : "{6A004A8F0571D456}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_small.et" {
+    coords -0.209 0.331 -0.013
+    angles 0 -99.359 0
+    {
+     GenericEntity {
+      ID "5E0EE6168CAE86C7"
+      coords -0.558 21.001 0.021
+      angles 1.126 -89.966 1.709
+     }
+    }
+   }
+   $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    {
+     components {
+      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+       m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+       m_eGroupType TEAM_SENTRY
+      }
+     }
+     coords 14.646 0.345 -20.399
+    }
+    {
+     components {
+      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+       m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+       m_eGroupType TEAM_SENTRY
+      }
+     }
+     coords 8.864 -0.209 17.983
+     angles 0 81.379 0
+    }
+   }
+  }
+ }
+ Relay1kmGorey {
+  components {
+   BaseRadioComponent "{5C727AD73024FB2A}" {
+    Transceivers {
+     RelayTransceiver "{5C727AD73024FB39}" {
+      "Transmitting Range" 1000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_sBaseName "Relais de Gorey [1km]"
+    m_sBaseNameUpper "RELAIS DE GOREY [1KM]"
+   }
+  }
+  coords 4851.491 114.621 8064.332
+  angles 0 -144.346 0
+  {
+   GenericEntity {
+    ID "5C727AD606EB0C1C"
+    components {
+     ActionsManagerComponent "{5C727AD65C3206FA}" {
+      additionalActions {
+       SCR_CampaignReconfigureRelayUserAction "{5C727AD67B0A97A0}" {
+        Duration 60
+       }
+      }
+     }
+    }
+    coords -0.008 0.947 -0.974
+    angles 0 -180 0
+   }
+   StaticModelEntity : "{6A004A8F0571D456}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_small.et" {
+    coords 0.012 0.001 -0.006
+   }
+   $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    {
+     components {
+      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+       m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+       m_eGroupType TEAM_SENTRY
+      }
+     }
+     coords -9.371 -2.891 -14.217
+    }
+    {
+     components {
+      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+       m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+       m_eGroupType TEAM_SENTRY
+      }
+     }
+     coords 25.2 1.406 7.907
+     angles 0 144.346 0
+    }
+   }
+  }
+ }
+ Relay1kmRoqueloup {
+  components {
+   BaseRadioComponent "{5C727AD73024FB2A}" {
+    Transceivers {
+     RelayTransceiver "{5C727AD73024FB39}" {
+      "Transmitting Range" 1000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_sBaseName "Relais de Roqueloup [1km]"
+    m_sBaseNameUpper "RELAIS DE ROQUELOUP [1KM]"
+   }
+  }
+  coords 3848.353 162.723 4302.996
+  angles 0 -129.946 0
+  {
+   GenericEntity {
+    ID "5C727AD606EB0C1C"
+    components {
+     ActionsManagerComponent "{5C727AD65C3206FA}" {
+      additionalActions {
+       SCR_CampaignReconfigureRelayUserAction "{5C727AD67B0A97A0}" {
+        Duration 60
+       }
+      }
+     }
+    }
+    coords -0.008 0.802 -0.974
+    angles 0 -180 0
+   }
+   SCR_IndestructibleEnvironmentalEntity : "{038844285FEE0D7A}Prefabs/Rocks/Granite/GraniteStone_01.et" {
+    coords 2.881 -0.036 -5.414
+    angles -1.722 90.944 75.412
+    scale 0.923
+    {
+     $grp GenericEntity : "{4FDD05B96A61246C}Prefabs/Structures/Signs/Tourist/TrackSign_01/TrackSign_01_Flat_triangle_yellow.et" {
+      {
+       coords -1.005 0.548 -0.414
+       angles 68.724 -104.743 170.726
+       scale 1.625
+      }
+      {
+       coords -0.94 0.574 -0.332
+       angles 70.204 -95.787 89.975
+       scale 1.761
+      }
+      {
+       coords -0.928 0.577 -0.481
+       angles 70.138 -100.433 -96.686
+       scale 1.761
+      }
+      {
+       coords -0.865 0.603 -0.401
+       angles 76.49 -99.871 -5.738
+       scale 1.761
+      }
+     }
+     GenericEntity : "{7AC503119EE382E7}Prefabs/Structures/Signs/Tourist/TrackSign_01/TrackSign_01_Flat_square_green.et" {
+      coords -1.02 0.552 -0.407
+      angles 73.265 -94.67 -1.984
+     }
+    }
+   }
+   StaticModelEntity : "{6A004A8F0571D456}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_small.et" {
+    coords 0.012 0.001 -0.006
+   }
+   $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    {
+     components {
+      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+       m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+       m_eGroupType TEAM_SENTRY
+      }
+     }
+     coords -13.968 -0.929 -18.625
+    }
+    {
+     components {
+      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+       m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+       m_eGroupType TEAM_SENTRY
+      }
+     }
+     coords 18.477 1.107 -18.979
+     angles 0 129.946 0
+    }
+   }
+   $grp SCR_DestructibleBuildingEntity : "{95AD87181C1D5044}Prefabs/Structures/Walls/Stone/StoneRetainingWall_01/StoneRetainingWall_01_4m_V2.et" {
+    {
+     coords -1.597 -2.95 -7.109
+     angles 0 0.601 0
+    }
+    {
+     coords 4.702 -2.954 -1.104
+     angles 0 -89.392 0
+    }
+   }
+   $grp SCR_DestructibleBuildingEntity : "{B1D7DA05DE5D73F4}Prefabs/Structures/Walls/Concrete/ConcreteRetainingWall_02/ConcreteRetainingWall_02_V1_8m_grass.et" {
+    {
+     coords -2.104 -4.117 -2.41
+     angles 0 90.443 0
+    }
+    {
+     coords 1.872 -4.126 -2.443
+     angles 0 90.443 0
+    }
+   }
+   $grp SCR_DestructibleBuildingEntity : "{B38B33B86E216E26}Prefabs/Structures/Walls/Stone/StoneRetainingWall_01/StoneRetainingWall_01_Corner_V2.et" {
+    {
+     coords -4.795 -2.961 2.947
+     angles 0 90.444 0
+    }
+    {
+     coords -5.568 -2.947 -7.084
+     angles 0 0.502 0
+    }
+    {
+     coords 5.414 -2.957 2.198
+     angles 0 -179.438 0
+    }
+   }
+   $grp SCR_DestructibleBuildingEntity : "{DB114F623141F302}Prefabs/Structures/Walls/Stone/StoneRetainingWall_01/StoneRetainingWall_01_8m_V2.et" {
+    {
+     coords -4.837 -2.965 -2.422
+     angles 0 90.444 0
+    }
+    {
+     coords -0.192 -2.959 2.237
+     angles 0 -179.615 0
+    }
+   }
+  }
+ }
+ Relay1kAluettePond {
+  components {
+   BaseRadioComponent "{5C727AD73024FB2A}" {
+    Transceivers {
+     RelayTransceiver "{5C727AD73024FB39}" {
+      "Transmitting Range" 1000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_sBaseName "Relais de l'Aluette [1km]"
+    m_sBaseNameUpper "RELAIS DE L'ALUETTE [1KM]"
+   }
+  }
+  coords 5961.221 136.381 7994.332
+  angles 0 29.67 0
+  {
+   GenericEntity {
+    ID "5C727AD606EB0C1C"
+    components {
+     ActionsManagerComponent "{5C727AD65C3206FA}" {
+      additionalActions {
+       SCR_CampaignReconfigureRelayUserAction "{5C727AD67B0A97A0}" {
+        Duration 60
+       }
+      }
+     }
+    }
+    coords -0.009 0.925 -0.977
+    angles 0 -180 0
+   }
+   StaticModelEntity : "{6A004A8F0571D456}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_small.et" {
+    coords 0.012 0.001 -0.006
+   }
+   $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    {
+     components {
+      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+       m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+       m_eGroupType TEAM_SENTRY
+      }
+     }
+     coords 53.235 1.342 -3.377
+    }
+    {
+     components {
+      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+       m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+       m_eGroupType TEAM_SENTRY
+      }
+     }
+     coords -55.656 -10.582 -27.048
+     angles 0 -29.67 0
+    }
+   }
+  }
+ }
+ Relay1kmAndreasBeacon {
+  components {
+   BaseRadioComponent "{5C727AD73024FB2A}" {
+    Transceivers {
+     RelayTransceiver "{5C727AD73024FB39}" {
+      "Transmitting Range" 1000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_sBaseName "Relais du Flambeau [1km]"
+    m_sBaseNameUpper "RELAIS DU FLAMBEAU [1KM]"
+   }
+  }
+  coords 6826.317 84.81 8188.789
+  angles 0 22.93 0
+  {
+   GenericEntity {
+    ID "5C727AD606EB0C1C"
+    components {
+     ActionsManagerComponent "{5C727AD65C3206FA}" {
+      additionalActions {
+       SCR_CampaignReconfigureRelayUserAction "{5C727AD67B0A97A0}" {
+        Duration 60
+       }
+      }
+     }
+    }
+    coords -0.298 0.888 -0.956
+    angles 0 -169.614 0
+   }
+   StaticModelEntity : "{6A004A8F0571D456}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_small.et" {
+    coords -0.102 0 -0.001
+    angles 0 10.407 0
+   }
+   $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    {
+     components {
+      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+       m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+       m_eGroupType TEAM_SENTRY
+      }
+     }
+     coords -18.708 1.858 -12.549
+    }
+    {
+     components {
+      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+       m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+       m_eGroupType TEAM_SENTRY
+      }
+     }
+     coords 10.58 4.576 -27.055
+     angles 0 -22.93 0
+    }
+   }
+  }
+ }
+ Relay1kmGoatBay {
+  components {
+   BaseRadioComponent "{5C727AD73024FB2A}" {
+    Transceivers {
+     RelayTransceiver "{5C727AD73024FB39}" {
+      "Transmitting Range" 1000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_sBaseName "Relais de la Chèvre [1km]"
+    m_sBaseNameUpper "RELAIS DE LA CHEVRE [1KM]"
+   }
+  }
+  coords 6764.583 7.622 3941.545
+  angles 0 -102.106 0
+  {
+   GenericEntity {
+    ID "5C727AD606EB0C1C"
+    components {
+     ActionsManagerComponent "{5C727AD65C3206FA}" {
+      additionalActions {
+       SCR_CampaignReconfigureRelayUserAction "{5C727AD67B0A97A0}" {
+        Duration 60
+       }
+      }
+     }
+    }
+    coords -0.008 0.945 -0.973
+    angles 0 -180 0
+   }
+   StaticModelEntity : "{6A004A8F0571D456}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_small.et" {
+    coords 0.012 0.001 -0.006
+   }
+   $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    {
+     components {
+      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+       m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+       m_eGroupType TEAM_SENTRY
+      }
+     }
+     coords 28.395 0.271 -15.125
+    }
+    {
+     components {
+      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+       m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+       m_eGroupType TEAM_SENTRY
+      }
+     }
+     coords -26.286 0.542 -10.625
+     angles 0 131.133 0
+    }
+   }
+  }
+ }
+ Relay2kmEntreDeux {
+  components {
+   BaseRadioComponent "{5C727AD73024FB2A}" {
+    Transceivers {
+     RelayTransceiver "{5C727AD73024FB39}" {
+      "Transmitting Range" 2000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_sBaseName "Relais L42 [2km]"
+    m_sBaseNameUpper "RELAIS L42 [2KM]"
+   }
+  }
+  coords 5856.038 237.289 7266.462
+  angles 0 108.704 0
+  {
+   GenericEntity {
+    ID "5C727AD606EB0C1C"
+    components {
+     ActionsManagerComponent "{5C727AD65C3206FA}" {
+      additionalActions {
+       SCR_CampaignReconfigureRelayUserAction "{5C727AD67B0A97A0}" {
+        Duration 120
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ Relay2kmRichemont {
+  components {
+   BaseRadioComponent "{5C727AD73024FB2A}" {
+    Transceivers {
+     RelayTransceiver "{5C727AD73024FB39}" {
+      "Transmitting Range" 2000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_sBaseName "Relais de Richemont [2km]"
+    m_sBaseNameUpper "RELAIS DE RICHEMONT [2KM]"
+   }
+  }
+  coords 4011.467 116.445 5142.663
+  angles 0 -130.099 0
+  {
+   GenericEntity {
+    ID "5C727AD606EB0C1C"
+    components {
+     ActionsManagerComponent "{5C727AD65C3206FA}" {
+      additionalActions {
+       SCR_CampaignReconfigureRelayUserAction "{5C727AD67B0A97A0}" {
+        Duration 120
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ Relay2kmSimonsWood {
+  components {
+   BaseRadioComponent "{5C727AD73024FB2A}" {
+    Transceivers {
+     RelayTransceiver "{5C727AD73024FB39}" {
+      "Transmitting Range" 2000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_sBaseName "Relais de Simon [2km]"
+    m_sBaseNameUpper "RELAIS DE SIMON [2KM]"
+   }
+  }
+  coords 6224.645 108.73 5121.498
+  angles 0 -159 0
+  {
+   GenericEntity {
+    ID "5C727AD606EB0C1C"
+    components {
+     ActionsManagerComponent "{5C727AD65C3206FA}" {
+      additionalActions {
+       SCR_CampaignReconfigureRelayUserAction "{5C727AD67B0A97A0}" {
+        Duration 120
+       }
+      }
+     }
+    }
+    coords 0 -0.007 0
+   }
+  }
+ }
+ Relay2kmSpaniardsBay {
+  components {
+   BaseRadioComponent "{5C727AD73024FB2A}" {
+    Transceivers {
+     RelayTransceiver "{5C727AD73024FB39}" {
+      "Transmitting Range" 2000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_sBaseName "Relais des Espagnols [2km]"
+    m_sBaseNameUpper "RELAIS DES ESPAGNOLS [2KM]"
+   }
+  }
+  coords 3664.39 50.176 7132.396
+  angles 0 -93.929 0
+  {
+   GenericEntity {
+    ID "5C727AD606EB0C1C"
+    components {
+     ActionsManagerComponent "{5C727AD65C3206FA}" {
+      additionalActions {
+       SCR_CampaignReconfigureRelayUserAction "{5C727AD67B0A97A0}" {
+        Duration 120
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ Relay3kmRadarThales {
+  components {
+   BaseRadioComponent "{5C727AD73024FB2A}" {
+    Transceivers {
+     RelayTransceiver "{5C727AD73024FB39}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_sBaseName "Radar Thales [3km]"
+    m_sBaseNameUpper "RADAR THALES [3KM]"
+   }
+  }
+  coords 5175.254 76.748 6306.71
+  angles 35 175.429 0
+  {
+   GenericEntity {
+    ID "5C727AD606EB0C1C"
+    components {
+     ActionsManagerComponent "{5C727AD65C3206FA}" {
+      additionalActions {
+       SCR_CampaignReconfigureRelayUserAction "{5C727AD67B0A97A0}" {
+        Duration 180
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ Relay1kmPennantsPass {
+  components {
+   BaseRadioComponent "{5C727AD73024FB2A}" {
+    Transceivers {
+     RelayTransceiver "{5C727AD73024FB39}" {
+      "Transmitting Range" 1000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_sBaseName "Relais de l'Hôtel [1km]"
+    m_sBaseNameUpper "RELAIS DE L'HOTEL [1KM]"
+   }
+  }
+  coords 8218.563 225.237 2219.721
+  angles 0 -81.826 0
+  {
+   GenericEntity {
+    ID "5C727AD606EB0C1C"
+    components {
+     ActionsManagerComponent "{5C727AD65C3206FA}" {
+      additionalActions {
+       SCR_CampaignReconfigureRelayUserAction "{5C727AD67B0A97A0}" {
+        Duration 60
+       }
+      }
+     }
+    }
+    coords -0.008 0.816 -0.973
+    angles 0 -180 0
+   }
+   StaticModelEntity : "{6A004A8F0571D456}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_small.et" {
+    coords 0.012 0.001 -0.006
+   }
+   $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    {
+     components {
+      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+       m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+       m_eGroupType TEAM_SENTRY
+      }
+     }
+     coords 6.334 0.058 -8.68
+    }
+    {
+     components {
+      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+       m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+       m_eGroupType TEAM_SENTRY
+      }
+     }
+     coords 2.379 -4.563 23.22
+     angles 0 131.139 0
+    }
+   }
+  }
+ }
+ Relay1kmVilleneuf {
+  components {
+   BaseRadioComponent "{5C727AD73024FB2A}" {
+    Transceivers {
+     RelayTransceiver "{5C727AD73024FB39}" {
+      "Transmitting Range" 1000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_sBaseName "Relais de Villeneuve [1km]"
+    m_sBaseNameUpper "RELAIS DE VILLENEUVE [1KM]"
+   }
+  }
+  coords 2445.394 81.645 6116.416
+  angles 0 22.823 0
+  {
+   GenericEntity {
+    ID "5C727AD606EB0C1C"
+    components {
+     ActionsManagerComponent "{5C727AD65C3206FA}" {
+      additionalActions {
+       SCR_CampaignReconfigureRelayUserAction "{5C727AD67B0A97A0}" {
+        Duration 60
+       }
+      }
+     }
+    }
+    coords -0.008 0.947 -0.974
+    angles 0 -180 0
+   }
+   StaticModelEntity : "{6A004A8F0571D456}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_small.et" {
+    coords 0.012 0.001 -0.006
+   }
+   $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    {
+     components {
+      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+       m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+       m_eGroupType TEAM_SENTRY
+      }
+     }
+     coords 2.999 0.238 -16.086
+    }
+    {
+     components {
+      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+       m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+       m_eGroupType TEAM_SENTRY
+      }
+     }
+     coords -14.378 -1.3 13.43
+     angles 0 -41.165 0
+    }
+   }
+   $grp DecalEntity : "{BAA55688399B3545}Prefabs/Decals/Dirt/Decal_Dirt_Patch_01.et" {
+    {
+     coords -0.114 -0.107 -1.843
+     angles -88.923 -132.723 -180
+     scale 2.5
+    }
+    {
+     coords -0.035 -0.081 -3.029
+     angles -90 95.758 -48.481
+     scale 2.5
+    }
+   }
+  }
+ }
+ Relay1kmSwellMountain {
+  components {
+   BaseRadioComponent "{5C727AD73024FB2A}" {
+    Transceivers {
+     RelayTransceiver "{5C727AD73024FB39}" {
+      "Transmitting Range" 1000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_sBaseName "Relais de la Montagne [1km]"
+    m_sBaseNameUpper "RELAIS DE LA MONTAGNE [1KM]"
+   }
+  }
+  coords 8771.636 311.196 1709.107
+  angles 0 100.155 0
+  {
+   GenericEntity {
+    ID "5C727AD606EB0C1C"
+    components {
+     ActionsManagerComponent "{5C727AD65C3206FA}" {
+      additionalActions {
+       SCR_CampaignReconfigureRelayUserAction "{5C727AD67B0A97A0}" {
+        Duration 60
+       }
+      }
+     }
+    }
+    coords -0.008 0.885 -0.973
+    angles 0 -180 0
+   }
+   StaticModelEntity : "{6A004A8F0571D456}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_small.et" {
+    coords 0.012 0.001 -0.006
+   }
+   $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    {
+     components {
+      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+       m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+       m_eGroupType TEAM_SENTRY
+      }
+     }
+     coords 18.292 -1.594 -6.093
+    }
+    {
+     components {
+      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+       m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+       m_eGroupType TEAM_SENTRY
+      }
+     }
+     coords -21.846 -1.458 -9.896
+     angles 0 131.139 0
+    }
+   }
+  }
+ }
+ Relay1kmMontfortCastle {
+  components {
+   BaseRadioComponent "{5C727AD73024FB2A}" {
+    Transceivers {
+     RelayTransceiver "{5C727AD73024FB39}" {
+      "Transmitting Range" 1000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_sBaseName "Relais du Château [1km]"
+    m_sBaseNameUpper "RELAIS DU CHATEAU [1KM]"
+   }
+  }
+  coords 9318.331 229.556 1161.3
+  angles 0 178.502 0
+  {
+   GenericEntity {
+    ID "5C727AD606EB0C1C"
+    components {
+     ActionsManagerComponent "{5C727AD65C3206FA}" {
+      additionalActions {
+       SCR_CampaignReconfigureRelayUserAction "{5C727AD67B0A97A0}" {
+        Duration 60
+       }
+      }
+     }
+    }
+    coords -0.008 0.616 -0.973
+    angles 0 -180 0
+   }
+   StaticModelEntity : "{6A004A8F0571D456}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_small.et" {
+    coords 0.012 0.001 -0.006
+   }
+   $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    {
+     components {
+      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+       m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+       m_eGroupType TEAM_SENTRY
+      }
+     }
+     coords 18.292 -1.594 -6.093
+    }
+    {
+     components {
+      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+       m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+       m_eGroupType TEAM_SENTRY
+      }
+     }
+     coords -21.846 -1.458 -9.896
+     angles 0 131.139 0
+    }
+   }
+   GenericEntity : "{C9DE18E34AEADA31}Prefabs/Structures/BuildingParts/Doors/DoorBoarded_PierShed_01_A.et" {
+    coords 0.125 -0.928 0.789
+    angles -90 -1.451 -180
+   }
+  }
+ }
+ Relay1kmSaintPierre {
+  components {
+   BaseRadioComponent "{5C727AD73024FB2A}" {
+    Transceivers {
+     RelayTransceiver "{5C727AD73024FB39}" {
+      "Transmitting Range" 1000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_sBaseName "Relais de Saint-Pierre [1km]"
+    m_sBaseNameUpper "RELAIS DE SAINT-PIERRE [1KM]"
+   }
+  }
+  coords 9948.227 316.565 2260.774
+  angles 0 91.126 0
+  {
+   GenericEntity {
+    ID "5C727AD606EB0C1C"
+    components {
+     ActionsManagerComponent "{5C727AD65C3206FA}" {
+      additionalActions {
+       SCR_CampaignReconfigureRelayUserAction "{5C727AD67B0A97A0}" {
+        Duration 60
+       }
+      }
+     }
+    }
+    coords -0.001 1.062 -0.25
+    angles 0 -1.103 0
+   }
+   $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    {
+     components {
+      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+       m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+       m_eGroupType TEAM_SENTRY
+      }
+     }
+     coords -21.453 -1.489 10.467
+    }
+    {
+     components {
+      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+       m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+       m_eGroupType TEAM_SENTRY
+      }
+     }
+     coords 8.307 -1.932 20.278
+     angles 0 131.139 0
+    }
+   }
+  }
+ }
+}
