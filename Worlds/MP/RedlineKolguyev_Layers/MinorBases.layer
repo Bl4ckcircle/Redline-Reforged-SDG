@@ -27,6 +27,10 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     ID "606078EE23DE48AC"
     coords -35.54 -1.887 82.572
    }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    m_sFaction "FIA"
+   }
   }
  }
  Komsomolsk {
@@ -52,6 +56,10 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    GenericEntity {
     ID "5CCED514A5908822"
     coords 22.812 1.813 -17.383
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    m_sFaction "FIA"
    }
   }
  }
@@ -79,6 +87,10 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     ID "606078EE23DE48AC"
     coords -8.264 2.962 -16.858
    }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    m_sFaction "FIA"
+   }
   }
  }
  Harbour {
@@ -103,6 +115,10 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    GenericEntity {
     ID "606078EE23DE48AC"
     coords -26.632 -0.876 14.002
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    m_sFaction "FIA"
    }
   }
  }
@@ -134,6 +150,10 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     ID "606078EE23DE48AC"
     coords 11.118 -0.688 -19.345
    }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    m_sFaction "FIA"
+   }
   }
  }
  NadezhdaMine {
@@ -164,6 +184,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     ID "5C6696731466AF36"
     coords -6.675 0.222 -0.117
     angles 0 35.382 0
+    m_sFaction "FIA"
    }
   }
  }
@@ -189,6 +210,10 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    GenericEntity {
     ID "606078EE23DE48AC"
     coords 14.888 -2.731 -22.821
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    m_sFaction "FIA"
    }
   }
  }
@@ -220,6 +245,10 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     ID "606078EE23DE48AC"
     coords 17.062 1 -15.582
    }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    m_sFaction "FIA"
+   }
   }
  }
  Michurino {
@@ -245,6 +274,10 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     ID "606078EE23DE48AC"
     coords -16.557 0.006 7.081
    }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    m_sFaction "FIA"
+   }
   }
  }
  Krasnyy0ktabrMine {
@@ -269,6 +302,10 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    GenericEntity {
     ID "606078EE23DE48AC"
     coords -28.27 -0.989 -48.563
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    m_sFaction "FIA"
    }
   }
  }
@@ -301,6 +338,10 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     ID "606078EE23DE48AC"
     coords -24.839 0.943 -8.578
    }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    m_sFaction "FIA"
+   }
   }
  }
  SosnovyMys {
@@ -330,6 +371,10 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    GenericEntity {
     ID "606078EE23DE48AC"
     coords -12.861 1.15 -15.29
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    m_sFaction "FIA"
    }
   }
  }
@@ -361,6 +406,10 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    GenericEntity {
     ID "606078EE23DE48AC"
     coords -20.358 -0.129 -12.775
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    m_sFaction "FIA"
    }
   }
  }
@@ -405,6 +454,10 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
      }
     }
    }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    m_sFaction "FIA"
+   }
   }
  }
  Soumont {
@@ -434,6 +487,10 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    GenericEntity {
     ID "606078EE23DE48AC"
     coords -3.813 -2.059 -16.824
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    m_sFaction "FIA"
    }
   }
  }
@@ -480,6 +537,10 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
       }
      }
     }
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    m_sFaction "FIA"
    }
   }
  }

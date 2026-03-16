@@ -1184,6 +1184,7 @@ GenericEntity Gorshkovo_Military : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBa
   SCR_CampaignSpawnPointGroup {
    ID "5C6696731466AF36"
    coords 0 0 0
+   m_sFaction "FIA"
   }
  }
 }

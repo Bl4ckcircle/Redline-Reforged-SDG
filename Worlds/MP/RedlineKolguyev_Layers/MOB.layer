@@ -35,8 +35,9 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    }
    SCR_CampaignSpawnPointGroup {
     ID "5C6696731466AF36"
-    coords -6.877 70.59 16.84
+    coords 22.697 -1.447 -29.513
     angles 4.471 -0.154 -1.975
+    m_sFaction "US"
    }
   }
  }
@@ -59,7 +60,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_sBaseNameUpper "#AR-Campaign_MapLocation_MOB-UC"
    }
   }
-  coords 12019.979 1.135 10553.173
+  coords 11854.718 1.135 10563.743
   angles 0 -9.064 0
   {
    GenericEntity {
@@ -73,6 +74,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    SCR_CampaignSpawnPointGroup {
     ID "5C6696731466AF36"
     coords 0 0 0
+    m_sFaction "FIA"
    }
   }
  }
