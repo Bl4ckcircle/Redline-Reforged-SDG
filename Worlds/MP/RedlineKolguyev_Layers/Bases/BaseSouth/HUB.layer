@@ -1,0 +1,145 @@
+SCR_ChimeraCharacter : "{1318606B854E15B7}Prefabs/Characters/Shop/US/US_Shop_Vehicles_Ground_MBTs.et" {
+ coords 1905.475 132.558 7455.503
+ angles 0 141.989 0
+}
+$grp SCR_ChimeraCharacter : "{665604EB465D4273}Prefabs/Characters/Shop/US/US_Shop_Vehicles_Air_Transports.et" {
+ {
+  coords 1912.179 132.325 7432.942
+  angles 0 -32.786 0
+ }
+ {
+  coords 1916.794 132.325 7438.155
+  angles 0 -39.489 0
+ }
+}
+GenericEntity : "{9DFE911399D140E5}Prefab/SupplyCache.et" {
+ coords 1925.168 132.531 7429.317
+ angles 0 -110.174 0
+ {
+  GenericEntity {
+   ID "687289B3AD0CE95A"
+   components {
+    SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+     m_aContainers {
+      SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+       m_fResourceGain 300
+      }
+     }
+    }
+   }
+   coords -2.584 0.001 -1.129
+   {
+    GenericEntity {
+     ID "5D453938619FC380"
+     components {
+      SCR_ResourceComponent "{5D247A59598D71AE}" {
+       m_aContainers {
+        SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+         m_fResourceValueCurrent 10000
+         m_fResourceValueMax 10000
+         m_fResourceGain 300
+         m_fResourceGainTickrate 75
+        }
+       }
+      }
+     }
+     coords 2.509 -0.001 -2.176
+    }
+    GenericEntity {
+     ID "5D453938619FC381"
+     components {
+      SCR_ResourceComponent "{5D247A59598D71AE}" {
+       m_aContainers {
+        SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+         m_fResourceValueCurrent 10000
+         m_fResourceValueMax 10000
+         m_fResourceGain 300
+         m_fResourceGainTickrate 75
+        }
+       }
+      }
+     }
+     coords -1.958 -0.001 0.223
+    }
+    GenericEntity {
+     ID "5D453938619FC383"
+     components {
+      SCR_ResourceComponent "{5D247A59598D71AE}" {
+       m_aContainers {
+        SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+         m_fResourceValueCurrent 10000
+         m_fResourceValueMax 10000
+         m_fResourceGain 300
+         m_fResourceGainTickrate 75
+        }
+       }
+      }
+     }
+     coords 2.711 -0.001 0.48
+    }
+   }
+  }
+  GenericEntity {
+   ID "687289B3AD0CE95D"
+   coords -2.677 0 1.551
+   {
+    GenericEntity {
+     ID "5D1ED92C8FCFAAB4"
+     coords 0 0.95 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "687289B3AD0CE953"
+   coords -3.304 0 2.236
+  }
+  GenericEntity {
+   ID "687289B3AD0CE95F"
+   coords 0 0 0
+  }
+  GenericEntity {
+   ID "687289B3AD0CE951"
+   coords -1.628 0 1.51
+  }
+  GenericEntity {
+   ID "687289B3AD0C9083"
+   coords -6.879 0 0.096
+  }
+  GenericEntity {
+   ID "687289B3AD0C9084"
+   coords -6.528 0 0.959
+  }
+  GenericEntity {
+   ID "687289B3AD0C9085"
+   coords -6.146 0 0.246
+  }
+  GenericEntity {
+   ID "687289B3AD0CE950"
+   coords -6.155 0 1.648
+  }
+  GenericEntity {
+   ID "687289B3AD0C15FD"
+   coords -6.419 0 -0.809
+  }
+  GenericEntity {
+   ID "687289B3AD0C9086"
+   coords -6.403 0 -1.967
+  }
+  GenericEntity {
+   ID "687289B3AD0C1502"
+   coords -7.583 0 1.195
+  }
+  GenericEntity {
+   ID "687289B3AD0DF057"
+   coords 0.481 0 1.631
+  }
+ }
+}
+SCR_ChimeraCharacter : "{CA9F8CBCA70E9CAA}Prefabs/Characters/Shop/US/US_Shop_Vehicles_Ground_Transports.et" {
+ coords 1901.956 132.531 7434.732
+ angles 0 50.882 0
+}
+SCR_ChimeraCharacter : "{D981313486F9EC9A}Prefabs/Characters/Shop/US/US_Shop_Vehicles_Ground_IFVs.et" {
+ coords 1897.55 132.558 7450.054
+ angles 0 148.088 0
+}
