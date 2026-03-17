@@ -1136,58 +1136,6 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
   angles 0 127.357 0
  }
 }
-GenericEntity Gorshkovo_Military : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
- components {
-  SCR_CampaignMilitaryBaseMapDescriptorComponent "{5C669672B19BFE5A}" {
-   DisplayName "Gorshkovo Military"
-  }
-  SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
-   m_fMaximumSeizingTime 120
-   m_fMinimumSeizingTime 30
-  }
-  SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
-   m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
-    Name "Gorshkovo Military"
-    Description "Gorshkovo Military"
-   }
-  }
-  SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-   m_sBaseName "Gorshkovo Military"
-   m_sBaseNameUpper "Gorshkovo Military"
-   m_sMapLocationName "Gorshkovo Military"
-  }
- }
- coords 8727.883 9.344 7436.63
- angles 0 136.572 0
- {
-  GenericEntity {
-   ID "5CCED514A5908822"
-   coords 20.794 0.602 4.448
-  }
-  GenericEntity {
-   ID "606078EE23DE48AC"
-   coords -12.4 -0.122 -1.812
-   {
-    $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
-     {
-      coords -19.679 0 -8.656
-     }
-     {
-      coords 21.875 2.246 38.176
-     }
-     {
-      coords 42.243 1.143 6.482
-     }
-    }
-   }
-  }
-  SCR_CampaignSpawnPointGroup {
-   ID "5C6696731466AF36"
-   coords 0 0 0
-   m_sFaction "FIA"
-  }
- }
-}
 GenericEntity : "{18B92018CF634D22}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_US_03.et" {
  coords 3876.591 15.281 8414.389
  angles 0 -178.575 0

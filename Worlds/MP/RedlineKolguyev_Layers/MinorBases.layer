@@ -1,546 +1,749 @@
 $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
- BareRidge {
+ TheRock {
   components {
+   RY_BaseCaptureComponent "{67271D95F5822E23}" {
+    m_iCaptureAmount 250
+    m_iPeriodicRewardAmount 150
+    m_fPeriodicRewardInterval 600
+   }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
     m_fMaximumSeizingTime 120
     m_fMinimumSeizingTime 30
    }
-   SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
-    m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
-     Name "BareRidge Military base"
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      ChannelFrequency 40000
+      "Transmitting Range" 4000
+     }
     }
    }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_sBaseName "BareRidge Military base"
-    m_sBaseNameUpper "BareRidge Military base"
-    m_sMapLocationName "BareRidge Military base"
-   }
-  }
-  coords 7754.709 312.498 8165.362
-  angles -4.125 -175.907 2.232
-  {
-   GenericEntity {
-    ID "5CCED514A5908822"
-    coords -7.459 -0.075 13.383
-   }
-   GenericEntity {
-    ID "606078EE23DE48AC"
-    coords -35.54 -1.887 82.572
-   }
-   SCR_CampaignSpawnPointGroup {
-    ID "5C6696731466AF36"
-    m_sFaction "FIA"
-   }
-  }
- }
- Komsomolsk {
-  components {
-   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
-    m_fMaximumSeizingTime 120
-    m_fMinimumSeizingTime 30
-   }
-   SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
-    m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
-     Name "Komsomolsk"
+    m_bDisableWhenUnusedAsHQ 0
+    m_bIsSupplyHub 1
+    m_sBaseName " The Rock"
+    m_sBaseNameUpper "The Rock"
+    m_aWhiteList {
+     "Base south"
+     "Rassa"
+     "Sawmill Relay"
     }
    }
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_sBaseName "Komsomolsk"
-    m_sBaseNameUpper "Komsomolsk"
-    m_sMapLocationName "Komsomolsk"
-   }
   }
-  coords 8707.486 4.738 10215.091
-  angles -1.903 -20.916 1.043
+  coords 11304.729 95.955 10522.749
+  angles 0.732 -132.954 0.786
   {
-   GenericEntity {
-    ID "5CCED514A5908822"
-    coords 22.812 1.813 -17.383
-   }
    SCR_CampaignSpawnPointGroup {
     ID "5C6696731466AF36"
-    m_sFaction "FIA"
-   }
-  }
- }
- NadezhdaMilitaryBase {
-  components {
-   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
-    m_fMaximumSeizingTime 120
-    m_fMinimumSeizingTime 30
-   }
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_iRadius 80
-    m_sBaseName "Nadezhda Military base"
-    m_sBaseNameUpper "Nadezhda Military base"
-    m_sMapLocationName "Nadezhda Military base"
-   }
-  }
-  coords 7099.623 313.39 6007.952
-  angles 0 -98.052 0
-  {
-   GenericEntity {
-    ID "5CCED514A5908822"
-    coords -0.001 -0.045 26.902
-   }
-   GenericEntity {
-    ID "606078EE23DE48AC"
-    coords -8.264 2.962 -16.858
-   }
-   SCR_CampaignSpawnPointGroup {
-    ID "5C6696731466AF36"
-    m_sFaction "FIA"
-   }
-  }
- }
- Harbour {
-  components {
-   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
-    m_fMaximumSeizingTime 120
-    m_fMinimumSeizingTime 30
-   }
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_sBaseName "Harbour"
-    m_sBaseNameUpper "Harbour"
-    m_sMapLocationName "Harbour"
-   }
-  }
-  coords 7608.367 21.098 4930.156
-  angles 0 -84.572 0
-  {
-   GenericEntity {
-    ID "5CCED514A5908822"
-    coords 15.095 1.194 -8.976
-   }
-   GenericEntity {
-    ID "606078EE23DE48AC"
-    coords -26.632 -0.876 14.002
-   }
-   SCR_CampaignSpawnPointGroup {
-    ID "5C6696731466AF36"
-    m_sFaction "FIA"
+    m_bSpawnPointEnabled 0
    }
   }
  }
  Langonnet {
   components {
+   RY_BaseCaptureComponent "{67271D95F5822E23}" {
+    m_iCaptureAmount 250
+    m_iPeriodicRewardAmount 150
+    m_fPeriodicRewardInterval 600
+   }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
     m_fMaximumSeizingTime 120
     m_fMinimumSeizingTime 30
    }
-   SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
-    m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
-     Name "Langonnet"
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      ChannelFrequency 40000
+      "Transmitting Range" 4000
+     }
     }
    }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bDisableWhenUnusedAsHQ 0
+    m_bIsSupplyHub 1
     m_sBaseName "Langonnet"
     m_sBaseNameUpper "Langonnet"
-    m_sMapLocationName "Langonnet"
-   }
-  }
-  coords 9701.029 128.904 10074.252
-  angles 0 155.953 0
-  {
-   GenericEntity {
-    ID "5CCED514A5908822"
-    coords 40.883 -0.07 5.518
-   }
-   GenericEntity {
-    ID "606078EE23DE48AC"
-    coords 11.118 -0.688 -19.345
-   }
-   SCR_CampaignSpawnPointGroup {
-    ID "5C6696731466AF36"
-    m_sFaction "FIA"
-   }
-  }
- }
- NadezhdaMine {
-  components {
-   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
-    m_fMaximumSeizingTime 120
-    m_fMinimumSeizingTime 30
-   }
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_sBaseName "NadezhdaMine"
-    m_sBaseNameUpper "NadezhdaMine"
-    m_sMapLocationName "NadezhdaMine"
-   }
-  }
-  coords 7679.727 208.568 6815.005
-  angles 0 148.762 0
-  {
-   GenericEntity {
-    ID "5CCED514A5908822"
-    coords 8.26 -0.711 20.913
-    angles 0 35.382 0
-   }
-   GenericEntity {
-    ID "606078EE23DE48AC"
-    coords -30.566 -1.187 43.552
-   }
-   SCR_CampaignSpawnPointGroup {
-    ID "5C6696731466AF36"
-    coords -6.675 0.222 -0.117
-    angles 0 35.382 0
-    m_sFaction "FIA"
-   }
-  }
- }
- LeRocher {
-  components {
-   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
-    m_fMaximumSeizingTime 120
-    m_fMinimumSeizingTime 30
-   }
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_sBaseName "LeRocher"
-    m_sBaseNameUpper "LeRocher"
-    m_sMapLocationName "LeRocher"
-   }
-  }
-  coords 11308.874 88.659 10480.258
-  angles 0 -21.649 0
-  {
-   GenericEntity {
-    ID "5CCED514A5908822"
-    coords 0 1.748 27.625
-   }
-   GenericEntity {
-    ID "606078EE23DE48AC"
-    coords 14.888 -2.731 -22.821
-   }
-   SCR_CampaignSpawnPointGroup {
-    ID "5C6696731466AF36"
-    m_sFaction "FIA"
-   }
-  }
- }
- Hamertin {
-  components {
-   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
-    m_fMaximumSeizingTime 120
-    m_fMinimumSeizingTime 30
-   }
-   SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
-    m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
-     Name "Hamertin"
+    m_aWhiteList {
+     "Base south"
+     "Rassa"
+     "Sawmill Relay"
     }
    }
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_sBaseName "Hamertin"
-    m_sBaseNameUpper "Hamertin"
-    m_sMapLocationName "Hamertin"
-   }
   }
-  coords 3358.845 267.789 6862.693
-  angles 0 -89.11 0
+  coords 9675.976 130.402 10041.867
+  angles 0.732 -132.954 0.786
   {
-   GenericEntity {
-    ID "5CCED514A5908822"
-    coords -0.001 -0.01 23.336
-   }
-   GenericEntity {
-    ID "606078EE23DE48AC"
-    coords 17.062 1 -15.582
-   }
    SCR_CampaignSpawnPointGroup {
     ID "5C6696731466AF36"
-    m_sFaction "FIA"
+    m_bSpawnPointEnabled 0
    }
   }
  }
- Michurino {
+ Komsomolsk {
   components {
+   RY_BaseCaptureComponent "{67271D95F5822E23}" {
+    m_iCaptureAmount 250
+    m_iPeriodicRewardAmount 150
+    m_fPeriodicRewardInterval 600
+   }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
     m_fMaximumSeizingTime 120
     m_fMinimumSeizingTime 30
    }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      ChannelFrequency 40000
+      "Transmitting Range" 4000
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_sBaseName "Michurino"
-    m_sBaseNameUpper "Michurino"
-    m_sMapLocationName "Michurino"
+    m_bDisableWhenUnusedAsHQ 0
+    m_bIsSupplyHub 1
+    m_sBaseName "Komsomolsk"
+    m_sBaseNameUpper "Komsomolsk"
+    m_aWhiteList {
+     "Base south"
+     "Rassa"
+     "Sawmill Relay"
+    }
    }
   }
-  coords 3442.604 17.937 4232.832
-  angles -0.17 -60.907 -5.203
+  coords 8686.544 3.079 10230.364
+  angles 0.732 -132.954 0.786
   {
-   GenericEntity {
-    ID "5CCED514A5908822"
-    coords 20.813 -1.044 -4.736
-   }
-   GenericEntity {
-    ID "606078EE23DE48AC"
-    coords -16.557 0.006 7.081
-   }
    SCR_CampaignSpawnPointGroup {
     ID "5C6696731466AF36"
-    m_sFaction "FIA"
+    m_bSpawnPointEnabled 0
    }
   }
  }
- Krasnyy0ktabrMine {
+ BareRidge {
   components {
+   RY_BaseCaptureComponent "{67271D95F5822E23}" {
+    m_iCaptureAmount 250
+    m_iPeriodicRewardAmount 150
+    m_fPeriodicRewardInterval 600
+   }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
     m_fMaximumSeizingTime 120
     m_fMinimumSeizingTime 30
    }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      ChannelFrequency 40000
+      "Transmitting Range" 4000
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_sBaseName "Krasnyy0ktabrMine"
-    m_sBaseNameUpper "Krasnyy0ktabrMine"
-    m_sMapLocationName "Krasnyy0ktabrMine"
+    m_bDisableWhenUnusedAsHQ 0
+    m_bIsSupplyHub 1
+    m_sBaseName "BareRidge Military"
+    m_sBaseNameUpper "BareRidge Military"
+    m_aWhiteList {
+     "Base south"
+     "Rassa"
+     "Sawmill Relay"
+    }
    }
   }
-  coords 3693.849 175.87 5195.782
-  angles -0.957 -86.223 -3.329
+  coords 7762.909 312.656 8153.954
+  angles 0.732 -132.954 0.786
   {
-   GenericEntity {
-    ID "5CCED514A5908822"
-    coords -9.25 0.334 12
-   }
-   GenericEntity {
-    ID "606078EE23DE48AC"
-    coords -28.27 -0.989 -48.563
-   }
    SCR_CampaignSpawnPointGroup {
     ID "5C6696731466AF36"
-    m_sFaction "FIA"
+    m_bSpawnPointEnabled 0
    }
   }
  }
  Stupka {
   components {
+   RY_BaseCaptureComponent "{67271D95F5822E23}" {
+    m_iCaptureAmount 250
+    m_iPeriodicRewardAmount 150
+    m_fPeriodicRewardInterval 600
+   }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
     m_fMaximumSeizingTime 120
     m_fMinimumSeizingTime 30
    }
-   SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
-    m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
-     Name "Stupka"
-     Description "Stupka"
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      ChannelFrequency 40000
+      "Transmitting Range" 4000
+     }
     }
    }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_sBaseName "Stupka"
-    m_sBaseNameUpper "Stupka"
-    m_sMapLocationName "Stupka"
+    m_bDisableWhenUnusedAsHQ 0
+    m_bIsSupplyHub 1
+    m_sBaseName "Stupka Military"
+    m_sBaseNameUpper "Stupka Military"
+    m_aWhiteList {
+     "Base south"
+     "Rassa"
+     "Sawmill Relay"
+    }
    }
   }
-  coords 5736.932 420.979 6889.797
-  angles 0 -146.242 0
+  coords 5728.828 421.163 6888.813
+  angles 0.732 -132.954 0.786
   {
-   GenericEntity {
-    ID "5CCED514A5908822"
-    coords 0.001 1.616 32.4
-   }
-   GenericEntity {
-    ID "606078EE23DE48AC"
-    coords -24.839 0.943 -8.578
-   }
    SCR_CampaignSpawnPointGroup {
     ID "5C6696731466AF36"
-    m_sFaction "FIA"
+    m_bSpawnPointEnabled 0
    }
   }
  }
- SosnovyMys {
+ NadezhdaMilitaryBase {
   components {
+   RY_BaseCaptureComponent "{67271D95F5822E23}" {
+    m_iCaptureAmount 250
+    m_iPeriodicRewardAmount 150
+    m_fPeriodicRewardInterval 600
+   }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
     m_fMaximumSeizingTime 120
     m_fMinimumSeizingTime 30
    }
-   SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
-    m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
-     Name "SosnovyMys"
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      ChannelFrequency 40000
+      "Transmitting Range" 4000
+     }
     }
    }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_sBaseName "SosnovyMys"
-    m_sBaseNameUpper "SosnovyMys"
-    m_sMapLocationName "SosnovyMys"
+    m_bDisableWhenUnusedAsHQ 0
+    m_bIsSupplyHub 1
+    m_sBaseName "NadezhdaMilitaryBase"
+    m_sBaseNameUpper "NadezhdaMilitaryBase"
+    m_aWhiteList {
+     "Base south"
+     "Rassa"
+     "Sawmill Relay"
+    }
    }
   }
-  coords 4404.332 2.413 8149.772
-  angles 0.169 147.91 -1.368
+  coords 7085.956 313.846 6013.923
+  angles 0.732 -132.954 0.786
   {
-   GenericEntity {
-    ID "5CCED514A5908822"
-    coords -0.018 -0.762 15
-   }
-   GenericEntity {
-    ID "606078EE23DE48AC"
-    coords -12.861 1.15 -15.29
-   }
    SCR_CampaignSpawnPointGroup {
     ID "5C6696731466AF36"
-    m_sFaction "FIA"
+    m_bSpawnPointEnabled 0
    }
   }
  }
- Udarnik {
+ NadezhdaMine {
   components {
+   RY_BaseCaptureComponent "{67271D95F5822E23}" {
+    m_iCaptureAmount 250
+    m_iPeriodicRewardAmount 150
+    m_fPeriodicRewardInterval 600
+   }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
     m_fMaximumSeizingTime 120
     m_fMinimumSeizingTime 30
    }
-   SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
-    m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
-     Name "Udarnik"
-     Description "Udarnik"
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      ChannelFrequency 40000
+      "Transmitting Range" 4000
+     }
     }
    }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_sBaseName "Udarnik"
-    m_sBaseNameUpper "Udarnik"
-    m_sMapLocationName "Udarnik"
+    m_bDisableWhenUnusedAsHQ 0
+    m_bIsSupplyHub 1
+    m_sBaseName "NadezhdaMine"
+    m_sBaseNameUpper "NadezhdaMine"
+    m_aWhiteList {
+     "Base south"
+     "Rassa"
+     "Sawmill Relay"
+    }
    }
   }
-  coords 4375.446 42.575 3384.946
-  angles 1.072 -105.459 -2.067
+  coords 7681.022 208.69 6815.318
+  angles 0.732 -132.954 0.786
   {
-   GenericEntity {
-    ID "5CCED514A5908822"
-    coords 25.222 0.678 12
-   }
-   GenericEntity {
-    ID "606078EE23DE48AC"
-    coords -20.358 -0.129 -12.775
-   }
    SCR_CampaignSpawnPointGroup {
     ID "5C6696731466AF36"
-    m_sFaction "FIA"
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+ Gorshkovo_Military {
+  components {
+   RY_BaseCaptureComponent "{67271D95F5822E23}" {
+    m_iCaptureAmount 250
+    m_iPeriodicRewardAmount 150
+    m_fPeriodicRewardInterval 600
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      ChannelFrequency 40000
+      "Transmitting Range" 4000
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bDisableWhenUnusedAsHQ 0
+    m_bIsSupplyHub 1
+    m_sBaseName "Gorshkovo_Military"
+    m_sBaseNameUpper "Gorshkovo_Military"
+    m_aWhiteList {
+     "Base south"
+     "Rassa"
+     "Sawmill Relay"
+    }
+   }
+  }
+  coords 8728.348 9.334 7436.029
+  angles 0.732 -132.954 0.786
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    m_bSpawnPointEnabled 0
    }
   }
  }
  NorthernBeach {
   components {
+   RY_BaseCaptureComponent "{67271D95F5822E23}" {
+    m_iCaptureAmount 250
+    m_iPeriodicRewardAmount 150
+    m_fPeriodicRewardInterval 600
+   }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
     m_fMaximumSeizingTime 120
     m_fMinimumSeizingTime 30
    }
-   SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
-    m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
-     Name "NorthernBeach"
-    }
-   }
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_sBaseName "NorthernBeach"
-    m_sBaseNameUpper "NorthernBeach"
-    m_sMapLocationName "NorthernBeach"
-   }
-  }
-  coords 9663.879 9.648 8656.815
-  angles 0 136.572 0
-  {
-   GenericEntity {
-    ID "5CCED514A5908822"
-    coords 20.794 0.602 4.448
-   }
-   GenericEntity {
-    ID "606078EE23DE48AC"
-    coords -12.4 -0.122 -1.812
-    {
-     $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
-      {
-       coords -19.679 0 -8.656
-      }
-      {
-       coords 21.875 2.246 38.176
-      }
-      {
-       coords 42.243 1.143 6.482
-      }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      ChannelFrequency 40000
+      "Transmitting Range" 4000
      }
     }
    }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bDisableWhenUnusedAsHQ 0
+    m_bIsSupplyHub 1
+    m_sBaseName "NorthernBeach"
+    m_sBaseNameUpper "NorthernBeach"
+    m_aWhiteList {
+     "Base south"
+     "Rassa"
+     "Sawmill Relay"
+    }
+   }
+  }
+  coords 9656.048 11.312 8660.652
+  angles 0.732 -132.954 0.786
+  {
    SCR_CampaignSpawnPointGroup {
     ID "5C6696731466AF36"
-    m_sFaction "FIA"
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+ Harbour {
+  components {
+   RY_BaseCaptureComponent "{67271D95F5822E23}" {
+    m_iCaptureAmount 250
+    m_iPeriodicRewardAmount 150
+    m_fPeriodicRewardInterval 600
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      ChannelFrequency 40000
+      "Transmitting Range" 4000
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bDisableWhenUnusedAsHQ 0
+    m_bIsSupplyHub 1
+    m_sBaseName "Harbour"
+    m_sBaseNameUpper "Harbour"
+    m_aWhiteList {
+     "Base south"
+     "Rassa"
+     "Sawmill Relay"
+    }
+   }
+  }
+  coords 7615.839 21.004 4925.404
+  angles 0.732 -132.954 0.786
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+ Udarnik {
+  components {
+   RY_BaseCaptureComponent "{67271D95F5822E23}" {
+    m_iCaptureAmount 250
+    m_iPeriodicRewardAmount 150
+    m_fPeriodicRewardInterval 600
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      ChannelFrequency 40000
+      "Transmitting Range" 4000
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bDisableWhenUnusedAsHQ 0
+    m_bIsSupplyHub 1
+    m_sBaseName "Udarnik"
+    m_sBaseNameUpper "Udarnik"
+    m_aWhiteList {
+     "Base south"
+     "Rassa"
+     "Sawmill Relay"
+    }
+   }
+  }
+  coords 4383.593 43.973 3394.55
+  angles 0.732 -132.954 0.786
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+ Pebblebay {
+  components {
+   RY_BaseCaptureComponent "{67271D95F5822E23}" {
+    m_iCaptureAmount 250
+    m_iPeriodicRewardAmount 150
+    m_fPeriodicRewardInterval 600
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      ChannelFrequency 40000
+      "Transmitting Range" 4000
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bDisableWhenUnusedAsHQ 0
+    m_bIsSupplyHub 1
+    m_sBaseName "Pebblebay Military base"
+    m_sBaseNameUpper "Pebblebay Military base"
+    m_aWhiteList {
+     "Base south"
+     "Rassa"
+     "Sawmill Relay"
+    }
+   }
+  }
+  coords 5345.791 65.38 3410.104
+  angles 0.732 -132.954 0.786
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+ Michurino {
+  components {
+   RY_BaseCaptureComponent "{67271D95F5822E23}" {
+    m_iCaptureAmount 250
+    m_iPeriodicRewardAmount 150
+    m_fPeriodicRewardInterval 600
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      ChannelFrequency 40000
+      "Transmitting Range" 4000
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bDisableWhenUnusedAsHQ 0
+    m_bIsSupplyHub 1
+    m_sBaseName "Michurino"
+    m_sBaseNameUpper "Michurino"
+    m_aWhiteList {
+     "Base south"
+     "Rassa"
+     "Sawmill Relay"
+    }
+   }
+  }
+  coords 3408.753 16.735 4231.869
+  angles 0.732 -132.954 0.786
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+ Krasnyy0ktabrMine {
+  components {
+   RY_BaseCaptureComponent "{67271D95F5822E23}" {
+    m_iCaptureAmount 250
+    m_iPeriodicRewardAmount 150
+    m_fPeriodicRewardInterval 600
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      ChannelFrequency 40000
+      "Transmitting Range" 4000
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bDisableWhenUnusedAsHQ 0
+    m_bIsSupplyHub 1
+    m_sBaseName "Krasnyy0ktabrMine"
+    m_sBaseNameUpper "Krasnyy0ktabrMine"
+    m_aWhiteList {
+     "Base south"
+     "Rassa"
+     "Sawmill Relay"
+    }
+   }
+  }
+  coords 3685.621 179.985 5199.931
+  angles 0.732 -132.954 0.786
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+ Hamertin {
+  components {
+   RY_BaseCaptureComponent "{67271D95F5822E23}" {
+    m_iCaptureAmount 250
+    m_iPeriodicRewardAmount 150
+    m_fPeriodicRewardInterval 600
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      ChannelFrequency 40000
+      "Transmitting Range" 4000
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bDisableWhenUnusedAsHQ 0
+    m_bIsSupplyHub 1
+    m_sBaseName "Hamertin"
+    m_sBaseNameUpper "Hamertin"
+    m_aWhiteList {
+     "Base south"
+     "Rassa"
+     "Sawmill Relay"
+    }
+   }
+  }
+  coords 3356.084 267.844 6862.123
+  angles 0.732 -132.954 0.786
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    m_bSpawnPointEnabled 0
+   }
+  }
+ }
+ SosnovyMys {
+  components {
+   RY_BaseCaptureComponent "{67271D95F5822E23}" {
+    m_iCaptureAmount 250
+    m_iPeriodicRewardAmount 150
+    m_fPeriodicRewardInterval 600
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      ChannelFrequency 40000
+      "Transmitting Range" 4000
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bDisableWhenUnusedAsHQ 0
+    m_bIsSupplyHub 1
+    m_sBaseName "SosnovyMys"
+    m_sBaseNameUpper "SosnovyMys"
+    m_aWhiteList {
+     "Base south"
+     "Rassa"
+     "Sawmill Relay"
+    }
+   }
+  }
+  coords 4403.805 2.44 8149.147
+  angles 0.732 -132.954 0.786
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    m_bSpawnPointEnabled 0
    }
   }
  }
  Soumont {
   components {
+   RY_BaseCaptureComponent "{67271D95F5822E23}" {
+    m_iCaptureAmount 250
+    m_iPeriodicRewardAmount 150
+    m_fPeriodicRewardInterval 600
+   }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
     m_fMaximumSeizingTime 120
     m_fMinimumSeizingTime 30
    }
-   SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
-    m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
-     Name "Soumont"
-    }
-   }
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_sBaseName "Soumont"
-    m_sBaseNameUpper "Soumont"
-    m_sMapLocationName "Soumont"
-   }
-  }
-  coords 5201.9 411.795 5378.121
-  angles -4.371 165.141 -2.534
-  {
-   GenericEntity {
-    ID "5CCED514A5908822"
-    coords 0.025 0.559 22.342
-   }
-   GenericEntity {
-    ID "606078EE23DE48AC"
-    coords -3.813 -2.059 -16.824
-   }
-   SCR_CampaignSpawnPointGroup {
-    ID "5C6696731466AF36"
-    m_sFaction "FIA"
-   }
-  }
- }
- PebbleMilitary {
-  components {
-   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
-    m_fMaximumSeizingTime 120
-    m_fMinimumSeizingTime 30
-   }
-   SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
-    m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
-     Name "Pebblebay Military base"
-    }
-   }
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_sBaseName "Pebblebay Military base"
-    m_sBaseNameUpper "Pebblebay Military base"
-    m_sMapLocationName "Pebblebay Military base"
-   }
-  }
-  coords 5347.425 65.329 3409.866
-  angles 0.164 73.155 -1.714
-  {
-   GenericEntity {
-    ID "5CCED514A5908822"
-    coords -1.862 0.287 6.557
-   }
-   GenericEntity {
-    ID "606078EE23DE48AC"
-    coords 19.532 -0.652 -0.521
-    {
-     $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
-      {
-       coords 0 0 0
-      }
-      {
-       coords 0.135 4.484 60.854
-      }
-      {
-       coords -63.598 2.914 69.341
-      }
-      {
-       coords -63.376 0.835 0
-      }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    "Turned on" 1
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      ChannelFrequency 40000
+      "Transmitting Range" 4000
      }
     }
    }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bDisableWhenUnusedAsHQ 0
+    m_bIsSupplyHub 1
+    m_sBaseName "Soumont"
+    m_sBaseNameUpper "Soumont"
+    m_aWhiteList {
+     "Base south"
+     "Rassa"
+     "Sawmill Relay"
+    }
+   }
+  }
+  coords 5204.191 411.438 5374.906
+  angles 0.732 -132.954 0.786
+  {
    SCR_CampaignSpawnPointGroup {
     ID "5C6696731466AF36"
-    m_sFaction "FIA"
+    m_bSpawnPointEnabled 0
    }
   }
  }
