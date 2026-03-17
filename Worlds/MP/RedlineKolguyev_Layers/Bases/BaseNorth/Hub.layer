@@ -307,10 +307,38 @@ GenericEntity MainBaseNorth : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/Co
  {
   GenericEntity {
    ID "5CCED514A5908822"
+   components {
+    Persistence "{65EE81B2F85C473C}" {
+     Enabled 0
+    }
+    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+     Enabled 0
+    }
+    SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+     Enabled 0
+    }
+    Hierarchy "{5CCED51553F518B4}" {
+     Enabled 0
+    }
+   }
    coords 12.307 0 11.529
   }
   GenericEntity {
    ID "606078EE23DE48AC"
+   components {
+    Persistence "{65EE81B2F85C473C}" {
+     Enabled 0
+    }
+    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+     Enabled 0
+    }
+    SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+     Enabled 0
+    }
+    Hierarchy "{5CCED51553F518B4}" {
+     Enabled 0
+    }
+   }
    coords 12.308 0 13.53
   }
   SCR_CampaignSpawnPointGroup {
