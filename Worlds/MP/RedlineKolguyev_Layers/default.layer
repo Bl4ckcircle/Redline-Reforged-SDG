@@ -25,16 +25,16 @@ SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
  coords 14714.629 0 13096.545
 }
 RadioManagerEntity {
- coords 11266.712 -46.652 8859.811
+ coords 4781.666 -46.652 2964.007
 }
 PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
  coords 13308.445 -104.297 13283.901
 }
 ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity.et" {
- coords 8402.035 -138.576 2572.395
+ coords 1916.989 -138.576 -3323.409
 }
 SCR_CampaignFactionManager CampaignOriginalFactionManager : "{9DBBC0F766BEF527}Prefabs/MP/Campaign/CampaignOriginalFactionManager.et" {
- coords 8404.592 -138.576 2577.272
+ coords 1919.546 -138.576 -3318.531
  Factions {
   SCR_CampaignFaction "{50B30C3AF4BFD934}" {
    UIInfo SCR_FactionUIInfo "{528C96127F8B6B08}" {
@@ -2353,7 +2353,7 @@ SCR_GameModeCampaign GameMode_Campaign1 : "{E363105740A95BA9}Prefabs/MP/Modes/Co
    m_bRandomStartingWeather 0
   }
  }
- coords 8410.66 -135.944 2580.593
+ coords 1925.614 -135.944 -3315.211
  m_iControlPointsThreshold 8
  m_iRegularSuppliesIncome 250
  m_iRegularSuppliesIncomeBase 1
@@ -2366,7 +2366,7 @@ ItemPreviewManagerEntity ItemPreviewManagerEntity {
  }
 }
 SCR_LargeDestructibleEntity {
- coords 20108.035 -2.875 18994.473
+ coords 13622.989 -2.875 13098.669
  angles 0 -46.52 0
 }
 SCR_MapLocator {
@@ -2375,10 +2375,10 @@ SCR_MapLocator {
  }
 }
 BasePreloadManager PreloadManager_Campaign1 : "{32BFDCDE99092FCF}Prefabs/World/Game/PreloadManager_Campaign.et" {
- coords 8412.279 -133.999 2582.863
+ coords 1927.233 -133.999 -3312.94
 }
 SCR_LoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManager.et" {
- coords 8951.988 4.906 4595.13
+ coords 2466.942 4.906 -1300.674
  m_aPlayerLoadouts {
   SCR_FactionPlayerLoadout "{5690D9DB9BA76597}" {
    m_sLoadoutName "#AR-Loadout_Editor_NewArsenalLoadout_Name"
@@ -2630,9 +2630,9 @@ SCR_LoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManag
  }
 }
 GenericEntity BankManager_686AFCB2C70911CB : "{5AF85B85BB091A6A}Prefabs/Bank/BankManager.et" {
- coords 18313.619 11.891 5143.66
+ coords 11828.573 11.891 -752.144
  angles 5.585 0.84 8.572
 }
 SCR_MPDestructionManager : "{9BB369F2803C6F71}Prefabs/MP/MPDestructionManager.et" {
- coords 18459.992 0 15891.516
+ coords 11974.946 0 9995.712
 }
