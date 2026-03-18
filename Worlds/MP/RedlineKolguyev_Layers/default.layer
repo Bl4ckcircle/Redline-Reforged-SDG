@@ -1,40 +1,33 @@
-SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+SCR_AIWorld : "{672531FAC0834C06}Prefabs/AI/SCR_AIWorld_Cain.et" {
  components {
   NavmeshWorldComponent "{5584F30E67F617AD}" {
    NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
-    NavmeshFilesConfig BaseNavmeshFilesConfig "{68D686534239097B}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60B8A297F9E52831}" {
      NavmeshFile "{B51562AFF15F6CCB}worlds/MP/Navmeshes/CTI_Campaign_Cain.nmn"
     }
    }
   }
   NavmeshWorldComponent "{5584F30EEFEE1223}" {
    NavmeshSettings ChimeraNavmeshWorld "{50FC63BEBE3973C5}" {
-    NavmeshFilesConfig BaseNavmeshFilesConfig "{60CA9BE5536BF701}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60B8A297F3B4EE8A}" {
      NavmeshFile "{7D656156ECDE1C1C}worlds/MP/Navmeshes/CTI_Campaign_Cain_vehicles.nmn"
     }
    }
   }
-  NavmeshWorldComponent "{5C8C9B750D124A63}" {
-   NavmeshSettings NavmeshWorld "{5C8C9B750B60C6E2}" {
-    NavmeshFilesConfig BaseNavmeshFilesConfig "{5C90BD0EC793647D}" {
-     NavmeshFile "{1B1989747762AF12}worlds/MP/Navmeshes/LowResCain.nmn"
-    }
-   }
-  }
  }
- coords 14714.629 0 13096.545
+ coords 12323.957 0 10012.419
 }
 RadioManagerEntity {
- coords 4781.666 -46.652 2964.007
+ coords 5039.193 -46.652 2949.366
 }
 PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
- coords 13308.445 -104.297 13283.901
+ coords 7080.927 -104.297 7373.457
 }
 ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity.et" {
- coords 1916.989 -138.576 -3323.409
+ coords 2174.517 -138.576 -3338.05
 }
 SCR_CampaignFactionManager CampaignOriginalFactionManager : "{9DBBC0F766BEF527}Prefabs/MP/Campaign/CampaignOriginalFactionManager.et" {
- coords 1919.546 -138.576 -3318.531
+ coords 2177.073 -138.576 -3333.172
  Factions {
   SCR_CampaignFaction "{50B30C3AF4BFD934}" {
    UIInfo SCR_FactionUIInfo "{528C96127F8B6B08}" {
@@ -2353,32 +2346,317 @@ SCR_GameModeCampaign GameMode_Campaign1 : "{E363105740A95BA9}Prefabs/MP/Modes/Co
    m_bRandomStartingWeather 0
   }
  }
- coords 1925.614 -135.944 -3315.211
+ coords 2183.142 -135.944 -3329.852
  m_iControlPointsThreshold 8
  m_iRegularSuppliesIncome 250
  m_iRegularSuppliesIncomeBase 1
  m_iMinStartingSupplies 250
 }
 ItemPreviewManagerEntity ItemPreviewManagerEntity {
- coords 8381.726 -138.576 2566.635
+ coords 2154.207 -138.576 -3343.81
  PreviewWorld "{4391FE7994EE6FE2}Prefabs/World/Game/InventoryPreviewWorld.et"
  DefaultRenderAttributes PreviewRenderAttributes "{52EF3E2AF2E07544}" {
  }
 }
+RoadEntity {
+ coords 12217.18 3.519 10404.221
+ SplinePoints {
+  ShapePoint "{62B30611B85AE335}" {
+   Position -28.754 0 0
+  }
+  ShapePoint "{62B30611B85AE5DB}" {
+   Position 5 0 0
+  }
+ }
+ IsClosedSpline 0
+ Type "Road Main"
+ Width 8
+ RandomSeed 4689
+}
 SCR_LargeDestructibleEntity {
- coords 13622.989 -2.875 13098.669
+ coords 13880.517 -2.875 13084.028
  angles 0 -46.52 0
 }
 SCR_MapLocator {
- coords 18816.523 -138.576 3709.247
- m_WorldDirections SCR_MapLocationQuadHint "{5AAA8B37D1168EEB}" : "{ABA21F381437DFE8}Configs/Map/MapLocatorHints/LocationHintsEveron.conf" {
+ coords 12429.066 0 10074.097
+ m_WorldDirections SCR_MapLocationQuadHint "{6646763DCAA0E1E3}" : "{D88D1AE761D521FB}Configs/Map/MapLocatorHints/LocationHintsKolguyev.conf" {
+ }
+}
+SplineShapeEntity {
+ coords 12230.374 2.312 10402.6
+ Points {
+  ShapePoint "{68E4899F0A311BED}" {
+   Position 2.577 0 -2.833
+  }
+  ShapePoint "{68E4899F0A310EEA}" {
+   Position -51.248 0 49.472
+   Data {
+    SplinePointData SplinePointData {
+     InTangent -13.456 0 10.896
+     OutTangent -13.456 0 10.896
+    }
+   }
+  }
+  ShapePoint "{68E4899F08EE0F9A}" {
+   Position -95.148 0 10.945
+   Data {
+    SplinePointData SplinePointData {
+     InTangent -30.561 0 -13.525
+     OutTangent -30.561 0 -13.525
+    }
+   }
+  }
+  ShapePoint "{68E4899F0E24FAA8}" {
+   Position -135.22 0 15.648
+   Data {
+    SplinePointData SplinePointData {
+     InTangent -16.723 0 19.056
+     OutTangent -16.723 0 19.056
+    }
+   }
+  }
+  ShapePoint "{68E4899F0D30CE55}" {
+   Position -151.133 6.733 51.551
+   Data {
+    SplinePointData SplinePointData {
+     InTangent -29.541 0 9.796
+     OutTangent -29.541 0 9.796
+    }
+   }
+  }
+  ShapePoint "{68E4899F03D0C0F4}" {
+   Position -226.67 0 44.841
+   Data {
+    SplinePointData SplinePointData {
+     InTangent -55.963 -3.366 -6.785
+     OutTangent -55.963 -3.366 -6.785
+    }
+   }
+  }
+  ShapePoint "{68E4899F01FEE292}" {
+   Position -261.793 0 44.259
+   Data {
+    SplinePointData SplinePointData {
+     InTangent -19.942 2.233 23.567
+     OutTangent -19.942 2.233 23.567
+    }
+   }
+  }
+  ShapePoint "{68E4899F00D2298A}" {
+   Position -260.135 0 100.745
+  }
+  ShapePoint "{68E4899F077F34C3}" {
+   Position -259.674 0 149.49
+  }
+ }
+ {
+  RoadGeneratorEntity : "{723C2AAE6E9AD131}Prefabs/WEGenerators/Roads/Asphalt/RG_Road_Asphalt_E_01.et" {
+   coords 0 0 0
+   {
+    RoadEntity {
+     ID "556C655491CDCD64"
+     SplinePoints {
+      ShapePoint "{556C6554868CB1B0}" {
+       Position 2.577 0 -2.833
+      }
+      ShapePoint "{556C6554868CB0CE}" {
+       Position -51.248 0 49.472
+       Data {
+        SplinePointData "{00000000D8F1BA4F}" {
+         InTangent -13.456 0 10.896
+         OutTangent -13.456 0 10.896
+        }
+       }
+      }
+      ShapePoint "{68E4899F7C1D3113}" {
+       Position -95.148 0 10.945
+       Data {
+        SplinePointData "{00000000D8F1BA4F}" {
+         InTangent -30.56 0 -13.525
+         OutTangent -30.56 0 -13.525
+        }
+       }
+      }
+      ShapePoint "{68E4899F7C1D315E}" {
+       Position -135.22 0 15.648
+       Data {
+        SplinePointData "{00000000D8F1BA4F}" {
+         InTangent -16.723 0 19.056
+         OutTangent -16.723 0 19.056
+        }
+       }
+      }
+      ShapePoint "{68E4899F7C1D31A9}" {
+       Position -151.133 6.733 51.551
+       Data {
+        SplinePointData "{00000000D8F1BA4F}" {
+         InTangent -29.541 0 9.796
+         OutTangent -29.541 0 9.796
+        }
+       }
+      }
+      ShapePoint "{68E4899F7C1D31F8}" {
+       Position -226.67 0 44.841
+       Data {
+        SplinePointData "{00000000D8F1BA4F}" {
+         InTangent -55.963 -3.366 -6.785
+         OutTangent -55.963 -3.366 -6.785
+        }
+       }
+      }
+      ShapePoint "{68E4899F7C1D31CA}" {
+       Position -261.793 0 44.259
+       Data {
+        SplinePointData "{00000000D8F1BA4F}" {
+         InTangent -19.942 2.233 23.567
+         OutTangent -19.942 2.233 23.567
+        }
+       }
+      }
+      ShapePoint "{68E4899F7C1D4E03}" {
+       Position -260.135 0 100.745
+      }
+      ShapePoint "{68E4899F7C1D4E50}" {
+       Position -259.674 0 149.49
+      }
+     }
+     IsClosedSpline 0
+     Width 12
+    }
+   }
+  }
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{0A379A56BFD347A6}Prefabs/Structures/Military/Houses/FuelStorage_E_01/FuelStorage_E_01_V2.et" {
+ {
+  coords 12203.203 2.046 10396.722
+  angles 0 46.042 0
+  {
+   GenericEntity {
+    ID "61C6E1940C374724"
+    {
+     GenericEntity {
+      ID "5868A440C9B6E7E2"
+      components {
+       DoorComponent "{221C667A9F7D4B69}" {
+        InitialAngle -90
+       }
+      }
+     }
+     GenericEntity {
+      ID "5868A440C9B6E700"
+      components {
+       DoorComponent "{221C667A9F7D4B69}" {
+        ClosedAngle 90
+        InitialAngle 0
+       }
+      }
+     }
+    }
+   }
+   GenericEntity {
+    ID "61C6E1940C37477D"
+    {
+     GenericEntity {
+      ID "5868A440C9B6E7E2"
+      components {
+       DoorComponent "{221C667A9F7D4B69}" {
+        OpenBothWays 0
+        AngleRange 90
+        InitialAngle -90
+       }
+      }
+     }
+     GenericEntity {
+      ID "5868A440C9B6E700"
+      components {
+       DoorComponent "{221C667A9F7D4B69}" {
+        InitialAngle 90
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 12192.304 2.122 10407.585
+  angles 0 45.534 0
+  {
+   GenericEntity {
+    ID "61C6E1940C374706"
+    {
+     GenericEntity {
+      ID "5868A440C9B6E7E2"
+      components {
+       DoorComponent "{221C667A9F7D4B69}" {
+        InitialAngle -90
+       }
+      }
+     }
+     GenericEntity {
+      ID "5868A440C9B6E700"
+      components {
+       DoorComponent "{221C667A9F7D4B69}" {
+        InitialAngle 90
+       }
+      }
+     }
+    }
+   }
+   GenericEntity {
+    ID "61C6E1940C374724"
+    {
+     GenericEntity {
+      ID "5868A440C9B6E7E2"
+      components {
+       DoorComponent "{221C667A9F7D4B69}" {
+        InitialAngle -90
+       }
+      }
+     }
+     GenericEntity {
+      ID "5868A440C9B6E700"
+      components {
+       DoorComponent "{221C667A9F7D4B69}" {
+        ClosedAngle 90
+        InitialAngle 0
+       }
+      }
+     }
+    }
+   }
+   GenericEntity {
+    ID "61C6E1940C37477D"
+    {
+     GenericEntity {
+      ID "5868A440C9B6E7E2"
+      components {
+       DoorComponent "{221C667A9F7D4B69}" {
+        OpenBothWays 0
+        AngleRange 90
+        InitialAngle 0
+       }
+      }
+     }
+     GenericEntity {
+      ID "5868A440C9B6E700"
+      components {
+       DoorComponent "{221C667A9F7D4B69}" {
+        InitialAngle 0
+       }
+      }
+     }
+    }
+   }
+  }
  }
 }
 BasePreloadManager PreloadManager_Campaign1 : "{32BFDCDE99092FCF}Prefabs/World/Game/PreloadManager_Campaign.et" {
- coords 1927.233 -133.999 -3312.94
+ coords 2184.761 -133.999 -3327.581
 }
 SCR_LoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManager.et" {
- coords 2466.942 4.906 -1300.674
+ coords 2724.47 4.906 -1315.314
  m_aPlayerLoadouts {
   SCR_FactionPlayerLoadout "{5690D9DB9BA76597}" {
    m_sLoadoutName "#AR-Loadout_Editor_NewArsenalLoadout_Name"
@@ -2630,9 +2908,78 @@ SCR_LoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManag
  }
 }
 GenericEntity BankManager_686AFCB2C70911CB : "{5AF85B85BB091A6A}Prefabs/Bank/BankManager.et" {
- coords 11828.573 11.891 -752.144
+ coords 12086.101 11.891 -766.784
  angles 5.585 0.84 8.572
 }
+$grp StaticModelEntity : "{85C71F17C37D274C}Prefabs/Structures/BuildingParts/Entry/Entry_Block_Platform_01_3x6.et" {
+ {
+  coords 12343.323 2.382 10407.393
+  angles 0 -135.607 0
+  scale 10
+ }
+ {
+  coords 12206.691 4.377 10395.877
+  angles 0 -134.556 0
+  scale 3.1
+ }
+ {
+  coords 12209.627 4.361 10398.354
+  angles 0 -134.556 0
+  scale 3
+ }
+ {
+  coords 12215.913 3.443 10404.497
+  angles 11.494 -134.556 0
+  scale 3
+ }
+ {
+  coords 12219.42 2.465 10408.002
+  angles 8.967 -134.556 0
+  scale 3
+ }
+ {
+  coords 12191.368 4.278 10411.296
+  angles 0 -134.556 0
+  scale 3.1
+ }
+ {
+  coords 12201.045 3.332 10420.365
+  angles 11.494 -134.556 0
+  scale 3
+ }
+ {
+  coords 12194.703 4.262 10414.169
+  angles 0 -134.556 0
+  scale 3
+ }
+}
 SCR_MPDestructionManager : "{9BB369F2803C6F71}Prefabs/MP/MPDestructionManager.et" {
- coords 11974.946 0 9995.712
+ coords 12232.474 0 9981.071
+}
+$grp SCR_DestructibleBuildingEntity : "{D988B6959B31AC3E}Prefabs/Structures/Infrastructure/Naval/Piers/PierConcrete_01_wall_20m.et" {
+ {
+  Flags 0x403 0x80000
+  coords 12277.734 -2.904 10446.909
+  angles 0 -135.336 0
+ }
+ {
+  Flags 0x403 0x80000
+  coords 12263.509 -2.867 10460.96
+  angles 0 -135.336 0
+ }
+ {
+  Flags 0x403 0x80000
+  coords 12239.223 -2.887 10456.382
+  angles 0 -45.304 0
+ }
+ {
+  Flags 0x403 0x80000
+  coords 12246.461 -2.857 10463.7
+  angles 0 -45.304 0
+ }
+ {
+  Flags 0x403 0x80000
+  coords 12260.299 -2.84 10464.141
+  angles 0 -135.336 0
+ }
 }

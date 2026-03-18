@@ -14,8 +14,8 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     "Turned on" 1
     Transceivers {
      RelayTransceiver "{5C669673E8C94083}" {
-      ChannelFrequency 40000
-      "Transmitting Range" 4000
+      ChannelFrequency 46000
+      "Transmitting Range" 2000
      }
     }
    }
@@ -58,8 +58,8 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     "Turned on" 1
     Transceivers {
      RelayTransceiver "{5C669673E8C94083}" {
-      ChannelFrequency 40000
-      "Transmitting Range" 4000
+      ChannelFrequency 46000
+      "Transmitting Range" 2000
      }
     }
    }
@@ -630,8 +630,8 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     "Turned on" 1
     Transceivers {
      RelayTransceiver "{5C669673E8C94083}" {
-      ChannelFrequency 40000
-      "Transmitting Range" 4000
+      ChannelFrequency 46000
+      "Transmitting Range" 2000
      }
     }
    }
