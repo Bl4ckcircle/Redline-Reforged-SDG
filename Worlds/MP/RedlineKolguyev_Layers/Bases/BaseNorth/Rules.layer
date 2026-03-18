@@ -1,6 +1,6 @@
 GenericEntity : "{03253A954C8E9354}Prefabs/Structures/Signs/Anglais/virtual garage.et" {
- coords 12251.546 2.555 10354.891
- angles 0 89.59 0
+ coords 12252.793 2.555 10353.417
+ angles 0 179.441 0
 }
 GenericEntity : "{42CBB95F9974FED4}Prefabs/Structures/Signs/Anglais/Money System.et" {
  coords 12245.217 2.558 10353.341
@@ -19,20 +19,20 @@ GenericEntity : "{67E916CED2BFF274}Prefabs/Structures/Signs/Anglais/Informations
  angles 0 178.842 0
 }
 GenericEntity : "{6FA9F22B1F80CA97}Prefabs/Structures/Signs/Anglais/Shop.et" {
- coords 12251.523 2.566 10357.261
- angles 0 89.614 0
+ coords 12255.125 2.566 10353.445
+ angles 0 179.465 0
 }
 GenericEntity : "{9562F2D8442364AC}Prefabs/Structures/Signs/Anglais/Game mode.et" {
- coords 12252.824 2.558 10358.471
- angles 0 179.792 0
+ coords 12256.363 2.558 10354.758
+ angles 0 89.708 0
 }
 GenericEntity : "{A850C603FEF26E0C}Prefabs/Structures/Signs/Anglais/Rules2.et" {
  coords 12259.936 2.563 10358.539
  angles 0 179.257 0
 }
 GenericEntity : "{C3C58DBAB6DBBA32}Prefabs/Structures/Signs/Anglais/Server Info.et" {
- coords 12255.126 2.581 10358.472
- angles 0 179.774 0
+ coords 12256.359 2.581 10357.06
+ angles 0 89.69 0
 }
 GenericEntity : "{DA426040CA301F8D}Prefabs/Structures/Signs/Anglais/Rules1.et" {
  coords 12257.584 2.568 10358.506

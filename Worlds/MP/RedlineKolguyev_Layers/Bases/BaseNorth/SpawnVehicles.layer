@@ -7,7 +7,7 @@ $grp GenericEntity : "{4AA903CBF8916264}Prefabs/Spawner/USSR/Spawn_on_destroy/US
     }
    }
   }
-  coords 12253.381 2.802 10361.911
+  coords 12253.365 2.841 10359.989
   angles -1.163 0.475 1.053
  }
  GAZ2 {

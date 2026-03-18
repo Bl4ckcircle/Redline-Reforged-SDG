@@ -1,0 +1,51 @@
+GenericEntity MainBaseSouth : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ components {
+  SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+   "Encryption key" "chickenNuggets"
+   "Turned on" 1
+   Transceivers {
+    RelayTransceiver "{5C669673E8C94083}" {
+     ChannelFrequency 46000
+     "Transmitting Range" 1800
+    }
+   }
+   m_bIsSource 1
+  }
+  SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
+   m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
+    m_sFaction "US"
+    m_aAuthoredLabels {
+     FACTION_US
+    }
+   }
+  }
+  SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+   "faction affiliation" "US"
+  }
+  SCR_MilitaryBaseAreaMeshComponent "{5AFC9B0FB2E4AF40}" {
+   m_eShape RECTANGLE
+  }
+  SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+   m_iRadius 425
+   m_bCanBeHQ 1
+   m_bDisableWhenUnusedAsHQ 0
+   m_bIsSupplyHub 1
+   m_sBaseName "Base south"
+   m_sBaseNameUpper "#AR-Campaign_MapLocation_HQ_South-UC"
+   m_aWhiteList {
+    "FOB Sanibel Military"
+    "FOB Mardel"
+   }
+  }
+ }
+ coords 1837.301 124.905 7421.101
+ angles 0 146.245 0
+ {
+  SCR_CampaignSpawnPointGroup {
+   ID "5C6696731466AF36"
+   coords -50.232 3.131 -31.367
+   angles 0 84.835 0
+   m_sFaction "US"
+  }
+ }
+}
