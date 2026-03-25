@@ -1,0 +1,44 @@
+$grp GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRelayRadio.et" {
+ FOB_Python {
+  components {
+   SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
+    Transceivers {
+     RelayTransceiver "{5C727AD73024FB39}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_sBaseName "FOBPython"
+    m_sBaseNameUpper "FOB Python"
+    m_aWhiteList {
+     "MOBPython"
+     "MillitaryBase"
+     "Ruins"
+    }
+   }
+  }
+  coords 6300.631 148.338 6296.906
+  angles 0 70.342 0
+ }
+ FOB_JAVA {
+  components {
+   SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
+    Transceivers {
+     RelayTransceiver "{5C727AD73024FB39}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_sBaseName "FOBJAVA"
+    m_sBaseNameUpper "FOB JAVA"
+    m_aWhiteList {
+     "MOBJAVA"
+     "Trenches"
+     "PowerStation"
+    }
+   }
+  }
+  coords 774.179 152.738 11515.521
+  angles 0 -91.864 0
+ }
+}

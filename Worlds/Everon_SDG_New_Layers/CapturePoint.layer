@@ -1,0 +1,439 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ Trenches {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 80
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 3000
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 100
+    m_bIsControlPoint 1
+    m_sBaseName "Trenches"
+    m_sBaseNameUpper "Trenches"
+    m_sMapLocationName "C_LocationTyrone"
+    m_fRespawnDelayAfterCaptureSeconds 30
+    m_aWhiteList {
+     "Farm"
+     "Factory"
+     "GasStation"
+     "FOBJAVA"
+    }
+   }
+  }
+  coords 6283.646 167.073 6290.296
+  angles -0.895 90.107 -0.002
+ }
+ AIrport {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 80
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 3000
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Airport"
+    m_sBaseNameUpper "airport"
+    m_sMapLocationName "C_LocationTyrone"
+    m_fRespawnDelayAfterCaptureSeconds 30
+    m_aWhiteList {
+     "PowerStation"
+     "Farm"
+     "Dam"
+    }
+   }
+  }
+  coords 5626.968 140.314 3489.926
+  angles 0 178.957 0
+ }
+ City {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 3000
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 125
+    m_bIsControlPoint 1
+    m_sBaseName "City"
+    m_sBaseNameUpper "city"
+    m_sMapLocationName "C_LocationTyrone"
+    m_fRespawnDelayAfterCaptureSeconds 30
+    m_aWhiteList {
+     "TchekPoint"
+     "Dam"
+     "MillitaryBase"
+     "Ruins"
+     "GasStation"
+    }
+   }
+  }
+  coords 7526.456 141.939 3843.018
+  angles 0 138.406 0
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 0 0
+    angles 0 88.447 0
+   }
+  }
+ }
+ Dam {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 80
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 3000
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 100
+    m_bIsControlPoint 1
+    m_sBaseName "Dam"
+    m_sBaseNameUpper "Dam"
+    m_sMapLocationName "C_LocationTyrone"
+    m_fRespawnDelayAfterCaptureSeconds 30
+    m_aWhiteList {
+     "Airport"
+     "City"
+     "MillitaryBase"
+    }
+   }
+  }
+  coords 7107.024 131.032 2184.593
+  angles -0.382 15.555 -1.964
+  {
+   GenericEntity {
+    coords -11.701 -0.001 -50.041
+    angles 0 -53.099 0
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -12.896 -0.001 -46.638
+    angles 0 -53.099 0
+   }
+  }
+ }
+ Factory {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 80
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 3000
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 100
+    m_bIsControlPoint 1
+    m_sBaseName "Factory"
+    m_sBaseNameUpper "Factory"
+    m_sMapLocationName "C_LocationTyrone"
+    m_fRespawnDelayAfterCaptureSeconds 30
+    m_aWhiteList {
+     "Ruins"
+     "TchekPoint"
+     "Trenches"
+     ""
+    }
+   }
+  }
+  coords 8562.473 167.345 5908.724
+  angles 0 91.757 0
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 0 0
+    angles 0 88.447 0
+   }
+  }
+ }
+ Farm {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 80
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 3000
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Farm"
+    m_sBaseNameUpper "farm"
+    m_sMapLocationName "C_LocationTyrone"
+    m_fRespawnDelayAfterCaptureSeconds 30
+    m_aWhiteList {
+     "PowerStation"
+     "Trenches"
+     "GasStation"
+     "Airport"
+    }
+   }
+  }
+  coords 5715.545 134.715 5093.284
+  angles -0.782 -83.169 -0.995
+ }
+ GasStation {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 3000
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 100
+    m_bIsControlPoint 1
+    m_sBaseName "GasStation"
+    m_sBaseNameUpper "Gas Station"
+    m_sMapLocationName "C_LocationTyrone"
+    m_fRespawnDelayAfterCaptureSeconds 30
+    m_aWhiteList {
+     "Trenches"
+     "TchekPoint"
+     "City"
+     "Farm"
+    }
+   }
+  }
+  coords 6769.161 131.783 4442.989
+  angles 0 134.098 0
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 0 0
+    angles 0 88.447 0
+   }
+  }
+ }
+ MillitaryBase {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 3000
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_ResourceComponent "{5D587B89D3599C99}" {
+    m_aGenerators {
+     SCR_ResourceGenerator "{5D587B8946012988}" {
+      m_fResourceMultiplier 1
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 100
+    m_bIsControlPoint 1
+    m_sBaseName "MillitaryBase"
+    m_sBaseNameUpper "Millitary Base"
+    m_sMapLocationName "C_LocationTyrone"
+    m_fRespawnDelayAfterCaptureSeconds 30
+    m_aWhiteList {
+     "FOBPython"
+     "Dam"
+     "City"
+     ""
+    }
+   }
+  }
+  coords 8410.98 159.739 2780.431
+  angles -0.454 149.561 -0.772
+  {
+   GenericEntity {
+    coords -11.701 -0.001 -50.041
+    angles 0 -53.099 0
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -12.896 -0.001 -46.638
+    angles 0 -53.099 0
+   }
+  }
+ }
+ PowerStation {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 80
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 3000
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 100
+    m_bIsControlPoint 1
+    m_sBaseName "PowerStation"
+    m_sBaseNameUpper "power station"
+    m_sMapLocationName "C_LocationTyrone"
+    m_fRespawnDelayAfterCaptureSeconds 30
+    m_aWhiteList {
+     "FOBJAVA"
+     "Farm"
+     "Airport"
+    }
+   }
+  }
+  coords 4404.924 135.627 5645.5
+  angles 0 90.105 0
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 0 0
+    angles 0 88.447 0
+   }
+  }
+ }
+ Ruins {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 80
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 3000
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 100
+    m_bIsControlPoint 1
+    m_sBaseName "Ruins"
+    m_sBaseNameUpper "Ruins"
+    m_sMapLocationName "C_LocationTyrone"
+    m_fRespawnDelayAfterCaptureSeconds 30
+    m_aWhiteList {
+     "TchekPoint"
+     "Factory"
+     "FOBPython"
+     "City"
+     ""
+    }
+   }
+  }
+  coords 9341.826 137.97 3839.786
+  angles 1.045 -175.081 -1.706
+  {
+   GenericEntity {
+    coords -11.701 -0.001 -50.041
+    angles 0 -53.099 0
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -12.896 -0.001 -46.638
+    angles 0 -53.099 0
+   }
+  }
+ }
+ TchekPoint {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 80
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 3000
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_ResourceComponent "{5D587B89D3599C99}" {
+    m_aGenerators {
+     SCR_ResourceGenerator "{5D587B8946012988}" {
+      m_fResourceMultiplier 1
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 100
+    m_bIsControlPoint 1
+    m_sBaseName "TchekPoint"
+    m_sBaseNameUpper "Tchek Point"
+    m_sMapLocationName "C_LocationTyrone"
+    m_fRespawnDelayAfterCaptureSeconds 30
+    m_aWhiteList {
+     "Ruins"
+     "Factory"
+     "City"
+     "GasStation"
+    }
+   }
+  }
+  coords 8263.818 141.133 4645.847
+  angles -2.813 -40.593 -4.646
+  {
+   GenericEntity {
+    coords -11.701 -0.001 -50.041
+    angles 0 -53.099 0
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -12.896 -0.001 -46.638
+    angles 0 -53.099 0
+   }
+  }
+ }
+}
