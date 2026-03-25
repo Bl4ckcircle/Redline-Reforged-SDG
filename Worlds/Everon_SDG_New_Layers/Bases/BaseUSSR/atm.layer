@@ -1,0 +1,10 @@
+$grp GenericEntity : "{0858A93EFDE04083}Prefabs/ATM.et" {
+ {
+  coords 4897.266 29.031 11916.207
+  angles 0 -87.889 0
+ }
+ {
+  coords 4883.902 28.995 11899.001
+  angles 0 0.903 0
+ }
+}

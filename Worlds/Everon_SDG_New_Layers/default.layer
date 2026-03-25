@@ -3,7 +3,7 @@ SCR_AIWorld : "{70CCCF16487C927F}Prefabs/AI/SCR_AIWorld_Eden.et" {
   NavmeshWorldComponent "{5584F30E67F617AD}" {
    NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
     NavmeshFilesConfig BaseNavmeshFilesConfig "{60B8A297F9E52831}" {
-     NavmeshFile "{E1014B625283F344}worlds/MP/Navmeshes/Coop_CombatOps_Eden.nmn"
+     NavmeshFile "{A07353FE17EB2C49}worlds/MP/Navmeshes/CTI_Campaign_Eden.nmn"
     }
    }
   }
@@ -1391,7 +1391,7 @@ SCR_CampaignFactionManager CampaignOriginalFactionManager : "{9DBBC0F766BEF527}P
       }
      }
     }
-    SCR_EntityCatalogMultiList "{5C9E82F285C09E24}" : "{09C2ED5F617A0390}Configs/EntityCatalog/USSR/Vehicles_EntityCatalog_USSR.conf" {
+    SCR_EntityCatalogMultiList "{5C9E82F285C09E24}" : "{09C2ED5F617A0390}Configs/EntityCatalog/USSR/USSR_Vehicles.conf" {
      m_eEntityCatalogType VEHICLE
      m_aEntityEntryList {
       SCR_EntityCatalogEntry "{5C54F92F4674F967}" {
