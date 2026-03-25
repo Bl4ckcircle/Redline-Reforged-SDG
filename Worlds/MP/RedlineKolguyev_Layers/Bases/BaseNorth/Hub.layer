@@ -216,16 +216,6 @@ GenericEntity : "{04E378640D28B236}Prefabs/Compositions/Misc/SubCompositions/Pal
   }
  }
 }
-$grp GenericEntity : "{0858A93EFDE04083}Prefabs/ATM.et" {
- {
-  coords 12236.941 2.802 10345.004
-  angles 0 0.85 0
- }
- {
-  coords 12217.785 2.766 10359.443
-  angles 0 86.037 0
- }
-}
 SCR_IndestructibleEnvironmentalEntity : "{0B31DF40DF62F895}Prefabs/Structures/Infrastructure/Naval/Breakwater/BreakwaterStone_01_stack_wall_half.et" {
  Flags 0 0x80000
  coords 12321.318 -3.944 10349.361
@@ -673,32 +663,6 @@ $grp GenericEntity : "{D0B05C0B2AEB98C6}Prefabs/Garage/Repair.et" {
   angles 0 153.655 0
  }
 }
-$grp GenericEntity : "{D5552F6D16B01D62}Prefabs/Compositions/Misc/SubCompositions/Furniture/RRG_Table_Ashtray_US_01.et" {
- {
-  coords 12230.431 2.802 10346.686
-  angles 0 -0.882 0
- }
- {
-  coords 12231.738 2.802 10346.706
-  angles 0 -0.882 0
- }
- {
-  coords 12233.05 2.802 10346.726
-  angles 0 -0.882 0
- }
- {
-  coords 12227.226 2.802 10346.52
-  angles 0 -0.882 0
- }
- {
-  coords 12224.606 2.802 10346.479
-  angles 0 -0.882 0
- }
- {
-  coords 12225.914 2.802 10346.5
-  angles 0 -0.882 0
- }
-}
 GenericEntity : "{D954244B27D81C6A}Prefabs/Props/Crates/CardboardBox/CardboardBox_base.et" {
  coords 12165.26 2.156 10468.688
  angles 0 161.512 0
@@ -868,121 +832,197 @@ SCR_DestructibleBuildingEntity : "{F16324CB8CB07C00}Prefabs/Structures/Military/
     }
    }
   }
- }
-}
-GenericEntity : "{F2174A927C3229F2}Prefabs/Compositions/Misc/SubCompositions/Furniture/Table_Desk_US_05.et" {
- coords 12220.664 2.802 10347.57
- angles 0 -131.874 0
- {
-  GameEntity {
-   ID "5CB0F589F6F73C99"
-   components {
-    SignalsManagerComponent "{594881874988D5AF}" {
-     Enabled 0
-    }
-    SoundComponent "{5876E7CFA79627F2}" {
-     Enabled 0
-    }
-    MeshObject "{5872F0EB7FA40561}" {
-     Enabled 0
-    }
-    ParametricMaterialInstanceComponent "{5876E7CF962A6687}" {
-     Enabled 0
-    }
-    RigidBody "{5872F0EB7DFB5A9D}" {
-     Enabled 0
-    }
-    SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
-     Enabled 0
-    }
-    SCR_LampComponent "{5D2ABC12E93AB331}" {
-     Enabled 0
-    }
-    ActionsManagerComponent "{5876E7CFF5785C2B}" {
-     Enabled 0
-    }
-    RplComponent "{5624A88DC2D9928D}" {
-     Enabled 0
-    }
-    Hierarchy "{5CCCBEF35306205E}" {
-     Enabled 0
-    }
-   }
-   coords -0.211 0.908 -0.252
-   angles 0 51.625 0
+  GenericEntity : "{03253A954C8E9354}Prefabs/Structures/Signs/Anglais/virtual garage.et" {
+   coords 15.464 0.192 1.115
+   angles 0 -179.691 0
   }
-  GenericEntity {
-   ID "5CB0F589F6F73C91"
-   coords 0.119 0.908 -0.105
-   angles 0 -29.158 0
-  }
-  GenericEntity {
-   ID "5CB0F589F6F73CE5"
-   coords -0.525 0 0.006
-   angles 0 0 0
-  }
-  GenericEntity {
-   ID "5CB0F589F6F73C97"
-   coords -0.553 0.906 -0.14
-   angles 0 77.131 0
-  }
-  GenericEntity {
-   ID "5CB0F589F6F73C9B"
-   coords 0.93 0 -0.022
-   angles 0 2.109 0
-  }
-  GenericEntity {
-   ID "5CB0F589F6F73C95"
-   coords 0.393 0 0.061
-   angles 0 5.672 0
-  }
-  GenericEntity {
-   ID "5CB0F589F6F73C96"
-   coords 0.959 0.9 0.062
-   angles 0 -3.323 0
-  }
-  GenericEntity {
-   ID "5CB0F589F6F73C9C"
-   coords -1.236 0.906 -0.141
-   angles 0 13.635 0
-  }
-  GenericEntity : "{79B06351DC9A7237}Prefabs/Compositions/Misc/SubCompositions/Furniture/Table_Desk_US_10_Logistics.et" {
-   coords 1.227 0 1.014
-   angles 0 -87.842 0
+  $grp GenericEntity : "{0858A93EFDE04083}Prefabs/ATM.et" {
    {
-    GenericEntity {
-     ID "65C26D465A98F619"
-     coords 0.115 0.902 0.182
-     angles 0 176.251 0
+    coords -0.514 0.439 -7.057
+    angles 0 1.718 0
+   }
+   {
+    coords -19.449 0.403 7.671
+    angles 0 86.905 0
+   }
+  }
+  GenericEntity : "{42CBB95F9974FED4}Prefabs/Structures/Signs/Anglais/Money System.et" {
+   coords 7.888 0.195 1.154
+   angles 0 -179.298 0
+  }
+  GenericEntity : "{45EB3A1FB7B8D559}Prefabs/Structures/Signs/Anglais/Deployment.et" {
+   coords 10.489 0.188 1.14
+   angles 0 179.899 0
+  }
+  GenericEntity : "{5BA06BC67A0E808B}Prefabs/Structures/Signs/Anglais/How to start.et" {
+   coords 12.956 0.195 1.142
+   angles 0 179.933 0
+  }
+  GenericEntity : "{67E916CED2BFF274}Prefabs/Structures/Signs/Anglais/Informations.et" {
+   coords 25.88 0.226 6.159
+   angles 0 179.71 0
+  }
+  GenericEntity : "{6FA9F22B1F80CA97}Prefabs/Structures/Signs/Anglais/Shop.et" {
+   coords 17.796 0.203 1.108
+   angles 0 -179.667 0
+  }
+  GenericEntity : "{9562F2D8442364AC}Prefabs/Structures/Signs/Anglais/Game mode.et" {
+   coords 19.055 0.195 2.401
+   angles 0 90.576 0
+  }
+  GenericEntity : "{A850C603FEF26E0C}Prefabs/Structures/Signs/Anglais/Rules2.et" {
+   coords 22.684 0.2 6.128
+   angles 0 -179.875 0
+  }
+  GenericEntity : "{C3C58DBAB6DBBA32}Prefabs/Structures/Signs/Anglais/Server Info.et" {
+   coords 19.085 0.218 4.703
+   angles 0 90.558 0
+  }
+  $grp GenericEntity : "{D5552F6D16B01D62}Prefabs/Compositions/Misc/SubCompositions/Furniture/RRG_Table_Ashtray_US_01.et" {
+   {
+    coords -6.998 0.439 -5.277
+    angles 0 -0.014 0
+   }
+   {
+    coords -5.689 0.439 -5.276
+    angles 0 -0.014 0
+   }
+   {
+    coords -4.378 0.439 -5.277
+    angles 0 -0.014 0
+   }
+   {
+    coords -10.205 0.439 -5.395
+    angles 0 -0.014 0
+   }
+   {
+    coords -12.824 0.439 -5.396
+    angles 0 -0.014 0
+   }
+   {
+    coords -11.516 0.439 -5.395
+    angles 0 -0.014 0
+   }
+  }
+  GenericEntity : "{DA426040CA301F8D}Prefabs/Structures/Signs/Anglais/Rules1.et" {
+   coords 20.332 0.205 6.131
+   angles 0 -179.872 0
+  }
+  GenericEntity : "{F2174A927C3229F2}Prefabs/Compositions/Misc/SubCompositions/Furniture/Table_Desk_US_05.et" {
+   coords -16.75 0.439 -4.244
+   angles 0 -131.006 0
+   {
+    GameEntity {
+     ID "5CB0F589F6F73C99"
+     components {
+      SignalsManagerComponent "{594881874988D5AF}" {
+       Enabled 0
+      }
+      SoundComponent "{5876E7CFA79627F2}" {
+       Enabled 0
+      }
+      MeshObject "{5872F0EB7FA40561}" {
+       Enabled 0
+      }
+      ParametricMaterialInstanceComponent "{5876E7CF962A6687}" {
+       Enabled 0
+      }
+      RigidBody "{5872F0EB7DFB5A9D}" {
+       Enabled 0
+      }
+      SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+       Enabled 0
+      }
+      SCR_LampComponent "{5D2ABC12E93AB331}" {
+       Enabled 0
+      }
+      ActionsManagerComponent "{5876E7CFF5785C2B}" {
+       Enabled 0
+      }
+      RplComponent "{5624A88DC2D9928D}" {
+       Enabled 0
+      }
+      Hierarchy "{5CCCBEF35306205E}" {
+       Enabled 0
+      }
+     }
+     coords -0.211 0.908 -0.252
+     angles 0 51.625 0
     }
     GenericEntity {
-     ID "65C26D465A98A004"
-     coords -0.468 0.9 -0.143
-     angles 0 -38.44 0
+     ID "5CB0F589F6F73C91"
+     coords 0.119 0.908 -0.105
+     angles 0 -29.158 0
     }
     GenericEntity {
-     ID "65C26D465A98A01A"
-     coords 0.254 0.9 -0.199
+     ID "5CB0F589F6F73CE5"
+     coords -0.525 0 0.006
+     angles 0 0 0
     }
     GenericEntity {
-     ID "65C26D465A98F61D"
-     coords -0.102 0.9 -0.215
-     angles 0 0.158 0
+     ID "5CB0F589F6F73C97"
+     coords -0.553 0.906 -0.14
+     angles 0 77.131 0
     }
     GenericEntity {
-     ID "65C26D465A98F61A"
-     coords 0.027 0.922 0.109
-     angles 0 107.493 0
+     ID "5CB0F589F6F73C9B"
+     coords 0.93 0 -0.022
+     angles 0 2.109 0
     }
     GenericEntity {
-     ID "65C26D465A98F61C"
-     coords -0.146 0.9 0.129
-     angles 0 -3.005 0
+     ID "5CB0F589F6F73C95"
+     coords 0.393 0 0.061
+     angles 0 5.672 0
     }
     GenericEntity {
-     ID "65C26D465A98F61F"
-     coords 0.452 0.9 0.166
-     angles 0 165.528 0
+     ID "5CB0F589F6F73C96"
+     coords 0.959 0.9 0.062
+     angles 0 -3.323 0
+    }
+    GenericEntity {
+     ID "5CB0F589F6F73C9C"
+     coords -1.236 0.906 -0.141
+     angles 0 13.635 0
+    }
+    GenericEntity : "{79B06351DC9A7237}Prefabs/Compositions/Misc/SubCompositions/Furniture/Table_Desk_US_10_Logistics.et" {
+     coords 1.227 0 1.014
+     angles 0 -87.842 0
+     {
+      GenericEntity {
+       ID "65C26D465A98F619"
+       coords 0.115 0.902 0.182
+       angles 0 176.251 0
+      }
+      GenericEntity {
+       ID "65C26D465A98A004"
+       coords -0.468 0.9 -0.143
+       angles 0 -38.44 0
+      }
+      GenericEntity {
+       ID "65C26D465A98A01A"
+       coords 0.254 0.9 -0.199
+      }
+      GenericEntity {
+       ID "65C26D465A98F61D"
+       coords -0.102 0.9 -0.215
+       angles 0 0.158 0
+      }
+      GenericEntity {
+       ID "65C26D465A98F61A"
+       coords 0.027 0.922 0.109
+       angles 0 107.493 0
+      }
+      GenericEntity {
+       ID "65C26D465A98F61C"
+       coords -0.146 0.9 0.129
+       angles 0 -3.005 0
+      }
+      GenericEntity {
+       ID "65C26D465A98F61F"
+       coords 0.452 0.9 0.166
+       angles 0 165.528 0
+      }
+     }
     }
    }
   }

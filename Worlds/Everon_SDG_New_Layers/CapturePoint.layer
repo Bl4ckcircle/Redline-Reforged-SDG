@@ -1,14 +1,20 @@
 $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
- Trenches {
+ Meaux {
   components {
+   RY_BaseCaptureComponent "{68F28815312C0F19}" {
+   }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
     m_iRadius 80
    }
    SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
     Transceivers {
      RelayTransceiver "{5C669673E8C94083}" {
-      "Transmitting Range" 3000
+      "Transmitting Range" 1500
      }
+    }
+   }
+   SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
+    m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
     }
    }
    SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
@@ -17,82 +23,13 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_iRadius 100
     m_bIsControlPoint 1
-    m_sBaseName "Trenches"
-    m_sBaseNameUpper "Trenches"
-    m_sMapLocationName "C_LocationTyrone"
+    m_sBaseName "Meaux"
+    m_sBaseNameUpper "Meaux"
     m_fRespawnDelayAfterCaptureSeconds 30
-    m_aWhiteList {
-     "Farm"
-     "Factory"
-     "GasStation"
-     "FOBJAVA"
-    }
    }
   }
-  coords 6283.646 167.073 6290.296
-  angles -0.895 90.107 -0.002
- }
- AIrport {
-  components {
-   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
-    m_iRadius 80
-   }
-   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
-    Transceivers {
-     RelayTransceiver "{5C669673E8C94083}" {
-      "Transmitting Range" 3000
-     }
-    }
-   }
-   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
-    "faction affiliation" "FIA"
-   }
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_bIsControlPoint 1
-    m_sBaseName "Airport"
-    m_sBaseNameUpper "airport"
-    m_sMapLocationName "C_LocationTyrone"
-    m_fRespawnDelayAfterCaptureSeconds 30
-    m_aWhiteList {
-     "PowerStation"
-     "Farm"
-     "Dam"
-    }
-   }
-  }
-  coords 5626.968 140.314 3489.926
-  angles 0 178.957 0
- }
- City {
-  components {
-   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
-    Transceivers {
-     RelayTransceiver "{5C669673E8C94083}" {
-      "Transmitting Range" 3000
-     }
-    }
-   }
-   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
-    "faction affiliation" "FIA"
-   }
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_iRadius 125
-    m_bIsControlPoint 1
-    m_sBaseName "City"
-    m_sBaseNameUpper "city"
-    m_sMapLocationName "C_LocationTyrone"
-    m_fRespawnDelayAfterCaptureSeconds 30
-    m_aWhiteList {
-     "TchekPoint"
-     "Dam"
-     "MillitaryBase"
-     "Ruins"
-     "GasStation"
-    }
-   }
-  }
-  coords 7526.456 141.939 3843.018
-  angles 0 138.406 0
+  coords 4536.55 14.702 9469.902
+  angles 0 90.014 0
   {
    SCR_CampaignSpawnPointGroup {
     ID "5C6696731466AF36"
@@ -101,215 +38,17 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    }
   }
  }
- Dam {
+ FOB_North {
   components {
+   RY_BaseCaptureComponent "{68F28815053D5E46}" {
+   }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
     m_iRadius 80
    }
    SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
     Transceivers {
      RelayTransceiver "{5C669673E8C94083}" {
-      "Transmitting Range" 3000
-     }
-    }
-   }
-   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
-    "faction affiliation" "FIA"
-   }
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_iRadius 100
-    m_bIsControlPoint 1
-    m_sBaseName "Dam"
-    m_sBaseNameUpper "Dam"
-    m_sMapLocationName "C_LocationTyrone"
-    m_fRespawnDelayAfterCaptureSeconds 30
-    m_aWhiteList {
-     "Airport"
-     "City"
-     "MillitaryBase"
-    }
-   }
-  }
-  coords 7107.024 131.032 2184.593
-  angles -0.382 15.555 -1.964
-  {
-   GenericEntity {
-    coords -11.701 -0.001 -50.041
-    angles 0 -53.099 0
-   }
-   SCR_CampaignSpawnPointGroup {
-    ID "5C6696731466AF36"
-    coords -12.896 -0.001 -46.638
-    angles 0 -53.099 0
-   }
-  }
- }
- Factory {
-  components {
-   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
-    m_iRadius 80
-   }
-   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
-    Transceivers {
-     RelayTransceiver "{5C669673E8C94083}" {
-      "Transmitting Range" 3000
-     }
-    }
-   }
-   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
-    "faction affiliation" "FIA"
-   }
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_iRadius 100
-    m_bIsControlPoint 1
-    m_sBaseName "Factory"
-    m_sBaseNameUpper "Factory"
-    m_sMapLocationName "C_LocationTyrone"
-    m_fRespawnDelayAfterCaptureSeconds 30
-    m_aWhiteList {
-     "Ruins"
-     "TchekPoint"
-     "Trenches"
-     ""
-    }
-   }
-  }
-  coords 8562.473 167.345 5908.724
-  angles 0 91.757 0
-  {
-   SCR_CampaignSpawnPointGroup {
-    ID "5C6696731466AF36"
-    coords 0 0 0
-    angles 0 88.447 0
-   }
-  }
- }
- Farm {
-  components {
-   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
-    m_iRadius 80
-   }
-   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
-    Transceivers {
-     RelayTransceiver "{5C669673E8C94083}" {
-      "Transmitting Range" 3000
-     }
-    }
-   }
-   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
-    "faction affiliation" "FIA"
-   }
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_bIsControlPoint 1
-    m_sBaseName "Farm"
-    m_sBaseNameUpper "farm"
-    m_sMapLocationName "C_LocationTyrone"
-    m_fRespawnDelayAfterCaptureSeconds 30
-    m_aWhiteList {
-     "PowerStation"
-     "Trenches"
-     "GasStation"
-     "Airport"
-    }
-   }
-  }
-  coords 5715.545 134.715 5093.284
-  angles -0.782 -83.169 -0.995
- }
- GasStation {
-  components {
-   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
-    Transceivers {
-     RelayTransceiver "{5C669673E8C94083}" {
-      "Transmitting Range" 3000
-     }
-    }
-   }
-   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
-    "faction affiliation" "FIA"
-   }
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_iRadius 100
-    m_bIsControlPoint 1
-    m_sBaseName "GasStation"
-    m_sBaseNameUpper "Gas Station"
-    m_sMapLocationName "C_LocationTyrone"
-    m_fRespawnDelayAfterCaptureSeconds 30
-    m_aWhiteList {
-     "Trenches"
-     "TchekPoint"
-     "City"
-     "Farm"
-    }
-   }
-  }
-  coords 6769.161 131.783 4442.989
-  angles 0 134.098 0
-  {
-   SCR_CampaignSpawnPointGroup {
-    ID "5C6696731466AF36"
-    coords 0 0 0
-    angles 0 88.447 0
-   }
-  }
- }
- MillitaryBase {
-  components {
-   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
-    Transceivers {
-     RelayTransceiver "{5C669673E8C94083}" {
-      "Transmitting Range" 3000
-     }
-    }
-   }
-   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
-    "faction affiliation" "FIA"
-   }
-   SCR_ResourceComponent "{5D587B89D3599C99}" {
-    m_aGenerators {
-     SCR_ResourceGenerator "{5D587B8946012988}" {
-      m_fResourceMultiplier 1
-     }
-    }
-   }
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_iRadius 100
-    m_bIsControlPoint 1
-    m_sBaseName "MillitaryBase"
-    m_sBaseNameUpper "Millitary Base"
-    m_sMapLocationName "C_LocationTyrone"
-    m_fRespawnDelayAfterCaptureSeconds 30
-    m_aWhiteList {
-     "FOBPython"
-     "Dam"
-     "City"
-     ""
-    }
-   }
-  }
-  coords 8410.98 159.739 2780.431
-  angles -0.454 149.561 -0.772
-  {
-   GenericEntity {
-    coords -11.701 -0.001 -50.041
-    angles 0 -53.099 0
-   }
-   SCR_CampaignSpawnPointGroup {
-    ID "5C6696731466AF36"
-    coords -12.896 -0.001 -46.638
-    angles 0 -53.099 0
-   }
-  }
- }
- PowerStation {
-  components {
-   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
-    m_iRadius 80
-   }
-   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
-    Transceivers {
-     RelayTransceiver "{5C669673E8C94083}" {
-      "Transmitting Range" 3000
+      "Transmitting Range" 1500
      }
     }
    }
@@ -321,17 +60,11 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_bIsControlPoint 1
     m_sBaseName "PowerStation"
     m_sBaseNameUpper "power station"
-    m_sMapLocationName "C_LocationTyrone"
     m_fRespawnDelayAfterCaptureSeconds 30
-    m_aWhiteList {
-     "FOBJAVA"
-     "Farm"
-     "Airport"
-    }
    }
   }
-  coords 4404.924 135.627 5645.5
-  angles 0 90.105 0
+  coords 5210.251 40.279 10507.021
+  angles 0 56.534 0
   {
    SCR_CampaignSpawnPointGroup {
     ID "5C6696731466AF36"
@@ -340,8 +73,162 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    }
   }
  }
- Ruins {
+ Kermovan {
   components {
+   RY_BaseCaptureComponent "{68F288152AA2326C}" {
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 80
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1600
+     }
+    }
+   }
+   SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
+    m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 100
+    m_bIsControlPoint 1
+    m_sBaseName "Kermovan"
+    m_sBaseNameUpper "Kermovan"
+    m_fRespawnDelayAfterCaptureSeconds 30
+   }
+  }
+  coords 6462.436 10.565 9704.353
+  angles 0 49.199 0
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 0 0
+    angles 0 88.447 0
+   }
+  }
+ }
+ Tyrone {
+  components {
+   RY_BaseCaptureComponent "{68F28812D35D4FDD}" {
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 80
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1600
+     }
+    }
+   }
+   SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
+    m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 100
+    m_bIsControlPoint 1
+    m_sBaseName "Tyrone"
+    m_sBaseNameUpper "Tyrone"
+    m_fRespawnDelayAfterCaptureSeconds 30
+   }
+  }
+  coords 5018.831 38.518 9079.446
+  angles 0 -24.484 0
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 0 0
+    angles 0 88.447 0
+   }
+  }
+ }
+ FOB_North2 {
+  components {
+   RY_BaseCaptureComponent "{68F2881501E72461}" {
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 80
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1450
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 100
+    m_bIsControlPoint 1
+    m_sBaseName "PowerStation"
+    m_sBaseNameUpper "power station"
+    m_fRespawnDelayAfterCaptureSeconds 30
+   }
+  }
+  coords 4539.635 17.057 10545.803
+  angles 0 -7.767 0
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 0 0
+    angles 0 88.447 0
+   }
+  }
+ }
+ Farm_Etoupe {
+  components {
+   RY_BaseCaptureComponent "{68F2881571E0D72A}" {
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 80
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1500
+     }
+    }
+   }
+   SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
+    m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 100
+    m_bIsControlPoint 1
+    m_sBaseName "Meaux"
+    m_sBaseNameUpper "Meaux"
+    m_fRespawnDelayAfterCaptureSeconds 30
+   }
+  }
+  coords 5026.096 26.834 9954.744
+  angles 0 -85.119 0
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 0 0
+    angles 0 88.447 0
+   }
+  }
+ }
+ Military_Training {
+  components {
+   RY_BaseCaptureComponent "{68F288153FE7E2E8}" {
+   }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
     m_iRadius 80
    }
@@ -352,41 +239,113 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
      }
     }
    }
+   SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
+    m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
+    }
+   }
    SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
     "faction affiliation" "FIA"
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_iRadius 100
     m_bIsControlPoint 1
-    m_sBaseName "Ruins"
-    m_sBaseNameUpper "Ruins"
-    m_sMapLocationName "C_LocationTyrone"
+    m_sBaseName "Military Training"
+    m_sBaseNameUpper "Military Training"
     m_fRespawnDelayAfterCaptureSeconds 30
-    m_aWhiteList {
-     "TchekPoint"
-     "Factory"
-     "FOBPython"
-     "City"
-     ""
-    }
    }
   }
-  coords 9341.826 137.97 3839.786
-  angles 1.045 -175.081 -1.706
+  coords 7738.324 13.812 8138.515
+  angles 0 -147.796 0
   {
-   GenericEntity {
-    coords -11.701 -0.001 -50.041
-    angles 0 -53.099 0
-   }
    SCR_CampaignSpawnPointGroup {
     ID "5C6696731466AF36"
-    coords -12.896 -0.001 -46.638
-    angles 0 -53.099 0
+    coords 36.458 -0.328 -10.644
+    angles 0 -83.058 0
    }
   }
  }
- TchekPoint {
+ Benac {
   components {
+   RY_BaseCaptureComponent "{68F288156DD4B98F}" {
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 80
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1600
+     }
+    }
+   }
+   SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
+    m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 100
+    m_bIsControlPoint 1
+    m_sBaseName "Benac"
+    m_sBaseNameUpper "Benac"
+    m_fRespawnDelayAfterCaptureSeconds 30
+   }
+  }
+  coords 6505.505 160.833 7270.324
+  angles 0 -93.772 0
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 36.458 -0.328 -10.644
+    angles 0 -83.058 0
+   }
+  }
+ }
+ Fischerman_Military {
+  components {
+   RY_BaseCaptureComponent "{68F28815783BEE6F}" {
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 80
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1500
+     }
+    }
+   }
+   SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
+    m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 100
+    m_bIsControlPoint 1
+    m_sBaseName "Fischerman Military"
+    m_sBaseNameUpper "Fischerman Military"
+    m_fRespawnDelayAfterCaptureSeconds 30
+   }
+  }
+  coords 7464.105 7.811 6706.572
+  angles 0 -147.796 0
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 36.458 -0.328 -10.644
+    angles 0 -83.058 0
+   }
+  }
+ }
+ EntreDeux {
+  components {
+   RY_BaseCaptureComponent "{68F2881574E5C5F5}" {
+   }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
     m_iRadius 80
    }
@@ -397,43 +356,1083 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
      }
     }
    }
+   SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
+    m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
+    }
+   }
    SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
     "faction affiliation" "FIA"
-   }
-   SCR_ResourceComponent "{5D587B89D3599C99}" {
-    m_aGenerators {
-     SCR_ResourceGenerator "{5D587B8946012988}" {
-      m_fResourceMultiplier 1
-     }
-    }
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_iRadius 100
     m_bIsControlPoint 1
-    m_sBaseName "TchekPoint"
-    m_sBaseNameUpper "Tchek Point"
-    m_sMapLocationName "C_LocationTyrone"
+    m_sBaseName "Entre-Deux"
+    m_sBaseNameUpper "Entre-Deux"
     m_fRespawnDelayAfterCaptureSeconds 30
-    m_aWhiteList {
-     "Ruins"
-     "Factory"
-     "City"
-     "GasStation"
-    }
    }
   }
-  coords 8263.818 141.133 4645.847
-  angles -2.813 -40.593 -4.646
+  coords 5652.657 212.807 7013.292
+  angles 0 -93.772 0
   {
-   GenericEntity {
-    coords -11.701 -0.001 -50.041
-    angles 0 -53.099 0
-   }
    SCR_CampaignSpawnPointGroup {
     ID "5C6696731466AF36"
-    coords -12.896 -0.001 -46.638
-    angles 0 -53.099 0
+    coords 36.458 -0.328 -10.644
+    angles 0 -83.058 0
    }
   }
  }
+ Montignac {
+  components {
+   RY_BaseCaptureComponent "{68F28812C51138C5}" {
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 80
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1200
+     }
+    }
+   }
+   SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
+    m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 100
+    m_bIsControlPoint 1
+    m_sBaseName "Montignac"
+    m_sBaseNameUpper "Montignac"
+    m_fRespawnDelayAfterCaptureSeconds 30
+   }
+  }
+  coords 4711.836 161.984 6982.816
+  angles 0 45.574 0
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -4.598 -0.48 2.3
+    angles 0 99.37 0
+   }
+  }
+ }
+ Thales {
+  components {
+   RY_BaseCaptureComponent "{68F28812D696A8D6}" {
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 80
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1400
+     }
+    }
+   }
+   SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
+    m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 100
+    m_bIsControlPoint 1
+    m_sBaseName "Thales"
+    m_sBaseNameUpper "Thales"
+    m_fRespawnDelayAfterCaptureSeconds 30
+   }
+  }
+  coords 5178.446 73.536 6283.552
+  angles 0 83.59 0
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -1.939 -0.48 2.101
+    angles 0 -3.902 0
+   }
+   GenericEntity : "{192A4FF528CB9DD0}Prefabs/Structures/Military/Camps/Foundations/Foundation_TentUS_01.et" {
+    coords -0.323 0.114 0.316
+    angles 0 -87.752 0
+    scale 1.8
+   }
+  }
+ }
+ Provins {
+  components {
+   RY_BaseCaptureComponent "{68F28812CDB9F9C0}" {
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 80
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
+    m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 100
+    m_bIsControlPoint 1
+    m_sBaseName "Provins"
+    m_sBaseNameUpper "Provins"
+    m_fRespawnDelayAfterCaptureSeconds 30
+   }
+  }
+  coords 5546.542 89.25 5939.268
+  angles 0 93.59 0
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -1.939 -0.48 2.101
+    angles 0 -3.902 0
+   }
+  }
+ }
+ Figari {
+  components {
+   RY_BaseCaptureComponent "{68F2882E21A19A0A}" {
+    m_iCaptureAmount 200
+    m_iPeriodicRewardAmount 50
+    m_fPeriodicRewardInterval 600
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 80
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1500
+     }
+    }
+   }
+   SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
+    m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 100
+    m_bIsControlPoint 1
+    m_sBaseName "Figari"
+    m_sBaseNameUpper "Figari"
+    m_sMapLocationName "C_LocationTyrone"
+    m_fRespawnDelayAfterCaptureSeconds 30
+   }
+  }
+  coords 5271.192 63.517 5341.703
+  angles 0 35.195 0
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -1.939 -0.48 2.101
+    angles 0 -3.902 0
+   }
+  }
+ }
+ Morton {
+  components {
+   RY_BaseCaptureComponent "{68F2882E21A19A0A}" {
+    m_iCaptureAmount 200
+    m_iPeriodicRewardAmount 50
+    m_fPeriodicRewardInterval 600
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 80
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1300
+     }
+    }
+   }
+   SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
+    m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 100
+    m_bIsControlPoint 1
+    m_sBaseName "Morton"
+    m_sBaseNameUpper "Morton"
+    m_fRespawnDelayAfterCaptureSeconds 30
+   }
+  }
+  coords 4965.923 2.187 3856.024
+  angles 0 35.195 0
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -0.468 -0.001 0.206
+    angles 0 -3.902 0
+   }
+  }
+ }
+ Seagull {
+  components {
+   RY_BaseCaptureComponent "{68F2882E21A19A0A}" {
+    m_iCaptureAmount 200
+    m_iPeriodicRewardAmount 50
+    m_fPeriodicRewardInterval 600
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 80
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1500
+     }
+    }
+   }
+   SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
+    m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 100
+    m_bIsControlPoint 1
+    m_sBaseName "Seagull"
+    m_sBaseNameUpper "Seagull"
+    m_fRespawnDelayAfterCaptureSeconds 30
+   }
+  }
+  coords 5765.975 6.09 3498.333
+  angles 0 35.195 0
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -1.939 -0.48 2.101
+    angles 0 -3.902 0
+   }
+  }
+ }
+ Camurac {
+  components {
+   RY_BaseCaptureComponent "{68F2882E21A19A0A}" {
+    m_iCaptureAmount 200
+    m_iPeriodicRewardAmount 50
+    m_fPeriodicRewardInterval 600
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 80
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 3000
+     }
+    }
+   }
+   SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
+    m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 100
+    m_bIsControlPoint 1
+    m_sBaseName "Camurac"
+    m_sBaseNameUpper "Camurac"
+    m_fRespawnDelayAfterCaptureSeconds 30
+   }
+  }
+  coords 6621.712 5.037 3121.89
+  angles 0 35.195 0
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -1.939 -0.48 2.101
+    angles 0 -3.902 0
+   }
+  }
+ }
+ CalvaryHill {
+  components {
+   RY_BaseCaptureComponent "{68F2882E21A19A0A}" {
+    m_iCaptureAmount 200
+    m_iPeriodicRewardAmount 50
+    m_fPeriodicRewardInterval 600
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 80
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1200
+     }
+    }
+   }
+   SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
+    m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 100
+    m_bIsControlPoint 1
+    m_sBaseName "Calvary Hill"
+    m_sBaseNameUpper "Calvary Hill"
+    m_fRespawnDelayAfterCaptureSeconds 30
+   }
+  }
+  coords 3509.81 181.811 5815.833
+  angles 0 35.195 0
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -1.939 -0.48 2.101
+    angles 0 -3.902 0
+   }
+  }
+ }
+ Villeneuf {
+  components {
+   RY_BaseCaptureComponent "{68F2882E21A19A0A}" {
+    m_iCaptureAmount 200
+    m_iPeriodicRewardAmount 50
+    m_fPeriodicRewardInterval 600
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 80
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1500
+     }
+    }
+   }
+   SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
+    m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 100
+    m_bIsControlPoint 1
+    m_sBaseName "Villeneuf"
+    m_sBaseNameUpper "Villeneuf"
+    m_fRespawnDelayAfterCaptureSeconds 30
+   }
+  }
+  coords 2815.228 82.682 6446.483
+  angles 0 35.195 0
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -1.939 -0.48 2.101
+    angles 0 -3.902 0
+   }
+  }
+ }
+ Lamentin {
+  components {
+   RY_BaseCaptureComponent "{68F2882E21A19A0A}" {
+    m_iCaptureAmount 200
+    m_iPeriodicRewardAmount 50
+    m_fPeriodicRewardInterval 600
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 80
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1700
+     }
+    }
+   }
+   SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
+    m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 100
+    m_bIsControlPoint 1
+    m_sBaseName "Lamentin"
+    m_sBaseNameUpper "Lamentin"
+    m_fRespawnDelayAfterCaptureSeconds 30
+   }
+  }
+  coords 1295.832 37.881 6036.888
+  angles 0 35.195 0
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -1.939 -0.48 2.101
+    angles 0 -3.902 0
+   }
+  }
+ }
+ LeMoule {
+  components {
+   RY_BaseCaptureComponent "{68F2882E21A19A0A}" {
+    m_iCaptureAmount 200
+    m_iPeriodicRewardAmount 50
+    m_fPeriodicRewardInterval 600
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 80
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1500
+     }
+    }
+   }
+   SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
+    m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 100
+    m_bIsControlPoint 1
+    m_sBaseName "Le Moule"
+    m_sBaseNameUpper "Le Moule"
+    m_fRespawnDelayAfterCaptureSeconds 30
+   }
+  }
+  coords 2676.823 94.781 5391.342
+  angles 0 -138.108 0
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -1.939 -0.48 2.101
+    angles 0 -3.902 0
+   }
+  }
+ }
+ SawMill {
+  components {
+   RY_BaseCaptureComponent "{68F2882E21A19A0A}" {
+    m_iCaptureAmount 200
+    m_iPeriodicRewardAmount 50
+    m_fPeriodicRewardInterval 600
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 80
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1300
+     }
+    }
+   }
+   SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
+    m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 100
+    m_bIsControlPoint 1
+    m_sBaseName "SawMill"
+    m_sBaseNameUpper "SawMill"
+    m_fRespawnDelayAfterCaptureSeconds 30
+   }
+  }
+  coords 3291.074 114.672 5188.516
+  angles 0 35.195 0
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -1.939 -0.48 2.101
+    angles 0 -3.902 0
+   }
+  }
+ }
+ Pinewood {
+  components {
+   RY_BaseCaptureComponent "{68F2882E21A19A0A}" {
+    m_iCaptureAmount 200
+    m_iPeriodicRewardAmount 50
+    m_fPeriodicRewardInterval 600
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 80
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1200
+     }
+    }
+   }
+   SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
+    m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 100
+    m_bIsControlPoint 1
+    m_sBaseName "Pinewood"
+    m_sBaseNameUpper "Pinewood"
+    m_fRespawnDelayAfterCaptureSeconds 30
+   }
+  }
+  coords 4180.098 70.492 5799.047
+  angles 0 35.195 0
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -1.939 -0.48 2.101
+    angles 0 -3.902 0
+   }
+  }
+ }
+ MortonValley {
+  components {
+   RY_BaseCaptureComponent "{68F2882E21A19A0A}" {
+    m_iCaptureAmount 200
+    m_iPeriodicRewardAmount 50
+    m_fPeriodicRewardInterval 600
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 80
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1300
+     }
+    }
+   }
+   SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
+    m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 100
+    m_bIsControlPoint 1
+    m_sBaseName "Morton Valley"
+    m_sBaseNameUpper "Morton zaValley"
+    m_fRespawnDelayAfterCaptureSeconds 30
+   }
+  }
+  coords 4454.402 63.705 5004.17
+  angles 0 35.195 0
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -1.939 -0.48 2.101
+    angles 0 -3.902 0
+   }
+  }
+ }
+ Levie {
+  components {
+   RY_BaseCaptureComponent "{68F2882E21A19A0A}" {
+    m_iCaptureAmount 200
+    m_iPeriodicRewardAmount 50
+    m_fPeriodicRewardInterval 600
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 80
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1500
+     }
+    }
+   }
+   SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
+    m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 100
+    m_bIsControlPoint 1
+    m_sBaseName "Levie"
+    m_sBaseNameUpper "Levie"
+    m_fRespawnDelayAfterCaptureSeconds 30
+   }
+  }
+  coords 7447.646 164.562 4305.559
+  angles 0 35.195 0
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -1.939 -0.48 2.101
+    angles 0 -3.902 0
+   }
+  }
+ }
+ FOB_South {
+  components {
+   RY_BaseCaptureComponent "{68F28810A52D8463}" {
+    m_iCaptureAmount 500
+    m_iPeriodicRewardAmount 50
+    m_fPeriodicRewardInterval 600
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 80
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1500
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 100
+    m_bIsControlPoint 1
+    m_sBaseName "FOB South"
+    m_sBaseNameUpper "FOB South"
+    m_fRespawnDelayAfterCaptureSeconds 30
+   }
+  }
+  coords 8235.059 223.125 2161.922
+  angles 0 -7.767 0
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 0 0
+    angles 0 88.447 0
+   }
+  }
+ }
+ FOB_South2 {
+  components {
+   RY_BaseCaptureComponent "{68F28810A52D8463}" {
+    m_iCaptureAmount 500
+    m_iPeriodicRewardAmount 50
+    m_fPeriodicRewardInterval 600
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 80
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1300
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 100
+    m_bIsControlPoint 1
+    m_sBaseName "FOB South2"
+    m_sBaseNameUpper "FOB South2"
+    m_fRespawnDelayAfterCaptureSeconds 30
+   }
+  }
+  coords 9196.663 66.88 2161.075
+  angles 0 -7.767 0
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 0 0
+    angles 0 88.447 0
+   }
+  }
+ }
+ Durras {
+  components {
+   RY_BaseCaptureComponent "{68F2882E21A19A0A}" {
+    m_iCaptureAmount 200
+    m_iPeriodicRewardAmount 50
+    m_fPeriodicRewardInterval 600
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 80
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1500
+     }
+    }
+   }
+   SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
+    m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 100
+    m_bIsControlPoint 1
+    m_sBaseName "Durras"
+    m_sBaseNameUpper "Durras"
+    m_fRespawnDelayAfterCaptureSeconds 30
+   }
+  }
+  coords 8887.962 95.725 2734.497
+  angles 0 35.195 0
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -1.939 -0.48 2.101
+    angles 0 -3.902 0
+   }
+  }
+ }
+ Quarry {
+  components {
+   RY_BaseCaptureComponent "{68F2882E21A19A0A}" {
+    m_iCaptureAmount 200
+    m_iPeriodicRewardAmount 50
+    m_fPeriodicRewardInterval 600
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 80
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 3000
+     }
+    }
+   }
+   SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
+    m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 100
+    m_bIsControlPoint 1
+    m_sBaseName "Quarry"
+    m_sBaseNameUpper "Quarry"
+    m_fRespawnDelayAfterCaptureSeconds 30
+   }
+  }
+  coords 8795.098 196.596 3898.119
+  angles 0 -95.472 0
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -1.939 -0.48 2.101
+    angles 0 -3.902 0
+   }
+  }
+ }
+ PeterPass {
+  components {
+   RY_BaseCaptureComponent "{68F2882E21A19A0A}" {
+    m_iCaptureAmount 200
+    m_iPeriodicRewardAmount 50
+    m_fPeriodicRewardInterval 600
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 80
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1200
+     }
+    }
+   }
+   SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
+    m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 100
+    m_bIsControlPoint 1
+    m_sBaseName "PeterPass"
+    m_sBaseNameUpper "PeterPass"
+    m_fRespawnDelayAfterCaptureSeconds 30
+   }
+  }
+  coords 8259.118 225.263 4324.829
+  angles 0 35.195 0
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -1.939 -0.48 2.101
+    angles 0 -3.902 0
+   }
+  }
+ }
+ Regina {
+  components {
+   RY_BaseCaptureComponent "{68F2882E21A19A0A}" {
+    m_iCaptureAmount 200
+    m_iPeriodicRewardAmount 50
+    m_fPeriodicRewardInterval 600
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 80
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1300
+     }
+    }
+   }
+   SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
+    m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 100
+    m_bIsControlPoint 1
+    m_sBaseName "Regina"
+    m_sBaseNameUpper "Regina"
+    m_fRespawnDelayAfterCaptureSeconds 30
+   }
+  }
+  coords 7204.101 138.229 2420.921
+  angles 0 94.155 0
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -1.939 -0.48 2.101
+    angles 0 -3.902 0
+   }
+  }
+ }
+ WesternHeights {
+  components {
+   RY_BaseCaptureComponent "{68F2882E21A19A0A}" {
+    m_iCaptureAmount 200
+    m_iPeriodicRewardAmount 50
+    m_fPeriodicRewardInterval 600
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 80
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1350
+     }
+    }
+   }
+   SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
+    m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 100
+    m_bIsControlPoint 1
+    m_sBaseName "WesternHeights"
+    m_sBaseNameUpper "WesternHeights"
+    m_fRespawnDelayAfterCaptureSeconds 30
+   }
+  }
+  coords 7835.185 341.027 3378.177
+  angles 0 35.195 0
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -1.939 -0.48 2.101
+    angles 0 -3.902 0
+   }
+  }
+ }
+ Chotain {
+  components {
+   RY_BaseCaptureComponent "{68F2882E21A19A0A}" {
+    m_iCaptureAmount 200
+    m_iPeriodicRewardAmount 50
+    m_fPeriodicRewardInterval 600
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 80
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1500
+     }
+    }
+   }
+   SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
+    m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 100
+    m_bIsControlPoint 1
+    m_sBaseName "Chotain"
+    m_sBaseNameUpper "Chotain"
+    m_fRespawnDelayAfterCaptureSeconds 30
+   }
+  }
+  coords 7098.369 117.294 5995.403
+  angles 0 42.842 0
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -1.939 -0.48 2.101
+    angles 0 -3.902 0
+   }
+  }
+ }
+ MilitaryHospital {
+  components {
+   RY_BaseCaptureComponent "{68F2882E21A19A0A}" {
+    m_iCaptureAmount 200
+    m_iPeriodicRewardAmount 50
+    m_fPeriodicRewardInterval 600
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 80
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1750
+     }
+    }
+   }
+   SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
+    m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 100
+    m_bIsControlPoint 1
+    m_sBaseName "Military Hospital"
+    m_sBaseNameUpper "Military Hospital"
+    m_fRespawnDelayAfterCaptureSeconds 30
+   }
+  }
+  coords 3888.348 15.219 8448.723
+  angles 0 96.882 0
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -1.939 -0.48 2.101
+    angles 0 -3.902 0
+   }
+  }
+ }
+ SimonWood {
+  components {
+   RY_BaseCaptureComponent "{68F2882E21A19A0A}" {
+    m_iCaptureAmount 200
+    m_iPeriodicRewardAmount 50
+    m_fPeriodicRewardInterval 600
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 80
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1500
+     }
+    }
+   }
+   SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
+    m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 100
+    m_bIsControlPoint 1
+    m_sBaseName "SimonWood"
+    m_sBaseNameUpper "SimonWood"
+    m_fRespawnDelayAfterCaptureSeconds 30
+   }
+  }
+  coords 6248.618 108.69 5112.035
+  angles 0 -142.442 0
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -1.939 -0.48 2.101
+    angles 0 -3.902 0
+   }
+  }
+ }
+}
+GenericEntity Radio : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRelayRadio.et" {
+ components {
+  SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
+   Transceivers {
+    RelayTransceiver "{5C727AD73024FB39}" {
+    }
+   }
+  }
+  SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+   m_sBaseName "FOBPython"
+   m_sBaseNameUpper "FOB Python"
+  }
+ }
+ coords 9237.482 57.024 1986.213
+ angles 0 70.342 0
 }
