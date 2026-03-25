@@ -393,14 +393,14 @@ $grp GenericEntity : "{4AA903CBF8916264}Prefabs/Spawner/USSR/Spawn_on_destroy/US
     }
    }
   }
-  coords 10194.813 3.713 1488.976
+  coords 10191.194 2.531 1487.783
   angles 0.783 -136.68 3.401
  }
  JLTV {
   components {
    EE_SimpleVehicleSpawner_DestroyOnly "{672A81C0177A2026}" {
     m_aPrefabList {
-     "{59C895043D862E4F}Prefabs/Vehicles/Wheeled/JLTV/Unarmed/JLTV_Unarmed_Olive.et"
+     "{530F3A12ABA1CD7A}Prefabs/Vehicles/Wheeled/M1240A1_MATV/M1240A1_MATV_Base.et"
     }
    }
   }
@@ -411,7 +411,7 @@ $grp GenericEntity : "{4AA903CBF8916264}Prefabs/Spawner/USSR/Spawn_on_destroy/US
   components {
    EE_SimpleVehicleSpawner_DestroyOnly "{672A81C0177A2026}" {
     m_aPrefabList {
-     "{59C895043D862E4F}Prefabs/Vehicles/Wheeled/JLTV/Unarmed/JLTV_Unarmed_Olive.et"
+     "{530F3A12ABA1CD7A}Prefabs/Vehicles/Wheeled/M1240A1_MATV/M1240A1_MATV_Base.et"
     }
    }
   }
@@ -422,7 +422,7 @@ $grp GenericEntity : "{4AA903CBF8916264}Prefabs/Spawner/USSR/Spawn_on_destroy/US
   components {
    EE_SimpleVehicleSpawner_DestroyOnly "{672A81C0177A2026}" {
     m_aPrefabList {
-     "{59C895043D862E4F}Prefabs/Vehicles/Wheeled/JLTV/Unarmed/JLTV_Unarmed_Olive.et"
+     "{530F3A12ABA1CD7A}Prefabs/Vehicles/Wheeled/M1240A1_MATV/M1240A1_MATV_Base.et"
     }
    }
   }

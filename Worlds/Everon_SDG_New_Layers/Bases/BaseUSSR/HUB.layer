@@ -168,7 +168,7 @@ $grp GenericEntity : "{4AA903CBF8916264}Prefabs/Spawner/USSR/Spawn_on_destroy/US
   components {
    EE_SimpleVehicleSpawner_DestroyOnly "{672A81C0177A2026}" {
     m_aPrefabList {
-     "{48C417A77BC18A5F}Prefabs/Vehicles/Wheeled/TIGR/Unarmed/GAZ_TIGR_v2_Unarmed_Green.et"
+     "{6F4D5B56F4905A62}Prefabs/Vehicles/Wheeled/TIGR/Unarmed/GAZ_TIGR_v2_Unarmed_Green.et"
     }
    }
   }
