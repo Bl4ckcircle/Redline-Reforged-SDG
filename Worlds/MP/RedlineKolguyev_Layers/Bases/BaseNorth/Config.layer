@@ -151,19 +151,6 @@ $grp SDRC_DarcMissionGM : "{40A3B9615790EC5E}Prefabs/Systems/DarcNonValidArea.et
     m_fLenght 1500
    }
   }
-  coords 12418.492 36.711 10314.054
-  angles 0 -27.039 0
- }
- {
-  components {
-   SDRC_DarcNonValidAreaEditableRequestComp "{685D1DB5C871B2DD}" {
-    m_width 1500
-   }
-   SDRC_EffectsModuleAreaMeshComponent "{685AC124B1F781A4}" {
-    m_fWidth 1500
-    m_fLenght 1500
-   }
-  }
   coords 2997.654 7.533 -1843.05
   angles 0 -27.039 0
  }

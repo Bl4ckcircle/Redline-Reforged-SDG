@@ -36,7 +36,7 @@ $grp GenericEntity {
     Scale 1.5
    }
   }
-  coords 4886.515 28.593 11880.314
+  coords 4877.823 28.593 11874.776
   angles 0 -163.258 0
  }
  Repair_Reamo_Station2 {
@@ -59,6 +59,83 @@ $grp GenericEntity {
   coords 4819.935 28.178 11816.13
   angles 0 1.597 0
  }
+ GAZ3 {
+  components {
+   EE_SimpleVehicleSpawner_DestroyOnly "{672A81C0177A2026}" {
+    m_aPrefabList {
+     "{6F4D5B56F4905A62}Prefabs/Vehicles/Wheeled/TIGR/Unarmed/GAZ_TIGR_v2_Unarmed_Green.et"
+    }
+   }
+  }
+  coords 4882.766 29.104 11924.777
+  angles 1.065 -90.176 1.152
+ }
+ Heli1 {
+  components {
+   EE_SimpleVehicleSpawner_DestroyOnly "{672A81C0177A2026}" {
+    m_aPrefabList {
+     "{629DB6996E2C3649}Prefabs/Vehicles/Helicopters/KA-27/KA-27_base.et"
+    }
+   }
+  }
+  coords 4813.323 28.198 11919.042
+  angles 0 -93.183 0
+ }
+ HeliLourd1 {
+  components {
+   EE_SimpleVehicleSpawner_DestroyOnly "{672A81C0177A2026}" {
+    m_aPrefabList {
+     "{7BD282AF716ED63A}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed.et"
+    }
+   }
+  }
+  coords 4813.52 27.772 11951.585
+  angles 0 -145.183 0
+ }
+ GAZ2 {
+  components {
+   EE_SimpleVehicleSpawner_DestroyOnly "{672A81C0177A2026}" {
+    m_aPrefabList {
+     "{6F4D5B56F4905A62}Prefabs/Vehicles/Wheeled/TIGR/Unarmed/GAZ_TIGR_v2_Unarmed_Green.et"
+    }
+   }
+  }
+  coords 4882.222 29.009 11929.706
+  angles 1.04 -88.852 1.175
+ }
+ GAZ {
+  components {
+   EE_SimpleVehicleSpawner_DestroyOnly "{672A81C0177A2026}" {
+    m_aPrefabList {
+     "{6F4D5B56F4905A62}Prefabs/Vehicles/Wheeled/TIGR/Unarmed/GAZ_TIGR_v2_Unarmed_Green.et"
+    }
+   }
+  }
+  coords 4882.051 29.027 11934.492
+  angles 1.013 -87.59 1.197
+ }
+ MHQ_USSR_A {
+  components {
+   EE_SimpleVehicleSpawner_DestroyOnly "{672A81C0177A2026}" {
+    m_aPrefabList {
+     "{1BABF6B33DA0AEB7}Prefabs/Vehicles/Wheeled/Ural4320/MHQ_A.et"
+    }
+   }
+  }
+  coords 4882.923 29.031 11920.033
+  angles 1.065 -90.176 1.152
+ }
+ MHQ_USSR_B {
+  components {
+   EE_SimpleVehicleSpawner_DestroyOnly "{672A81C0177A2026}" {
+    m_aPrefabList {
+     "{047DDE56444CA348}Prefabs/Vehicles/Wheeled/Ural4320/MHQ_B.et"
+    }
+   }
+  }
+  coords 4883.032 29.011 11914.959
+  angles 1.065 -90.176 1.152
+ }
 }
 $grp SCR_ChimeraCharacter : "{026CB319AEBCF010}Prefabs/Characters/Shop/USSR/USSR_Shop_Items_Weapons.et" {
  {
@@ -68,6 +145,16 @@ $grp SCR_ChimeraCharacter : "{026CB319AEBCF010}Prefabs/Characters/Shop/USSR/USSR
  {
   coords 4896.337 29.065 11905.138
   angles 0 -100.133 0
+ }
+}
+$grp GenericEntity : "{0858A93EFDE04083}Prefabs/ATM.et" {
+ {
+  coords 4897.266 29.031 11916.207
+  angles 0 -87.889 0
+ }
+ {
+  coords 4883.902 28.995 11899.001
+  angles 0 0.903 0
  }
 }
 GenericEntity MOBUSSR : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
@@ -113,71 +200,6 @@ GenericEntity MOBUSSR : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/Conflict
    coords -7.218 -0.504 -23.901
    angles 0.966 174.623 -2.658
   }
- }
-}
-GenericEntity : "{44F179AAEE12D229}Prefabs/Spawner/USSR/Spawn_on_destroy/USSR_MHQ_A_SPAWN.et" {
- coords 4883.926 29.031 11915.078
- angles 0 -89.328 0
-}
-$grp GenericEntity : "{4AA903CBF8916264}Prefabs/Spawner/USSR/Spawn_on_destroy/USSR_MHQ_B_SPAWN.et" {
- GAZ3 {
-  components {
-   EE_SimpleVehicleSpawner_DestroyOnly "{672A81C0177A2026}" {
-    m_aPrefabList {
-     "{48C417A77BC18A5F}Prefabs/Vehicles/Wheeled/TIGR/Unarmed/GAZ_TIGR_v2_Unarmed_Green.et"
-    }
-   }
-  }
-  coords 4882.766 29.104 11924.777
-  angles 1.065 -90.176 1.152
- }
- Heli1 {
-  components {
-   EE_SimpleVehicleSpawner_DestroyOnly "{672A81C0177A2026}" {
-    m_aPrefabList {
-     "{629DB6996E2C3649}Prefabs/Vehicles/Helicopters/KA-27/KA-27_base.et"
-    }
-   }
-  }
-  coords 4813.323 28.198 11919.042
-  angles 0 -93.183 0
- }
- HeliLourd1 {
-  components {
-   EE_SimpleVehicleSpawner_DestroyOnly "{672A81C0177A2026}" {
-    m_aPrefabList {
-     "{7BD282AF716ED63A}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed.et"
-    }
-   }
-  }
-  coords 4813.52 27.772 11951.585
-  angles 0 -145.183 0
- }
- GAZ2 {
-  components {
-   EE_SimpleVehicleSpawner_DestroyOnly "{672A81C0177A2026}" {
-    m_aPrefabList {
-     "{48C417A77BC18A5F}Prefabs/Vehicles/Wheeled/TIGR/Unarmed/GAZ_TIGR_v2_Unarmed_Green.et"
-    }
-   }
-  }
-  coords 4882.222 29.009 11929.706
-  angles 1.04 -88.852 1.175
- }
- GAZ {
-  components {
-   EE_SimpleVehicleSpawner_DestroyOnly "{672A81C0177A2026}" {
-    m_aPrefabList {
-     "{6F4D5B56F4905A62}Prefabs/Vehicles/Wheeled/TIGR/Unarmed/GAZ_TIGR_v2_Unarmed_Green.et"
-    }
-   }
-  }
-  coords 4882.051 29.027 11934.492
-  angles 1.144 179.464 -1.073
- }
- {
-  coords 4883.195 29.031 11920.148
-  angles 0 -87.767 0
  }
 }
 $grp GenericEntity : "{604E7BB9A76B7ED9}Prefabs/Systems/Compositions/EntitySpawnerSlot/EntitySpawnerSlot_Vehicle_Large.et" {
@@ -249,11 +271,11 @@ $grp SCR_ChimeraCharacter : "{7A799871A9868E42}Prefabs/Characters/Shop/USSR/USSR
  }
 }
 SCR_ChimeraCharacter : "{91C403480E594EF8}Prefabs/Characters/Shop/USSR/USSR_Shop_Vehicles_Ground_MBTs.et" {
- coords 4880.938 28.349 11956.627
- angles 0 -118.802 0
+ coords 4876.96 28.593 11887.896
+ angles 0 -103.599 0
 }
 SCR_ChimeraCharacter : "{91E504C50852278B}Prefabs/Characters/Shop/USSR/USSR_Shop_Vehicles_Ground_IFVs.et" {
- coords 4878.708 28.209 11972.12
+ coords 4877.547 28.593 11894.496
  angles 0 -115.659 0
 }
 $grp StaticModelEntity : "{B00E14C07DEE788A}Prefabs/Compositions/Misc/SubCompositions/Utility/Helipad_Lights_USSR_01.et" {
@@ -595,7 +617,7 @@ SCR_ChimeraCharacter : "{CE45716F28FBE4E3}Prefabs/Characters/Shop/USSR/USSR_Shop
 }
 $grp GenericEntity : "{D0B05C0B2AEB98C6}Prefabs/Garage/Repair.et" {
  Repair_686C810C7F8FCC5A {
-  coords 4886.45 28.594 11880.449
+  coords 4877.758 28.594 11874.911
   angles 0 -85.397 0
  }
  Repair_686C810C7F8FCC5A2 {
@@ -623,11 +645,6 @@ StaticModelEntity : "{E17C840623164766}Prefabs/Statue/Statue_TP_USSR.et" {
  {
   StaticModelEntity {
    ID "6162CD20EEB231EE"
-   components {
-    SCR_ZoneProtectionLogic "{68A4A8273971DA07}" {
-     m_fRadius 150
-    }
-   }
    coords -0.034 3.048 0.002
   }
  }
@@ -678,43 +695,43 @@ SCR_DestructibleBuildingEntity : "{F16324CB8CB07C00}Prefabs/Structures/Military/
     }
    }
   }
-  GenericEntity : "{03253A954C8E9354}Prefabs/Structures/Signs/Anglais/virtual garage.et" {
-   coords 15.466 0.192 1.126
-   angles 0 -179.691 0
-  }
-  GenericEntity : "{42CBB95F9974FED4}Prefabs/Structures/Signs/Anglais/Money System.et" {
-   coords 7.888 0.195 1.154
-   angles 0 -179.298 0
-  }
-  GenericEntity : "{45EB3A1FB7B8D559}Prefabs/Structures/Signs/Anglais/Deployment.et" {
-   coords 10.489 0.188 1.14
-   angles 0 179.899 0
-  }
-  GenericEntity : "{5BA06BC67A0E808B}Prefabs/Structures/Signs/Anglais/How to start.et" {
-   coords 12.956 0.195 1.142
-   angles 0 179.933 0
-  }
-  GenericEntity : "{67E916CED2BFF274}Prefabs/Structures/Signs/Anglais/Informations.et" {
-   coords 25.883 0.226 6.145
-   angles 0 179.553 0
-  }
-  GenericEntity : "{6FA9F22B1F80CA97}Prefabs/Structures/Signs/Anglais/Shop.et" {
-   coords 17.796 0.203 1.108
-   angles 0 -179.667 0
-  }
-  GenericEntity : "{9562F2D8442364AC}Prefabs/Structures/Signs/Anglais/Game mode.et" {
-   coords 19.055 0.195 2.401
-   angles 0 90.576 0
-  }
-  GenericEntity : "{A850C603FEF26E0C}Prefabs/Structures/Signs/Anglais/Rules2.et" {
-   coords 22.684 0.2 6.128
-   angles 0 -179.875 0
-  }
-  GenericEntity : "{C3C58DBAB6DBBA32}Prefabs/Structures/Signs/Anglais/Server Info.et" {
-   coords 19.085 0.218 4.703
-   angles 0 90.558 0
-  }
-  $grp GenericEntity : "{D5552F6D16B01D62}Prefabs/Compositions/Misc/SubCompositions/Furniture/RRG_Table_Ashtray_US_01.et" {
+  $grp GenericEntity {
+   {
+    coords 15.466 0.192 1.126
+    angles 0 -179.691 0
+   }
+   {
+    coords 7.888 0.195 1.154
+    angles 0 -179.298 0
+   }
+   {
+    coords 10.489 0.188 1.14
+    angles 0 179.899 0
+   }
+   {
+    coords 12.956 0.195 1.142
+    angles 0 179.933 0
+   }
+   {
+    coords 25.883 0.226 6.145
+    angles 0 179.553 0
+   }
+   {
+    coords 17.796 0.203 1.108
+    angles 0 -179.667 0
+   }
+   {
+    coords 19.055 0.195 2.401
+    angles 0 90.576 0
+   }
+   {
+    coords 22.684 0.2 6.128
+    angles 0 -179.875 0
+   }
+   {
+    coords 19.085 0.218 4.703
+    angles 0 90.558 0
+   }
    {
     coords -4.378 0.439 -5.277
     angles 0 -0.014 0
@@ -739,10 +756,10 @@ SCR_DestructibleBuildingEntity : "{F16324CB8CB07C00}Prefabs/Structures/Military/
     coords -12.824 0.439 -5.396
     angles 0 -0.014 0
    }
-  }
-  GenericEntity : "{DA426040CA301F8D}Prefabs/Structures/Signs/Anglais/Rules1.et" {
-   coords 20.332 0.205 6.131
-   angles 0 -179.872 0
+   {
+    coords 20.332 0.205 6.131
+    angles 0 -179.872 0
+   }
   }
   $grp StaticModelEntity : "{E2971F2C529A6F83}Prefabs/Structures/Walls/Concrete/SilageWall_01/SilageWall_01_5m_M1.et" {
    {
@@ -750,7 +767,7 @@ SCR_DestructibleBuildingEntity : "{F16324CB8CB07C00}Prefabs/Structures/Military/
     angles 0 -0.439 0
    }
    {
-    coords -5.652 -0.055 6.319
+    coords -5.652 0.387 6.318
     angles 0 90.27 0
    }
    {
@@ -778,7 +795,7 @@ SCR_DestructibleBuildingEntity : "{F16324CB8CB07C00}Prefabs/Structures/Military/
     angles 0 0.459 0
    }
    {
-    coords -5.66 -0.056 1.289
+    coords -5.661 0.412 1.289
     angles 0 0.459 0
    }
   }
