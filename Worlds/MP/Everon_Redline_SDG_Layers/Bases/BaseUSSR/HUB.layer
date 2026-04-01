@@ -36,8 +36,8 @@ $grp GenericEntity {
     Scale 1.5
    }
   }
-  coords 4877.823 28.593 11874.776
-  angles 0 -163.258 0
+  coords 4878.021 28.593 11843.871
+  angles 0 -164.585 0
  }
  Repair_Reamo_Station2 {
   components {
@@ -199,6 +199,28 @@ GenericEntity MOBUSSR : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/Conflict
   GenericEntity : "{257DF319C13E580B}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_Containers_US_03.et" {
    coords -7.218 -0.504 -23.901
    angles 0.966 174.623 -2.658
+   {
+    GenericEntity {
+     ID "5D4539330EC1F270"
+     coords 0.203 0.119 4.121
+     angles 0 89.399 0
+    }
+    GenericEntity {
+     ID "5D4539330EC1FB4A"
+     coords 0.438 -0.053 -1.274
+     angles 0 90.613 0
+    }
+    GenericEntity {
+     ID "5D4539330EC1FB4C"
+     coords 0.242 -0.13 -4.015
+     angles 0 88.91 0
+    }
+    GenericEntity {
+     ID "5D4539330EC1F26D"
+     coords 1.752 -0.014 1.406
+     angles 0 91.026 0
+    }
+   }
   }
  }
 }
@@ -266,17 +288,17 @@ $grp SCR_ChimeraCharacter : "{7A799871A9868E42}Prefabs/Characters/Shop/USSR/USSR
   angles 0 -90.31 0
  }
  {
-  coords 4880.167 29.065 11939.251
+  coords 4880.362 29.065 11939.253
   angles 0 -101.728 0
  }
 }
 SCR_ChimeraCharacter : "{91C403480E594EF8}Prefabs/Characters/Shop/USSR/USSR_Shop_Vehicles_Ground_MBTs.et" {
- coords 4876.96 28.593 11887.896
- angles 0 -103.599 0
+ coords 4876.525 28.593 11860.667
+ angles 0 -104.926 0
 }
 SCR_ChimeraCharacter : "{91E504C50852278B}Prefabs/Characters/Shop/USSR/USSR_Shop_Vehicles_Ground_IFVs.et" {
- coords 4877.547 28.593 11894.496
- angles 0 -115.659 0
+ coords 4877.423 28.593 11879.021
+ angles 0 -116.986 0
 }
 $grp StaticModelEntity : "{B00E14C07DEE788A}Prefabs/Compositions/Misc/SubCompositions/Utility/Helipad_Lights_USSR_01.et" {
  {
@@ -617,8 +639,8 @@ SCR_ChimeraCharacter : "{CE45716F28FBE4E3}Prefabs/Characters/Shop/USSR/USSR_Shop
 }
 $grp GenericEntity : "{D0B05C0B2AEB98C6}Prefabs/Garage/Repair.et" {
  Repair_686C810C7F8FCC5A {
-  coords 4877.758 28.594 11874.911
-  angles 0 -85.397 0
+  coords 4877.953 28.594 11844.005
+  angles 0 -86.724 0
  }
  Repair_686C810C7F8FCC5A2 {
   coords 4820.033 28.174 11816.016

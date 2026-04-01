@@ -18,7 +18,7 @@ $grp GenericEntity {
     }
    }
   }
-  coords 10190.279 2.877 1487.279
+  coords 10193.27 2.885 1487.719
   angles 0.783 -136.68 3.401
  }
  JLTV {
@@ -225,16 +225,6 @@ $grp StaticModelEntity : "{46D621714E71E05E}Prefabs/Compositions/Misc/SubComposi
   }
  }
  {
-  coords 10188.866 0 1487.384
-  angles 0 -142.351 0
-  {
-   GenericEntity {
-    ID "5E92E720B6346009"
-    coords -0.5 -0.445 -0.5
-   }
-  }
- }
- {
   coords 10160.915 -0.002 1484.248
   angles 0 -164.248 0
   {
@@ -247,6 +237,26 @@ $grp StaticModelEntity : "{46D621714E71E05E}Prefabs/Compositions/Misc/SubComposi
  {
   coords 10115.203 -0.001 1377.102
   angles 0 -141.007 0
+ }
+ {
+  coords 10192.459 0.001 1487.601
+  angles 0 -137.857 0
+  {
+   GenericEntity {
+    ID "5E92E720B6346009"
+    coords -0.5 -0.445 -0.5
+   }
+  }
+ }
+}
+$grp GenericEntity : "{4B5D1DDB2B7C36E0}Prefabs/Props/Military/Sandbags/Sandbag_01_round_base.et" {
+ {
+  coords 4867.568 28.593 11887.123
+  angles 0 69.336 0
+ }
+ {
+  coords 4862.271 28.594 11886.026
+  angles 0 -120.762 0
  }
 }
 $grp GenericEntity : "{651E545B53BBD034}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V1_USSR.et" {
@@ -278,6 +288,16 @@ GenericEntity : "{705D4C030A30D4A3}Prefabs/Compositions/Misc/CustomEntities/Inte
 SCR_ChimeraCharacter : "{80B78DBDD0DCB9C6}Prefabs/Characters/Shop/US/US_Shop_Vehicles_Air_Attack.et" {
  coords 10137.241 2.481 1420.534
  angles 0 -14.175 0
+}
+$grp GenericEntity : "{8777F96EBE817623}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_base.et" {
+ {
+  coords 4876.641 28.594 11852.216
+  angles 0 -0.787 0
+ }
+ {
+  coords 4873.778 28.389 11852.149
+  angles 0 -0.787 0
+ }
 }
 $grp SCR_DestructibleEntity : "{879865F07EA907B0}Prefabs/Structures/Walls/Concrete/ConcreteWall_02/ConcreteWall_02_4m.et" {
  {
@@ -383,12 +403,92 @@ $grp GenericEntity : "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_
 }
 $grp SCR_DestructibleBuildingEntity : "{A548C1C5370D0734}Prefabs/Structures/Houses/Garage/Garage_E_01/Garage_E_01.et" {
  {
-  coords 4880.93 0.102 11888.962
-  angles 0 -89.004 0
+  coords 4880.386 0.102 11860.721
+  angles 0 -90.331 0
+  {
+   GameEnvironmentProbeEntity {
+    ID "5EE89DB4FCC3D7ED"
+    coords 0 1.711 -0.831
+   }
+   GenericEntity {
+    ID "5B18E6883A7C2E3C"
+    coords 0 0 0
+    {
+     GenericEntity {
+      ID "5B18E4066275FFE7"
+      coords -2.098 0.003 -0.546
+     }
+     GenericEntity {
+      ID "5B18E4066275C0C2"
+      coords 1.965 0.003 -1.937
+     }
+     GenericEntity {
+      ID "5B18E4066275C0D7"
+      coords 1.115 0.003 -3.805
+     }
+     GenericEntity {
+      ID "5B18E4066275FF83"
+      coords 1.415 0.003 -3.797
+     }
+     GenericEntity {
+      ID "5B18E4066275FF90"
+      coords 1.213 0.003 -0.942
+     }
+    }
+   }
+   GenericEntity {
+    ID "5566F7B6D62F071B"
+    coords 0 0 0
+   }
+   GenericEntity {
+    ID "5566F7B6D62F07F6"
+    coords 0 0 0
+   }
+  }
  }
  {
-  coords 4881.013 0.102 11893.78
-  angles 0 -89.004 0
+  coords 4880.904 0.102 11878.386
+  angles 0 -90.331 0
+  {
+   GameEnvironmentProbeEntity {
+    ID "5EE89DB4FCC3D7ED"
+    coords 0 1.711 -0.832
+   }
+   GenericEntity {
+    ID "5B18E6883A7C2E3C"
+    coords 0 0 0
+    {
+     GenericEntity {
+      ID "5B18E4066275FFE7"
+      coords -2.098 0.003 -0.547
+     }
+     GenericEntity {
+      ID "5B18E4066275C0C2"
+      coords 1.965 0.003 -1.937
+     }
+     GenericEntity {
+      ID "5B18E4066275C0D7"
+      coords 1.115 0.003 -3.806
+     }
+     GenericEntity {
+      ID "5B18E4066275FF83"
+      coords 1.415 0.003 -3.798
+     }
+     GenericEntity {
+      ID "5B18E4066275FF90"
+      coords 1.213 0.003 -0.943
+     }
+    }
+   }
+   GenericEntity {
+    ID "5566F7B6D62F071B"
+    coords 0 0 0
+   }
+   GenericEntity {
+    ID "5566F7B6D62F07F6"
+    coords 0 0 0
+   }
+  }
  }
 }
 $grp GenericEntity : "{B31A14BC1A0E7776}Prefabs/Props/Military/Sandbags/Sandbag_01_round_burlap.et" {
@@ -417,19 +517,23 @@ GenericEntity : "{B547CF929FCC6BB7}Prefabs/Props/Military/Sandbags/Sandbag_01_en
  coords 10128.089 2.578 1539.204
  angles 0 -57.423 0
 }
+GenericEntity : "{B6307C189CCCA0B9}Prefabs/Props/Military/Sandbags/Sandbag_01_round_high_plastic.et" {
+ coords 4866.446 28.544 11885.093
+ angles 0 166.556 0
+}
 GenericEntity : "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et" {
  coords 10110.549 2.484 1528.816
  angles 0 -84.349 0
 }
-SCR_DestructibleBuildingEntity : "{C7B5F0AEA246F0BE}Prefabs/Structures/Industrial/Sheds/ShedMetal_02/HouseAddons/ShedMetal_02_LeftWall.et" {
+StaticModelEntity : "{C7B5F0AEA246F0BE}Prefabs/Structures/Industrial/Sheds/ShedMetal_02/HouseAddons/ShedMetal_02_LeftWall.et" {
  components {
   Hierarchy "{55ECD1FB83909541}" {
    PivotID "socket_left_wall"
   }
  }
  Flags 0x180003 0x400
- coords 4881.385 0.048 11866.816
- angles 0 -85.521 0
+ coords 4881.766 0.048 11835.996
+ angles 0 -86.848 0
 }
 $grp SCR_ChimeraCharacter : "{CA9F8CBCA70E9CAA}Prefabs/Characters/Shop/US/US_Shop_Vehicles_Ground_Transports.et" {
  {
@@ -455,20 +559,20 @@ SCR_ChimeraCharacter : "{D981313486F9EC9A}Prefabs/Characters/Shop/US/US_Shop_Veh
  coords 10130.607 2.531 1539.613
  angles 0 5 0
 }
-SCR_DestructibleBuildingEntity : "{DBF039BA30EC733A}Prefabs/Structures/Industrial/Sheds/ShedMetal_02/HouseAddons/ShedMetal_02_Short_BackWall.et" {
+StaticModelEntity : "{DBF039BA30EC733A}Prefabs/Structures/Industrial/Sheds/ShedMetal_02/HouseAddons/ShedMetal_02_Short_BackWall.et" {
  components {
   Hierarchy "{55ECD1FBF93B9785}" {
    PivotID "socket_short_back_wall"
   }
  }
  Flags 0x80003 0x400
- coords 4886.761 0 11873.923
- angles 0 -85.521 0
+ coords 4886.976 0 11843.225
+ angles 0 -86.848 0
  scale 1.012
 }
 SCR_DestructibleBuildingEntity : "{DEBC2FB8DA61B83E}Prefabs/Structures/Industrial/Sheds/ShedMetal_02/ShedMetal_02_short_nowalls.et" {
- coords 4882.258 0.22 11874.026
- angles 0 -85.521 0
+ coords 4882.472 0.22 11843.225
+ angles 0 -86.848 0
 }
 SCR_DestructibleBuildingEntity : "{F16324CB8CB07C00}Prefabs/Structures/Military/Houses/GarageMilitary_E_01/GarageMilitary_E_01.et" {
  coords 10168.435 -0.001 1554.535
@@ -672,13 +776,13 @@ SCR_ChimeraCharacter : "{F95340D8FF22FD0B}Prefabs/Characters/Shop/US/US_Loadout_
  coords 10186.482 3.277 1554.615
  angles 0 -132.625 0
 }
-SCR_DestructibleBuildingEntity : "{FF3B646DFC1CF5EB}Prefabs/Structures/Industrial/Sheds/ShedMetal_02/HouseAddons/ShedMetal_02_RightWall.et" {
+StaticModelEntity : "{FF3B646DFC1CF5EB}Prefabs/Structures/Industrial/Sheds/ShedMetal_02/HouseAddons/ShedMetal_02_RightWall.et" {
  components {
   Hierarchy "{55ECD1FB80FE1CAB}" {
    PivotID "socket_right_wall"
   }
  }
  Flags 0x80003 0x400
- coords 4882.722 0.038 11881.527
- angles 0 -85.521 0
+ coords 4882.763 0.038 11850.734
+ angles 0 -86.848 0
 }
