@@ -54,28 +54,6 @@ $grp GenericEntity {
   coords 10160.35 3.277 1549.312
   angles 0 -162.881 0
  }
- MHQ_US_A {
-  components {
-   EE_SimpleVehicleSpawner_DestroyOnly "{672A81C0177A2026}" {
-    m_aPrefabList {
-     "{38186F12F27A61C7}Prefabs/Vehicles/Wheeled/M923A1/MHQ_A.et"
-    }
-   }
-  }
-  coords 10164.619 6.091 1547.749
-  angles 1.396 -164.61 -0.717
- }
- MHQ_US_B {
-  components {
-   EE_SimpleVehicleSpawner_DestroyOnly "{672A81C0177A2026}" {
-    m_aPrefabList {
-     "{5EFEDD1782A6A5E2}Prefabs/Vehicles/Wheeled/M923A1/MHQ_B.et"
-    }
-   }
-  }
-  coords 10169.723 6.105 1546.187
-  angles 1.396 -164.61 -0.717
- }
 }
 $grp GenericEntity : "{0858A93EFDE04083}Prefabs/ATM.et" {
  {
@@ -134,6 +112,10 @@ GenericEntity MOBUS : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMi
    angles 0 110.905 0
    m_sFaction "US"
   }
+  GenericEntity : "{0E7AE816DD74E095}Prefabs/Spawner/US/Spawn_on_destroy/MHQ_A_SPAWN.et" {
+   coords -11.38 1.057 82.251
+   angles 0 4.408 0
+  }
   GenericEntity : "{257DF319C13E580B}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_Containers_US_03.et" {
    coords 41.769 0.086 69.009
    angles 0 1.215 0
@@ -164,6 +146,10 @@ GenericEntity MOBUS : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMi
      angles 0 91.026 0
     }
    }
+  }
+  GenericEntity : "{4E8AC9336B6862D3}Prefabs/Spawner/US/Spawn_on_destroy/MHQ_B_SPAWN.et" {
+   coords -0.589 0.492 77.071
+   angles 0 4.408 0
   }
  }
 }
@@ -421,7 +407,7 @@ GenericEntity : "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_lo
  coords 10110.549 2.484 1528.816
  angles 0 -84.349 0
 }
-SCR_DestructibleBuildingEntity : "{C7B5F0AEA246F0BE}Prefabs/Structures/Industrial/Sheds/ShedMetal_02/HouseAddons/ShedMetal_02_LeftWall.et" {
+StaticModelEntity : "{C7B5F0AEA246F0BE}Prefabs/Structures/Industrial/Sheds/ShedMetal_02/HouseAddons/ShedMetal_02_LeftWall.et" {
  components {
   Hierarchy "{55ECD1FB83909541}" {
    PivotID "socket_left_wall"
@@ -455,7 +441,7 @@ SCR_ChimeraCharacter : "{D981313486F9EC9A}Prefabs/Characters/Shop/US/US_Shop_Veh
  coords 10130.607 2.531 1539.613
  angles 0 5 0
 }
-SCR_DestructibleBuildingEntity : "{DBF039BA30EC733A}Prefabs/Structures/Industrial/Sheds/ShedMetal_02/HouseAddons/ShedMetal_02_Short_BackWall.et" {
+StaticModelEntity : "{DBF039BA30EC733A}Prefabs/Structures/Industrial/Sheds/ShedMetal_02/HouseAddons/ShedMetal_02_Short_BackWall.et" {
  components {
   Hierarchy "{55ECD1FBF93B9785}" {
    PivotID "socket_short_back_wall"
@@ -672,7 +658,7 @@ SCR_ChimeraCharacter : "{F95340D8FF22FD0B}Prefabs/Characters/Shop/US/US_Loadout_
  coords 10186.482 3.277 1554.615
  angles 0 -132.625 0
 }
-SCR_DestructibleBuildingEntity : "{FF3B646DFC1CF5EB}Prefabs/Structures/Industrial/Sheds/ShedMetal_02/HouseAddons/ShedMetal_02_RightWall.et" {
+StaticModelEntity : "{FF3B646DFC1CF5EB}Prefabs/Structures/Industrial/Sheds/ShedMetal_02/HouseAddons/ShedMetal_02_RightWall.et" {
  components {
   Hierarchy "{55ECD1FB80FE1CAB}" {
    PivotID "socket_right_wall"

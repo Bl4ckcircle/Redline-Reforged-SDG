@@ -63,7 +63,7 @@ $grp GenericEntity {
   components {
    EE_SimpleVehicleSpawner_DestroyOnly "{672A81C0177A2026}" {
     m_aPrefabList {
-     "{6F4D5B56F4905A62}Prefabs/Vehicles/Wheeled/TIGR/Unarmed/GAZ_TIGR_v2_Unarmed_Green.et"
+     "{48C417A77BC18A5F}Prefabs/Vehicles/Wheeled/TIGR/Unarmed/GAZ_TIGR_v2_Unarmed_Green.et"
     }
    }
   }
@@ -96,7 +96,7 @@ $grp GenericEntity {
   components {
    EE_SimpleVehicleSpawner_DestroyOnly "{672A81C0177A2026}" {
     m_aPrefabList {
-     "{6F4D5B56F4905A62}Prefabs/Vehicles/Wheeled/TIGR/Unarmed/GAZ_TIGR_v2_Unarmed_Green.et"
+     "{48C417A77BC18A5F}Prefabs/Vehicles/Wheeled/TIGR/Unarmed/GAZ_TIGR_v2_Unarmed_Green.et"
     }
    }
   }
@@ -107,34 +107,12 @@ $grp GenericEntity {
   components {
    EE_SimpleVehicleSpawner_DestroyOnly "{672A81C0177A2026}" {
     m_aPrefabList {
-     "{6F4D5B56F4905A62}Prefabs/Vehicles/Wheeled/TIGR/Unarmed/GAZ_TIGR_v2_Unarmed_Green.et"
+     "{48C417A77BC18A5F}Prefabs/Vehicles/Wheeled/TIGR/Unarmed/GAZ_TIGR_v2_Unarmed_Green.et"
     }
    }
   }
   coords 4882.051 29.027 11934.492
   angles 1.013 -87.59 1.197
- }
- MHQ_USSR_A {
-  components {
-   EE_SimpleVehicleSpawner_DestroyOnly "{672A81C0177A2026}" {
-    m_aPrefabList {
-     "{1BABF6B33DA0AEB7}Prefabs/Vehicles/Wheeled/Ural4320/MHQ_A.et"
-    }
-   }
-  }
-  coords 4882.923 29.031 11920.033
-  angles 1.065 -90.176 1.152
- }
- MHQ_USSR_B {
-  components {
-   EE_SimpleVehicleSpawner_DestroyOnly "{672A81C0177A2026}" {
-    m_aPrefabList {
-     "{047DDE56444CA348}Prefabs/Vehicles/Wheeled/Ural4320/MHQ_B.et"
-    }
-   }
-  }
-  coords 4883.032 29.011 11914.959
-  angles 1.065 -90.176 1.152
  }
 }
 $grp SCR_ChimeraCharacter : "{026CB319AEBCF010}Prefabs/Characters/Shop/USSR/USSR_Shop_Items_Weapons.et" {
@@ -196,9 +174,17 @@ GenericEntity MOBUSSR : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/Conflict
    angles 0 -99.591 0
    m_sFaction "USSR"
   }
+  GenericEntity : "{0E7AE816DD74E095}Prefabs/Spawner/US/Spawn_on_destroy/MHQ_A_SPAWN.et" {
+   coords -41.356 0.272 -18.338
+   angles -0.894 83.083 -2.684
+  }
   GenericEntity : "{257DF319C13E580B}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_Containers_US_03.et" {
    coords -7.218 -0.504 -23.901
    angles 0.966 174.623 -2.658
+  }
+  GenericEntity : "{4E8AC9336B6862D3}Prefabs/Spawner/US/Spawn_on_destroy/MHQ_B_SPAWN.et" {
+   coords -54.394 0.229 -16.97
+   angles -0.894 83.083 -2.684
   }
  }
 }
