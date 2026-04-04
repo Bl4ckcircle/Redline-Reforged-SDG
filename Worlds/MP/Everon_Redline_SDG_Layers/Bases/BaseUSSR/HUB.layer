@@ -121,6 +121,8 @@ $grp GenericEntity {
      "{1BABF6B33DA0AEB7}Prefabs/Vehicles/Wheeled/Ural4320/MHQ_A.et"
     }
    }
+   RY_TravelRpcComponent "{6909292FF8B7E45F}" {
+   }
   }
   coords 4882.923 29.031 11920.033
   angles 1.065 -90.176 1.152
@@ -131,6 +133,8 @@ $grp GenericEntity {
     m_aPrefabList {
      "{047DDE56444CA348}Prefabs/Vehicles/Wheeled/Ural4320/MHQ_B.et"
     }
+   }
+   RY_TravelRpcComponent "{6909292F87642C9B}" {
    }
   }
   coords 4883.032 29.011 11914.959
