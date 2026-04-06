@@ -1,3 +1,26 @@
+$grp DecalEntity {
+ {
+  coords 4872.047 0.452 11958.839
+  angles -90 132.112 -131.903
+  scale 7.061
+  FarPlane 2.64
+  Stretch 6.37
+ }
+ {
+  coords 4870.742 0.235 11949.865
+  angles -90 132.112 -131.903
+  scale 7.061
+  FarPlane 2.64
+  Stretch 6.37
+ }
+ {
+  coords 4870.663 0.399 11955.963
+  angles -90 132.112 -131.903
+  scale 7.061
+  FarPlane 2.64
+  Stretch 6.37
+ }
+}
 $grp GenericEntity {
  TP_MHQ2 {
   components {
@@ -95,6 +118,30 @@ $grp GenericEntity {
   }
   coords 4883.032 29.011 11914.959
   angles 1.065 -90.176 1.152
+ }
+ {
+  coords 4895.667 29.031 11911.13
+  angles 0 90.803 0
+ }
+ {
+  coords 4895.706 29.031 11913.745
+  angles 0 90.803 0
+ }
+ {
+  coords 4895.624 29.025 11905.158
+  angles 0 90.803 0
+ }
+ {
+  coords 4895.638 29.031 11906.458
+  angles 0 90.803 0
+ }
+ {
+  coords 4895.686 29.031 11912.436
+  angles 0 90.803 0
+ }
+ {
+  coords 4895.656 29.031 11907.765
+  angles 0 90.803 0
  }
 }
 $grp SCR_ChimeraCharacter : "{026CB319AEBCF010}Prefabs/Characters/Shop/USSR/USSR_Shop_Items_Weapons.et" {
@@ -280,6 +327,32 @@ GenericEntity MOBUSSR : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/Conflict
   }
  }
 }
+$grp GenericEntity : "{1A1020205E2B1710}Prefabs/Props/Military/Furniture/TableMilitary_USSR_01.et" {
+ {
+  coords 4895.716 29.031 11912.431
+  angles 0 -90.751 0
+ }
+ {
+  coords 4895.48 29.031 11913.909
+  angles 0 -106.797 0
+ }
+ {
+  coords 4895.488 29.031 11910.949
+  angles 0 -71.22 0
+ }
+ {
+  coords 4895.718 29.031 11908.092
+  angles 0 -90.751 0
+ }
+ {
+  coords 4895.755 29.031 11905.33
+  angles 0 -90.751 0
+ }
+ {
+  coords 4895.731 29.031 11906.715
+  angles 0 -90.751 0
+ }
+}
 GenericEntity : "{1E232E182F772300}Prefabs/Props/Signs/Industrial/SignIndustrial_30x100_1_NoParking.et" {
  coords 4922.238 30.317 11868.665
  angles 0 -91.155 0
@@ -287,29 +360,6 @@ GenericEntity : "{1E232E182F772300}Prefabs/Props/Signs/Industrial/SignIndustrial
 GenericEntity : "{21D83950DF36F250}Prefabs/Props/Military/Sandbags/Sandbag_01_long_burlap.et" {
  coords 10115.784 2.546 1557.376
  angles 0 -167.648 0
-}
-$grp DecalEntity : "{2902F726031C67D0}Prefabs/Decals/Asphalt/Decal_Transparant_Patch_Rectangle_01_long.et" {
- {
-  coords 4872.047 0.452 11958.839
-  angles -90 132.112 -131.903
-  scale 7.061
-  FarPlane 2.64
-  Stretch 6.37
- }
- {
-  coords 4870.742 0.235 11949.865
-  angles -90 132.112 -131.903
-  scale 7.061
-  FarPlane 2.64
-  Stretch 6.37
- }
- {
-  coords 4870.663 0.399 11955.963
-  angles -90 132.112 -131.903
-  scale 7.061
-  FarPlane 2.64
-  Stretch 6.37
- }
 }
 $grp GenericEntity : "{31A455F7FD8DCE84}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_plastic.et" {
  {
@@ -482,7 +532,7 @@ GenericEntity : "{76892C8AB5C677D3}Prefabs/Structures/Signs/Military/SignRectang
   }
  }
  coords 4895.222 28.504 11912.433
- angles 0 -88.93 0
+ angles 0 -91.165 0
 }
 $grp SCR_ChimeraCharacter : "{7A799871A9868E42}Prefabs/Characters/Shop/USSR/USSR_Shop_Vehicles_Ground_Transports.et" {
  {
@@ -1117,32 +1167,6 @@ $grp GenericEntity : "{D0B05C0B2AEB98C6}Prefabs/Garage/Repair.et" {
   }
  }
 }
-$grp GenericEntity : "{D5552F6D16B01D62}Prefabs/Compositions/Misc/SubCompositions/Furniture/RRG_Table_Ashtray_US_01.et" {
- {
-  coords 4895.667 29.031 11911.13
-  angles 0 90.803 0
- }
- {
-  coords 4895.706 29.031 11913.745
-  angles 0 90.803 0
- }
- {
-  coords 4895.624 29.025 11905.158
-  angles 0 90.803 0
- }
- {
-  coords 4895.638 29.031 11906.458
-  angles 0 90.803 0
- }
- {
-  coords 4895.686 29.031 11912.436
-  angles 0 90.803 0
- }
- {
-  coords 4895.656 29.031 11907.765
-  angles 0 90.803 0
- }
-}
 SCR_ChimeraCharacter : "{D9A4153EC721622D}Prefabs/Characters/Shop/USSR/USSR_Loadout_Character.et" {
  coords 4894.938 29.065 11900.947
  angles 0 -57.558 0
@@ -1153,11 +1177,11 @@ GenericEntity : "{DC4B11930753ABC2}Prefabs/Props/Military/Sandbags/Sandbag_01_ro
 }
 $grp SCR_ChimeraCharacter : "{E0C2546B051AE3A1}Prefabs/Characters/Shop/USSR/USSR_Shop_Items_Medical.et" {
  {
-  coords 4896.295 29.031 11913.576
+  coords 4896.167 29.031 11914.121
   angles 0 -103.485 0
  }
  {
-  coords 4896.235 29.065 11911.043
+  coords 4896.148 29.065 11910.699
   angles 0 -100.577 0
  }
 }

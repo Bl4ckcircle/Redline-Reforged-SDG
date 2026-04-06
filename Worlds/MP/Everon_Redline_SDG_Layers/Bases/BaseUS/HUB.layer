@@ -76,6 +76,30 @@ $grp GenericEntity {
   coords 10169.723 3.266 1546.187
   angles 1.396 -164.61 -0.717
  }
+ {
+  coords 10182.448 3.267 1556.409
+  angles 0 15.406 0
+ }
+ {
+  coords 10174.159 3.273 1558.654
+  angles 0 15.406 0
+ }
+ {
+  coords 10175.422 3.273 1558.305
+  angles 0 15.406 0
+ }
+ {
+  coords 10176.68 3.273 1557.957
+  angles 0 15.406 0
+ }
+ {
+  coords 10179.934 3.273 1557.097
+  angles 0 15.406 0
+ }
+ {
+  coords 10181.193 3.273 1556.751
+  angles 0 15.406 0
+ }
 }
 GenericEntity : "{025DB189A1A9B438}Prefabs/Compositions/Misc/SubCompositions/Sign_Medical_US_01.et" {
  coords 10175.295 2.772 1557.815
@@ -341,11 +365,11 @@ $grp GenericEntity : "{2C166D8DBBA47738}Prefabs/Structures/Military/Flags/FlagPo
 }
 $grp SCR_ChimeraCharacter : "{3986637F31E86985}Prefabs/Characters/Shop/US/US_Shop_Items_Medical.et" {
  {
-  coords 10176.592 3.331 1558.621
+  coords 10177.099 3.331 1558.343
   angles 0 -176.402 0
  }
  {
-  coords 10174.314 3.331 1559.214
+  coords 10173.961 3.331 1559.258
   angles 0 179.127 0
  }
 }
@@ -446,6 +470,32 @@ $grp SCR_ChimeraCharacter : "{66EA7C5A35EB7A6D}Prefabs/Characters/Shop/US/US_Sho
 GenericEntity : "{705D4C030A30D4A3}Prefabs/Compositions/Misc/CustomEntities/InteractionPoints/ArsenalBox_US_Equipment_NoAffiliation.et" {
  coords 10185.278 3.293 1546.219
  angles 0 -83.448 0
+}
+$grp GenericEntity : "{7762F50A860DD074}Prefabs/Props/Military/Furniture/TableMilitary_US_01.et" {
+ {
+  coords 10174.08 3.267 1558.518
+  angles 0 0 0
+ }
+ {
+  coords 10175.483 3.267 1558.317
+  angles 0 15.946 0
+ }
+ {
+  coords 10176.729 3.267 1557.705
+  angles 0 33.306 0
+ }
+ {
+  coords 10179.739 3.267 1557.21
+  angles 0 15.946 0
+ }
+ {
+  coords 10180.99 3.246 1556.86
+  angles 0 15.946 0
+ }
+ {
+  coords 10182.24 3.267 1556.463
+  angles 0 15.946 0
+ }
 }
 SCR_ChimeraCharacter : "{80B78DBDD0DCB9C6}Prefabs/Characters/Shop/US/US_Shop_Vehicles_Air_Attack.et" {
  components {
@@ -876,32 +926,6 @@ $grp GenericEntity : "{D0B05C0B2AEB98C6}Prefabs/Garage/Repair.et" {
  Repair_686C810C7F8FCC5A4 {
   coords 10122.983 2.817 1372.718
   angles 0 -52.672 0
- }
-}
-$grp GenericEntity : "{D5552F6D16B01D62}Prefabs/Compositions/Misc/SubCompositions/Furniture/RRG_Table_Ashtray_US_01.et" {
- {
-  coords 10182.448 3.267 1556.409
-  angles 0 15.406 0
- }
- {
-  coords 10174.159 3.273 1558.654
-  angles 0 15.406 0
- }
- {
-  coords 10175.422 3.273 1558.305
-  angles 0 15.406 0
- }
- {
-  coords 10176.68 3.273 1557.957
-  angles 0 15.406 0
- }
- {
-  coords 10179.934 3.273 1557.097
-  angles 0 15.406 0
- }
- {
-  coords 10181.193 3.273 1556.751
-  angles 0 15.406 0
  }
 }
 SCR_ChimeraCharacter : "{D981313486F9EC9A}Prefabs/Characters/Shop/US/US_Shop_Vehicles_Ground_IFVs.et" {
