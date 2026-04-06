@@ -19,46 +19,6 @@ $grp GenericEntity {
   coords 4863.667 28.594 11888.512
   angles 0 -100.007 0
  }
- Repair_Reamo_Station3 {
-  components {
-   SCR_EditableCommentComponent "{5DDE234C81331983}" {
-    m_EntityType COMMENT
-    m_UIInfo SCR_EditableCommentUIInfo "{5DDE234873CE99F2}" {
-     Name "Repair,Reamo station"
-     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
-    }
-    m_bAutoRegister ALWAYS
-    m_sColor 0.502 0 0 1
-   }
-   SCR_MapDescriptorComponent "{5DDE234C9A632375}" {
-    DisplayName "Repair,Reamo station"
-    MainType "Name Village"
-    Scale 1.5
-   }
-  }
-  coords 4878.021 28.593 11843.871
-  angles 0 -164.585 0
- }
- Repair_Reamo_Station2 {
-  components {
-   SCR_EditableCommentComponent "{5DDE234C81331983}" {
-    m_EntityType COMMENT
-    m_UIInfo SCR_EditableCommentUIInfo "{5DDE234873CE99F2}" {
-     Name "Repair,Reamo station"
-     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
-    }
-    m_bAutoRegister ALWAYS
-    m_sColor 0.502 0 0 1
-   }
-   SCR_MapDescriptorComponent "{5DDE234C9A632375}" {
-    DisplayName "Repair,Reamo station"
-    MainType "Name Village"
-    Scale 1.5
-   }
-  }
-  coords 4819.935 28.178 11816.13
-  angles 0 1.597 0
- }
  GAZ3 {
   components {
    EE_SimpleVehicleSpawner_DestroyOnly "{672A81C0177A2026}" {
@@ -78,8 +38,8 @@ $grp GenericEntity {
     }
    }
   }
-  coords 4813.323 28.198 11919.042
-  angles 0 -93.183 0
+  coords 4826.061 28.09 11937.442
+  angles 0 -129.384 0
  }
  HeliLourd1 {
   components {
@@ -89,7 +49,7 @@ $grp GenericEntity {
     }
    }
   }
-  coords 4813.52 27.772 11951.585
+  coords 4826.65 28.572 11907.695
   angles 0 -145.183 0
  }
  GAZ2 {
@@ -121,8 +81,6 @@ $grp GenericEntity {
      "{1BABF6B33DA0AEB7}Prefabs/Vehicles/Wheeled/Ural4320/MHQ_A.et"
     }
    }
-   RY_TravelRpcComponent "{6909292FF8B7E45F}" {
-   }
   }
   coords 4882.923 29.031 11920.033
   angles 1.065 -90.176 1.152
@@ -133,8 +91,6 @@ $grp GenericEntity {
     m_aPrefabList {
      "{047DDE56444CA348}Prefabs/Vehicles/Wheeled/Ural4320/MHQ_B.et"
     }
-   }
-   RY_TravelRpcComponent "{6909292F87642C9B}" {
    }
   }
   coords 4883.032 29.011 11914.959
@@ -159,6 +115,102 @@ $grp GenericEntity : "{0858A93EFDE04083}Prefabs/ATM.et" {
  {
   coords 4883.902 28.995 11899.001
   angles 0 0.903 0
+ }
+}
+$grp GenericEntity : "{0B0C600941B2A6A8}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_plastic.et" {
+ {
+  coords 4898.771 28.594 11874.079
+  angles 0 -89.785 0
+ }
+ {
+  coords 4898.957 28.594 11866.678
+  angles 0 -89.785 0
+ }
+ {
+  coords 4898.806 28.593 11859.964
+  angles 0 -89.785 0
+ }
+}
+$grp GenericEntity : "{0DA2B3C9363E3D5E}Prefabs/Money.et" {
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 4884.891 29.031 11899.766
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 4883.833 29.031 11900.42
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 4883.056 29.031 11901.56
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 4884.771 29.031 11901.498
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 4882.886 29.031 11900.297
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 4881.892 29.031 11902.05
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 4884.358 29.031 11900.939
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 4882.958 29.031 11902.819
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 4881.988 29.031 11901.252
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 4883.43 29.031 11900.657
  }
 }
 GenericEntity MOBUSSR : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
@@ -228,6 +280,134 @@ GenericEntity MOBUSSR : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/Conflict
   }
  }
 }
+GenericEntity : "{1E232E182F772300}Prefabs/Props/Signs/Industrial/SignIndustrial_30x100_1_NoParking.et" {
+ coords 4922.238 30.317 11868.665
+ angles 0 -91.155 0
+}
+GenericEntity : "{21D83950DF36F250}Prefabs/Props/Military/Sandbags/Sandbag_01_long_burlap.et" {
+ coords 10115.784 2.546 1557.376
+ angles 0 -167.648 0
+}
+$grp DecalEntity : "{2902F726031C67D0}Prefabs/Decals/Asphalt/Decal_Transparant_Patch_Rectangle_01_long.et" {
+ {
+  coords 4872.047 0.452 11958.839
+  angles -90 132.112 -131.903
+  scale 7.061
+  FarPlane 2.64
+  Stretch 6.37
+ }
+ {
+  coords 4870.742 0.235 11949.865
+  angles -90 132.112 -131.903
+  scale 7.061
+  FarPlane 2.64
+  Stretch 6.37
+ }
+ {
+  coords 4870.663 0.399 11955.963
+  angles -90 132.112 -131.903
+  scale 7.061
+  FarPlane 2.64
+  Stretch 6.37
+ }
+}
+$grp GenericEntity : "{31A455F7FD8DCE84}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_plastic.et" {
+ {
+  coords 4910.419 28.486 11855.706
+ }
+ {
+  coords 4919.432 28.594 11873.233
+ }
+ {
+  coords 4916.31 28.594 11873.202
+ }
+ {
+  coords 4908.718 28.593 11890.641
+ }
+ {
+  coords 4898.68 28.595 11881.573
+  angles 0 -91.441 0
+ }
+}
+$grp GenericEntity : "{3BC6C47BA2083D79}Prefabs/Structures/Signs/Warnings/SignNoParking_01_pole.et" {
+ {
+  coords 4898.886 29.085 11879.8
+  angles 0 -89.364 0
+ }
+ {
+  coords 4908.973 28.594 11855.194
+  angles 0 170.446 0
+ }
+ {
+  coords 10114.137 2.531 1557.013
+  angles 0 -71.237 0
+ }
+ {
+  coords 10114.378 2.344 1513.829
+  angles 0 -164.526 0
+ }
+ {
+  coords 10141.69 2.291 1544.84
+  angles 0 -162.172 0
+  {
+   GenericEntity {
+    ID "569AF6071F3E092F"
+    coords 0 0 0
+    angles 0 -5.521 0
+   }
+  }
+ }
+}
+$grp SCR_DestructibleEntity : "{43EB690D46E15669}Prefabs/Structures/Walls/Concrete/ConcreteWall_01/ConcreteWall_01_6m_B.et" {
+ {
+  coords 4892.182 0.032 11958.313
+  angles 0 90.992 0
+ }
+ {
+  coords 4892.088 0.015 11952.943
+  angles 0 90.992 0
+ }
+ {
+  coords 4886.163 0.089 11961.239
+  angles 0 0.818 0
+ }
+ {
+  coords 4880.792 0.23 11961.317
+  angles 0 0.818 0
+ }
+ {
+  coords 4871.998 0.415 11961.389
+  angles 0 0.818 0
+ }
+ {
+  coords 4866.626 0.526 11961.467
+  angles 0 0.818 0
+ }
+ {
+  coords 4863.663 0.522 11955.428
+  angles 0 -88.934 0
+ }
+ {
+  coords 4863.562 0.359 11950.058
+  angles 0 -88.934 0
+ }
+ {
+  coords 4898.247 0 11892.39
+  angles 0 -89.568 0
+ }
+ {
+  coords 4898.206 0.003 11887.019
+  angles 0 -89.568 0
+ }
+ {
+  coords 4892.124 0 11887.215
+  angles 0 0.778 0
+ }
+}
+GenericEntity : "{4B5D1DDB2B7C36E0}Prefabs/Props/Military/Sandbags/Sandbag_01_round_base.et" {
+ coords 4912.312 28.593 11884.884
+ angles 0 -135.307 0
+}
 $grp GenericEntity : "{604E7BB9A76B7ED9}Prefabs/Systems/Compositions/EntitySpawnerSlot/EntitySpawnerSlot_Vehicle_Large.et" {
  {
   components {
@@ -262,7 +442,7 @@ $grp GenericEntity : "{604E7BB9A76B7ED9}Prefabs/Systems/Compositions/EntitySpawn
     Enabled 1
    }
   }
-  coords 4812.51 28.749 11857.117
+  coords 4871.909 28.925 11818.503
   angles 0 44.16 0
  }
  {
@@ -278,35 +458,194 @@ $grp GenericEntity : "{604E7BB9A76B7ED9}Prefabs/Systems/Compositions/EntitySpawn
   angles 0 44.16 0
  }
 }
+$grp SCR_DestructibleEntity : "{60E5729BEA18F875}Prefabs/Structures/Walls/Concrete/ConcreteWall_01/ConcreteWall_01_3m.et" {
+ {
+  coords 4892.169 0.035 11961.245
+  angles 0 90.153 0
+ }
+ {
+  coords 4877.86 0.32 11961.295
+  angles 0 -0.02 0
+ }
+ {
+  coords 4863.694 0.585 11961.444
+  angles 0 -0.02 0
+ }
+ {
+  coords 4863.571 0.281 11947.126
+  angles 0 -89.772 0
+ }
+}
 GenericEntity : "{76892C8AB5C677D3}Prefabs/Structures/Signs/Military/SignRectangle_01_140x100/Sign_FieldHospital_USSR_01.et" {
  components {
   Hierarchy "{56A6E94EFAD268D5}" {
   }
  }
  coords 4895.222 28.504 11912.433
- angles 0 -91.288 0
+ angles 0 -88.93 0
 }
 $grp SCR_ChimeraCharacter : "{7A799871A9868E42}Prefabs/Characters/Shop/USSR/USSR_Shop_Vehicles_Ground_Transports.et" {
  {
-  coords 4880.881 29.065 11944.598
+  coords 4879.891 29.065 11944.212
   angles 0 -90.31 0
  }
  {
-  coords 4880.362 29.065 11939.253
+  coords 4879.781 29.065 11939.133
   angles 0 -101.728 0
  }
 }
+StaticModelEntity : "{85C71F17C37D274C}Prefabs/Structures/BuildingParts/Entry/Entry_Block_Platform_01_3x6.et" {
+ coords 4877.373 28.597 11954.196
+ scale 5
+}
+$grp GenericEntity : "{8777F96EBE817623}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_base.et" {
+ {
+  coords 4898.538 28.594 11884.636
+  angles 0 -92.316 0
+ }
+ {
+  coords 4898.776 28.593 11871.597
+  angles 0 -90.634 0
+ }
+ {
+  coords 4898.899 28.594 11868.834
+  angles 0 -90.634 0
+ }
+ {
+  coords 4898.956 28.594 11854.922
+  angles 0 -90.634 0
+ }
+ {
+  coords 4898.833 28.593 11857.685
+  angles 0 -90.634 0
+ }
+ {
+  coords 4921.579 28.594 11856.014
+  angles 0 179.206 0
+ }
+ {
+  coords 4918.817 28.593 11855.883
+  angles 0 179.206 0
+ }
+ {
+  coords 4916.187 28.513 11855.908
+  angles 0 179.206 0
+ }
+ {
+  coords 4913.424 28.512 11855.777
+  angles 0 179.206 0
+ }
+}
+$grp GenericEntity : "{8F17372BAB5A9CF8}Prefabs/Structures/BuildingParts/Lights/LightIndustrial_02.et" {
+ {
+  components {
+   RigidBody "{5111E74C06F5C1E1}" {
+    Active AlwaysActive
+   }
+  }
+  coords 10179.479 8.448 1557.89
+  angles -87.764 109.31 83.631
+  {
+   LightEntity : "{A45B8995A66B9146}Prefabs/Structures/BuildingParts/Lights/LightPrefabs/LightIndustrial_01_light_spot_exterior.et" {
+    coords -0.011 -0.052 0.106
+    angles 0 -0.739 0
+    LV 3
+   }
+  }
+ }
+ {
+  components {
+   RigidBody "{5111E74C06F5C1E1}" {
+    Active AlwaysActive
+   }
+  }
+  coords 10184.112 8.478 1556.683
+  angles -87.764 109.31 83.631
+  {
+   LightEntity : "{A45B8995A66B9146}Prefabs/Structures/BuildingParts/Lights/LightPrefabs/LightIndustrial_01_light_spot_exterior.et" {
+    coords -0.011 -0.052 0.106
+    angles 0 -0.739 0
+    LV 3
+   }
+  }
+ }
+}
 SCR_ChimeraCharacter : "{91C403480E594EF8}Prefabs/Characters/Shop/USSR/USSR_Shop_Vehicles_Ground_MBTs.et" {
- coords 4876.525 28.593 11860.667
+ components {
+  RRG_ShopComponent "{68CB4AC1D789BEB4}" {
+   m_AdditionalMerchandise {
+    ADM_ShopMerchandise "{68CB4AC55A3AC3F7}" {
+     m_Merchandise ADM_MerchandiseVehicle "{686D142173870313}" {
+      m_SpawnPosition PointInfo "{686D142173870311}" {
+       Offset 2 0 9
+       Angles 0 10 0
+      }
+     }
+    }
+    ADM_ShopMerchandise "{68CB4AC55A642B23}" {
+     m_Merchandise ADM_MerchandiseVehicle "{686D14217FA067E1}" {
+      m_SpawnPosition PointInfo "{686D14217FA067E7}" {
+       Offset 2 0 9
+       Angles 0 10 0
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 4920.926 28.593 11866.458
  angles 0 -104.926 0
 }
 SCR_ChimeraCharacter : "{91E504C50852278B}Prefabs/Characters/Shop/USSR/USSR_Shop_Vehicles_Ground_IFVs.et" {
- coords 4877.423 28.593 11879.021
+ components {
+  RRG_ShopComponent "{68CB4AC1D789BEB4}" {
+   m_AdditionalMerchandise {
+    ADM_ShopMerchandise "{68CB4AC486C5C80E}" {
+     m_Merchandise ADM_MerchandiseVehicle "{6864A3F8B0BFF871}" {
+      m_SpawnPosition PointInfo "{6864A3F96E344221}" {
+       Offset 4 0 10
+       Angles 0 25 0
+      }
+     }
+    }
+    ADM_ShopMerchandise "{68CB4AC486E400CA}" {
+     m_Merchandise ADM_MerchandiseVehicle "{6864A3F8B0BFF871}" {
+      m_SpawnPosition PointInfo "{6864A3F96E344221}" {
+       Offset 4 0 10
+       Angles 0 25 0
+      }
+     }
+    }
+    ADM_ShopMerchandise "{68CB4AC4870A2861}" {
+     m_Merchandise ADM_MerchandiseVehicle "{6864A3F8B0BFF871}" {
+      m_SpawnPosition PointInfo "{6864A3F96E344221}" {
+       Offset 4 0 10
+       Angles 0 25 0
+      }
+     }
+    }
+    ADM_ShopMerchandise "{68F6D8D594E7037A}" {
+     m_Merchandise ADM_MerchandiseVehicle "{68F6D8D594E70392}" {
+      m_SpawnPosition PointInfo "{68F6D8D594E7039D}" {
+       Offset 4 0 10
+       Angles 0 25 0
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 4920.028 28.593 11880.536
  angles 0 -116.986 0
+}
+GenericEntity : "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_burlap.et" {
+ coords 10120.844 2.531 1556.145
+ angles 0 -159.912 0
 }
 $grp StaticModelEntity : "{B00E14C07DEE788A}Prefabs/Compositions/Misc/SubCompositions/Utility/Helipad_Lights_USSR_01.et" {
  {
-  coords 4813.134 0.898 11919.662
+  coords 4826.091 0.3 11907.932
+  angles 0 91.245 0
   {
    GenericEntity {
     ID "5D1EB45A4E161DE0"
@@ -387,7 +726,8 @@ $grp StaticModelEntity : "{B00E14C07DEE788A}Prefabs/Compositions/Misc/SubComposi
   }
  }
  {
-  coords 4813.276 1.472 11950.908
+  coords 4825.947 0.524 11937.404
+  angles 0 88.087 0
   {
    GenericEntity {
     ID "5D1EB45A4E161DE0"
@@ -468,7 +808,8 @@ $grp StaticModelEntity : "{B00E14C07DEE788A}Prefabs/Compositions/Misc/SubComposi
   }
  }
  {
-  coords 4811.625 0.512 11849.09
+  coords 4871.474 0 11818.938
+  angles 0 179.575 0
   {
    GenericEntity {
     ID "5D1EB45A4E161DE0"
@@ -549,10 +890,11 @@ $grp StaticModelEntity : "{B00E14C07DEE788A}Prefabs/Compositions/Misc/SubComposi
   }
  }
  {
-  coords 4812.72 0.567 11878.876
+  coords 4872.153 0 11853.073
+  angles 0 -178.624 0
  }
  {
-  coords 4811.315 0.396 11816.741
+  coords 4878.668 -0.001 11735.27
   {
    GenericEntity {
     ID "5D1EB45A4E161DE0"
@@ -633,27 +975,181 @@ $grp StaticModelEntity : "{B00E14C07DEE788A}Prefabs/Compositions/Misc/SubComposi
   }
  }
 }
+GenericEntity : "{B31A14BC1A0E7776}Prefabs/Props/Military/Sandbags/Sandbag_01_round_burlap.et" {
+ coords 10133.257 2.531 1535.85
+ angles 0 135.414 0
+}
 SCR_ChimeraCharacter : "{C0E50C2C872B4F34}Prefabs/Characters/Shop/USSR/USSR_Shop_Vehicles_Air_Transports.et" {
- coords 4824.13 28.099 11879.006
- angles 0 80.604 0
+ components {
+  RRG_ShopComponent "{68CB4AC1D789BEB4}" {
+   m_AdditionalMerchandise {
+    ADM_ShopMerchandise "{68CB4AC4C2734E41}" {
+     m_Merchandise ADM_MerchandiseVehicle "{6858901176051006}" {
+      m_SpawnPosition PointInfo "{686D142B79BC5123}" {
+       Offset -1 1.7 -8
+       Angles 0 -30 0
+      }
+     }
+    }
+    ADM_ShopMerchandise "{68CB4AC4C289ECAB}" {
+     m_Merchandise ADM_MerchandiseVehicle "{6858901176051006}" {
+      m_SpawnPosition PointInfo "{6858901168FDF095}" {
+       Offset -1 1.7 -8
+       Angles 0 -30 0
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 4862.575 28.594 11852.849
+ angles 0 -98.02 0
+}
+GenericEntity : "{C5B0A09856886A0A}Prefabs/Structures/Signs/Warnings/SignNoParking_01.et" {
+ coords 4922.28 31.193 11868.759
+ angles 0 -89.973 0
+}
+GenericEntity : "{C80EFCD980BA5716}Prefabs/Props/Military/Sandbags/Dst/Sandbag_01_single_dst_02_green.et" {
+ coords 4898.649 29.837 11880.897
+ angles 0 -90.384 0
 }
 SCR_ChimeraCharacter : "{CE45716F28FBE4E3}Prefabs/Characters/Shop/USSR/USSR_Shop_Vehicles_Air_Attacks.et" {
- coords 4823.118 28.16 11849.555
- angles 0 82.234 0
+ components {
+  RRG_ShopComponent "{68CB4AC1D789BEB4}" {
+   m_AdditionalMerchandise {
+    ADM_ShopMerchandise "{68CB4AC46DA5A2A6}" {
+     m_Merchandise ADM_MerchandiseVehicle "{68589013F578E90F}" {
+      m_SpawnPosition PointInfo "{686D142BADEB991B}" {
+       Offset -1 1.7 -7
+       Angles 0 -29 0
+      }
+     }
+    }
+    ADM_ShopMerchandise "{68CB4AC461404EDF}" {
+     m_Merchandise ADM_MerchandiseVehicle "{68589013F578E90F}" {
+      m_SpawnPosition PointInfo "{686D142BADEB991B}" {
+       Offset -1 1.7 -7
+       Angles 0 -29 0
+      }
+     }
+    }
+    ADM_ShopMerchandise "{68CB4AC7BC6C6B43}" {
+     m_Merchandise ADM_MerchandiseVehicle "{686CDD554D3641CD}" {
+      m_SpawnPosition PointInfo "{686D142BDFA58EE9}" {
+       Offset -1 1.7 -7
+       Angles 0 -29 0
+      }
+     }
+    }
+    ADM_ShopMerchandise "{68CB4AC7B4A602B2}" {
+     m_Merchandise ADM_MerchandiseVehicle "{686CDD554C1CB485}" {
+      m_SpawnPosition PointInfo "{686D142BDD2053F6}" {
+       Offset -1 1.7 -7
+       Angles 0 -29 0
+      }
+     }
+    }
+    ADM_ShopMerchandise "{68CB4AC70C9D100F}" {
+     m_Merchandise ADM_MerchandiseVehicle "{686CDD554CCE2E74}" {
+      m_SpawnPosition PointInfo "{686D142BDB11A0EF}" {
+       Offset -1 1.7 -7
+       Angles 0 -29 0
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 4861.894 28.593 11818.662
+ angles 0 -98.191 0
 }
 $grp GenericEntity : "{D0B05C0B2AEB98C6}Prefabs/Garage/Repair.et" {
  Repair_686C810C7F8FCC5A {
-  coords 4877.953 28.594 11844.005
-  angles 0 -86.724 0
+  coords 4917.372 28.775 11777.406
+  angles 0 -97.101 0
+  {
+   GenericEntity Repair_Reamo_Station3 {
+    components {
+     SCR_EditableCommentComponent "{5DDE234C81331983}" {
+      m_EntityType COMMENT
+      m_UIInfo SCR_EditableCommentUIInfo "{5DDE234873CE99F2}" {
+       Name "Repair,Reamo station"
+       Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+      }
+      m_bAutoRegister ALWAYS
+      m_sColor 0.502 0 0 1
+     }
+     SCR_MapDescriptorComponent "{5DDE234C9A632375}" {
+      DisplayName "Repair,Reamo station"
+      MainType "Name Village"
+      Scale 1.5
+     }
+    }
+    coords -0.111 0.001 0.171
+    angles 0 -77.861 0
+   }
+  }
  }
  Repair_686C810C7F8FCC5A2 {
-  coords 4820.033 28.174 11816.016
-  angles 0 79.457 0
+  coords 4889.364 28.174 11735.79
+  angles 0 -90.351 0
+  {
+   GenericEntity Repair_Reamo_Station2 {
+    components {
+     SCR_EditableCommentComponent "{5DDE234C81331983}" {
+      m_EntityType COMMENT
+      m_UIInfo SCR_EditableCommentUIInfo "{5DDE234873CE99F2}" {
+       Name "Repair,Reamo station"
+       Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+      }
+      m_bAutoRegister ALWAYS
+      m_sColor 0.502 0 0 1
+     }
+     SCR_MapDescriptorComponent "{5DDE234C9A632375}" {
+      DisplayName "Repair,Reamo station"
+      MainType "Name Village"
+      Scale 1.5
+     }
+    }
+    coords -0.068 0.419 -0.052
+    angles 0 -77.86 0
+   }
+  }
+ }
+}
+$grp GenericEntity : "{D5552F6D16B01D62}Prefabs/Compositions/Misc/SubCompositions/Furniture/RRG_Table_Ashtray_US_01.et" {
+ {
+  coords 4895.667 29.031 11911.13
+  angles 0 90.803 0
+ }
+ {
+  coords 4895.706 29.031 11913.745
+  angles 0 90.803 0
+ }
+ {
+  coords 4895.624 29.025 11905.158
+  angles 0 90.803 0
+ }
+ {
+  coords 4895.638 29.031 11906.458
+  angles 0 90.803 0
+ }
+ {
+  coords 4895.686 29.031 11912.436
+  angles 0 90.803 0
+ }
+ {
+  coords 4895.656 29.031 11907.765
+  angles 0 90.803 0
  }
 }
 SCR_ChimeraCharacter : "{D9A4153EC721622D}Prefabs/Characters/Shop/USSR/USSR_Loadout_Character.et" {
  coords 4894.938 29.065 11900.947
  angles 0 -57.558 0
+}
+GenericEntity : "{DC4B11930753ABC2}Prefabs/Props/Military/Sandbags/Sandbag_01_round_high_base.et" {
+ coords 4898.97 28.594 11887.185
+ angles 0 128.047 0
 }
 $grp SCR_ChimeraCharacter : "{E0C2546B051AE3A1}Prefabs/Characters/Shop/USSR/USSR_Shop_Items_Medical.et" {
  {
@@ -672,6 +1168,183 @@ StaticModelEntity : "{E17C840623164766}Prefabs/Statue/Statue_TP_USSR.et" {
   StaticModelEntity {
    ID "6162CD20EEB231EE"
    coords -0.034 3.048 0.002
+  }
+ }
+}
+$grp GameEntity : "{E7FD0B8019E96F73}Prefabs/Structures/BuildingParts/Lights/LampTower_01.et" {
+ {
+  components {
+   ParametricMaterialInstanceComponent "{5F1AD8DABB766727}" {
+   }
+   SCR_DestructionMultiPhaseComponent "{58F896B4CD371A8B}" {
+    EnableDamage 0
+   }
+   Hierarchy "{612AE78C95E98EEB}" {
+    PivotID "socket_light_01"
+   }
+  }
+  coords 10145.219 10.579 1558.504
+  angles -66.41 0 0
+  {
+   LightEntity : "{5BF23CDF9B8FB366}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01_light.et" {
+    components {
+     StreetLampComponent "{55A0954A909C9109}" {
+      "Emissive Color" 0.875 0.2209 0.01 1
+     }
+     RplComponent "{585699AC653DD54C}" {
+      Enabled 1
+     }
+    }
+    coords 0 0.196 0.178
+    angles -30 0 0
+   }
+  }
+ }
+ {
+  components {
+   ParametricMaterialInstanceComponent "{5F1AD8DABB766727}" {
+   }
+   SCR_DestructionMultiPhaseComponent "{58F896B4CD371A8B}" {
+    EnableDamage 0
+   }
+   Hierarchy "{612AE78C95E98EEB}" {
+    PivotID "socket_light_01"
+   }
+  }
+  coords 10149.893 10.609 1557.417
+  angles -66.41 0 0
+  {
+   LightEntity : "{5BF23CDF9B8FB366}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01_light.et" {
+    components {
+     RplComponent "{585699AC653DD54C}" {
+      Enabled 1
+     }
+    }
+    coords 0 0.196 0.178
+    angles -30 0 0
+    LV 15
+   }
+  }
+ }
+ {
+  components {
+   ParametricMaterialInstanceComponent "{5F1AD8DABB766727}" {
+   }
+   SCR_DestructionMultiPhaseComponent "{58F896B4CD371A8B}" {
+    EnableDamage 0
+   }
+   Hierarchy "{612AE78C95E98EEB}" {
+    PivotID "socket_light_01"
+   }
+  }
+  coords 10154.444 10.598 1556.038
+  angles -66.41 0 11.406
+ }
+ {
+  components {
+   ParametricMaterialInstanceComponent "{5F1AD8DABB766727}" {
+   }
+   SCR_DestructionMultiPhaseComponent "{58F896B4CD371A8B}" {
+    EnableDamage 0
+   }
+   Hierarchy "{612AE78C95E98EEB}" {
+    PivotID "socket_light_01"
+   }
+  }
+  coords 10159.167 10.592 1554.84
+  angles -66.41 0 0
+ }
+ {
+  components {
+   ParametricMaterialInstanceComponent "{5F1AD8DABB766727}" {
+   }
+   SCR_DestructionMultiPhaseComponent "{58F896B4CD371A8B}" {
+    EnableDamage 0
+   }
+   Hierarchy "{612AE78C95E98EEB}" {
+    PivotID "socket_light_01"
+   }
+  }
+  coords 10163.781 10.605 1553.561
+  angles -66.41 0 0
+  {
+   LightEntity : "{5BF23CDF9B8FB366}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01_light.et" {
+    components {
+     StreetLampComponent "{55A0954A909C9109}" {
+      "Emissive Color" 0.875 0.8203 0.6562 1
+     }
+     RplComponent "{585699AC653DD54C}" {
+      Enabled 1
+     }
+    }
+    coords 0 0.196 0.178
+    angles -30 0 0
+   }
+  }
+ }
+ {
+  components {
+   ParametricMaterialInstanceComponent "{5F1AD8DABB766727}" {
+   }
+   SCR_DestructionMultiPhaseComponent "{58F896B4CD371A8B}" {
+    EnableDamage 0
+   }
+   Hierarchy "{612AE78C95E98EEB}" {
+    PivotID "socket_light_01"
+   }
+  }
+  coords 10168.429 10.519 1552.308
+  angles -53.361 0 0
+ }
+ {
+  components {
+   ParametricMaterialInstanceComponent "{5F1AD8DABB766727}" {
+   }
+   SCR_DestructionMultiPhaseComponent "{58F896B4CD371A8B}" {
+    EnableDamage 0
+   }
+   Hierarchy "{612AE78C95E98EEB}" {
+    PivotID "socket_light_01"
+   }
+  }
+  coords 10173.094 10.489 1551.027
+  angles -58.139 0 0
+ }
+ {
+  components {
+   ParametricMaterialInstanceComponent "{5F1AD8DABB766727}" {
+   }
+   Hierarchy "{612AE78C95E98EEB}" {
+    PivotID "socket_light_01"
+   }
+  }
+  coords 10177.682 10.49 1549.755
+  angles -50.241 0 0
+ }
+ {
+  components {
+   ParametricMaterialInstanceComponent "{5F1AD8DABB766727}" {
+   }
+   SCR_DestructionMultiPhaseComponent "{58F896B4CD371A8B}" {
+    EnableDamage 0
+   }
+   Hierarchy "{612AE78C95E98EEB}" {
+    PivotID "socket_light_01"
+   }
+  }
+  coords 10182.268 10.481 1548.469
+  angles -45.558 0 0
+  {
+   LightEntity : "{5BF23CDF9B8FB366}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01_light.et" {
+    components {
+     RplComponent "{585699AC653DD54C}" {
+      Enabled 1
+     }
+    }
+    coords 0 0.192 0.185
+    angles -30 0 0
+    LV 12
+   }
   }
  }
 }
@@ -785,6 +1458,54 @@ SCR_DestructibleBuildingEntity : "{F16324CB8CB07C00}Prefabs/Structures/Military/
    {
     coords 20.332 0.205 6.131
     angles 0 -179.872 0
+   }
+  }
+  GenericEntity {
+   ID "566CAD19960B7410"
+   components {
+    RigidBody "{5111E74C06F5C1E1}" {
+     Active AlwaysActive
+    }
+   }
+  }
+  GenericEntity {
+   ID "566CAD19960B741C"
+   components {
+    RigidBody "{5111E74C06F5C1E1}" {
+     Active AlwaysActive
+    }
+   }
+  }
+  GenericEntity {
+   ID "566CAD19960B744A"
+   components {
+    RigidBody "{5111E74C06F5C1E1}" {
+     Active AlwaysActive
+    }
+   }
+  }
+  GenericEntity {
+   ID "566CAD19960B74B9"
+   components {
+    RigidBody "{5111E74C06F5C1E1}" {
+     Active AlwaysActive
+    }
+   }
+  }
+  GenericEntity {
+   ID "566CAD19960B74D9"
+   components {
+    RigidBody "{5111E74C06F5C1E1}" {
+     Active AlwaysActive
+    }
+   }
+  }
+  GenericEntity {
+   ID "566CAD19960B74F8"
+   components {
+    RigidBody "{5111E74C06F5C1E1}" {
+     Active AlwaysActive
+    }
    }
   }
   $grp StaticModelEntity : "{E2971F2C529A6F83}Prefabs/Structures/Walls/Concrete/SilageWall_01/SilageWall_01_5m_M1.et" {

@@ -2,6 +2,9 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  Meaux {
   components {
    RY_BaseCaptureComponent "{68F28815312C0F19}" {
+    m_iCaptureAmount 300
+    m_iPeriodicRewardAmount 60
+    m_fPeriodicRewardInterval 600
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
     m_iRadius 80
@@ -38,9 +41,12 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    }
   }
  }
- FOB_North {
+ FOB_Gallows {
   components {
    RY_BaseCaptureComponent "{68F28815053D5E46}" {
+    m_iCaptureAmount 200
+    m_iPeriodicRewardAmount 50
+    m_fPeriodicRewardInterval 600
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
     m_iRadius 80
@@ -57,9 +63,8 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_iRadius 100
-    m_bIsControlPoint 1
-    m_sBaseName "PowerStation"
-    m_sBaseNameUpper "power station"
+    m_sBaseName "FOB Gallows"
+    m_sBaseNameUpper "FOB Gallows"
     m_fRespawnDelayAfterCaptureSeconds 30
    }
   }
@@ -76,6 +81,8 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  Kermovan {
   components {
    RY_BaseCaptureComponent "{68F288152AA2326C}" {
+    m_iCaptureAmount 300
+    m_iPeriodicRewardAmount 60
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
     m_iRadius 80
@@ -115,6 +122,9 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  Tyrone {
   components {
    RY_BaseCaptureComponent "{68F28812D35D4FDD}" {
+    m_iCaptureAmount 300
+    m_iPeriodicRewardAmount 60
+    m_fPeriodicRewardInterval 600
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
     m_iRadius 80
@@ -135,7 +145,6 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_iRadius 100
-    m_bIsControlPoint 1
     m_sBaseName "Tyrone"
     m_sBaseNameUpper "Tyrone"
     m_fRespawnDelayAfterCaptureSeconds 30
@@ -151,9 +160,12 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    }
   }
  }
- FOB_North2 {
+ FOB_Saint_Phillipe {
   components {
    RY_BaseCaptureComponent "{68F2881501E72461}" {
+    m_iCaptureAmount 200
+    m_iPeriodicRewardAmount 50
+    m_fPeriodicRewardInterval 600
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
     m_iRadius 80
@@ -170,9 +182,8 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_iRadius 100
-    m_bIsControlPoint 1
-    m_sBaseName "PowerStation"
-    m_sBaseNameUpper "power station"
+    m_sBaseName "FOB Saint Phillipe"
+    m_sBaseNameUpper "FOB Saint Phillipe"
     m_fRespawnDelayAfterCaptureSeconds 30
    }
   }
@@ -189,6 +200,9 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  Farm_Etoupe {
   components {
    RY_BaseCaptureComponent "{68F2881571E0D72A}" {
+    m_iCaptureAmount 300
+    m_iPeriodicRewardAmount 60
+    m_fPeriodicRewardInterval 600
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
     m_iRadius 80
@@ -209,7 +223,6 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_iRadius 100
-    m_bIsControlPoint 1
     m_sBaseName "Meaux"
     m_sBaseNameUpper "Meaux"
     m_fRespawnDelayAfterCaptureSeconds 30
@@ -228,6 +241,9 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  Military_Training {
   components {
    RY_BaseCaptureComponent "{68F288153FE7E2E8}" {
+    m_iCaptureAmount 500
+    m_iPeriodicRewardAmount 100
+    m_fPeriodicRewardInterval 600
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
     m_iRadius 80
@@ -248,7 +264,6 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_iRadius 100
-    m_bIsControlPoint 1
     m_sBaseName "Military Training"
     m_sBaseNameUpper "Military Training"
     m_fRespawnDelayAfterCaptureSeconds 30
@@ -264,9 +279,16 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    }
   }
  }
- Benac {
+ Gillnet {
   components {
    RY_BaseCaptureComponent "{68F288156DD4B98F}" {
+    m_iCaptureAmount 600
+    m_iPeriodicRewardAmount 200
+    m_fPeriodicRewardInterval 600
+   }
+   SCR_CampaignMilitaryBaseMapDescriptorComponent "{5C669672B19BFE5A}" {
+    DisplayName "Gillnet"
+    ImagesetQuadElement "Gillnet"
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
     m_iRadius 80
@@ -274,7 +296,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
     Transceivers {
      RelayTransceiver "{5C669673E8C94083}" {
-      "Transmitting Range" 1600
+      "Transmitting Range" 1550
      }
     }
    }
@@ -293,12 +315,12 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_fRespawnDelayAfterCaptureSeconds 30
    }
   }
-  coords 6505.505 160.833 7270.324
-  angles 0 -93.772 0
+  coords 6949.316 89.25 8306.044
+  angles 0 138.019 0
   {
    SCR_CampaignSpawnPointGroup {
     ID "5C6696731466AF36"
-    coords 36.458 -0.328 -10.644
+    coords 10.932 -0.328 -0.275
     angles 0 -83.058 0
    }
   }
@@ -306,6 +328,9 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  Fischerman_Military {
   components {
    RY_BaseCaptureComponent "{68F28815783BEE6F}" {
+    m_iCaptureAmount 600
+    m_iPeriodicRewardAmount 150
+    m_fPeriodicRewardInterval 600
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
     m_iRadius 80
@@ -345,6 +370,9 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  EntreDeux {
   components {
    RY_BaseCaptureComponent "{68F2881574E5C5F5}" {
+    m_iCaptureAmount 800
+    m_iPeriodicRewardAmount 200
+    m_fPeriodicRewardInterval 600
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
     m_iRadius 80
@@ -384,6 +412,9 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  Montignac {
   components {
    RY_BaseCaptureComponent "{68F28812C51138C5}" {
+    m_iCaptureAmount 800
+    m_iPeriodicRewardAmount 200
+    m_fPeriodicRewardInterval 600
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
     m_iRadius 80
@@ -423,6 +454,9 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  Thales {
   components {
    RY_BaseCaptureComponent "{68F28812D696A8D6}" {
+    m_iCaptureAmount 1000
+    m_iPeriodicRewardAmount 300
+    m_fPeriodicRewardInterval 600
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
     m_iRadius 80
@@ -467,6 +501,9 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  Provins {
   components {
    RY_BaseCaptureComponent "{68F28812CDB9F9C0}" {
+    m_iCaptureAmount 800
+    m_iPeriodicRewardAmount 200
+    m_fPeriodicRewardInterval 600
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
     m_iRadius 80
@@ -528,7 +565,6 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_iRadius 100
-    m_bIsControlPoint 1
     m_sBaseName "Figari"
     m_sBaseNameUpper "Figari"
     m_sMapLocationName "C_LocationTyrone"
@@ -571,7 +607,6 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_iRadius 100
-    m_bIsControlPoint 1
     m_sBaseName "Morton"
     m_sBaseNameUpper "Morton"
     m_fRespawnDelayAfterCaptureSeconds 30
@@ -590,8 +625,8 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  Seagull {
   components {
    RY_BaseCaptureComponent "{68F2882E21A19A0A}" {
-    m_iCaptureAmount 200
-    m_iPeriodicRewardAmount 50
+    m_iCaptureAmount 400
+    m_iPeriodicRewardAmount 100
     m_fPeriodicRewardInterval 600
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
@@ -632,8 +667,8 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  Camurac {
   components {
    RY_BaseCaptureComponent "{68F2882E21A19A0A}" {
-    m_iCaptureAmount 200
-    m_iPeriodicRewardAmount 50
+    m_iCaptureAmount 400
+    m_iPeriodicRewardAmount 100
     m_fPeriodicRewardInterval 600
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
@@ -674,8 +709,8 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  CalvaryHill {
   components {
    RY_BaseCaptureComponent "{68F2882E21A19A0A}" {
-    m_iCaptureAmount 200
-    m_iPeriodicRewardAmount 50
+    m_iCaptureAmount 500
+    m_iPeriodicRewardAmount 100
     m_fPeriodicRewardInterval 600
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
@@ -697,7 +732,6 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_iRadius 100
-    m_bIsControlPoint 1
     m_sBaseName "Calvary Hill"
     m_sBaseNameUpper "Calvary Hill"
     m_fRespawnDelayAfterCaptureSeconds 30
@@ -716,8 +750,8 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  Villeneuf {
   components {
    RY_BaseCaptureComponent "{68F2882E21A19A0A}" {
-    m_iCaptureAmount 200
-    m_iPeriodicRewardAmount 50
+    m_iCaptureAmount 400
+    m_iPeriodicRewardAmount 100
     m_fPeriodicRewardInterval 600
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
@@ -739,7 +773,6 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_iRadius 100
-    m_bIsControlPoint 1
     m_sBaseName "Villeneuf"
     m_sBaseNameUpper "Villeneuf"
     m_fRespawnDelayAfterCaptureSeconds 30
@@ -758,8 +791,8 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  Lamentin {
   components {
    RY_BaseCaptureComponent "{68F2882E21A19A0A}" {
-    m_iCaptureAmount 200
-    m_iPeriodicRewardAmount 50
+    m_iCaptureAmount 300
+    m_iPeriodicRewardAmount 60
     m_fPeriodicRewardInterval 600
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
@@ -800,8 +833,8 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  LeMoule {
   components {
    RY_BaseCaptureComponent "{68F2882E21A19A0A}" {
-    m_iCaptureAmount 200
-    m_iPeriodicRewardAmount 50
+    m_iCaptureAmount 400
+    m_iPeriodicRewardAmount 100
     m_fPeriodicRewardInterval 600
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
@@ -842,8 +875,8 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  SawMill {
   components {
    RY_BaseCaptureComponent "{68F2882E21A19A0A}" {
-    m_iCaptureAmount 200
-    m_iPeriodicRewardAmount 50
+    m_iCaptureAmount 600
+    m_iPeriodicRewardAmount 150
     m_fPeriodicRewardInterval 600
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
@@ -884,8 +917,8 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  Pinewood {
   components {
    RY_BaseCaptureComponent "{68F2882E21A19A0A}" {
-    m_iCaptureAmount 200
-    m_iPeriodicRewardAmount 50
+    m_iCaptureAmount 800
+    m_iPeriodicRewardAmount 200
     m_fPeriodicRewardInterval 600
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
@@ -926,8 +959,8 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  MortonValley {
   components {
    RY_BaseCaptureComponent "{68F2882E21A19A0A}" {
-    m_iCaptureAmount 200
-    m_iPeriodicRewardAmount 50
+    m_iCaptureAmount 500
+    m_iPeriodicRewardAmount 100
     m_fPeriodicRewardInterval 600
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
@@ -949,7 +982,6 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_iRadius 100
-    m_bIsControlPoint 1
     m_sBaseName "Morton Valley"
     m_sBaseNameUpper "Morton zaValley"
     m_fRespawnDelayAfterCaptureSeconds 30
@@ -968,8 +1000,8 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  Levie {
   components {
    RY_BaseCaptureComponent "{68F2882E21A19A0A}" {
-    m_iCaptureAmount 200
-    m_iPeriodicRewardAmount 50
+    m_iCaptureAmount 500
+    m_iPeriodicRewardAmount 100
     m_fPeriodicRewardInterval 600
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
@@ -1007,11 +1039,11 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    }
   }
  }
- FOB_South {
+ FOB_Martin {
   components {
    RY_BaseCaptureComponent "{68F28810A52D8463}" {
-    m_iCaptureAmount 500
-    m_iPeriodicRewardAmount 50
+    m_iCaptureAmount 300
+    m_iPeriodicRewardAmount 60
     m_fPeriodicRewardInterval 600
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
@@ -1030,8 +1062,8 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_iRadius 100
     m_bIsControlPoint 1
-    m_sBaseName "FOB South"
-    m_sBaseNameUpper "FOB South"
+    m_sBaseName "FOB Martin"
+    m_sBaseNameUpper "FOB Martin"
     m_fRespawnDelayAfterCaptureSeconds 30
    }
   }
@@ -1045,10 +1077,10 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    }
   }
  }
- FOB_South2 {
+ FOB_Vernon {
   components {
    RY_BaseCaptureComponent "{68F28810A52D8463}" {
-    m_iCaptureAmount 500
+    m_iCaptureAmount 200
     m_iPeriodicRewardAmount 50
     m_fPeriodicRewardInterval 600
    }
@@ -1067,9 +1099,8 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_iRadius 100
-    m_bIsControlPoint 1
-    m_sBaseName "FOB South2"
-    m_sBaseNameUpper "FOB South2"
+    m_sBaseName "FOB Vernon"
+    m_sBaseNameUpper "FOB Vernon"
     m_fRespawnDelayAfterCaptureSeconds 30
    }
   }
@@ -1109,7 +1140,6 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_iRadius 100
-    m_bIsControlPoint 1
     m_sBaseName "Durras"
     m_sBaseNameUpper "Durras"
     m_fRespawnDelayAfterCaptureSeconds 30
@@ -1128,8 +1158,8 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  Quarry {
   components {
    RY_BaseCaptureComponent "{68F2882E21A19A0A}" {
-    m_iCaptureAmount 200
-    m_iPeriodicRewardAmount 50
+    m_iCaptureAmount 300
+    m_iPeriodicRewardAmount 60
     m_fPeriodicRewardInterval 600
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
@@ -1151,7 +1181,6 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_iRadius 100
-    m_bIsControlPoint 1
     m_sBaseName "Quarry"
     m_sBaseNameUpper "Quarry"
     m_fRespawnDelayAfterCaptureSeconds 30
@@ -1170,8 +1199,8 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  PeterPass {
   components {
    RY_BaseCaptureComponent "{68F2882E21A19A0A}" {
-    m_iCaptureAmount 200
-    m_iPeriodicRewardAmount 50
+    m_iCaptureAmount 400
+    m_iPeriodicRewardAmount 100
     m_fPeriodicRewardInterval 600
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
@@ -1193,7 +1222,6 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_iRadius 100
-    m_bIsControlPoint 1
     m_sBaseName "PeterPass"
     m_sBaseNameUpper "PeterPass"
     m_fRespawnDelayAfterCaptureSeconds 30
@@ -1212,8 +1240,8 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  Regina {
   components {
    RY_BaseCaptureComponent "{68F2882E21A19A0A}" {
-    m_iCaptureAmount 200
-    m_iPeriodicRewardAmount 50
+    m_iCaptureAmount 300
+    m_iPeriodicRewardAmount 60
     m_fPeriodicRewardInterval 600
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
@@ -1235,7 +1263,6 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_iRadius 100
-    m_bIsControlPoint 1
     m_sBaseName "Regina"
     m_sBaseNameUpper "Regina"
     m_fRespawnDelayAfterCaptureSeconds 30
@@ -1251,53 +1278,11 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    }
   }
  }
- WesternHeights {
-  components {
-   RY_BaseCaptureComponent "{68F2882E21A19A0A}" {
-    m_iCaptureAmount 200
-    m_iPeriodicRewardAmount 50
-    m_fPeriodicRewardInterval 600
-   }
-   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
-    m_iRadius 80
-   }
-   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
-    Transceivers {
-     RelayTransceiver "{5C669673E8C94083}" {
-      "Transmitting Range" 1350
-     }
-    }
-   }
-   SCR_EditableSystemComponent "{5B0AB14FBD96A524}" {
-    m_UIInfo SCR_EditableDescriptorUIInfo "{5B0AB14FA66FFA19}" {
-    }
-   }
-   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
-    "faction affiliation" "FIA"
-   }
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_iRadius 100
-    m_bIsControlPoint 1
-    m_sBaseName "WesternHeights"
-    m_sBaseNameUpper "WesternHeights"
-    m_fRespawnDelayAfterCaptureSeconds 30
-   }
-  }
-  coords 7835.185 341.027 3378.177
-  angles 0 35.195 0
-  {
-   SCR_CampaignSpawnPointGroup {
-    ID "5C6696731466AF36"
-    coords -1.939 -0.48 2.101
-    angles 0 -3.902 0
-   }
-  }
- }
  Chotain {
   components {
    RY_BaseCaptureComponent "{68F2882E21A19A0A}" {
-    m_iCaptureAmount 200
-    m_iPeriodicRewardAmount 50
+    m_iCaptureAmount 500
+    m_iPeriodicRewardAmount 100
     m_fPeriodicRewardInterval 600
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
@@ -1319,7 +1304,6 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_iRadius 100
-    m_bIsControlPoint 1
     m_sBaseName "Chotain"
     m_sBaseNameUpper "Chotain"
     m_fRespawnDelayAfterCaptureSeconds 30
@@ -1338,8 +1322,8 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  MilitaryHospital {
   components {
    RY_BaseCaptureComponent "{68F2882E21A19A0A}" {
-    m_iCaptureAmount 200
-    m_iPeriodicRewardAmount 50
+    m_iCaptureAmount 300
+    m_iPeriodicRewardAmount 60
     m_fPeriodicRewardInterval 600
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
@@ -1380,8 +1364,8 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  SimonWood {
   components {
    RY_BaseCaptureComponent "{68F2882E21A19A0A}" {
-    m_iCaptureAmount 200
-    m_iPeriodicRewardAmount 50
+    m_iCaptureAmount 500
+    m_iPeriodicRewardAmount 100
     m_fPeriodicRewardInterval 600
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
@@ -1403,7 +1387,6 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_iRadius 100
-    m_bIsControlPoint 1
     m_sBaseName "SimonWood"
     m_sBaseNameUpper "SimonWood"
     m_fRespawnDelayAfterCaptureSeconds 30
@@ -1420,19 +1403,68 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   }
  }
 }
-GenericEntity Radio : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRelayRadio.et" {
- components {
-  SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
-   Transceivers {
-    RelayTransceiver "{5C727AD73024FB39}" {
+$grp GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRelayRadio.et" {
+ Radio {
+  components {
+   SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
+    Transceivers {
+     RelayTransceiver "{5C727AD73024FB39}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_sBaseName "FOBPython"
+    m_sBaseNameUpper "FOB Python"
+   }
+  }
+  coords 9237.482 57.024 1986.213
+  angles 0 70.342 0
+ }
+ AlouetteRelay {
+  components {
+   SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
+    Transceivers {
+     RelayTransceiver "{5C727AD73024FB39}" {
+      "Transmitting Range" 1700
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_sBaseName "Oil Platform SUD"
+    m_sBaseNameUpper "Oil Platform SUD"
+    m_aWhiteList {
+     "Redland"
+     "Daytona"
+     "Marsh Relay"
+     "Boca Grande Relay"
     }
    }
   }
-  SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
-   m_sBaseName "FOBPython"
-   m_sBaseNameUpper "FOB Python"
-  }
+  coords 6252.268 210.817 7795.498
+  angles 0 68.619 0
  }
- coords 9237.482 57.024 1986.213
- angles 0 70.342 0
+ WesternHeigts_Relay {
+  components {
+   SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
+    Transceivers {
+     RelayTransceiver "{5C727AD73024FB39}" {
+      "Transmitting Range" 1700
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_sBaseName "Oil Platform SUD"
+    m_sBaseNameUpper "Oil Platform SUD"
+    m_aWhiteList {
+     "Redland"
+     "Daytona"
+     "Marsh Relay"
+     "Boca Grande Relay"
+    }
+   }
+  }
+  coords 7689.88 341.793 3055.713
+  angles 0 164.714 0
+  scale 0.9
+ }
 }

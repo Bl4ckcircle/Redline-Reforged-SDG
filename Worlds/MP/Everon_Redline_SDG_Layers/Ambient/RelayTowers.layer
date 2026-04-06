@@ -3349,10 +3349,6 @@ $grp GenericEntity {
    }
    $grp GenericEntity : "{2E37501FEFB80D61}Prefabs/Props/Airport/RunwayLightPortable_01/RunwayLightPortable_01_off.et" {
     {
-     coords -326.754 -45.169 5447.647
-     angles 0 151.047 0
-    }
-    {
      coords -351.813 -45.169 5447.964
      angles 0 151.047 0
     }
@@ -5922,8 +5918,8 @@ $grp GenericEntity : "{9E36120FECA41BE8}Prefabs/Compositions/Misc/SubComposition
 }
 $grp GenericEntity : "{A16AAE4C47D5D264}Prefabs/L42/Campaign/RelayTower/Big01_Base.et" {
  DecoRelayRichemont {
-  coords 4016.502 114.869 5149.636
-  angles 0 -41.532 0
+  coords 6249.985 172.263 7795.489
+  angles 0 -109.979 0
   {
    DecalEntity : "{4AD6EB80A8B1FA3A}Prefabs/Decals/Dirt/Decal_Dirt_Patch_03.et" {
     components {
@@ -6344,9 +6340,4 @@ $grp GenericEntity : "{A16AAE4C47D5D264}Prefabs/L42/Campaign/RelayTower/Big01_Ba
    }
   }
  }
-}
-SCR_DestructibleBuildingEntity : "{A548C1C5370D0734}Prefabs/Structures/Houses/Garage/Garage_E_01/Garage_E_01.et" {
- Flags 0x403 0x80000
- coords 10126.063 2.437 1520.133
- angles 0 14.56 0
 }
