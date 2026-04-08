@@ -3,6 +3,20 @@ GameProject {
  GUID "68D68619182CAE93"
  TITLE "Redline Reforged SDG"
  Dependencies {
-  "58D0FB3206B6F859"
+  "58D0FB3206B6F859" "6906F30F33023A96"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
  }
 }
