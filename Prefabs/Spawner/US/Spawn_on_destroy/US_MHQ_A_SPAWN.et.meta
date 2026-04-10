@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{0E7AE816DD74E095}Prefabs/Spawner/US/Spawn_on_destroy/US_MHQ_A_SPAWN.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

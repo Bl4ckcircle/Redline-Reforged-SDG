@@ -1,0 +1,18 @@
+GenericEntity {
+ ID "6914F04F27FD14F1"
+ components {
+  EE_SimpleVehicleSpawner_DestroyOnly "{6914F04F27FD14FA}" {
+   m_aPrefabList {
+    "{28E08EEDBDE7B89B}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_ambulance.et"
+   }
+   m_bEnableRespawn 0
+   m_fRespawnDelayOnDestroyed 5
+   m_bDeleteWreck 1
+  }
+  RplComponent "{6914F04F27FD14EC}" {
+  }
+  Hierarchy "{6914F04F27FD14EE}" {
+  }
+ }
+ coords 1193.354 2.281 1447.946
+}
