@@ -1,0 +1,18 @@
+GenericEntity {
+ ID "6914F59DD54FE881"
+ components {
+  EE_SimpleVehicleSpawner_DestroyOnly "{6914F59DD54FE88B}" {
+   m_aPrefabList {
+    "{1BABF6B33DA0AEB7}Prefabs/Vehicles/Wheeled/Ural4320/MHQ_A.et"
+   }
+   m_bEnableRespawn 0
+   m_fRespawnDelayOnDestroyed 5
+   m_bDeleteWreck 1
+  }
+  RplComponent "{6914F59DD54FE8FF}" {
+  }
+  Hierarchy "{6914F59DD54FE8F8}" {
+  }
+ }
+ coords 13182.675 2.875 14679.863
+}

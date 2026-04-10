@@ -1,0 +1,15 @@
+GenericEntity {
+ ID "6914F04F3D389A84"
+ components {
+  EE_SimpleVehicleSpawner "{6914F04F3D389AD1}" {
+   m_aPrefabList {
+    "{5674FAEB9AB7BDD0}Prefabs/Vehicles/Wheeled/M998/M998.et" "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MERDC.et" ""
+   }
+  }
+  RplComponent "{6914F04F3D389B34}" {
+  }
+  Hierarchy "{6914F04F3D389B31}" {
+  }
+ }
+ coords 2056.049 48.569 3411.102
+}

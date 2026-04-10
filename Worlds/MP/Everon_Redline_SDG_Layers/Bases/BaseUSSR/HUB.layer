@@ -144,16 +144,6 @@ $grp GenericEntity {
   angles 0 90.803 0
  }
 }
-$grp SCR_ChimeraCharacter : "{026CB319AEBCF010}Prefabs/Characters/Shop/USSR/USSR_Shop_Items_Weapons.et" {
- {
-  coords 4896.359 29.065 11907.774
-  angles 0 -100.133 0
- }
- {
-  coords 4896.337 29.065 11905.138
-  angles 0 -100.133 0
- }
-}
 $grp GenericEntity : "{0858A93EFDE04083}Prefabs/ATM.et" {
  {
   coords 4897.266 29.031 11916.207

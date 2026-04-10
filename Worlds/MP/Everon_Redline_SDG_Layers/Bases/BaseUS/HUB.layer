@@ -105,6 +105,16 @@ GenericEntity : "{025DB189A1A9B438}Prefabs/Compositions/Misc/SubCompositions/Sig
  coords 10175.295 2.772 1557.815
  angles 0 -164.622 0
 }
+$grp SCR_ChimeraCharacter : "{026CB319AEBCF010}Prefabs/Characters/Shop/USSR/USSR_Shop_Items_Weapons.et" {
+ {
+  coords 4896.517 29.031 11907.899
+  angles 0 -118.287 0
+ }
+ {
+  coords 4896.396 29.031 11905.389
+  angles 0 -104.311 0
+ }
+}
 $grp GenericEntity : "{0858A93EFDE04083}Prefabs/ATM.et" {
  {
   coords 10170.747 3.277 1561.222

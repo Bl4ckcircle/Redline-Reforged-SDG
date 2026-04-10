@@ -1,0 +1,18 @@
+GenericEntity {
+ ID "6914F59DD907006A"
+ components {
+  EE_SimpleVehicleSpawner_DestroyOnly "{6914F59DD9070052}" {
+   m_aPrefabList {
+    "{38186F12F27A61C7}Prefabs/Vehicles/Wheeled/M923A1/MHQ_A.et"
+   }
+   m_bEnableRespawn 0
+   m_fRespawnDelayOnDestroyed 5
+   m_bDeleteWreck 1
+  }
+  RplComponent "{6914F59DD9070090}" {
+  }
+  Hierarchy "{6914F59DD907009C}" {
+  }
+ }
+ coords 1193.354 2.281 1447.946
+}
