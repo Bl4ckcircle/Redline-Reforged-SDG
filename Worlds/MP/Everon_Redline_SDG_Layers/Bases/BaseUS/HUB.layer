@@ -100,6 +100,66 @@ $grp GenericEntity {
   coords 10181.193 3.273 1556.751
   angles 0 15.406 0
  }
+ Garage2Ru3 {
+  components {
+   SCR_EditableCommentComponent "{5DDE234C81331983}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{5DDE234873CE99F2}" {
+     Name "Garage"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_sColor 0.502 0 0 1
+   }
+   SCR_MapDescriptorComponent "{5DDE234C9A632375}" {
+    DisplayName "Garage"
+    MainType "Name Village"
+    Scale 0.5
+   }
+  }
+  coords 4918.611 28.594 11880.681
+  angles 0 -11.877 0
+ }
+ Repair_Reamo_Station6 {
+  components {
+   SCR_EditableCommentComponent "{5DDE234C81331983}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{5DDE234873CE99F2}" {
+     Name "Garage"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_sColor 0.502 0 0 1
+   }
+   SCR_MapDescriptorComponent "{5DDE234C9A632375}" {
+    DisplayName "Garage"
+    MainType "Name Village"
+    Scale 0.5
+   }
+  }
+  coords 10099.691 2.36 1517.677
+  angles 0 -92.817 0
+ }
+ Repair_Reamo_Station7 {
+  components {
+   SCR_EditableCommentComponent "{5DDE234C81331983}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{5DDE234873CE99F2}" {
+     Name "Garage"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_sColor 0.502 0 0 1
+   }
+   SCR_MapDescriptorComponent "{5DDE234C9A632375}" {
+    DisplayName "Garage"
+    MainType "Name Village"
+    Scale 0.5
+   }
+  }
+  coords 10114.639 2.5 1362.243
+  angles 0 -92.817 0
+ }
 }
 GenericEntity : "{025DB189A1A9B438}Prefabs/Compositions/Misc/SubCompositions/Sign_Medical_US_01.et" {
  coords 10175.295 2.772 1557.815
@@ -683,6 +743,7 @@ SCR_DestructibleEntity : "{2506C02B8564CABC}Prefabs/Statue/Statue_TP_US.et" {
  }
  coords 10170.331 0 1525.425
  angles 0 -112.389 0
+ Enabled 0
  {
   GenericEntity TP_MHQ3 {
    components {
@@ -1018,6 +1079,16 @@ $grp GenericEntity : "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_
   angles 0 -73.028 0
  }
 }
+$grp GenericEntity : "{9EA803E0D1DDCDB6}Prefabs/Garage/Garage.et" {
+ {
+  coords 10099.755 2.563 1517.775
+  angles 0 -166.765 0
+ }
+ {
+  coords 10114.6 2.5 1361.98
+  angles 0 -24.356 0
+ }
+}
 SCR_DestructibleBuildingEntity : "{A548C1C5370D0734}Prefabs/Structures/Houses/Garage/Garage_E_01/Garage_E_01.et" {
  Flags 0x403 0x80000
  coords 10126.063 2.437 1520.133
@@ -1301,7 +1372,7 @@ $grp GenericEntity : "{D0B05C0B2AEB98C6}Prefabs/Garage/Repair.et" {
      SCR_EditableCommentComponent "{5DDE234C81331983}" {
       m_EntityType COMMENT
       m_UIInfo SCR_EditableCommentUIInfo "{5DDE234873CE99F2}" {
-       Name "Repair,Reamo station"
+       Name "Service Vehicles"
        Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
       }
       m_bAutoRegister ALWAYS
@@ -1327,7 +1398,7 @@ $grp GenericEntity : "{D0B05C0B2AEB98C6}Prefabs/Garage/Repair.et" {
      SCR_EditableCommentComponent "{5DDE234C81331983}" {
       m_EntityType COMMENT
       m_UIInfo SCR_EditableCommentUIInfo "{5DDE234873CE99F2}" {
-       Name "Repair,Reamo station"
+       Name "Service Heli"
        Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
       }
       m_bAutoRegister ALWAYS
