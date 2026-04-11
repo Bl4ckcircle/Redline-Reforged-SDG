@@ -1,0 +1,131 @@
+GenericEntity {
+ ID "5E6C75C9577CA039"
+ coords 4762.907 32.914 11848.51
+ {
+  $grp StaticModelEntity : "{046689B4F2BC7B24}Prefabs/Structures/Military/Fortifications/Trenches/TrenchOld_01/TrenchOld_01_roof_4m_forest.et" {
+   {
+    ID "5E6C75C9577A1A63"
+    coords -4.36 1.558 -0.028
+    scale 1.5
+   }
+   {
+    ID "5E6C75C9577A1A7C"
+    coords 3.551 1.546 -0.036
+    scale 1.5
+   }
+  }
+  GenericEntity : "{27E4C0ECA5EB1318}Prefabs/Structures/Military/Camps/Foundations/Foundation_ShelterStorage_01.et" {
+   ID "5E6C75C9577AC0FD"
+   coords -0.871 -0.148 -0.041
+   angleY 90
+   scale 2
+  }
+  $grp StaticModelEntity : "{2CF6244D6C76F560}Prefabs/Terrain/Erosion/ErodedEmbankment_01/ErodedEmbankment_01_dirt_straight.et" {
+   {
+    ID "5E6C75C9577B430C"
+    coords -4.462 -0.645 -4.593
+    angleX 16.324
+    scale 0.5
+   }
+   {
+    ID "5E6C75C9577B9F22"
+    coords -4.837 -0.776 5.132
+    angleX 16.03
+    angleY -180
+    scale 0.5
+   }
+   {
+    ID "5E6C75C9577CA024"
+    coords -0.195 -0.631 -4.639
+    angleX 16.324
+    scale 0.5
+   }
+   {
+    ID "5E6C75C9577CA025"
+    coords -0.428 -0.789 5.081
+    angleX 16.03
+    angleY -180
+    scale 0.5
+   }
+   {
+    ID "5E6C75C9577CA027"
+    coords 4.103 -0.639 -4.631
+    angleX 16.324
+    scale 0.5
+   }
+   {
+    ID "5E6C75C9577CF49F"
+    coords 4.172 -0.797 5.093
+    angleX 16.03
+    angleY -180
+    scale 0.5
+   }
+  }
+  $grp GenericEntity : "{5040D5BB29F06E43}Prefabs/Props/Military/Sandbags/Sandbag_01_single_plastic.et" {
+   {
+    ID "5E6C75C9577A7F24"
+    coords -7.985 -0.048 0.684
+    angleX -22.254
+    angleY 173.35
+    angleZ -173.88
+   }
+   {
+    ID "5E6C75C9577A7F2B"
+    coords -7.99 -0.098 -0.708
+    angleX 2.025
+    angleY -179.655
+    angleZ -173.122
+   }
+  }
+  $grp GenericEntity : "{BBE13893AEA69C0C}Prefabs/Props/Military/Sandbags/Sandbag_01_foundation_plastic.et" {
+   {
+    ID "5E6C75C9577A7F27"
+    coords 6.576 0.14 -0.147
+    angleY 270
+    scale 0.5
+   }
+   {
+    ID "5E6C75C9577AC0F9"
+    coords -7.341 0.14 -0.072
+    angleY 90
+    scale 0.5
+   }
+  }
+  $grp StaticModelEntity : "{BEAC7AAD20B52174}Prefabs/Structures/Military/Fortifications/Trenches/TrenchOld_02/TrenchOld_02_450cm_wood.et" {
+   {
+    ID "5E6C75C9577A7F23"
+    coords 0.482 0.019 -0.087
+   }
+   {
+    ID "5E6C75C9577B9F21"
+    coords -4.428 0.005 -0.041
+   }
+   {
+    ID "5E6C75C9577CA01C"
+    coords 5.081 0.01 -0.079
+   }
+  }
+  $grp GenericEntity : "{F29A05EBA7063E7C}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_plastic.et" {
+   {
+    ID "5E6C75C9577A1A66"
+    coords -7.844 -0.96 2.188
+    angleY 90
+   }
+   {
+    ID "5E6C75C9577B430D"
+    coords 7.078 -0.761 2.123
+    angleY 90
+   }
+   {
+    ID "5E6C75C9577BC44B"
+    coords -7.844 -0.96 -2.101
+    angleY 90
+   }
+   {
+    ID "5E6C75C9577CF496"
+    coords 7.078 -0.761 -2.324
+    angleY 90
+   }
+  }
+ }
+}

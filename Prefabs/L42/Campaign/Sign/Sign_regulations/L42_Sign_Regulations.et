@@ -1,0 +1,33 @@
+GenericEntity : "{48C842DD171DE304}Prefabs/Structures/Signs/Large/SignLarge_01_base.et" {
+ ID "0000000000000001"
+ components {
+  MeshObject "{54969A6AAAADA251}" {
+   Materials {
+    MaterialAssignClass "{5E4F032C5314BDEF}" {
+     SourceMaterial "SignLarge_01"
+     AssignedMaterial "{85CC9A6365066DDB}Prefabs/L42/Campaign/Sign/Sign_regulations/L42_Sign_Regulations_NMO.emat"
+    }
+    MaterialAssignClass "{5E4F032C5314BDD6}" {
+     SourceMaterial "SignLarge_01_MLOD"
+     AssignedMaterial "{071E22DA3B5099AA}Prefabs/L42/Campaign/Sign/Sign_regulations/L42_Sign_Regulations_BCR.emat"
+    }
+   }
+  }
+  RigidBody "{54969A6AA8773997}" {
+   ResponseIndex "LargeDestructible"
+  }
+  SCR_DestructionMultiPhaseComponent "{5496C1EF00137501}" {
+   Enabled 0
+   EnableDamage 0
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{57209A7D9AC2E2D9}" {
+     m_ModelPrefabs {
+      "{015711DD96E102FF}Prefabs/Structures/Signs/Large/Dst/SignLarge_01_MilitaryBase_dst.et"
+     }
+    }
+   }
+  }
+ }
+ coords -2.328 1.293 6.097
+ angleY 180
+}

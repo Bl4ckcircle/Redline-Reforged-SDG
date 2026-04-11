@@ -1,0 +1,38 @@
+GenericEntity {
+ ID "5EAE9412DE180736"
+ coords 7547.01 166.727 4246.761
+ {
+  $grp SCR_DestructibleBuildingEntity : "{034A45B0D41025B9}Prefabs/Structures/Cultural/Castles/Castle_01_OuterWall_01_Corner.et" {
+   {
+    ID "5EAE9412DE180706"
+    coords 2.776 1.644 -0.005
+    angles 0 -90 0
+   }
+   {
+    ID "5EAE9412DE180707"
+    coords -0.021 1.643 2.776
+    angles 0 180 0
+   }
+   {
+    ID "5EAE9412DE1830A8"
+    coords -2.798 1.64 -0.025
+    angles 0 90 0
+   }
+   {
+    ID "5EAE9412DE1830AD"
+    coords 0 1.635 -2.802
+   }
+  }
+  $grp GameEntity : "{5E6E2D5FBB966C01}Prefabs/Structures/BuildingParts/Ladders/Ladder_DieselPowerPlant_01/Ladder_DieselPowerPlant_01_866_B.et" {
+   {
+    ID "5EAE9412DE1830B4"
+    coords -0.032 8.661 2.921
+   }
+   {
+    ID "5EAE9412DE1830B5"
+    coords 0.006 8.661 -2.947
+    angles 0 180 0
+   }
+  }
+ }
+}

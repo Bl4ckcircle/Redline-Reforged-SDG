@@ -115,6 +115,10 @@ $grp SCR_ChimeraCharacter : "{026CB319AEBCF010}Prefabs/Characters/Shop/USSR/USSR
   angles 0 -104.311 0
  }
 }
+GenericEntity : "{03253A954C8E9354}Prefabs/Structures/Signs/Anglais/virtual garage.et" {
+ coords 10172.902 3.023 1549.272
+ angles 0 105.126 0
+}
 $grp GenericEntity : "{0858A93EFDE04083}Prefabs/ATM.et" {
  {
   coords 10170.747 3.277 1561.222
@@ -360,8 +364,347 @@ $grp GenericEntity : "{21D83950DF36F250}Prefabs/Props/Military/Sandbags/Sandbag_
  }
 }
 SCR_DestructibleEntity : "{2506C02B8564CABC}Prefabs/Statue/Statue_TP_US.et" {
+ components {
+  RY_FastTravelTerminalComponent "{68ACE40F848CCCDC}" {
+   Enabled 0
+  }
+  ActionsManagerComponent "{685952C514E5635C}" {
+   additionalActions {
+    RY_FastTravelFromTerminalAction "{68ACE40FA3C77E70}" {
+     ParentContextList {
+      ""
+     }
+     ActionTitle ""
+     VisibilityRange 0
+     m_ActionLabel ""
+     m_TargetMHQId ""
+    }
+    RY_FastTravelFromTerminalAction "{68ACE40E52D31A3B}" {
+     ParentContextList {
+      ""
+     }
+     ActionTitle ""
+     VisibilityRange 0
+     m_ActionLabel ""
+     m_TargetMHQId ""
+    }
+    RRG_FastTravelActionManager "{6916FC5D0BFD6EE7}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "CalvaryHill"
+     m_sDestinationDisplayName "Calvary Hill"
+     m_sTargetBaseName "CalvaryHill"
+    }
+    RRG_FastTravelActionManager "{6916FC5D6E217FF8}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "Camurac"
+     m_sDestinationDisplayName "Camurac"
+     m_sTargetBaseName "Camurac"
+    }
+    RRG_FastTravelActionManager "{6916FC5D6D2E0DEE}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "Chotain"
+     m_sDestinationDisplayName "Chotain"
+     m_sTargetBaseName "Chotain"
+    }
+    RRG_FastTravelActionManager "{6916FC5D6C31BD8F}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "Durras"
+     m_sDestinationDisplayName "Durras"
+     m_sTargetBaseName "Durras"
+    }
+    RRG_FastTravelActionManager "{6916FC5D63321CC1}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "EntreDeux"
+     m_sDestinationDisplayName " Entre Deux"
+     m_sTargetBaseName "EntreDeux"
+    }
+    RRG_FastTravelActionManager "{6916FC5D624A0B4D}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "Farm_Etoupe"
+     m_sDestinationDisplayName "Farm Etoupe"
+     m_sTargetBaseName "Farm_Etoupe"
+    }
+    RRG_FastTravelActionManager "{6916FC5D61722517}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "Figari"
+     m_sDestinationDisplayName "Figari"
+     m_sTargetBaseName "Figari"
+    }
+    RRG_FastTravelActionManager "{6916FC5D61BBAC98}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "Fischerman_Military"
+     m_sDestinationDisplayName "Fischerman Military"
+     m_sTargetBaseName "Fischerman_Military"
+    }
+    RRG_FastTravelActionManager "{6916FC5D60CCA8B1}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "FOB_Gallows"
+     m_sDestinationDisplayName "FOB Gallows"
+     m_sTargetBaseName "FOB_Gallows"
+    }
+    RRG_FastTravelActionManager "{6916FC5D67C6E40A}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "FOB_Martin"
+     m_sDestinationDisplayName "FOB Martin"
+     m_sTargetBaseName "FOB_Martin"
+    }
+    RRG_FastTravelActionManager "{6916FC5D6610119F}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "FOB_Saint_Phillipe"
+     m_sDestinationDisplayName "FOB Saint Phillipe"
+     m_sTargetBaseName "FOB_Saint_Phillipe"
+    }
+    RRG_FastTravelActionManager "{6916FC5D6503D597}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "Fob_Vernon"
+     m_sDestinationDisplayName "Fob Vernon"
+     m_sTargetBaseName "Fob_Vernon"
+    }
+    RRG_FastTravelActionManager "{6916FC5D644586E1}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "Gillnet"
+     m_sDestinationDisplayName "Gillnet"
+     m_sTargetBaseName "Gillnet"
+    }
+    RRG_FastTravelActionManager "{6916FC5D6488E8B0}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "Kermovan"
+     m_sDestinationDisplayName "Kermovan"
+     m_sTargetBaseName "Kermovan"
+    }
+    RRG_FastTravelActionManager "{6916FC5D5BB4E62B}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "Lamentin"
+     m_sDestinationDisplayName "Lamentin"
+     m_sTargetBaseName "Lamentin"
+    }
+    RRG_FastTravelActionManager "{6916FC5D5AE9952D}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "LeMoule"
+     m_sDestinationDisplayName "Le Moule"
+     m_sTargetBaseName "LeMoule"
+    }
+    RRG_FastTravelActionManager "{6916FC5D59204C3D}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "Levie"
+     m_sDestinationDisplayName "Levie"
+     m_sTargetBaseName "Levie"
+    }
+    RRG_FastTravelActionManager "{6916FC5D5864395C}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "Meaux"
+     m_sDestinationDisplayName "Meaux"
+     m_sTargetBaseName "Meaux"
+    }
+    RRG_FastTravelActionManager "{6916FC5D58B3AE42}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "Military_Training"
+     m_sDestinationDisplayName "Military Training"
+     m_sTargetBaseName "Military_Training"
+    }
+    RRG_FastTravelActionManager "{6916FC5D5FC26DA8}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "MilitaryHospital"
+     m_sDestinationDisplayName "Military Hospital"
+     m_sTargetBaseName "MilitaryHospital"
+    }
+    RRG_FastTravelActionManager "{6916FC5D5E15E478}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "Montignac"
+     m_sDestinationDisplayName "Montignac"
+     m_sTargetBaseName "Montignac"
+    }
+    RRG_FastTravelActionManager "{6916FC5D5D34745A}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "Morton"
+     m_sDestinationDisplayName "Morton"
+     m_sTargetBaseName "Morton"
+    }
+    RRG_FastTravelActionManager "{6916FC5D5C7A9087}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "MortonValley"
+     m_sDestinationDisplayName "Morton Valley"
+     m_sTargetBaseName "MortonValley"
+    }
+    RRG_FastTravelActionManager "{6916FC5D536F4E44}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "PeterPass"
+     m_sDestinationDisplayName "Peter Pass"
+     m_sTargetBaseName "PeterPass"
+    }
+    RRG_FastTravelActionManager "{6916FC5D53A60E09}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "Pinewood"
+     m_sDestinationDisplayName "Pinewood"
+     m_sTargetBaseName "Pinewood"
+    }
+    RRG_FastTravelActionManager "{6916FC5D52C5E26A}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "Provins"
+     m_sDestinationDisplayName "Provins"
+     m_sTargetBaseName "Provins"
+    }
+    RRG_FastTravelActionManager "{6916FC5A78443339}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "Quarry"
+     m_sDestinationDisplayName "Quarry"
+     m_sTargetBaseName "Quarry"
+    }
+    RRG_FastTravelActionManager "{6916FC5A7F6E4D68}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "Regina"
+     m_sDestinationDisplayName "Regina"
+     m_sTargetBaseName "Regina"
+    }
+    RRG_FastTravelActionManager "{6916FC5A7E45AEB1}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "SawMill"
+     m_sDestinationDisplayName "SawMill"
+     m_sTargetBaseName "SawMill"
+    }
+    RRG_FastTravelActionManager "{6916FC5A7D6914B9}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "Seagull"
+     m_sDestinationDisplayName "Seagull"
+     m_sTargetBaseName "Seagull"
+    }
+    RRG_FastTravelActionManager "{6916FC5A48293B7E}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "SimonWood"
+     m_sDestinationDisplayName "Simon Wood"
+     m_sTargetBaseName "SimonWood"
+    }
+    RRG_FastTravelActionManager "{6916FC5A4F20675B}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "Thales"
+     m_sDestinationDisplayName "Thales"
+     m_sTargetBaseName "Thales"
+    }
+    RRG_FastTravelActionManager "{6916FC5A4E3C0F5E}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "Tyrone"
+     m_sDestinationDisplayName "Tyrone"
+     m_sTargetBaseName "Tyrone"
+    }
+    RRG_FastTravelActionManager "{6916FC5A4DF8DAA7}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "Villeneuf"
+     m_sDestinationDisplayName "Villeneuf"
+     m_sTargetBaseName "Villeneuf"
+    }
+    RRG_FastTravelActionManager "{6916FC5A91A9A589}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "US_A"
+     m_sDestinationDisplayName "MHQ A"
+     m_sTargetBaseName "US_A"
+     m_bIsVehicleDestination 1
+    }
+    RRG_FastTravelActionManager "{6916FC5A976CAE4E}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "US_B"
+     m_sDestinationDisplayName "MHQ B"
+     m_sTargetBaseName "US_B"
+     m_bIsVehicleDestination 1
+    }
+   }
+  }
+ }
  coords 10170.331 0 1525.425
  angles 0 -112.389 0
+ {
+  GenericEntity TP_MHQ3 {
+   components {
+    SCR_EditableCommentComponent "{5DDE234C81331983}" {
+     m_EntityType COMMENT
+     m_UIInfo SCR_EditableCommentUIInfo "{5DDE234873CE99F2}" {
+      Name "TP MHQ"
+      Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+     }
+     m_bAutoRegister ALWAYS
+     m_sColor 0.502 0 0 1
+    }
+    SCR_MapDescriptorComponent "{5DDE234C9A632375}" {
+     DisplayName "TP MHQ"
+     MainType "Name Village"
+     Scale 0.5
+    }
+   }
+   coords -0.181 -0.001 0.024
+   angles 0 12.382 0
+  }
+ }
 }
 $grp GenericEntity : "{2C166D8DBBA47738}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_base.et" {
  {
@@ -382,6 +725,14 @@ $grp SCR_ChimeraCharacter : "{3986637F31E86985}Prefabs/Characters/Shop/US/US_Sho
   coords 10173.961 3.331 1559.258
   angles 0 179.127 0
  }
+}
+GenericEntity : "{42CBB95F9974FED4}Prefabs/Structures/Signs/Anglais/Money System.et" {
+ coords 10161.563 3.049 1554.872
+ angles 0 15.593 0
+}
+GenericEntity : "{45EB3A1FB7B8D559}Prefabs/Structures/Signs/Anglais/Deployment.et" {
+ coords 10170.791 3.005 1552.325
+ angles 0 15.38 0
 }
 $grp StaticModelEntity : "{46D621714E71E05E}Prefabs/Compositions/Misc/SubCompositions/Utility/Helipad_Spawn_US_01.et" {
  {
@@ -433,13 +784,9 @@ $grp GenericEntity : "{4B5D1DDB2B7C36E0}Prefabs/Props/Military/Sandbags/Sandbag_
   angles 0 -120.762 0
  }
 }
-$grp GenericEntity : "{651E545B53BBD034}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V1_USSR.et" {
- {
-  coords 4866.192 28.594 11887.039
- }
- {
-  coords 4878.684 35.742 11946.905
- }
+GenericEntity : "{5BA06BC67A0E808B}Prefabs/Structures/Signs/Anglais/How to start.et" {
+ coords 10156.681 3.039 1556.194
+ angles 0 14.846 0
 }
 SCR_ChimeraCharacter : "{665604EB465D4273}Prefabs/Characters/Shop/US/US_Shop_Vehicles_Air_Transports.et" {
  components {
@@ -476,6 +823,14 @@ $grp SCR_ChimeraCharacter : "{66EA7C5A35EB7A6D}Prefabs/Characters/Shop/US/US_Sho
   coords 10179.979 3.331 1557.75
   angles 0 167.602 0
  }
+}
+GenericEntity : "{67E916CED2BFF274}Prefabs/Structures/Signs/Anglais/Informations.et" {
+ coords 10141.581 3.115 1555.033
+ angles 0 14.672 0
+}
+GenericEntity : "{6FA9F22B1F80CA97}Prefabs/Structures/Signs/Anglais/Shop.et" {
+ coords 10165.972 3.051 1553.639
+ angles 0 15.41 0
 }
 GenericEntity : "{705D4C030A30D4A3}Prefabs/Compositions/Misc/CustomEntities/InteractionPoints/ArsenalBox_US_Equipment_NoAffiliation.et" {
  coords 10185.278 3.293 1546.219
@@ -637,6 +992,10 @@ $grp GenericEntity : "{937999008F178E82}Prefabs/Props/Military/Sandbags/Sandbag_
   angles 0 41.38 0
  }
 }
+GenericEntity : "{9562F2D8442364AC}Prefabs/Structures/Signs/Anglais/Game mode.et" {
+ coords 10151.909 3.037 1557.497
+ angles 0 15.366 0
+}
 $grp GenericEntity : "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_burlap.et" {
  {
   coords 10124.093 2.256 1524.58
@@ -663,6 +1022,10 @@ SCR_DestructibleBuildingEntity : "{A548C1C5370D0734}Prefabs/Structures/Houses/Ga
  Flags 0x403 0x80000
  coords 10126.063 2.437 1520.133
  angles 0 14.56 0
+}
+GenericEntity : "{A850C603FEF26E0C}Prefabs/Structures/Signs/Anglais/Rules2.et" {
+ coords 10149.072 3.026 1555.921
+ angles 0 -74.3 0
 }
 $grp GenericEntity : "{B31A14BC1A0E7776}Prefabs/Props/Military/Sandbags/Sandbag_01_round_burlap.et" {
  {
@@ -932,10 +1295,54 @@ $grp GenericEntity : "{D0B05C0B2AEB98C6}Prefabs/Garage/Repair.et" {
  Repair_686C810C7F8FCC5A3 {
   coords 10083.559 2.531 1551.836
   angles 0 14.956 0
+  {
+   GenericEntity Repair_Reamo_Station2 {
+    components {
+     SCR_EditableCommentComponent "{5DDE234C81331983}" {
+      m_EntityType COMMENT
+      m_UIInfo SCR_EditableCommentUIInfo "{5DDE234873CE99F2}" {
+       Name "Repair,Reamo station"
+       Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+      }
+      m_bAutoRegister ALWAYS
+      m_sColor 0.502 0 0 1
+     }
+     SCR_MapDescriptorComponent "{5DDE234C9A632375}" {
+      DisplayName "Service Veh"
+      MainType "Name Village"
+      Scale 0.5
+     }
+    }
+    coords 0.141 0.029 0.047
+    angles 0 -92.817 0
+   }
+  }
  }
  Repair_686C810C7F8FCC5A4 {
   coords 10122.983 2.817 1372.718
   angles 0 -52.672 0
+  {
+   GenericEntity Repair_Reamo_Station4 {
+    components {
+     SCR_EditableCommentComponent "{5DDE234C81331983}" {
+      m_EntityType COMMENT
+      m_UIInfo SCR_EditableCommentUIInfo "{5DDE234873CE99F2}" {
+       Name "Repair,Reamo station"
+       Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+      }
+      m_bAutoRegister ALWAYS
+      m_sColor 0.502 0 0 1
+     }
+     SCR_MapDescriptorComponent "{5DDE234C9A632375}" {
+      DisplayName "Service Heli"
+      MainType "Name Village"
+      Scale 0.5
+     }
+    }
+    coords 0.076 0.016 0.152
+    angles 0 -25.189 0
+   }
+  }
  }
 }
 SCR_ChimeraCharacter : "{D981313486F9EC9A}Prefabs/Characters/Shop/US/US_Shop_Vehicles_Ground_IFVs.et" {
@@ -979,6 +1386,20 @@ SCR_ChimeraCharacter : "{D981313486F9EC9A}Prefabs/Characters/Shop/US/US_Shop_Veh
  }
  coords 10130.607 2.531 1539.613
  angles 0 -42.135 0
+}
+GenericEntity : "{DA426040CA301F8D}Prefabs/Structures/Signs/Anglais/Rules1.et" {
+ coords 10145.949 3.048 1553.899
+ angles 0 14.988 0
+}
+$grp GenericEntity : "{EA1DD6EE6534033A}Prefabs/Compositions/Misc/CustomEntities/InteractionPoints/ArsenalBox_USSR_Equipment_NoAffiliation.et" {
+ {
+  coords 4896.788 29.031 11921.42
+  angles 0 -95.573 0
+ }
+ {
+  coords 4896.721 29.031 11923.516
+  angles 0 -96.577 0
+ }
 }
 SCR_DestructibleBuildingEntity : "{F16324CB8CB07C00}Prefabs/Structures/Military/Houses/GarageMilitary_E_01/GarageMilitary_E_01.et" {
  coords 10168.363 0.005 1554.27
