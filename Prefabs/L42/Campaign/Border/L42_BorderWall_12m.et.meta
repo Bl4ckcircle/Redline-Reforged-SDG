@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{CCE5269F5D1189DD}Prefabs/L42/Campaign/Border/L42_BorderWall_12m.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

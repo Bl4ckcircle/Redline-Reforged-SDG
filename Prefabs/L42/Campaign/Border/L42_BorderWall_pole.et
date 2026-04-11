@@ -1,0 +1,14 @@
+GenericEntity {
+ ID "5EC3164A492D80B1"
+ coords 4768.064 27.854 11151.508
+ {
+  StaticModelEntity : "{6860CC03268FC98B}Prefabs/Structures/Walls/Concrete/SilageWall_02/SilageWall_02_fence_pole.et" {
+   ID "5EC3164A492D80A3"
+   coords 0.042 -0.01 -0.105
+  }
+  StaticModelEntity : "{EE12FABB2ECF3F01}Prefabs/Structures/Walls/Concrete/SilageWall_02/SilageWall_02_pole.et" {
+   ID "5EC3164A492D80A7"
+   coords 0.057 -0.01 -0.001
+  }
+ }
+}

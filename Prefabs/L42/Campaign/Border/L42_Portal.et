@@ -1,0 +1,81 @@
+GenericEntity {
+ ID "5EEB7D7478B824B0"
+ coords 4874.644 28.593 11852.237
+ {
+  GenericEntity : "{41A0ECE98B6961D6}Prefabs/Structures/BuildingParts/Signs/SignRooftop/SignRooftop_Office_E_01.et" {
+   ID "5EEB7D7478B84C1F"
+   coords 0.269 5.72 0.082
+   angles 0 -0.005 0
+  }
+  GenericEntity : "{75F074C87D7EB403}Prefabs/Structures/Signs/Warnings/SignMaxSpeed30_01.et" {
+   ID "5EEB7D7478B95828"
+   coords -5.13 3.394 0.506
+   angles 0 29.214 7.015
+  }
+  $grp StaticModelEntity : "{82B378151A9AEF2F}Prefabs/Structures/Military/Fortifications/DirtPile_01/DirtPile_01_large.et" {
+   {
+    ID "5EEB7D7478B92322"
+    coords -5.203 -0.109 -0.471
+   }
+   {
+    ID "5EEB7D7478B9233D"
+    coords 5.229 0 0.476
+   }
+   {
+    ID "5EEB7D7478B9582D"
+    coords -5.199 -0.056 0.358
+   }
+   {
+    ID "5EEB7D7478B9B3C0"
+    coords 5.226 -0.053 -0.354
+   }
+  }
+  $grp GenericEntity : "{869914063728EFF8}Prefabs/Props/Forest/WoodPile/WoodLog_01_D.et" {
+   {
+    ID "5EEB7D7478B824BC"
+    coords -2.74 5.48 -0.405
+    angles 0 89.789 0
+   }
+   {
+    ID "5EEB7D7478B824C2"
+    coords 2.698 5.496 -0.373
+    angles 0 89.789 0
+   }
+   {
+    ID "5EEB7D7478B824C3"
+    coords 5.414 2.514 0.454
+    angles 89.98 -0.564 -91.528
+   }
+   {
+    ID "5EEB7D7478B84C14"
+    coords 2.684 5.501 0.438
+    angles 0 89.789 0
+   }
+   {
+    ID "5EEB7D7478B84C16"
+    coords -2.757 5.485 0.4
+    angles 0 89.789 0
+   }
+   {
+    ID "5EEB7D7478B84C1E"
+    coords 5.124 2.55 -0.259
+    angles 90 179.436 -137.482
+   }
+   {
+    ID "5EEB7D7478B9B3C5"
+    coords -5.169 2.534 -0.589
+    angles 89.98 0.087 180
+   }
+   {
+    ID "5EEB7D7478B9B3C6"
+    coords -5.186 2.539 0.219
+    angles 89.98 0.087 180
+   }
+  }
+  GenericEntity : "{B0E250F1C3A65FB3}Prefabs/Structures/Signs/Warnings/SignNoStopping_01.et" {
+   ID "5EEB7D7478B95825"
+   coords -5.175 2.44 0.506
+   angles 0 15.696 0
+  }
+ }
+}

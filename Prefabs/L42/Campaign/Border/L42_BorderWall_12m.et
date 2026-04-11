@@ -1,0 +1,37 @@
+GenericEntity {
+ ID "5EC3164EE5B7F412"
+ coords 4757.883 27.854 11151.182
+ {
+  StaticModelEntity : "{3AB68F44A671469E}Prefabs/Structures/Walls/Concrete/SilageWall_02/SilageWall_02_12m_A.et" {
+   ID "5EC3164EE5B7F41C"
+   coords 0 -0.01 0
+  }
+  StaticModelEntity : "{42722514D075E8FA}Prefabs/Structures/Walls/Concrete/SilageWall_02/SilageWall_02_fence_01_12m.et" {
+   ID "5EC3164EE5B7F405"
+   coords 13.213 0 -0.113
+   angles 0 -180 0
+  }
+  $grp StaticModelEntity : "{46904AF5D473FB75}Prefabs/Structures/Walls/BarbedWire/BarbedTape_01/BarbedTape_01_Long_noStake.et" {
+   {
+    ID "5EC3164EE5B7E4E8"
+    coords 8.253 4.767 -0.129
+    angles 0 90 0
+   }
+   {
+    ID "5EC3164EE5B7E4EE"
+    coords 11.571 4.775 -0.124
+    angles 0 90 0
+   }
+   {
+    ID "5EC3164EE5B7F408"
+    coords 4.934 4.773 -0.125
+    angles 0 90 0
+   }
+   {
+    ID "5EC3164EE5B7F409"
+    coords 1.641 4.775 -0.119
+    angles 0 90 0
+   }
+  }
+ }
+}

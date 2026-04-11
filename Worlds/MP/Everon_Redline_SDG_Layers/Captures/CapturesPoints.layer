@@ -856,7 +856,6 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_iRadius 100
-    m_bIsControlPoint 1
     m_sBaseName "Le Moule"
     m_sBaseNameUpper "Le Moule"
     m_fRespawnDelayAfterCaptureSeconds 30
@@ -1404,22 +1403,6 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  }
 }
 $grp GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRelayRadio.et" {
- Radio {
-  components {
-   SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
-    Transceivers {
-     RelayTransceiver "{5C727AD73024FB39}" {
-     }
-    }
-   }
-   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
-    m_sBaseName "FOBPython"
-    m_sBaseNameUpper "FOB Python"
-   }
-  }
-  coords 9237.482 57.024 1986.213
-  angles 0 70.342 0
- }
  AlouetteRelay {
   components {
    SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {

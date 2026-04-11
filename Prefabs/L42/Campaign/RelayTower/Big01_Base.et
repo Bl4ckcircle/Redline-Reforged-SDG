@@ -1,0 +1,473 @@
+GenericEntity {
+ ID "5E3A03303E95E2F8"
+ coords 4771.886 27.977 11340.81
+ {
+  $grp SCR_DestructibleEntity : "{13219FE011DD3FEF}Prefabs/Structures/Walls/Wooden/WoodenWall_02/WoodenWall_02_4m_A.et" {
+   {
+    ID "5E3A03303E916900"
+    coords -1.956 37.267 1.888
+    angles 90 90 0
+    "Collision multiplier" 0
+    "Melee multiplier" 0
+    "Kinetic multiplier" 0
+    "Fragmentation multiplier" 0
+    "Explosive multiplier" 0
+    "Incendiary multiplier" 0
+   }
+   {
+    ID "5E3A03303E916903"
+    coords 2.062 37.273 -2.2
+    angles 90 -90 0
+    "Collision multiplier" 0
+    "Melee multiplier" 0
+    "Kinetic multiplier" 0
+    "Fragmentation multiplier" 0
+    "Explosive multiplier" 0
+    "Incendiary multiplier" 0
+   }
+  }
+  $grp SCR_DestructibleEntity : "{13449740EE495C79}Prefabs/Structures/Walls/Wooden/WoodenWall_02/WoodenWall_02_8m_A.et" {
+   {
+    ID "5E3A03303E910F4B"
+    coords -3.9 37.251 3.777
+    angles 90 0 -90
+    "Collision multiplier" 0
+    "Melee multiplier" 0
+    "Kinetic multiplier" 0
+    "Fragmentation multiplier" 0
+    "Explosive multiplier" 0
+    "Incendiary multiplier" 0
+   }
+   {
+    ID "5E3A03303E916902"
+    coords 3.998 37.271 -4.145
+    angles 90 -180 -90
+    "Collision multiplier" 0
+    "Melee multiplier" 0
+    "Kinetic multiplier" 0
+    "Fragmentation multiplier" 0
+    "Explosive multiplier" 0
+    "Incendiary multiplier" 0
+   }
+   {
+    ID "5E3A03303E91691C"
+    coords -3.982 37.257 -4.012
+    angles 90 0 0
+    "Collision multiplier" 0
+    "Melee multiplier" 0
+    "Kinetic multiplier" 0
+    "Fragmentation multiplier" 0
+    "Explosive multiplier" 0
+    "Incendiary multiplier" 0
+   }
+   {
+    ID "5E3A03303E91691E"
+    coords 4.076 37.248 3.646
+    angles 90 -180 0
+    "Collision multiplier" 0
+    "Melee multiplier" 0
+    "Kinetic multiplier" 0
+    "Fragmentation multiplier" 0
+    "Explosive multiplier" 0
+    "Incendiary multiplier" 0
+   }
+   {
+    ID "5E3A03303E91691F"
+    coords 4.074 37.255 1.746
+    angles 90 -180 0
+    "Collision multiplier" 0
+    "Melee multiplier" 0
+    "Kinetic multiplier" 0
+    "Fragmentation multiplier" 0
+    "Explosive multiplier" 0
+    "Incendiary multiplier" 0
+   }
+   {
+    ID "5E3A03303E91A2E7"
+    coords -3.981 37.264 -2.109
+    angles 90 0 0
+    "Collision multiplier" 0
+    "Melee multiplier" 0
+    "Kinetic multiplier" 0
+    "Fragmentation multiplier" 0
+    "Explosive multiplier" 0
+    "Incendiary multiplier" 0
+   }
+  }
+  $grp SCR_DestructibleEntity : "{19DBAA8E5A19F5CC}Prefabs/Structures/Walls/Pipe/PipeRailing_02/PipeRailing_02_Corner_Narrow.et" {
+   {
+    ID "5E877A92D3F75C36"
+    coords 4.842 37.558 -4.774
+    angles 0 -89.943 0
+   }
+   {
+    ID "5E877A92D3F75C42"
+    coords -4.78 37.479 4.375
+    angles 0 90 0
+   }
+  }
+  $grp SCR_DestructibleEntity : "{1E2011567EAE09B4}Prefabs/Structures/Walls/Metal/TinWall_01/TinWall_01_6m_Pole.et" {
+   {
+    ID "5E3A03303E91A2E9"
+    coords 3.02 33.569 -3.114
+    angles 0 45 45
+    scale 3
+    "Collision multiplier" 0
+    "Melee multiplier" 0
+    "Kinetic multiplier" 0
+    "Fragmentation multiplier" 0
+    "Explosive multiplier" 0
+    "Incendiary multiplier" 0
+   }
+   {
+    ID "5E3A03303E91B806"
+    coords -2.916 33.576 -3.1
+    angles 0 135 45
+    scale 3
+    "Collision multiplier" 0
+    "Melee multiplier" 0
+    "Kinetic multiplier" 0
+    "Fragmentation multiplier" 0
+    "Explosive multiplier" 0
+    "Incendiary multiplier" 0
+   }
+   {
+    ID "5E3A03303E91B807"
+    coords 3.036 33.574 2.856
+    angles 0 -45 45
+    scale 3
+    "Collision multiplier" 0
+    "Melee multiplier" 0
+    "Kinetic multiplier" 0
+    "Fragmentation multiplier" 0
+    "Explosive multiplier" 0
+    "Incendiary multiplier" 0
+   }
+   {
+    ID "5E3A03303E95E2E1"
+    coords -2.862 33.398 2.662
+    angles 1.899 -138.202 43.954
+    scale 3
+    "Collision multiplier" 0
+    "Melee multiplier" 0
+    "Kinetic multiplier" 0
+    "Fragmentation multiplier" 0
+    "Explosive multiplier" 0
+    "Incendiary multiplier" 0
+   }
+  }
+  $grp GenericEntity : "{21D83950DF36F250}Prefabs/Props/Military/Sandbags/Sandbag_01_long_burlap.et" {
+   {
+    ID "5E3A03303E95AF55"
+    coords 5.43 37.364 -0.105
+    angles 0 -90.717 0
+   }
+   {
+    ID "5E3A03303E95AF58"
+    coords -5.284 37.339 -0.206
+    angles 0 89.29 0
+   }
+   {
+    ID "5E3A03303E95AF5A"
+    coords -2.147 37.38 -5.438
+    angles 0 -0.917 0
+   }
+   {
+    ID "5E3A03303E95E2DB"
+    coords 5.408 37.364 3.099
+    angles 0 -90.717 0
+   }
+   {
+    ID "5E3A03303E95E2DC"
+    coords 2.343 37.364 5.126
+    angles 0 179.076 0
+   }
+   {
+    ID "5E3A03303E95E2DD"
+    coords -5.244 37.339 -3.412
+    angles 0 89.29 0
+   }
+  }
+  $grp SCR_DestructibleEntity : "{40A572C0B332F1A0}Prefabs/Structures/Walls/Pipe/PipeRailing_02/PipeRailing_02_1m.et" {
+   {
+    ID "5E877A92D3F75BE0"
+    coords -3.033 37.475 5.248
+    angles 0 -179.766 0
+   }
+   {
+    ID "5E877A92D3F75C18"
+    coords 3.091 37.557 -5.651
+   }
+  }
+  $grp SCR_DestructibleEntity : "{63EC0D3983F96A5C}Prefabs/Structures/Walls/Wooden/WoodenWall_02/WoodenWall_02_2m.et" {
+   {
+    ID "5E3A03303E910F44"
+    coords -3.937 37.241 -4.05
+    angles 90 0 -90
+    "Collision multiplier" 0
+    "Melee multiplier" 0
+    "Kinetic multiplier" 0
+    "Fragmentation multiplier" 0
+    "Explosive multiplier" 0
+    "Incendiary multiplier" 0
+   }
+   {
+    ID "5E3A03303E910F45"
+    coords -3.896 37.255 5.648
+    angles 90 0 -90
+    "Collision multiplier" 0
+    "Melee multiplier" 0
+    "Kinetic multiplier" 0
+    "Fragmentation multiplier" 0
+    "Explosive multiplier" 0
+    "Incendiary multiplier" 0
+   }
+   {
+    ID "5E3A03303E916904"
+    coords 4 37.275 -6.012
+    angles 90 -180 -90
+    "Collision multiplier" 0
+    "Melee multiplier" 0
+    "Kinetic multiplier" 0
+    "Fragmentation multiplier" 0
+    "Explosive multiplier" 0
+    "Incendiary multiplier" 0
+   }
+   {
+    ID "5E3A03303E916907"
+    coords 4.009 37.259 3.68
+    angles 90 -180 -90
+    "Collision multiplier" 0
+    "Melee multiplier" 0
+    "Kinetic multiplier" 0
+    "Fragmentation multiplier" 0
+    "Explosive multiplier" 0
+    "Incendiary multiplier" 0
+   }
+  }
+  GenericEntity : "{7C238BF394D26FBD}Prefabs/Structures/BuildingParts/Eletrical/ElectricityBox_Base.et" {
+   ID "5E3A03303E95AF4F"
+   coords -0.652 37.309 -2.147
+   angles 0 -0.91 0
+  }
+  $grp SCR_DestructibleEntity : "{990C36203B78AEA3}Prefabs/Structures/Walls/Metal/TinWall_01/TinWall_01_6m_B.et" {
+   {
+    ID "5E3A03303E9073C4"
+    coords 0.987 12.626 2.119
+    angles 0 -180 90
+   }
+   {
+    ID "5E3A03303E90AF0A"
+    coords 2.33 12.611 0.557
+    angles 0 90 90
+   }
+   {
+    ID "5E3A03303E90AF0B"
+    coords -2.217 12.595 -0.859
+    angles 0 -90 90
+   }
+   {
+    ID "5E3A03303E94061B"
+    coords 1.013 24.889 1.948
+    angles 0 178.669 90
+   }
+   {
+    ID "5E3A03303E94061C"
+    coords 0.979 31.132 1.832
+    angles 0 178.792 90
+   }
+   {
+    ID "5E3A03303E9467C9"
+    coords 1 37.233 1.763
+    angles 0 178.538 90
+   }
+   {
+    ID "5E3A03303E9467CA"
+    coords -1.835 37.222 -0.869
+    angles 0.686 -91.256 90
+   }
+   {
+    ID "5E3A03303E9467CB"
+    coords 1 18.891 2.051
+    angles -0.706 178.768 90
+   }
+   {
+    ID "5E3A03303E94B8C4"
+    coords -1.905 31.11 -0.846
+    angles 1.654 -90.762 90
+   }
+   {
+    ID "5E3A03303E94B8CA"
+    coords 2.229 18.908 0.567
+    angles 0.411 88.829 90
+   }
+   {
+    ID "5E3A03303E94B8CB"
+    coords 0.788 37.219 -2.012
+    angles 0.975 179.136 90
+   }
+   {
+    ID "5E3A03303E9523CA"
+    coords -2.027 24.868 -0.888
+    angles 0.441 -91.256 90
+   }
+   {
+    ID "5E3A03303E9523CB"
+    coords -2.106 18.888 -0.877
+    angles 1.006 -91.256 90
+   }
+   {
+    ID "5E3A03303E956790"
+    coords 0.81 24.89 -2.209
+    angles 0.478 179.136 90
+   }
+   {
+    ID "5E3A03303E956791"
+    coords 0.793 18.916 -2.308
+    angles 0.79 178.954 90
+   }
+   {
+    ID "5E3A03303E956793"
+    coords 0.771 31.12 -2.116
+    angles 1.306 179.136 90
+   }
+   {
+    ID "5E3A03303E957E92"
+    coords 2.033 31.139 0.533
+    angles 1.003 89.082 90
+   }
+   {
+    ID "5E3A03303E957E93"
+    coords 2.134 24.875 0.582
+    angles 0.484 88.898 90
+   }
+   {
+    ID "5E3A03303E957E95"
+    coords 1.937 37.222 0.557
+    angles 0.965 88.898 90
+   }
+   {
+    ID "5E3A03303E95E2EA"
+    coords 0.738 12.599 -2.408
+    angles 0 -180 90
+   }
+  }
+  $grp GenericEntity : "{CC5453CCC311603B}Prefabs/Props/Military/Sandbags/Sandbag_01_end_burlap.et" {
+   {
+    ID "5E3A03303E93AC2D"
+    coords -5.245 37.295 2.323
+    angles 0 -87.212 0
+   }
+   {
+    ID "5E3A03303E94061F"
+    coords 5.389 37.34 -2.666
+    angles 0 91.053 0
+   }
+  }
+  $grp GenericEntity : "{CFFEB23FBEA00322}Prefabs/Props/Military/Sandbags/Sandbag_01_short_burlap.et" {
+   {
+    ID "5E3A03303E91B834"
+    coords 5.417 37.949 0.325
+    angles 0 -90.783 0
+   }
+   {
+    ID "5E3A03303E91B835"
+    coords 0.318 37.366 -5.39
+    angles 0 -1.461 0
+   }
+   {
+    ID "5E3A03303E92254E"
+    coords -4.78 37.325 -5.471
+    angles 0 -1.461 0
+   }
+   {
+    ID "5E3A03303E922550"
+    coords 4.888 37.35 5.114
+    angles 0 178.532 0
+   }
+   {
+    ID "5E3A03303E922551"
+    coords -0.226 37.35 5.072
+    angles 0 178.532 0
+   }
+   {
+    ID "5E3A03303E929861"
+    coords -2 37.35 5.029
+    angles 0 178.532 0
+   }
+   {
+    ID "5E3A03303E929862"
+    coords 2.092 37.366 -5.346
+    angles 0 -1.461 0
+   }
+   {
+    ID "5E3A03303E930822"
+    coords 5.391 37.949 3.948
+    angles 0 -90.783 0
+   }
+   {
+    ID "5E3A03303E930823"
+    coords 4.891 37.949 5.122
+    angles 0 178.532 0
+   }
+   {
+    ID "5E3A03303E930825"
+    coords -5.256 37.91 -4.217
+    angles 0 89.872 0
+   }
+   {
+    ID "5E3A03303E933754"
+    coords -1.028 37.949 4.998
+    angles 0 -1.539 0
+   }
+   {
+    ID "5E3A03303E933755"
+    coords 1.115 37.951 -5.345
+    angles 0 179.116 0
+   }
+   {
+    ID "5E3A03303E933757"
+    coords -5.264 37.91 -0.543
+    angles 0 89.872 0
+   }
+   {
+    ID "5E3A03303E93AC55"
+    coords -4.826 37.91 -5.435
+    angles 0 -0.813 0
+   }
+   {
+    ID "5E3A03303E93AC5A"
+    coords 3.266 37.949 5.112
+    angles 0 -1.539 0
+   }
+   {
+    ID "5E3A03303E93AC5B"
+    coords -3.115 37.951 -5.407
+    angles 0 179.116 0
+   }
+  }
+  StaticModelEntity : "{DBCDEC45DB834E8A}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01.et" {
+   ID "5E3A03303E91B838"
+   coords 0.053 -0.171 -0.138
+   angles 0 -91.226 0
+   {
+    GenericEntity {
+     ID "5A02CED886A8B959"
+     coords 1.948 38.739 1.996
+    }
+    GenericEntity {
+     ID "5A02CED8A2555854"
+     coords -1.998 38.739 -1.931
+    }
+    LightEntity {
+     ID "5A42CACBB0302214"
+     coords -1.998 38.739 -1.931
+    }
+    LightEntity {
+     ID "5A42CACBB030224C"
+     coords 1.948 38.739 1.996
+    }
+   }
+  }
+ }
+}

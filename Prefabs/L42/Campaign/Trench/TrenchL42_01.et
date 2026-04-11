@@ -1,0 +1,72 @@
+GenericEntity {
+ ID "5EB0E752BAC3B646"
+ coords 7525.661 169.928 4196.531
+ {
+  $grp GenericEntity : "{27B3CECB6489D952}Prefabs/Props/Military/Sandbags/Sandbag_01_foundation_burlap.et" {
+   {
+    ID "5EB0E752BAC21730"
+    coords -0.608 -1.81 1.993
+   }
+   {
+    ID "5EB0E752BAC23FA0"
+    coords -0.534 -1.795 -1.95
+   }
+  }
+  GenericEntity : "{27E4C0ECA5EB1318}Prefabs/Structures/Military/Camps/Foundations/Foundation_ShelterStorage_01.et" {
+   ID "5EB0E752BAC25D4A"
+   coords -0.355 -2.36 0.155
+  }
+  $grp StaticModelEntity : "{B03F9691E961C4CA}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v3.et" {
+   {
+    ID "5EB0E752BAC23FAD"
+    coords 1.171 -1.876 2.272
+    angles 0 90 0
+   }
+   {
+    ID "5EB0E752BAC254B9"
+    coords 1.151 -1.867 -0.77
+    angles 0 90 0
+   }
+   {
+    ID "5EB0E752BAC25D4C"
+    coords -2.329 -1.847 -0.671
+    angles 0 90 0
+   }
+   {
+    ID "5EB0E752BAC25D4F"
+    coords -2.356 -1.876 2.283
+    angles 0 90 0
+   }
+   {
+    ID "5EB0E752BAC3B655"
+    coords -0.606 -2.392 4.25
+   }
+  }
+  $grp GenericEntity : "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et" {
+   {
+    ID "5EB0E752BAC254B8"
+    coords 1.437 -2.643 -0.926
+    angles 0 -90 0
+   }
+   {
+    ID "5EB0E752BAC3B62C"
+    coords 1.432 -2.655 2.332
+    angles 0 -90 0
+   }
+   {
+    ID "5EB0E752BAC3B652"
+    coords -2.594 -2.655 2.27
+    angles 0 -90 0
+   }
+   {
+    ID "5EB0E752BAC3B653"
+    coords -2.588 -2.643 -0.988
+    angles 0 -90 0
+   }
+  }
+  GenericEntity : "{D7B21E69929A0546}Prefabs/Structures/Military/Camps/Shelters/ShelterStorageUSSR_01.et" {
+   ID "5EB0E752BAC21734"
+   coords -0.604 -1.422 0.835
+  }
+ }
+}

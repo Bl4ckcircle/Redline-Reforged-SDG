@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{86B21FBD2D97387F}Prefabs/Structures/Signs/Large/L42_Sign_Regulations.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
