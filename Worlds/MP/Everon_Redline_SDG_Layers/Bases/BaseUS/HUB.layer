@@ -105,14 +105,14 @@ $grp GenericEntity {
    SCR_EditableCommentComponent "{5DDE234C81331983}" {
     m_EntityType COMMENT
     m_UIInfo SCR_EditableCommentUIInfo "{5DDE234873CE99F2}" {
-     Name "Garage"
+     Name "IFV"
      Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
     }
     m_bAutoRegister ALWAYS
     m_sColor 0.502 0 0 1
    }
    SCR_MapDescriptorComponent "{5DDE234C9A632375}" {
-    DisplayName "Garage"
+    DisplayName "IFV"
     MainType "Name Village"
     Scale 0.5
    }
@@ -301,6 +301,230 @@ $grp GenericEntity : "{0DA2B3C9363E3D5E}Prefabs/Money.et" {
    }
   }
   coords 10184.469 3.267 1541.157
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 10183.988 3.267 1548.633
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 10183.858 3.267 1550.878
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 10183.669 3.267 1550.105
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 10183.683 3.267 1549.342
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 10183.327 3.267 1549.089
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 10182.782 3.267 1549.49
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 10182.82 3.267 1550.09
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 10182.873 3.267 1550.821
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 10183.822 3.267 1551.681
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 10183.106 3.267 1551.472
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 10184.175 3.267 1550.431
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 10183.3 3.267 1550.385
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 10182.375 3.267 1550.465
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 10182.978 3.267 1549.634
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 4891.461 29.031 11900.609
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 4891.331 29.031 11902.854
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 4891.142 29.031 11902.081
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 4891.155 29.031 11901.318
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 4890.8 29.031 11901.065
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 4890.255 29.031 11901.467
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 4890.293 29.031 11902.066
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 4890.346 29.031 11902.797
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 4891.295 29.031 11903.657
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 4890.579 29.031 11903.448
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 4891.647 29.031 11902.407
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 4890.772 29.031 11902.361
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 4889.848 29.031 11902.441
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 4890.45 29.031 11901.61
  }
 }
 GenericEntity : "{0FB92802AFA233FA}PrefabsEditable/Auto/Props/Military/Compositions/US/E_ArsenalBox_US_Equipment.et" {
@@ -856,7 +1080,7 @@ SCR_ChimeraCharacter : "{665604EB465D4273}Prefabs/Characters/Shop/US/US_Shop_Veh
     ADM_ShopMerchandise "{68CCBE205FCE0AD9}" {
      m_Merchandise ADM_MerchandiseVehicle "{68654EE05330AE4C}" {
       m_SpawnPosition PointInfo "{68654EE05330281B}" {
-       Offset -4 1 -10
+       Offset -4 2.2 -10
        Angles 0 -120 0
       }
      }
@@ -864,7 +1088,7 @@ SCR_ChimeraCharacter : "{665604EB465D4273}Prefabs/Characters/Shop/US/US_Shop_Veh
     ADM_ShopMerchandise "{68CCBE27A86D7698}" {
      m_Merchandise ADM_MerchandiseVehicle "{68654EE05330AE4C}" {
       m_SpawnPosition PointInfo "{68654EE05330281B}" {
-       Offset -4 1 -10
+       Offset -4 2.2 -10
        Angles 0 -120 0
       }
      }
@@ -930,7 +1154,7 @@ SCR_ChimeraCharacter : "{80B78DBDD0DCB9C6}Prefabs/Characters/Shop/US/US_Shop_Veh
     ADM_ShopMerchandise "{68CCBE25C4B1240D}" {
      m_Merchandise ADM_MerchandiseVehicle "{68654EE05E9F4001}" {
       m_SpawnPosition PointInfo "{68654EE05E9F400F}" {
-       Offset -2 1 -11
+       Offset -2 2.2 -11
        Angles 0 -125 0
       }
      }
@@ -938,7 +1162,7 @@ SCR_ChimeraCharacter : "{80B78DBDD0DCB9C6}Prefabs/Characters/Shop/US/US_Shop_Veh
     ADM_ShopMerchandise "{68CCBE25D8F66379}" {
      m_Merchandise ADM_MerchandiseVehicle "{68654EE05E9F4001}" {
       m_SpawnPosition PointInfo "{6868C8E8EBA68D1E}" {
-       Offset -2 1 -11
+       Offset -2 2.2 -11
        Angles 0 -125 0
       }
      }
@@ -946,7 +1170,7 @@ SCR_ChimeraCharacter : "{80B78DBDD0DCB9C6}Prefabs/Characters/Shop/US/US_Shop_Veh
     ADM_ShopMerchandise "{68CCBE252050A238}" {
      m_Merchandise ADM_MerchandiseVehicle "{68654EE05E9F4001}" {
       m_SpawnPosition PointInfo "{6868C8EB29A5BBF7}" {
-       Offset -2 1 -11
+       Offset -2 2.2 -11
        Angles 0 -125 0
       }
      }
@@ -954,7 +1178,7 @@ SCR_ChimeraCharacter : "{80B78DBDD0DCB9C6}Prefabs/Characters/Shop/US/US_Shop_Veh
     ADM_ShopMerchandise "{68CCBE250528F96E}" {
      m_Merchandise ADM_MerchandiseVehicle "{68654EE05E9F4001}" {
       m_SpawnPosition PointInfo "{686CB0081CDE671B}" {
-       Offset -2 1 -11
+       Offset -2 2.2 -11
        Angles 0 -125 0
       }
      }
@@ -962,7 +1186,7 @@ SCR_ChimeraCharacter : "{80B78DBDD0DCB9C6}Prefabs/Characters/Shop/US/US_Shop_Veh
     ADM_ShopMerchandise "{68CCBE256EA59F82}" {
      m_Merchandise ADM_MerchandiseVehicle "{68654EE05E9F4001}" {
       m_SpawnPosition PointInfo "{6868C8EB7B98F69C}" {
-       Offset -2 1 -11
+       Offset -2 2.2 -11
        Angles 0 -125 0
       }
      }
@@ -1473,6 +1697,11 @@ $grp GenericEntity : "{EA1DD6EE6534033A}Prefabs/Compositions/Misc/CustomEntities
  }
 }
 SCR_DestructibleBuildingEntity : "{F16324CB8CB07C00}Prefabs/Structures/Military/Houses/GarageMilitary_E_01/GarageMilitary_E_01.et" {
+ components {
+  SCR_DestructibleBuildingComponent "{5D7E937C4BC5C812}" {
+   EnableDamage 0
+  }
+ }
  coords 10168.363 0.005 1554.27
  angles 0 -165.089 0
  {
