@@ -11193,7 +11193,7 @@ $grp GenericEntity {
       }
       $grp DecalEntity : "{0B6336953A280DC2}Prefabs/Decals/Asphalt/Decal_Asphalt_Cracks_01.et" {
        {
-        coords 422.681 43.446 89.461
+        coords 427.551 42.826 90.772
         angles -84.16 134.955 -6.924
         scale 10
        }
@@ -11814,7 +11814,7 @@ $grp GenericEntity {
          Hierarchy "{59D87A55EAECC0F9}" {
          }
         }
-        coords 428.132 43.767 90.858
+        coords 428.266 43.767 91.578
         angles 0 -66.463 0
        }
        {
@@ -11933,7 +11933,7 @@ $grp GenericEntity {
         scale 5
        }
        {
-        coords 417.982 42.909 91.888
+        coords 418.042 41.642 91.825
         angles -86.065 136.831 88.106
         scale 3
        }

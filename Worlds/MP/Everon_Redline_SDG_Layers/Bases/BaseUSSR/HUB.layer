@@ -746,7 +746,7 @@ $grp GenericEntity : "{9EA803E0D1DDCDB6}Prefabs/Garage/Garage.et" {
       Scale 0.5
      }
     }
-    coords -0.146 -0 -0.008
+    coords -0.146 0 -0.008
     angles 0 -11.877 0
    }
   }
@@ -1100,7 +1100,7 @@ SCR_ChimeraCharacter : "{C0E50C2C872B4F34}Prefabs/Characters/Shop/USSR/USSR_Shop
     ADM_ShopMerchandise "{68CB4AC4C2734E41}" {
      m_Merchandise ADM_MerchandiseVehicle "{6858901176051006}" {
       m_SpawnPosition PointInfo "{686D142B79BC5123}" {
-       Offset -1 1.7 -8
+       Offset -1.1554 2.3843 -9.4882
        Angles 0 -30 0
       }
      }
@@ -1108,7 +1108,7 @@ SCR_ChimeraCharacter : "{C0E50C2C872B4F34}Prefabs/Characters/Shop/USSR/USSR_Shop
     ADM_ShopMerchandise "{68CB4AC4C289ECAB}" {
      m_Merchandise ADM_MerchandiseVehicle "{6858901176051006}" {
       m_SpawnPosition PointInfo "{6858901168FDF095}" {
-       Offset -1 1.7 -8
+       Offset -1 2.2 -8
        Angles 0 -30 0
       }
      }
@@ -1134,7 +1134,7 @@ SCR_ChimeraCharacter : "{CE45716F28FBE4E3}Prefabs/Characters/Shop/USSR/USSR_Shop
     ADM_ShopMerchandise "{68CB4AC46DA5A2A6}" {
      m_Merchandise ADM_MerchandiseVehicle "{68589013F578E90F}" {
       m_SpawnPosition PointInfo "{686D142BADEB991B}" {
-       Offset -1 1.7 -7
+       Offset -1.4689 2.3 -9.5606
        Angles 0 -29 0
       }
      }
@@ -1142,7 +1142,7 @@ SCR_ChimeraCharacter : "{CE45716F28FBE4E3}Prefabs/Characters/Shop/USSR/USSR_Shop
     ADM_ShopMerchandise "{68CB4AC461404EDF}" {
      m_Merchandise ADM_MerchandiseVehicle "{68589013F578E90F}" {
       m_SpawnPosition PointInfo "{686D142BADEB991B}" {
-       Offset -1 1.7 -7
+       Offset -1 2.3 -7
        Angles 0 -29 0
       }
      }
@@ -1150,7 +1150,7 @@ SCR_ChimeraCharacter : "{CE45716F28FBE4E3}Prefabs/Characters/Shop/USSR/USSR_Shop
     ADM_ShopMerchandise "{68CB4AC7BC6C6B43}" {
      m_Merchandise ADM_MerchandiseVehicle "{686CDD554D3641CD}" {
       m_SpawnPosition PointInfo "{686D142BDFA58EE9}" {
-       Offset -1 1.7 -7
+       Offset -1 2.3 -7
        Angles 0 -29 0
       }
      }
@@ -1158,7 +1158,7 @@ SCR_ChimeraCharacter : "{CE45716F28FBE4E3}Prefabs/Characters/Shop/USSR/USSR_Shop
     ADM_ShopMerchandise "{68CB4AC7B4A602B2}" {
      m_Merchandise ADM_MerchandiseVehicle "{686CDD554C1CB485}" {
       m_SpawnPosition PointInfo "{686D142BDD2053F6}" {
-       Offset -1 1.7 -7
+       Offset -1 2.3 -7
        Angles 0 -29 0
       }
      }
@@ -1166,7 +1166,7 @@ SCR_ChimeraCharacter : "{CE45716F28FBE4E3}Prefabs/Characters/Shop/USSR/USSR_Shop
     ADM_ShopMerchandise "{68CB4AC70C9D100F}" {
      m_Merchandise ADM_MerchandiseVehicle "{686CDD554CCE2E74}" {
       m_SpawnPosition PointInfo "{686D142BDB11A0EF}" {
-       Offset -1 1.7 -7
+       Offset -1 2.3 -7
        Angles 0 -29 0
       }
      }
@@ -1787,6 +1787,11 @@ $grp GenericEntity : "{EA1DD6EE6534033A}Prefabs/Compositions/Misc/CustomEntities
  }
 }
 SCR_DestructibleBuildingEntity : "{F16324CB8CB07C00}Prefabs/Structures/Military/Houses/GarageMilitary_E_01/GarageMilitary_E_01.et" {
+ components {
+  SCR_DestructibleBuildingComponent "{5D7E937C4BC5C812}" {
+   Enabled 0
+  }
+ }
  coords 4890.39 -0.002 11918.112
  angles 0 -89.607 0
  {

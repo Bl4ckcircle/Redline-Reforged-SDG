@@ -667,7 +667,7 @@ $grp GenericEntity {
   coords 8098.317 223.211 4163.399
   {
    GenericEntity : "{01E0B52B5BA2EF72}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Barricade_USSR_04.et" {
-    coords -137.352 -14.276 130.237
+    coords -136.561 -14.283 130.686
     angles 0.511 -47.335 0.311
     {
      StaticModelEntity {
@@ -690,7 +690,7 @@ $grp GenericEntity {
     }
    }
    GenericEntity : "{2B24356C351A2538}Prefabs/Props/Wrecks/M113_wreck/M113_wreck.et" {
-    coords -145.791 -14.811 132.875
+    coords -148.009 -14.809 131.515
     angles -5.087 -43.256 1.107
    }
    $grp GenericEntity : "{3BAF6AA8C20D924D}Prefabs/Compositions/Misc/SubCompositions/Barricade_Logs_01.et" {
@@ -705,17 +705,6 @@ $grp GenericEntity {
     {
      coords 23.045 -2.408 -38.823
      angles 5.192 -41.571 -2.214
-    }
-    {
-     coords -131.438 -12.579 113.692
-     angles -3.675 -57.375 1.394
-     {
-      StaticModelEntity {
-       ID "59A2DAE2BEBE7C80"
-       coords 1.853 0 -0.562
-       angles -5.437 4.41 0
-      }
-     }
     }
    }
    $grp GenericEntity : "{3CD490132ECE6645}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Barricade_USSR_03.et" {
@@ -752,7 +741,7 @@ $grp GenericEntity {
      scale 10
     }
     {
-     coords -147.564 -15.111 135.225
+     coords -148.345 -17.412 131.945
      angles -85.119 175.939 -150.969
      scale 10
     }
@@ -831,14 +820,6 @@ $grp GenericEntity {
       Hierarchy "{59A2DAE340607C96}" {
       }
      }
-     coords -130.196 -12.438 112.917
-     angles -0.233 -118.403 5.201
-    }
-    {
-     components {
-      Hierarchy "{59A2DAE340607C96}" {
-      }
-     }
      coords -127.792 -12.769 117.913
      angles 7.054 -108.602 4.187
     }
@@ -883,7 +864,7 @@ $grp GenericEntity {
      angles -5.48 -32.315 1.352
     }
     {
-     coords -140.706 -14.51 132.095
+     coords -139.615 -14.49 132.244
      angles -4.934 -47.558 2.743
     }
     {
@@ -891,7 +872,7 @@ $grp GenericEntity {
      angles -10.406 22.434 4.293
     }
     {
-     coords -149.325 -14.785 129.734
+     coords -150.296 -14.725 128.771
      angles -5.542 -7.505 -1.068
     }
    }
@@ -910,7 +891,7 @@ $grp GenericEntity {
      Hierarchy "{59A2DAE3B8158416}" {
      }
     }
-    coords -146.665 -13.053 134.161
+    coords -147.919 -13.073 131.827
     angles 0 -25.537 0
    }
    GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et" {
@@ -944,7 +925,7 @@ $grp GenericEntity {
        m_eInitialLightState LIT
       }
      }
-     coords -147.969 -15.087 134.882
+     coords -147.986 -15 131.49
      angles -1.468 0.068 0.92
      scale 1.3
     }
@@ -972,12 +953,12 @@ $grp GenericEntity {
      {
       GenericEntity {
        ID "552C73935697077F"
-       coords 0.458 -0.05 0.034
+       coords -2.466 0.149 2.229
        angles -1.037 179.648 -3.13
       }
       GenericEntity {
        ID "552C73935697077C"
-       coords -0.501 0.012 -0.096
+       coords -2.278 0.012 1.87
       }
      }
     }
