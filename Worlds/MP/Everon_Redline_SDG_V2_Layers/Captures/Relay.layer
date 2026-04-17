@@ -1,0 +1,172 @@
+$grp GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRelayRadio.et" {
+ WesternHeigts_Relay {
+  components {
+   SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
+    Transceivers {
+     RelayTransceiver "{5C727AD73024FB39}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_sBaseName "Oil Platform SUD"
+    m_sBaseNameUpper "Oil Platform SUD"
+    m_aWhiteList {
+     "Redland"
+     "Daytona"
+     "Marsh Relay"
+     "Boca Grande Relay"
+    }
+   }
+  }
+  coords 7689.88 341.793 3055.713
+  angles 0 164.714 0
+  scale 0.9
+ }
+ WolfRelay {
+  components {
+   SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
+    Transceivers {
+     RelayTransceiver "{5C727AD73024FB39}" {
+      "Transmitting Range" 1900
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_sBaseName "Oil Platform SUD"
+    m_sBaseNameUpper "Oil Platform SUD"
+    m_aWhiteList {
+     "Redland"
+     "Daytona"
+     "Marsh Relay"
+     "Boca Grande Relay"
+    }
+   }
+  }
+  coords 3839.08 164.532 4310.284
+  angles 0 -132.565 0
+  {
+   GenericEntity {
+    ID "5C727AD606EB0C1C"
+    coords -0.063 0 -0.007
+    angles 0 4.941 0
+    scale 0.9
+   }
+  }
+ }
+ CalvaryRelay {
+  components {
+   SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
+    Transceivers {
+     RelayTransceiver "{5C727AD73024FB39}" {
+      "Transmitting Range" 1700
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_sBaseName "Oil Platform SUD"
+    m_sBaseNameUpper "Oil Platform SUD"
+    m_aWhiteList {
+     "Redland"
+     "Daytona"
+     "Marsh Relay"
+     "Boca Grande Relay"
+    }
+   }
+  }
+  coords 3502.453 220.585 5827.966
+  angles 0 105.675 0
+  {
+   GenericEntity {
+    ID "5C727AD606EB0C1C"
+    coords 0.045 0 0.017
+    angles 0 4.941 0
+    scale 0.9
+   }
+  }
+ }
+ EntreDeuxRelay {
+  components {
+   SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
+    Transceivers {
+     RelayTransceiver "{5C727AD73024FB39}" {
+      "Transmitting Range" 1700
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_sBaseName "Oil Platform SUD"
+    m_sBaseNameUpper "Oil Platform SUD"
+    m_aWhiteList {
+     "Redland"
+     "Daytona"
+     "Marsh Relay"
+     "Boca Grande Relay"
+    }
+   }
+  }
+  coords 5857.962 274.356 7259.402
+  angles 0 68.619 0
+  {
+   GenericEntity {
+    ID "5C727AD606EB0C1C"
+    coords 0 0 0
+    angles 0 39.791 0
+   }
+  }
+ }
+ FarmRelay {
+  components {
+   SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
+    Transceivers {
+     RelayTransceiver "{5C727AD73024FB39}" {
+      "Transmitting Range" 1700
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_sBaseName "Oil Platform SUD"
+    m_sBaseNameUpper "Oil Platform SUD"
+    m_aWhiteList {
+     "Redland"
+     "Daytona"
+     "Marsh Relay"
+     "Boca Grande Relay"
+    }
+   }
+  }
+  coords 6647.771 177.887 6167.406
+  angles 0 105.675 0
+  {
+   GenericEntity {
+    ID "5C727AD606EB0C1C"
+    coords 0.045 0 0.017
+    angles 0 4.941 0
+    scale 0.9
+   }
+  }
+ }
+ HedgeRelay {
+  components {
+   SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
+    Transceivers {
+     RelayTransceiver "{5C727AD73024FB39}" {
+      "Transmitting Range" 2460
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_sBaseName "Oil Platform SUD"
+    m_sBaseNameUpper "Oil Platform SUD"
+    m_aWhiteList {
+     "Redland"
+     "Daytona"
+     "Marsh Relay"
+     "Boca Grande Relay"
+    }
+   }
+  }
+  coords 5022.79 47.811 9465.076
+  angles 0 164.714 0
+  scale 0.9
+ }
+}

@@ -1,0 +1,1003 @@
+$grp GenericEntity {
+ AmbientRoute01 {
+  coords 6829.5 73.218 4806.526
+  {
+   GenericEntity : "{2B24356C351A2538}Prefabs/Props/Wrecks/M113_wreck/M113_wreck.et" {
+    coords -25.725 -2.625 17.301
+    angles 2.424 -133.413 3.858
+   }
+   $grp GenericEntity : "{3BAF6AA8C20D924D}Prefabs/Compositions/Misc/SubCompositions/Barricade_Logs_01.et" {
+    {
+     coords -14.742 -1.401 29.374
+     angles -2.512 -51.993 0.308
+    }
+    {
+     coords 10.457 0.195 0.875
+     angles -2.797 -27.051 0.424
+    }
+    {
+     coords -25.605 -2.466 49.559
+     angles -3.062 -52.003 1.013
+    }
+    {
+     coords -1.735 0.054 -7.243
+     angles -3.095 -72.64 0.906
+    }
+    {
+     coords -29.96 -2.451 10.106
+     angles -4.795 -72.651 0.373
+    }
+   }
+   GenericEntity : "{4EF68238FE2FC26B}Prefabs/Compositions/Misc/SubCompositions/CanvasCover_Cluttered_USSR_04.et" {
+    coords -0.992 -1.012 27.233
+    angles -2.733 -33.37 0.729
+   }
+   $grp GenericEntity : "{58F0C4BE4655101A}Prefabs/Compositions/Misc/SubCompositions/VehicleGarbage_TireStack_02.et" {
+    {
+     coords 3.404 0.206 -3.731
+     angles -2.322 -53.269 1.615
+    }
+    {
+     coords -27.834 -2.517 49.006
+     angles 2.479 123.453 -0.506
+    }
+   }
+   $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    {
+     components {
+      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+       m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+       m_eGroupType TEAM_SENTRY
+       m_fAILimitThreshold 0.66
+      }
+     }
+     coords -28.529 -2.279 27.847
+    }
+    {
+     components {
+      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+       m_sDefaultWaypointPrefab "{A88F0B6CF25BD1DE}Prefabs/AI/Waypoints/AIWaypoint_Scout.et"
+       m_eGroupType TEAM_SENTRY
+       m_fAILimitThreshold 0.66
+      }
+     }
+     coords -38.835 -2.734 40.746
+     angles 0 35.455 0
+     {
+      $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+       {
+        coords -1.688 -0.085 -1.543
+       }
+       {
+        coords -65.811 -3.892 2.932
+        angles 0 -35.455 0
+       }
+      }
+     }
+    }
+   }
+   $grp GenericEntity : "{AA3F295D8E086A6D}Prefabs/Compositions/Misc/SubCompositions/TireStack_M939A1_02.et" {
+    {
+     coords 2.56 0.149 -2.787
+     angles -2.683 0.042 -0.896
+    }
+    {
+     coords 2.439 0.106 -1.636
+     angles -1.789 0.028 -0.896
+    }
+    {
+     coords 1.427 0.117 -2.456
+     angles -1.789 0.028 -0.896
+    }
+   }
+   GenericEntity : "{AE300E34EA8FF40C}Prefabs/Props/Wrecks/Ural4320_wreck/Ural4320_wreck_static.et" {
+    coords -14.84 -1.349 -6.948
+    angles 2.479 116.207 5.512
+   }
+   GenericEntity : "{B90E5414AB7C325B}Prefabs/Props/Wrecks/BTR70_Wreck/BTR70_wreck_static.et" {
+    coords 14.771 -0.468 4.065
+    angles 10.092 172.707 -10.083
+   }
+   GenericEntity : "{C1977A326F2AA011}Prefabs/Structures/Signs/Military/SignCheckpoint_01_stop.et" {
+    components {
+     Hierarchy "{59B6A7678CDE1ADA}" {
+      Enabled 1
+     }
+    }
+    coords -29.882 -1.672 10.623
+    angles -4.639 -61 4.807
+   }
+   GenericEntity : "{D31D0F615378FA6B}Prefabs/Compositions/Misc/SubCompositions/CanvasCover_Cluttered_US_03.et" {
+    coords -3.556 -1.168 30.822
+    angles -2.513 -38.216 -0.299
+   }
+   GenericEntity : "{EB084C400AABD1D3}Prefabs/Props/Wrecks/M151A2_wreck/M151A2_wreck.et" {
+    coords -23.442 -2.641 54.415
+    angles 4.462 -6.192 -16.392
+   }
+   GenericEntity : "{F35FFCC271B2E4FB}Prefabs/Compositions/Misc/SubCompositions/Tire_UAZ469_pile_01.et" {
+    coords 1.411 0.074 -1.406
+    angles 0.949 -144.863 1.762
+   }
+   $grp GenericEntity : "{F58AEB566CB4369A}Prefabs/Compositions/Misc/SubCompositions/VehicleGarbagePile_01.et" {
+    {
+     coords -2.935 -0.183 2.117
+     angles -2.907 -54.344 -2.084
+    }
+    {
+     coords -5.414 -1.308 33.524
+     angles -1.786 0.084 -2.685
+    }
+   }
+  }
+ }
+ AmbientRoute03 {
+  coords 7252.839 57.332 8598.469
+  {
+   $grp GenericEntity : "{3BAF6AA8C20D924D}Prefabs/Compositions/Misc/SubCompositions/Barricade_Logs_01.et" {
+    {
+     coords -10.207 -1.679 12.859
+     angles -6.023 -16.178 -4.734
+    }
+    {
+     coords 1.529 -0.288 6.466
+     angles -2.364 -104.285 5.203
+    }
+    {
+     coords -6.603 -0.281 -0.516
+     angles 2.345 -170.308 2.214
+    }
+    {
+     coords 3.993 0.717 -14.954
+     angles 0.78 -60.668 0.438
+    }
+   }
+   $grp GenericEntity : "{58F0C4BE4655101A}Prefabs/Compositions/Misc/SubCompositions/VehicleGarbage_TireStack_02.et" {
+    {
+     coords 9.727 0.561 -8.45
+     angles 1.411 -29.319 4.332
+    }
+    {
+     coords -18.056 -2.35 8.701
+     angles 6.01 122.777 -10.831
+    }
+   }
+   $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    {
+     components {
+      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+       m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+       m_eGroupType TEAM_SENTRY
+       m_bPickRandomGroupType 1
+       m_fAILimitThreshold 0.66
+      }
+     }
+     coords -5.279 -0.718 6.653
+     angles 0 39.639 0
+    }
+    {
+     components {
+      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+       m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+       m_eGroupType TEAM_SENTRY
+       m_fAILimitThreshold 0.66
+      }
+     }
+     coords -160.263 11.793 -116.483
+     angles 0 39.639 0
+    }
+   }
+   GenericEntity : "{B90E5414AB7C325B}Prefabs/Props/Wrecks/BTR70_Wreck/BTR70_wreck_static.et" {
+    coords 11.782 -0.39 5.421
+    angles -0.591 -48.667 5.955
+   }
+   GenericEntity : "{D31D0F615378FA6B}Prefabs/Compositions/Misc/SubCompositions/CanvasCover_Cluttered_US_03.et" {
+    coords 8.434 0.172 3.052
+    angles -1.957 -38.679 0.42
+   }
+   GenericEntity : "{F35FFCC271B2E4FB}Prefabs/Compositions/Misc/SubCompositions/Tire_UAZ469_pile_01.et" {
+    coords 10.314 0.502 -7.614
+    angles 6.539 -97.62 1.819
+   }
+   GenericEntity : "{F58AEB566CB4369A}Prefabs/Compositions/Misc/SubCompositions/VehicleGarbagePile_01.et" {
+    coords -6.136 -1.247 12.965
+    angles 0.739 -0.587 -14.882
+   }
+  }
+ }
+ AmbientRoute04 {
+  coords 6372.61 74.543 8454.783
+  {
+   $grp GenericEntity : "{3BAF6AA8C20D924D}Prefabs/Compositions/Misc/SubCompositions/Barricade_Logs_01.et" {
+    {
+     coords -14.219 0.416 11.323
+     angles -4.21 -13.1 5.545
+    }
+    {
+     coords 5.96 -0.042 2.179
+     angles 1.234 -72.302 7.86
+    }
+    {
+     coords 2.086 -1.044 13.568
+     angles -9.421 16.528 3.661
+    }
+    {
+     coords -6.022 -0.443 13.598
+     angles -1.662 -41.996 7.474
+    }
+    {
+     coords -27.813 1.199 -0.51
+     angles 0.154 -94.94 1.783
+    }
+   }
+   $grp GenericEntity : "{58F0C4BE4655101A}Prefabs/Compositions/Misc/SubCompositions/VehicleGarbage_TireStack_02.et" {
+    {
+     coords 7.287 -1.675 14.308
+     angles 7.58 -115.132 -0.605
+    }
+    {
+     coords -23.679 1.325 -12.053
+     angles -5.033 53.628 3.697
+    }
+   }
+   GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+      m_eGroupType TEAM_SENTRY
+      m_fAILimitThreshold 0.33
+     }
+    }
+    coords -11.18 0.804 3.902
+   }
+   StaticModelEntity : "{A46D45922F8CAD6C}Prefabs/Props/Military/Fortification/CzechHedgehog_01_painted.et" {
+    components {
+     Hierarchy "{59A2DAE340622962}" {
+     }
+    }
+    coords -27.713 1.4 -7.169
+    angles -0.713 -37.187 0.541
+   }
+   GenericEntity : "{D31D0F615378FA6B}Prefabs/Compositions/Misc/SubCompositions/CanvasCover_Cluttered_US_03.et" {
+    coords -22.183 0.961 9.685
+    angles 2.47 -122.448 0.55
+   }
+   GenericEntity : "{F35FFCC271B2E4FB}Prefabs/Compositions/Misc/SubCompositions/Tire_UAZ469_pile_01.et" {
+    coords -22.862 1.235 -12.729
+    angles 2.213 -20.692 5.838
+   }
+   GenericEntity : "{F58AEB566CB4369A}Prefabs/Compositions/Misc/SubCompositions/VehicleGarbagePile_01.et" {
+    coords 5.561 -1.479 14.729
+    angles -2.559 -1.001 7.163
+   }
+  }
+ }
+ AmbientRoute05 {
+  coords 5166.239 48.565 8702.363
+  {
+   $grp GenericEntity : "{3BAF6AA8C20D924D}Prefabs/Compositions/Misc/SubCompositions/Barricade_Logs_01.et" {
+    {
+     coords -6.162 2.092 12.291
+     angles 10.383 -12.255 4.791
+    }
+    {
+     coords 12.091 -2.061 -5.762
+     angles 7.838 -72.944 -6.878
+    }
+    {
+     coords -3.741 0.495 0.755
+     angles 7.626 -12.528 5.565
+    }
+    {
+     coords -0.541 -0.311 -3.201
+     angles 7.781 -72.94 -4.107
+    }
+   }
+   $grp GenericEntity : "{58F0C4BE4655101A}Prefabs/Compositions/Misc/SubCompositions/VehicleGarbage_TireStack_02.et" {
+    {
+     coords 0.84 -0.395 -2.674
+     angles 8.335 -63.716 -2.812
+    }
+    {
+     coords -3.115 0.563 1.845
+     angles -8.774 131.19 0.582
+    }
+   }
+   GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+      m_eGroupType TEAM_SENTRY
+      m_fAILimitThreshold 0.66
+     }
+    }
+    coords -6.815 1.516 6.862
+   }
+  }
+ }
+ AmbientRoute06 {
+  coords 5045.058 15.359 3977.39
+ }
+ AmbientRoute07 {
+  coords 5112.2 56.574 6057.09
+  {
+   GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+      m_fAILimitThreshold 0.66
+     }
+    }
+    coords 2.368 0.352 7.695
+   }
+   $grp StaticModelEntity : "{AE28D47CF26E91EA}Prefabs/Props/Military/Fortification/CzechHedgehog_01_rusty.et" {
+    {
+     coords 9.641 0.775 -9.592
+     angles -2.76 41.453 -3.625
+    }
+    {
+     coords 7.636 1.16 -15.771
+     angles -1.504 41.372 -3.704
+    }
+    {
+     coords 15.696 1.802 23.479
+     angles -1.039 142.479 3.053
+    }
+    {
+     coords -24.763 -0.693 4.291
+     angles -1.189 9.893 1.609
+    }
+   }
+  }
+ }
+ AmbientRoute09 {
+  coords 3641.651 109.786 5022.601
+  {
+   $grp GenericEntity : "{58F0C4BE4655101A}Prefabs/Compositions/Misc/SubCompositions/VehicleGarbage_TireStack_02.et" {
+    {
+     coords 88.974 3.794 -26.394
+     angles -3.553 -83.499 -0.405
+    }
+    {
+     coords -85.276 1.931 19.434
+     angles -1.777 89.167 0.921
+    }
+   }
+   GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+      m_eGroupType TEAM_SENTRY
+      m_fAILimitThreshold 0.66
+     }
+    }
+    coords 6.553 0.133 -1.49
+    {
+     $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+      {
+       coords 65.599 2.041 -4.889
+      }
+      {
+       coords -68.095 -1.36 -8.165
+      }
+     }
+    }
+   }
+   $grp StaticModelEntity : "{A46D45922F8CAD6C}Prefabs/Props/Military/Fortification/CzechHedgehog_01_painted.et" {
+    {
+     components {
+      Hierarchy "{59A2DAE3408FB8AA}" {
+      }
+     }
+     coords 86.374 3.677 -27.519
+     angles -1.114 -138.383 2.6
+    }
+    {
+     components {
+      Hierarchy "{59A2DAE3408FB8AA}" {
+      }
+     }
+     coords 87.771 3.716 -23.983
+     angles -1.663 -125.593 2.289
+    }
+    {
+     components {
+      Hierarchy "{59A2DAE3408FB8AA}" {
+      }
+     }
+     coords -84.268 1.837 16.613
+     angles 1.76 -79.479 0.327
+    }
+   }
+   $grp GenericEntity : "{AA3F295D8E086A6D}Prefabs/Compositions/Misc/SubCompositions/TireStack_M939A1_02.et" {
+    {
+     coords 89.396 3.79 -22.82
+     angles 0.01 0.153 -3.576
+    }
+    {
+     coords 87.942 3.729 -26.061
+     angles -3.419 -72.918 -1.05
+    }
+    {
+     coords 87.99 3.785 -29.592
+     angles -2.828 -73.011 0.071
+    }
+    {
+     coords -85.207 1.847 14.154
+     angles 1.303 -14.041 1.519
+    }
+   }
+   GenericEntity : "{B90E5414AB7C325B}Prefabs/Props/Wrecks/BTR70_Wreck/BTR70_wreck_static.et" {
+    coords -82.157 1.44 22.255
+    angles -0.533 41.993 -1.976
+   }
+   GenericEntity : "{D31D0F615378FA6B}Prefabs/Compositions/Misc/SubCompositions/CanvasCover_Cluttered_US_03.et" {
+    coords 88.786 3.703 -18.15
+    angles -1.745 177.942 7.306
+   }
+   GenericEntity : "{F35FFCC271B2E4FB}Prefabs/Compositions/Misc/SubCompositions/Tire_UAZ469_pile_01.et" {
+    coords -79.215 1.71 22.346
+    angles 1.03 -144.873 -1.464
+   }
+   $grp GenericEntity : "{F58AEB566CB4369A}Prefabs/Compositions/Misc/SubCompositions/VehicleGarbagePile_01.et" {
+    {
+     coords -83.325 1.814 24.881
+     angles 2.53 -135.053 -0.002
+    }
+    {
+     coords 88.763 3.875 -28.011
+     angles 1.1 41.297 -2.606
+    }
+   }
+  }
+ }
+ AmbientRoute10 {
+  coords 2210.172 109.748 5375.436
+  {
+   $grp GenericEntity : "{58F0C4BE4655101A}Prefabs/Compositions/Misc/SubCompositions/VehicleGarbage_TireStack_02.et" {
+    {
+     coords 94.792 -4.062 -21.296
+     angles 4.492 -88.253 -0.756
+    }
+    {
+     coords -11.529 0.336 2.078
+     angles -1.771 98.331 -0.259
+    }
+   }
+   GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+      m_eGroupType TEAM_SENTRY
+      m_fAILimitThreshold 0.66
+     }
+    }
+    coords 0.231 0 0.232
+    angles 0 121.252 0
+    {
+     $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+      {
+       coords -1.646 -0.182 5.804
+      }
+      {
+       coords -18.043 -6.643 101.954
+       angles 0 -121.252 0
+      }
+     }
+    }
+   }
+   $grp GenericEntity : "{AA3F295D8E086A6D}Prefabs/Compositions/Misc/SubCompositions/TireStack_M939A1_02.et" {
+    {
+     coords 93.877 -3.942 -18.208
+     angles 1.887 -13.116 4.147
+    }
+    {
+     coords 93.209 -3.954 -21.697
+     angles 3.627 -86.28 -0.66
+    }
+    {
+     coords 94.071 -4.065 -25.123
+     angles 4.516 -86.246 -0.598
+    }
+   }
+   $grp StaticModelEntity : "{AE28D47CF26E91EA}Prefabs/Props/Military/Fortification/CzechHedgehog_01_rusty.et" {
+    {
+     coords 92.523 -3.941 -23.6
+     angles -3.637 94.647 0.601
+    }
+    {
+     coords 93.073 -3.913 -19.67
+     angles -3.682 106.762 -0.175
+    }
+    {
+     coords 94.272 -4.07 -27.294
+     angles -6.148 94.708 -1.398
+    }
+   }
+   GenericEntity : "{B90E5414AB7C325B}Prefabs/Props/Wrecks/BTR70_Wreck/BTR70_wreck_static.et" {
+    coords -8.129 -0.12 2.136
+    angles -1.197 41.978 1.331
+   }
+   $grp GenericEntity : "{F35FFCC271B2E4FB}Prefabs/Compositions/Misc/SubCompositions/Tire_UAZ469_pile_01.et" {
+    {
+     coords -5.164 0.162 2.226
+     angles 0.299 -144.847 -1.979
+    }
+    {
+     coords -5.733 0.172 1.725
+     angles -0.086 29.034 1.999
+    }
+   }
+   $grp GenericEntity : "{F58AEB566CB4369A}Prefabs/Compositions/Misc/SubCompositions/VehicleGarbagePile_01.et" {
+    {
+     coords -10.009 0.373 3.783
+     angles 0.633 -135.004 -1.898
+    }
+    {
+     coords 94.459 -4.069 -23.406
+     angles -1.293 27.767 4.368
+    }
+   }
+  }
+ }
+ AmbientRoute11 {
+  coords 3733.938 141.879 5595.701
+  {
+   $grp GenericEntity : "{58F0C4BE4655101A}Prefabs/Compositions/Misc/SubCompositions/VehicleGarbage_TireStack_02.et" {
+    {
+     coords -28.303 -0.307 -18.327
+     angles 0 57.092 0
+    }
+    {
+     coords 21.856 -0.119 15.506
+     angles 0 -121.394 0
+    }
+   }
+   GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+      m_eGroupType TEAM_SENTRY
+      m_fAILimitThreshold 0.66
+     }
+    }
+    coords -1.215 -0.024 -0.35
+    angles 0 -120 0
+   }
+   $grp StaticModelEntity : "{A46D45922F8CAD6C}Prefabs/Props/Military/Fortification/CzechHedgehog_01_painted.et" {
+    {
+     coords 20.695 -0.119 16.804
+     angles 0 64.553 0
+    }
+    {
+     coords 22.356 -0.119 13.987
+     angles 0 64.553 0
+    }
+    {
+     coords -27.502 -0.316 -20.688
+     angles 0 -105.309 0
+    }
+    {
+     coords -28.213 -0.297 -16.831
+     angles -1.1 -105.296 -0.627
+    }
+    {
+     coords -28.724 -0.48 -24.688
+     angles -3.346 -104.983 -5.564
+    }
+   }
+  }
+ }
+ AmbientRoute12 {
+  coords 8707.919 116.121 3092.394
+  {
+   GenericEntity : "{01E0B52B5BA2EF72}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Barricade_USSR_04.et" {
+    coords -10.018 -2.46 -51.519
+    angles 0 -167.585 0
+   }
+   GenericEntity : "{3CD490132ECE6645}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Barricade_USSR_03.et" {
+    coords -7.919 1.753 50.445
+    angles 0 81.282 0
+   }
+   GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+      m_eGroupType TEAM_SENTRY
+      m_fAILimitThreshold 0.33
+     }
+    }
+    coords 5.128 -0.005 -1.149
+    {
+     $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+      {
+       coords -18.702 -1.784 -31.16
+      }
+      {
+       coords -3.838 1.335 33.861
+      }
+     }
+    }
+   }
+   $grp StaticModelEntity : "{9A6B7E1F874E5C0F}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Bunker_Cluttered_USSR_01.et" {
+    {
+     coords 4.136 1.827 52.049
+     angles 0 -31.125 0
+     {
+      StaticModelEntity {
+       ID "570481C35865422F"
+       coords -2.354 0.1 -1.235
+       angles 0 -72.262 0
+      }
+     }
+    }
+    {
+     coords -25.604 -2.106 -44.24
+     angles 0 163.77 0
+     {
+      StaticModelEntity {
+       ID "570481C35865422F"
+       coords -2.829 0.1 -1.164
+       angles 0 -62.759 0
+      }
+     }
+    }
+   }
+   $grp StaticModelEntity : "{A46D45922F8CAD6C}Prefabs/Props/Military/Fortification/CzechHedgehog_01_painted.et" {
+    {
+     coords -18.534 -2.216 -43.743
+     angles 0.66 68.388 1.664
+    }
+    {
+     coords -13.069 -2.088 -40.669
+     angles 0.511 73.43 1.716
+    }
+    {
+     coords -2.865 1.677 43.827
+     angles -0.7 113.005 1.648
+    }
+    {
+     coords 1.477 1.534 39.969
+     angles -0.998 93.351 1.734
+    }
+   }
+  }
+ }
+ DecoRoute08 {
+  coords 8098.317 223.211 4163.399
+  {
+   GenericEntity : "{01E0B52B5BA2EF72}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Barricade_USSR_04.et" {
+    coords -136.561 -14.283 130.686
+    angles 0.511 -47.335 0.311
+    {
+     StaticModelEntity {
+      ID "59D87A54778D1577"
+      coords 0.574 0.034 0.763
+     }
+     StaticModelEntity {
+      ID "59D87A54778D2219"
+      coords -2.097 0 0.85
+     }
+     StaticModelEntity {
+      ID "59D87A54778D1541"
+      coords 2.529 0 -0.665
+      angles 0 -92.022 0
+     }
+     StaticModelEntity {
+      ID "59D87A54778D1573"
+      coords 1.816 0.227 -0.397
+     }
+    }
+   }
+   GenericEntity : "{2B24356C351A2538}Prefabs/Props/Wrecks/M113_wreck/M113_wreck.et" {
+    coords -148.009 -14.809 131.515
+    angles -5.087 -43.256 1.107
+   }
+   $grp GenericEntity : "{3BAF6AA8C20D924D}Prefabs/Compositions/Misc/SubCompositions/Barricade_Logs_01.et" {
+    {
+     coords 25.698 -4.696 -62.343
+     angles 5.983 -27.171 -0.063
+    }
+    {
+     coords -46.691 -3.132 41.633
+     angles -3.837 -79.716 1.12
+    }
+    {
+     coords 23.045 -2.408 -38.823
+     angles 5.192 -41.571 -2.214
+    }
+   }
+   $grp GenericEntity : "{3CD490132ECE6645}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Barricade_USSR_03.et" {
+    {
+     coords -155.998 -12.983 120.165
+     angles -4.631 -23.898 4.965
+     {
+      GenericEntity {
+       ID "59D87A530C990102"
+       coords -0.74 0 -0.88
+      }
+     }
+    }
+    {
+     coords -132.609 -13.222 120.712
+     angles -0.371 -113.021 5.972
+     {
+      GenericEntity {
+       ID "59D87A530C990102"
+       coords -0.74 0 -0.88
+      }
+     }
+    }
+   }
+   $grp DecalEntity : "{4E2502622DA0DB28}Prefabs/Decals/Miscellaneous/Decal_Damage_Burnt_01.et" {
+    {
+     coords -2.001 0.05 1.638
+     angles -90 0 -142.974
+     scale 10
+    }
+    {
+     coords -131.679 -12.03 107.369
+     angles -85.119 175.939 -175.954
+     scale 10
+    }
+    {
+     coords -148.345 -17.412 131.945
+     angles -85.119 175.939 -150.969
+     scale 10
+    }
+   }
+   StaticModelEntity : "{5196CA1829D428F7}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Bunker_Cluttered_US_01.et" {
+    coords -153.744 -13.223 124.428
+    angles 0 -24.342 0
+    {
+     GenericEntity {
+      ID "570481C71D120610"
+      coords 2.859 -0.607 0.49
+      angles 1.984 8.174 25.117
+     }
+     GenericEntity {
+      ID "570481C71D12061F"
+      coords 1.055 -0.121 2.867
+      angles 2.761 -90.965 33.278
+     }
+     StaticModelEntity {
+      ID "570481C71D120613"
+      coords 2.011 -0.311 0.885
+     }
+    }
+   }
+   GenericEntity : "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSmall/Barricade_S_USSR_01.et" {
+    coords -140.008 -13.151 116.159
+    angles 0 169.574 0
+    {
+     $grp GenericEntity {
+      {
+       coords 0.057 -0.042 -1.847
+       angles 2.282 27.574 2.612
+      }
+      {
+       coords -0.435 0.19 1.605
+       angles 0 0 2.806
+      }
+      {
+       coords 0.816 -0.051 -1.714
+       angles 3.465 -23.653 -0.142
+      }
+      {
+       coords 1.152 -0.102 -2.354
+       angles 1.662 37.028 2.872
+      }
+      {
+       coords -5.459 2.134 9.22
+       angles 3.981 -29.733 0.618
+      }
+      {
+       coords -0.56 -0.14 -2.04
+       angles 1.149 -91.985 -3.272
+      }
+     }
+     $grp StaticModelEntity {
+      {
+       coords 1.73 -0.169 -1.841
+       angles 0 16.405 0
+      }
+      {
+       coords -0.167 0.171 1.003
+      }
+      {
+       coords 1.753 0.173 1.932
+      }
+     }
+    }
+   }
+   $grp StaticModelEntity : "{A46D45922F8CAD6C}Prefabs/Props/Military/Fortification/CzechHedgehog_01_painted.et" {
+    {
+     coords -18.614 -0.94 19.953
+     angles 0.974 -157.628 2.336
+    }
+    {
+     components {
+      Hierarchy "{59A2DAE340607C96}" {
+      }
+     }
+     coords -127.792 -12.769 117.913
+     angles 7.054 -108.602 4.187
+    }
+    {
+     components {
+      Hierarchy "{59A2DAE340607C96}" {
+      }
+     }
+     coords -142.169 -12.914 111.937
+     angles -3.08 -80.736 2.214
+    }
+   }
+   $grp GenericEntity : "{AA3F295D8E086A6D}Prefabs/Compositions/Misc/SubCompositions/TireStack_M939A1_02.et" {
+    {
+     coords 25.409 -2.543 -39.467
+     angles 5.35 0.196 1.8
+    }
+    {
+     coords 21.519 -2.537 -40.959
+     angles 4.461 0.209 1.801
+    }
+   }
+   $grp StaticModelEntity : "{AE28D47CF26E91EA}Prefabs/Props/Military/Fortification/CzechHedgehog_01_rusty.et" {
+    {
+     coords -27.462 -1.284 18.95
+     angles 1.379 -173.581 3.752
+    }
+    {
+     coords -24.97 -1.258 21.465
+     angles 0.535 -155.849 3.18
+    }
+    {
+     coords -130.735 -14.812 131.223
+     angles -4.779 28.324 -0.546
+    }
+    {
+     coords -158.051 -12.89 119.355
+     angles -5.105 19.624 1.022
+    }
+    {
+     coords -137.681 -14.614 133.959
+     angles -5.48 -32.315 1.352
+    }
+    {
+     coords -139.615 -14.49 132.244
+     angles -4.934 -47.558 2.743
+    }
+    {
+     coords -133.439 -14.66 133.36
+     angles -10.406 22.434 4.293
+    }
+    {
+     coords -150.296 -14.725 128.771
+     angles -5.542 -7.505 -1.068
+    }
+   }
+   $grp GenericEntity : "{B90E5414AB7C325B}Prefabs/Props/Wrecks/BTR70_Wreck/BTR70_wreck_static.et" {
+    {
+     coords 1.701 -0.269 -1.426
+     angles 0 -47.429 0
+    }
+    {
+     coords -135.222 -12.675 109.991
+     angles 5.492 129.976 -0.188
+    }
+   }
+   GenericEntity : "{C1977A326F2AA011}Prefabs/Structures/Signs/Military/SignCheckpoint_01_stop.et" {
+    components {
+     Hierarchy "{59A2DAE3B8158416}" {
+     }
+    }
+    coords -147.919 -13.073 131.827
+    angles 0 -25.537 0
+   }
+   GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et" {
+    components {
+     Hierarchy "{59A2DAE3B8154EE5}" {
+     }
+    }
+    coords -132.198 -12.636 114.966
+    angles 1.34 -129.46 5.832
+   }
+   $grp GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
+    {
+     components {
+      RigidBody "{5872F0EB7DFB5A9D}" {
+       Active Active
+      }
+      SCR_FireplaceComponent "{5876E7F288BF5C8E}" {
+       m_eInitialLightState LIT
+      }
+     }
+     coords -132.508 -12.04 107.628
+     angles -4.457 0.209 -2.692
+     scale 1.3
+    }
+    {
+     components {
+      RigidBody "{5872F0EB7DFB5A9D}" {
+       Active Active
+      }
+      SCR_FireplaceComponent "{5876E7F288BF5C8E}" {
+       m_eInitialLightState LIT
+      }
+     }
+     coords -147.986 -15 131.49
+     angles -1.468 0.068 0.92
+     scale 1.3
+    }
+   }
+   GenericEntity : "{F35FFCC271B2E4FB}Prefabs/Compositions/Misc/SubCompositions/Tire_UAZ469_pile_01.et" {
+    coords 1.654 0.003 1.57
+    angles 0.522 125.675 -0.727
+   }
+   $grp GenericEntity : "{F58AEB566CB4369A}Prefabs/Compositions/Misc/SubCompositions/VehicleGarbagePile_01.et" {
+    {
+     coords -1.89 -0.007 0.003
+     angles -0.81 -115.215 0.381
+    }
+    {
+     coords 23.709 -2.597 -40.607
+     angles -3.83 114.204 4.149
+    }
+    {
+     coords -132.332 -12.027 107.496
+     angles 0.842 70.225 -0.303
+    }
+    {
+     coords -147.966 -15.109 134.96
+     angles -0.843 -109.645 0.301
+     {
+      GenericEntity {
+       ID "552C73935697077F"
+       coords -2.466 0.149 2.229
+       angles -1.037 179.648 -3.13
+      }
+      GenericEntity {
+       ID "552C73935697077C"
+       coords -2.278 0.012 1.87
+      }
+     }
+    }
+   }
+  }
+ }
+ AmbientRoute2 {
+  coords 5303.901 31.47 8534.589
+  {
+   $grp GenericEntity : "{3BAF6AA8C20D924D}Prefabs/Compositions/Misc/SubCompositions/Barricade_Logs_01.et" {
+    {
+     coords -4.732 0.253 4.625
+     angles 2.656 0.888 1.829
+    }
+    {
+     coords 1.29 -0.355 -6.667
+     angles 3.143 -61.482 1.707
+    }
+   }
+   $grp GenericEntity : "{58F0C4BE4655101A}Prefabs/Compositions/Misc/SubCompositions/VehicleGarbage_TireStack_02.et" {
+    {
+     coords 2.745 -0.397 -6.425
+     angles 2.648 -52.025 -0.322
+    }
+    {
+     coords -3.864 0.278 5.533
+     angles -3.224 145.165 0.064
+    }
+   }
+   GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+      m_eGroupType TEAM_SENTRY
+      m_fAILimitThreshold 0.66
+     }
+    }
+    coords 0.989 -0.05 -0.546
+   }
+  }
+ }
+}
