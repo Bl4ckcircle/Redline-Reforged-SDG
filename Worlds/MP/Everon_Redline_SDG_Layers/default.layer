@@ -35,6 +35,8 @@ SCR_GameModeCampaign GameMode_Campaign1 : "{3B230AAC5252108F}Prefabs/MP/Modes/Co
   GarbageSystemConfigComponent "{687F12B74C3E4FD7}" {
    Config "{6FF7850E245F2C45}Configs/Garbage/Garbage.conf"
   }
+  RY_LoadoutManager "{692291808FAB3F2A}" {
+  }
   SCR_TimeAndWeatherHandlerComponent "{67295C8D2DAC3749}" {
    m_iStartingHours 7
    m_bRandomStartingDaytime 0
