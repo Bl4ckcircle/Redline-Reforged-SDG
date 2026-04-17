@@ -129,4 +129,56 @@ $grp GenericEntity : "{0858A93EFDE04083}Prefabs/ATM.et" {
    }
   }
  }
+ {
+  coords 7494.716 165.619 4331.552
+  angles 0 -75.779 0
+  {
+   GenericEntity ATM6 {
+    components {
+     SCR_EditableCommentComponent "{5DDE234C81331983}" {
+      m_EntityType COMMENT
+      m_UIInfo SCR_EditableCommentUIInfo "{5DDE234873CE99F2}" {
+       Name "ATM"
+       Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+      }
+      m_bAutoRegister ALWAYS
+      m_sColor 0.502 0 0 1
+     }
+     SCR_MapDescriptorComponent "{5DDE234C9A632375}" {
+      DisplayName "ATM"
+      MainType "Name Village"
+      Scale 0.5
+     }
+    }
+    coords 0.054 0 -0.089
+    angles 0 -142.564 0
+   }
+  }
+ }
+ {
+  coords 4922.212 36.916 9070.924
+  angles 0 -46.321 0
+  {
+   GenericEntity ATM7 {
+    components {
+     SCR_EditableCommentComponent "{5DDE234C81331983}" {
+      m_EntityType COMMENT
+      m_UIInfo SCR_EditableCommentUIInfo "{5DDE234873CE99F2}" {
+       Name "ATM"
+       Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+      }
+      m_bAutoRegister ALWAYS
+      m_sColor 0.502 0 0 1
+     }
+     SCR_MapDescriptorComponent "{5DDE234C9A632375}" {
+      DisplayName "ATM"
+      MainType "Name Village"
+      Scale 0.5
+     }
+    }
+    coords 5409.053 -116 -203.334
+    angles 0 -131.303 0
+   }
+  }
+ }
 }
