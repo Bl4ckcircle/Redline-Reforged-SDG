@@ -242,7 +242,7 @@ GenericEntity MOBUSSR : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/Conflict
   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
    m_iSupplies 12000
    m_iSuppliesMax 25000
-   m_fOperationalRadius 50
+   m_fOperationalRadius 100
   }
   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
    "Encryption key" "coldBorscht"
@@ -269,35 +269,9 @@ GenericEntity MOBUSSR : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/Conflict
  {
   SCR_CampaignSpawnPointGroup {
    ID "5C6696731466AF36"
-   coords 39.624 -0.665 -21.046
+   coords 111.379 -0.458 -1.297
    angles 0 -99.591 0
    m_sFaction "USSR"
-  }
-  GenericEntity : "{257DF319C13E580B}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_Containers_US_03.et" {
-   coords 59.059 -0.318 -5.443
-   angles 0.966 174.623 -2.658
-   {
-    GenericEntity {
-     ID "5D4539330EC1F270"
-     coords 0.203 0.119 4.121
-     angles 0 89.399 0
-    }
-    GenericEntity {
-     ID "5D4539330EC1FB4A"
-     coords 0.438 -0.053 -1.274
-     angles 0 90.613 0
-    }
-    GenericEntity {
-     ID "5D4539330EC1FB4C"
-     coords 0.242 -0.13 -4.015
-     angles 0 88.91 0
-    }
-    GenericEntity {
-     ID "5D4539330EC1F26D"
-     coords 1.752 -0.014 1.406
-     angles 0 91.026 0
-    }
-   }
   }
  }
 }
