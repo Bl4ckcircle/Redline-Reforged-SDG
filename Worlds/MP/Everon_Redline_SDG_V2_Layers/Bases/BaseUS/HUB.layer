@@ -1,0 +1,1900 @@
+$grp GenericEntity {
+ Heli {
+  components {
+   EE_SimpleVehicleSpawner_DestroyOnly "{672A81C0177A2026}" {
+    m_aPrefabList {
+     "{70BAEEFC2D3FEE64}Prefabs/Vehicles/Helicopters/UH1H/UH1H.et"
+    }
+   }
+  }
+  coords 10161.177 2.85 1483.374
+  angles 0 -33.64 0
+ }
+ Heli_lourd {
+  components {
+   EE_SimpleVehicleSpawner_DestroyOnly "{672A81C0177A2026}" {
+    m_aPrefabList {
+     "{BDD5BF2D60C2F5F0}Prefabs/Vehicles/Helicopters/H47/CH47F_MY2.et"
+    }
+   }
+  }
+  coords 10191.892 2.95 1485.298
+  angles -2.85 -136.896 3.405
+ }
+ JLTV {
+  components {
+   EE_SimpleVehicleSpawner_DestroyOnly "{672A81C0177A2026}" {
+    m_aPrefabList {
+     "{530F3A12ABA1CD7A}Prefabs/Vehicles/Wheeled/M1240A1_MATV/M1240A1_MATV_Base.et"
+    }
+   }
+  }
+  coords 10150.527 3.277 1551.241
+  angles 0 -167.2 0
+ }
+ JLTV2 {
+  components {
+   EE_SimpleVehicleSpawner_DestroyOnly "{672A81C0177A2026}" {
+    m_aPrefabList {
+     "{530F3A12ABA1CD7A}Prefabs/Vehicles/Wheeled/M1240A1_MATV/M1240A1_MATV_Base.et"
+    }
+   }
+  }
+  coords 10155.418 3.277 1550.323
+  angles 0 -163.101 0
+ }
+ JLTV3 {
+  components {
+   EE_SimpleVehicleSpawner_DestroyOnly "{672A81C0177A2026}" {
+    m_aPrefabList {
+     "{530F3A12ABA1CD7A}Prefabs/Vehicles/Wheeled/M1240A1_MATV/M1240A1_MATV_Base.et"
+    }
+   }
+  }
+  coords 10160.35 3.277 1549.312
+  angles 0 -162.881 0
+ }
+ MHQ_US_A {
+  components {
+   EE_SimpleVehicleSpawner_DestroyOnly "{672A81C0177A2026}" {
+    m_aPrefabList {
+     "{38186F12F27A61C7}Prefabs/Vehicles/Wheeled/M923A1/MHQ_A.et"
+    }
+   }
+  }
+  coords 10164.619 3.266 1547.749
+  angles 1.396 -164.61 -0.717
+ }
+ MHQ_US_B {
+  components {
+   EE_SimpleVehicleSpawner_DestroyOnly "{672A81C0177A2026}" {
+    m_aPrefabList {
+     "{5EFEDD1782A6A5E2}Prefabs/Vehicles/Wheeled/M923A1/MHQ_B.et"
+    }
+   }
+  }
+  coords 10169.723 3.266 1546.187
+  angles 1.396 -164.61 -0.717
+ }
+ {
+  coords 10182.448 3.267 1556.409
+  angles 0 15.406 0
+ }
+ {
+  coords 10174.159 3.273 1558.654
+  angles 0 15.406 0
+ }
+ {
+  coords 10175.422 3.273 1558.305
+  angles 0 15.406 0
+ }
+ {
+  coords 10176.68 3.273 1557.957
+  angles 0 15.406 0
+ }
+ {
+  coords 10179.934 3.273 1557.097
+  angles 0 15.406 0
+ }
+ {
+  coords 10181.193 3.273 1556.751
+  angles 0 15.406 0
+ }
+ Garage2Ru3 {
+  components {
+   SCR_EditableCommentComponent "{5DDE234C81331983}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{5DDE234873CE99F2}" {
+     Name "IFV"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_sColor 0.502 0 0 1
+   }
+   SCR_MapDescriptorComponent "{5DDE234C9A632375}" {
+    DisplayName "IFV"
+    MainType "Name Village"
+    Scale 0.5
+   }
+  }
+  coords 4918.611 28.594 11880.681
+  angles 0 -11.877 0
+ }
+ Repair_Reamo_Station6 {
+  components {
+   SCR_EditableCommentComponent "{5DDE234C81331983}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{5DDE234873CE99F2}" {
+     Name "Garage"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_sColor 0.502 0 0 1
+   }
+   SCR_MapDescriptorComponent "{5DDE234C9A632375}" {
+    DisplayName "Garage"
+    MainType "Name Village"
+    Scale 0.5
+   }
+  }
+  coords 10099.691 2.36 1517.677
+  angles 0 -92.817 0
+ }
+ Repair_Reamo_Station7 {
+  components {
+   SCR_EditableCommentComponent "{5DDE234C81331983}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{5DDE234873CE99F2}" {
+     Name "Garage"
+     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    }
+    m_bAutoRegister ALWAYS
+    m_sColor 0.502 0 0 1
+   }
+   SCR_MapDescriptorComponent "{5DDE234C9A632375}" {
+    DisplayName "Garage"
+    MainType "Name Village"
+    Scale 0.5
+   }
+  }
+  coords 10114.639 2.5 1362.243
+  angles 0 -92.817 0
+ }
+}
+GenericEntity : "{025DB189A1A9B438}Prefabs/Compositions/Misc/SubCompositions/Sign_Medical_US_01.et" {
+ coords 10175.295 2.772 1557.815
+ angles 0 -164.622 0
+}
+$grp SCR_ChimeraCharacter : "{026CB319AEBCF010}Prefabs/Characters/Shop/USSR/USSR_Shop_Items_Weapons.et" {
+ {
+  coords 4896.517 29.031 11907.899
+  angles 0 -118.287 0
+ }
+ {
+  coords 4896.396 29.031 11905.389
+  angles 0 -104.311 0
+ }
+}
+GenericEntity : "{03253A954C8E9354}Prefabs/Structures/Signs/Anglais/virtual garage.et" {
+ coords 10172.902 3.023 1549.272
+ angles 0 105.126 0
+}
+$grp GenericEntity : "{0858A93EFDE04083}Prefabs/ATM.et" {
+ {
+  coords 10170.747 3.277 1561.222
+  angles 0 -163.371 0
+ }
+ {
+  coords 10185.255 3.241 1542.118
+  angles 0 -78.184 0
+ }
+}
+$grp GenericEntity : "{0DA2B3C9363E3D5E}Prefabs/Money.et" {
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 10184.339 3.267 1543.402
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 10184.149 3.267 1542.629
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 10184.163 3.267 1541.866
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 10183.808 3.267 1541.613
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 10183.263 3.267 1542.014
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 10183.301 3.267 1542.614
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 10183.354 3.267 1543.345
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 10184.303 3.267 1544.205
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 10183.587 3.267 1543.996
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 10184.655 3.267 1542.955
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 10183.78 3.267 1542.909
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 10182.855 3.267 1542.989
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 10183.458 3.267 1542.158
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 10184.469 3.267 1541.157
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 10183.988 3.267 1548.633
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 10183.858 3.267 1550.878
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 10183.669 3.267 1550.105
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 10183.683 3.267 1549.342
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 10183.327 3.267 1549.089
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 10182.782 3.267 1549.49
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 10182.82 3.267 1550.09
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 10182.873 3.267 1550.821
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 10183.822 3.267 1551.681
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 10183.106 3.267 1551.472
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 10184.175 3.267 1550.431
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 10183.3 3.267 1550.385
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 10182.375 3.267 1550.465
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 10182.978 3.267 1549.634
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 4891.461 29.031 11900.609
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 4891.331 29.031 11902.854
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 4891.142 29.031 11902.081
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 4891.155 29.031 11901.318
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 4890.8 29.031 11901.065
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 4890.255 29.031 11901.467
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 4890.293 29.031 11902.066
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 4890.346 29.031 11902.797
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 4891.295 29.031 11903.657
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 4890.579 29.031 11903.448
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 4891.647 29.031 11902.407
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 4890.772 29.031 11902.361
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 4889.848 29.031 11902.441
+ }
+ {
+  components {
+   Bnk_CashStackComponent "{64792929301D295F}" {
+    m_Value 10000
+   }
+  }
+  coords 4890.45 29.031 11901.61
+ }
+}
+GenericEntity : "{0FB92802AFA233FA}PrefabsEditable/Auto/Props/Military/Compositions/US/E_ArsenalBox_US_Equipment.et" {
+ coords 10185.865 3.277 1548.968
+ angles 0 -79.382 0
+}
+SCR_ChimeraCharacter : "{1318606B854E15B7}Prefabs/Characters/Shop/US/US_Shop_Vehicles_Ground_MBTs.et" {
+ components {
+  RRG_ShopComponent "{68CB4AC1D789BEB4}" {
+   m_AdditionalMerchandise {
+    ADM_ShopMerchandise "{68F6C5D8A6D27A06}" {
+     m_Merchandise ADM_MerchandiseVehicle "{68F6C5D8A6D27ABF}" {
+      m_SpawnPosition PointInfo "{68F6C5D8A6D27AB9}" {
+       Offset -10 0 1
+       Angles 0 20 0
+      }
+     }
+    }
+    ADM_ShopMerchandise "{68CCBE265E799A23}" {
+     m_Merchandise ADM_MerchandiseVehicle "{68688CAFE3AAF449}" {
+      m_SpawnPosition PointInfo "{68688CAFE3AAF448}" {
+       Offset -10 0 1
+       Angles 0 20 0
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 10126.727 2.472 1525.584
+ angles 0 -4.261 0
+}
+GenericEntity MOBUS : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ components {
+  SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+   Enabled 0
+  }
+  SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+   m_iSupplies 12000
+   m_iSuppliesMax 25000
+   m_fOperationalRadius 50
+  }
+  SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+   "Encryption key" "chickenNuggets"
+   "Turned on" 1
+   Transceivers {
+    RelayTransceiver "{5C669673E8C94083}" {
+     "Transmitting Range" 3200
+    }
+   }
+   m_bIsSource 1
+  }
+  SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+   "faction affiliation" "US"
+  }
+  SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+   m_bCanBeHQ 1
+   m_bDisableWhenUnusedAsHQ 0
+   m_sBaseName "MOB US"
+   m_sBaseNameUpper "MOB US"
+  }
+ }
+ coords 10167.281 2.531 1457.477
+ angles 0 -4.408 0
+ {
+  SCR_CampaignSpawnPointGroup {
+   ID "5C6696731466AF36"
+   coords -13.705 0.746 108.17
+   angles 0 110.905 0
+   m_sFaction "US"
+  }
+  GenericEntity : "{257DF319C13E580B}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_Containers_US_03.et" {
+   coords 41.769 0.086 69.009
+   angles 0 1.215 0
+   {
+    GenericEntity {
+     ID "5D4539330EC1F270"
+     coords -18.056 -0.143 3.597
+     angles 0 89.399 0
+    }
+    GenericEntity {
+     ID "5D4539330EC1FB4A"
+     coords -18.33 0.009 -1.855
+     angles 0 90.613 0
+    }
+    GenericEntity {
+     ID "5D4539330EC1FB4C"
+     coords -18.012 -0.085 -4.546
+     angles 0 88.91 0
+    }
+    GenericEntity {
+     ID "5D4539330EC1F26C"
+     coords -19.802 0.114 0.887
+     angles 0 88.269 0
+    }
+    GenericEntity {
+     ID "5D4539330EC1F26D"
+     coords -16.512 0.086 0.881
+     angles 0 91.026 0
+    }
+   }
+  }
+ }
+}
+$grp GenericEntity : "{21D83950DF36F250}Prefabs/Props/Military/Sandbags/Sandbag_01_long_burlap.et" {
+ {
+  coords 10112.433 2.424 1539.52
+  angles 0 -80.765 0
+ }
+ {
+  coords 10123.002 2.298 1520.563
+  angles 0 -75.109 0
+ }
+ {
+  coords 10135.352 2.621 1548.535
+  angles 0 -75.23 0
+ }
+ {
+  coords 10141.924 2.61 1545.761
+  angles 0 -75.502 0
+ }
+}
+SCR_DestructibleEntity : "{2506C02B8564CABC}Prefabs/Statue/Statue_TP_US.et" {
+ components {
+  RY_FastTravelTerminalComponent "{68ACE40F848CCCDC}" {
+   Enabled 0
+  }
+  ActionsManagerComponent "{685952C514E5635C}" {
+   additionalActions {
+    RY_FastTravelFromTerminalAction "{68ACE40FA3C77E70}" {
+     ParentContextList {
+      ""
+     }
+     ActionTitle ""
+     VisibilityRange 0
+     m_ActionLabel ""
+     m_TargetMHQId ""
+    }
+    RY_FastTravelFromTerminalAction "{68ACE40E52D31A3B}" {
+     ParentContextList {
+      ""
+     }
+     ActionTitle ""
+     VisibilityRange 0
+     m_ActionLabel ""
+     m_TargetMHQId ""
+    }
+    RRG_FastTravelActionManager "{6916FC5D0BFD6EE7}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "Bennac"
+     m_sDestinationDisplayName "Bennac"
+     m_sTargetBaseName "Bennac"
+    }
+    RRG_FastTravelActionManager "{6916FC5D6E217FF8}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "Chotain"
+     m_sDestinationDisplayName "Chotain"
+     m_sTargetBaseName "Chotain"
+    }
+    RRG_FastTravelActionManager "{6916FC5D6D2E0DEE}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "Durras"
+     m_sDestinationDisplayName "Durras"
+     m_sTargetBaseName "Durras"
+    }
+    RRG_FastTravelActionManager "{6916FC5D6C31BD8F}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "EntreDeux"
+     m_sDestinationDisplayName "Entre Deux"
+     m_sTargetBaseName "EntreDeux"
+    }
+    RRG_FastTravelActionManager "{6916FC5D63321CC1}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "Farm"
+     m_sDestinationDisplayName "Farm"
+     m_sTargetBaseName "Farm"
+    }
+    RRG_FastTravelActionManager "{6916FC5D624A0B4D}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "Figari"
+     m_sDestinationDisplayName "Figari"
+     m_sTargetBaseName "Figari"
+    }
+    RRG_FastTravelActionManager "{6916FC5D61722517}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "Fischerman_Military"
+     m_sDestinationDisplayName "Fischerman Military"
+     m_sTargetBaseName "Fischerman_Military"
+    }
+    RRG_FastTravelActionManager "{6916FC5D61BBAC98}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "Fischerman_Military"
+     m_sDestinationDisplayName "Fischerman Military"
+     m_sTargetBaseName "Fischerman_Military"
+    }
+    RRG_FastTravelActionManager "{6916FC5D6488E8B0}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "Gravette"
+     m_sDestinationDisplayName "Gravette"
+     m_sTargetBaseName "Gravette"
+    }
+    RRG_FastTravelActionManager "{6916FC5D5AE9952D}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "Kermovan"
+     m_sDestinationDisplayName "Kermovan"
+     m_sTargetBaseName "Kermovan"
+    }
+    RRG_FastTravelActionManager "{6916FC5D59204C3D}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "Laruns"
+     m_sDestinationDisplayName "Laruns"
+     m_sTargetBaseName "Laruns"
+    }
+    RRG_FastTravelActionManager "{6916FC5D5864395C}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "LeMoule"
+     m_sDestinationDisplayName "Le Moule"
+     m_sTargetBaseName "LeMoule"
+    }
+    RRG_FastTravelActionManager "{6916FC5D58B3AE42}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "Levie"
+     m_sDestinationDisplayName "Levie"
+     m_sTargetBaseName "Levie"
+    }
+    RRG_FastTravelActionManager "{6916FC5D5FC26DA8}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "Meaux"
+     m_sDestinationDisplayName "Meaux"
+     m_sTargetBaseName "Meaux"
+    }
+    RRG_FastTravelActionManager "{6916FC5D5E15E478}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "Military_Training"
+     m_sDestinationDisplayName "Military Training"
+     m_sTargetBaseName "Military_Training"
+    }
+    RRG_FastTravelActionManager "{6916FC5D5D34745A}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "MilitaryHospital"
+     m_sDestinationDisplayName "Military Hospital"
+     m_sTargetBaseName "MilitaryHospital"
+    }
+    RRG_FastTravelActionManager "{6916FC5D5C7A9087}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "Montignac"
+     m_sDestinationDisplayName "Montignac"
+     m_sTargetBaseName "Montignac"
+    }
+    RRG_FastTravelActionManager "{6916FC5D536F4E44}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "Morton"
+     m_sDestinationDisplayName "Morton"
+     m_sTargetBaseName "Morton"
+    }
+    RRG_FastTravelActionManager "{6916FC5D53A60E09}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "MortonValley"
+     m_sDestinationDisplayName "Morton Valley"
+     m_sTargetBaseName "MortonValley"
+    }
+    RRG_FastTravelActionManager "{6916FC5D52C5E26A}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "Pinewood"
+     m_sDestinationDisplayName "Pinewood"
+     m_sTargetBaseName "Pinewood"
+    }
+    RRG_FastTravelActionManager "{6916FC5A78443339}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "Provins"
+     m_sDestinationDisplayName "Provins"
+     m_sTargetBaseName "Provins"
+    }
+    RRG_FastTravelActionManager "{6916FC5A7F6E4D68}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "Regina"
+     m_sDestinationDisplayName "Regina"
+     m_sTargetBaseName "Regina"
+    }
+    RRG_FastTravelActionManager "{6916FC5A7E45AEB1}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "Richemont"
+     m_sDestinationDisplayName "Richemont"
+     m_sTargetBaseName "Richemont"
+    }
+    RRG_FastTravelActionManager "{6916FC5A7D6914B9}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "Seagull"
+     m_sDestinationDisplayName "Seagull"
+     m_sTargetBaseName "Seagull"
+    }
+    RRG_FastTravelActionManager "{6916FC5A48293B7E}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "SimonWood"
+     m_sDestinationDisplayName "Simon Wood"
+     m_sTargetBaseName "SimonWood"
+    }
+    RRG_FastTravelActionManager "{6916FC5A4F20675B}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "Thales"
+     m_sDestinationDisplayName "Thales"
+     m_sTargetBaseName "Thales"
+    }
+    RRG_FastTravelActionManager "{6916FC5A4E3C0F5E}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "Tyrone"
+     m_sDestinationDisplayName "Tyrone"
+     m_sTargetBaseName "Tyrone"
+    }
+    RRG_FastTravelActionManager "{6916FC5A4DF8DAA7}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "Villeneuf"
+     m_sDestinationDisplayName "Villeneuf"
+     m_sTargetBaseName "Villeneuf"
+    }
+    RRG_FastTravelActionManager "{6916FC5A91A9A589}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "US_A"
+     m_sDestinationDisplayName "MHQ A"
+     m_sTargetBaseName "US_A"
+     m_bIsVehicleDestination 1
+    }
+    RRG_FastTravelActionManager "{6916FC5A976CAE4E}" {
+     ParentContextList {
+      "TP"
+     }
+     m_sDestinationName "US_B"
+     m_sDestinationDisplayName "MHQ B"
+     m_sTargetBaseName "US_B"
+     m_bIsVehicleDestination 1
+    }
+   }
+  }
+ }
+ coords 10170.331 0 1525.425
+ angles 0 -112.389 0
+ Enabled 0
+ {
+  GenericEntity TP_MHQ3 {
+   components {
+    SCR_EditableCommentComponent "{5DDE234C81331983}" {
+     m_EntityType COMMENT
+     m_UIInfo SCR_EditableCommentUIInfo "{5DDE234873CE99F2}" {
+      Name "TP MHQ"
+      Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+     }
+     m_bAutoRegister ALWAYS
+     m_sColor 0.502 0 0 1
+    }
+    SCR_MapDescriptorComponent "{5DDE234C9A632375}" {
+     DisplayName "TP MHQ"
+     MainType "Name Village"
+     Scale 0.5
+    }
+   }
+   coords -0.181 -0.001 0.024
+   angles 0 12.382 0
+  }
+ }
+}
+$grp GenericEntity : "{2C166D8DBBA47738}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_base.et" {
+ {
+  coords 10132.707 3.809 1536.265
+  angles 0 162.738 0
+ }
+ {
+  coords 10169.627 2.532 1526.658
+  angles 0 162.738 0
+ }
+}
+$grp SCR_ChimeraCharacter : "{3986637F31E86985}Prefabs/Characters/Shop/US/US_Shop_Items_Medical.et" {
+ {
+  coords 10177.099 3.331 1558.343
+  angles 0 -176.402 0
+ }
+ {
+  coords 10173.961 3.331 1559.258
+  angles 0 179.127 0
+ }
+}
+GenericEntity : "{42CBB95F9974FED4}Prefabs/Structures/Signs/Anglais/Money System.et" {
+ coords 10161.563 3.049 1554.872
+ angles 0 15.593 0
+}
+GenericEntity : "{45EB3A1FB7B8D559}Prefabs/Structures/Signs/Anglais/Deployment.et" {
+ coords 10170.791 3.005 1552.325
+ angles 0 15.38 0
+}
+$grp StaticModelEntity : "{46D621714E71E05E}Prefabs/Compositions/Misc/SubCompositions/Utility/Helipad_Spawn_US_01.et" {
+ {
+  coords 10142.164 -0.252 1415.354
+  angles 0 -141.045 0
+ }
+ {
+  coords 10163.735 0.031 1442.146
+  angles 0 -142.351 0
+  {
+   GenericEntity {
+    ID "5E92E720B6346009"
+    coords -0.5 -0.445 -0.5
+   }
+  }
+ }
+ {
+  coords 10160.915 -0.002 1484.248
+  angles 0 -164.248 0
+  {
+   GenericEntity {
+    ID "5E92E720B6346009"
+    coords -0.5 -0.445 -0.5
+   }
+  }
+ }
+ {
+  coords 10115.203 -0.001 1377.102
+  angles 0 -141.007 0
+ }
+ {
+  coords 10191.093 -0.094 1485.169
+  angles 0 -137.857 0
+  {
+   GenericEntity {
+    ID "5E92E720B6346009"
+    coords -0.5 -0.445 -0.5
+   }
+  }
+ }
+}
+$grp GenericEntity : "{4B5D1DDB2B7C36E0}Prefabs/Props/Military/Sandbags/Sandbag_01_round_base.et" {
+ {
+  coords 4867.568 28.593 11887.123
+  angles 0 69.336 0
+ }
+ {
+  coords 4862.271 28.594 11886.026
+  angles 0 -120.762 0
+ }
+}
+GenericEntity : "{5BA06BC67A0E808B}Prefabs/Structures/Signs/Anglais/How to start.et" {
+ coords 10156.681 3.039 1556.194
+ angles 0 14.846 0
+}
+SCR_ChimeraCharacter : "{665604EB465D4273}Prefabs/Characters/Shop/US/US_Shop_Vehicles_Air_Transports.et" {
+ components {
+  RRG_ShopComponent "{68CB4AC1D789BEB4}" {
+   m_AdditionalMerchandise {
+    ADM_ShopMerchandise "{68CCBE205FCE0AD9}" {
+     m_Merchandise ADM_MerchandiseVehicle "{68654EE05330AE4C}" {
+      m_SpawnPosition PointInfo "{68654EE05330281B}" {
+       Offset -4 2.2 -10
+       Angles 0 -120 0
+      }
+     }
+    }
+    ADM_ShopMerchandise "{68CCBE27A86D7698}" {
+     m_Merchandise ADM_MerchandiseVehicle "{68654EE05330AE4C}" {
+      m_SpawnPosition PointInfo "{68654EE05330281B}" {
+       Offset -4 2.2 -10
+       Angles 0 -120 0
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 10163.828 2.468 1455.049
+ angles 0 -26.032 0
+}
+$grp SCR_ChimeraCharacter : "{66EA7C5A35EB7A6D}Prefabs/Characters/Shop/US/US_Shop_Items_Weapons.et" {
+ {
+  coords 10182.425 3.331 1557.06
+  angles 0 171.811 0
+ }
+ {
+  coords 10179.979 3.331 1557.75
+  angles 0 167.602 0
+ }
+}
+GenericEntity : "{67E916CED2BFF274}Prefabs/Structures/Signs/Anglais/Informations.et" {
+ coords 10141.581 3.115 1555.033
+ angles 0 14.672 0
+}
+GenericEntity : "{6FA9F22B1F80CA97}Prefabs/Structures/Signs/Anglais/Shop.et" {
+ coords 10165.972 3.051 1553.639
+ angles 0 15.41 0
+}
+GenericEntity : "{705D4C030A30D4A3}Prefabs/Compositions/Misc/CustomEntities/InteractionPoints/ArsenalBox_US_Equipment_NoAffiliation.et" {
+ coords 10185.278 3.293 1546.219
+ angles 0 -83.448 0
+}
+$grp GenericEntity : "{7762F50A860DD074}Prefabs/Props/Military/Furniture/TableMilitary_US_01.et" {
+ {
+  coords 10174.08 3.267 1558.518
+  angles 0 0 0
+ }
+ {
+  coords 10175.483 3.267 1558.317
+  angles 0 15.946 0
+ }
+ {
+  coords 10176.729 3.267 1557.705
+  angles 0 33.306 0
+ }
+ {
+  coords 10179.739 3.267 1557.21
+  angles 0 15.946 0
+ }
+ {
+  coords 10180.99 3.246 1556.86
+  angles 0 15.946 0
+ }
+ {
+  coords 10182.24 3.267 1556.463
+  angles 0 15.946 0
+ }
+}
+SCR_ChimeraCharacter : "{80B78DBDD0DCB9C6}Prefabs/Characters/Shop/US/US_Shop_Vehicles_Air_Attack.et" {
+ components {
+  RRG_ShopComponent "{68CB4AC1D789BEB4}" {
+   m_AdditionalMerchandise {
+    ADM_ShopMerchandise "{68CCBE25C4B1240D}" {
+     m_Merchandise ADM_MerchandiseVehicle "{68654EE05E9F4001}" {
+      m_SpawnPosition PointInfo "{68654EE05E9F400F}" {
+       Offset -2 2.2 -11
+       Angles 0 -125 0
+      }
+     }
+    }
+    ADM_ShopMerchandise "{68CCBE25D8F66379}" {
+     m_Merchandise ADM_MerchandiseVehicle "{68654EE05E9F4001}" {
+      m_SpawnPosition PointInfo "{6868C8E8EBA68D1E}" {
+       Offset -2 2.2 -11
+       Angles 0 -125 0
+      }
+     }
+    }
+    ADM_ShopMerchandise "{68CCBE252050A238}" {
+     m_Merchandise ADM_MerchandiseVehicle "{68654EE05E9F4001}" {
+      m_SpawnPosition PointInfo "{6868C8EB29A5BBF7}" {
+       Offset -2 2.2 -11
+       Angles 0 -125 0
+      }
+     }
+    }
+    ADM_ShopMerchandise "{68CCBE250528F96E}" {
+     m_Merchandise ADM_MerchandiseVehicle "{68654EE05E9F4001}" {
+      m_SpawnPosition PointInfo "{686CB0081CDE671B}" {
+       Offset -2 2.2 -11
+       Angles 0 -125 0
+      }
+     }
+    }
+    ADM_ShopMerchandise "{68CCBE256EA59F82}" {
+     m_Merchandise ADM_MerchandiseVehicle "{68654EE05E9F4001}" {
+      m_SpawnPosition PointInfo "{6868C8EB7B98F69C}" {
+       Offset -2 2.2 -11
+       Angles 0 -125 0
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 10142.917 2.5 1428.629
+ angles 0 -14.175 0
+}
+$grp SCR_DestructibleEntity : "{879865F07EA907B0}Prefabs/Structures/Walls/Concrete/ConcreteWall_02/ConcreteWall_02_4m.et" {
+ {
+  coords 10108.643 -0.003 1515.101
+  angles 0 -165.795 0
+ }
+ {
+  coords 10123.87 0.096 1511.515
+  angles 0 -165.795 0
+ }
+ {
+  coords 10104.787 0.015 1516.081
+  angles 0 14.205 0
+ }
+ {
+  coords 10110.066 -0.16 1525.147
+  angles 0 -75.432 0
+ }
+ {
+  coords 10112.087 0.002 1514.248
+  angles 0 -165.795 0
+ }
+ {
+  coords 10108.108 -0.096 1517.464
+  angles 0 104.568 0
+ }
+ {
+  coords 10109.108 -0.15 1521.321
+  angles 0 -75.432 0
+ }
+ {
+  coords 10132.464 -0.195 1553.644
+  angles 0 -165.795 0
+ }
+ {
+  coords 10135.908 -0.175 1552.791
+  angles 0 -165.795 0
+ }
+ {
+  coords 10137.015 -0.183 1550.655
+  angles 0 -74.151 0
+ }
+ {
+  coords 10136.063 -0.161 1547.237
+  angles 0 -74.151 0
+ }
+ {
+  coords 10134.209 -0.595 1541.313
+  angles 0 -74.151 0
+ }
+ {
+  coords 10133.257 -0.589 1537.895
+  angles 0 -74.151 0
+ }
+ {
+  coords 10131.09 -0.604 1536.693
+  angles 0 15.984 0
+ }
+ {
+  coords 10127.674 -0.624 1537.653
+  angles 0 15.984 0
+ }
+ {
+  coords 10128.648 -0.222 1554.61
+  angles 0 -165.795 0
+ }
+ {
+  coords 10124.916 -0.166 1555.568
+  angles 0 -165.795 0
+ }
+}
+$grp GenericEntity : "{937999008F178E82}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_burlap.et" {
+ {
+  coords 10124.981 2.523 1539.512
+  angles 0 -24.901 0
+ }
+ {
+  coords 10125.36 2.483 1531.59
+  angles 0 41.38 0
+ }
+}
+GenericEntity : "{9562F2D8442364AC}Prefabs/Structures/Signs/Anglais/Game mode.et" {
+ coords 10151.909 3.037 1557.497
+ angles 0 15.366 0
+}
+$grp GenericEntity : "{9C9C4BED9E19C374}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_burlap.et" {
+ {
+  coords 10124.093 2.256 1524.58
+  angles 0 -81.97 0
+ }
+ {
+  coords 10124.641 2.477 1533.95
+  angles 0 95.893 0
+ }
+ {
+  coords 10125.04 2.5 1536.471
+  angles 0 -85.092 0
+ }
+ {
+  coords 10110.916 2.419 1531.744
+  angles 0 -84.548 0
+ }
+ {
+  coords 10111.479 2.409 1534.401
+  angles 0 -73.028 0
+ }
+}
+$grp GenericEntity : "{9EA803E0D1DDCDB6}Prefabs/Garage/Garage.et" {
+ {
+  coords 10099.755 2.563 1517.775
+  angles 0 -166.765 0
+ }
+ {
+  coords 10114.6 2.5 1361.98
+  angles 0 -24.356 0
+ }
+}
+SCR_DestructibleBuildingEntity : "{A548C1C5370D0734}Prefabs/Structures/Houses/Garage/Garage_E_01/Garage_E_01.et" {
+ Flags 0x403 0x80000
+ coords 10126.063 2.437 1520.133
+ angles 0 14.56 0
+}
+GenericEntity : "{A850C603FEF26E0C}Prefabs/Structures/Signs/Anglais/Rules2.et" {
+ coords 10149.072 3.026 1555.921
+ angles 0 -74.3 0
+}
+$grp GenericEntity : "{B31A14BC1A0E7776}Prefabs/Props/Military/Sandbags/Sandbag_01_round_burlap.et" {
+ {
+  coords 10129.531 2.446 1526.715
+  angles 0 98.598 0
+ }
+ {
+  coords 10112.3 2.481 1542.702
+  angles 0 56.025 0
+ }
+ {
+  coords 10129.946 2.442 1540.667
+  angles 0 -28.591 0
+ }
+ {
+  coords 10114.026 2.355 1515.209
+  angles 0 56.025 0
+ }
+ {
+  coords 10122.256 2.29 1513.221
+  angles 0 -38.252 0
+ }
+}
+GenericEntity : "{B547CF929FCC6BB7}Prefabs/Props/Military/Sandbags/Sandbag_01_end_high_burlap.et" {
+ coords 10128.089 2.578 1539.204
+ angles 0 -57.423 0
+}
+GenericEntity : "{B6307C189CCCA0B9}Prefabs/Props/Military/Sandbags/Sandbag_01_round_high_plastic.et" {
+ coords 4866.446 28.544 11885.093
+ angles 0 166.556 0
+}
+GenericEntity : "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et" {
+ coords 10110.549 2.484 1528.816
+ angles 0 -84.349 0
+}
+$grp SCR_ChimeraCharacter : "{CA9F8CBCA70E9CAA}Prefabs/Characters/Shop/US/US_Shop_Vehicles_Ground_Transports.et" {
+ {
+  components {
+   RRG_ShopComponent "{68CB4AC1D789BEB4}" {
+    m_AdditionalMerchandise {
+     ADM_ShopMerchandise "{68CCBE25520829B2}" {
+      m_Merchandise ADM_MerchandiseVehicle "{68654EE0658F296E}" {
+       m_SpawnPosition PointInfo "{68654EE0658F296F}" {
+        Offset 3 -0.5 12
+        Angles 0 14 0
+       }
+      }
+     }
+     ADM_ShopMerchandise "{68CCBE2555A91B11}" {
+      m_Merchandise ADM_MerchandiseVehicle "{68654EE0658F296E}" {
+       m_SpawnPosition PointInfo "{68654EE0658F296F}" {
+        Offset 3 -0.5 12
+        Angles 0 14 0
+       }
+      }
+     }
+     ADM_ShopMerchandise "{68CCBE24F7D785D5}" {
+      m_Merchandise ADM_MerchandiseVehicle "{68654EE0658F296E}" {
+       m_SpawnPosition PointInfo "{68654EE0658F296F}" {
+        Offset 3 -0.5 12
+        Angles 0 14 0
+       }
+      }
+     }
+     ADM_ShopMerchandise "{68F6D8D76F20CC12}" {
+      m_Merchandise ADM_MerchandiseVehicle "{68F6D8D76F20CCB3}" {
+       m_SpawnPosition PointInfo "{68F6D8D76F20CCBE}" {
+        Offset 3 -0.5 12
+        Angles 0 14 0
+       }
+      }
+     }
+     ADM_ShopMerchandise "{68CCBE24CE4B6AF4}" {
+      m_Merchandise ADM_MerchandiseVehicle "{68654EE0658F296E}" {
+       m_SpawnPosition PointInfo "{68654EE0658F296F}" {
+        Offset 3 -0.5 12
+        Angles 0 14 0
+       }
+      }
+     }
+     ADM_ShopMerchandise "{68F6D3C174FEA525}" {
+      m_Merchandise ADM_MerchandiseVehicle "{68F6D3C174FEA54F}" {
+       m_SpawnPosition PointInfo "{68F6D3C174FEA54A}" {
+        Offset 3 -0.5 12
+        Angles 0 14 0
+       }
+      }
+     }
+     ADM_ShopMerchandise "{68F6D3C161001324}" {
+      m_Merchandise ADM_MerchandiseVehicle "{68F6D3C16100134F}" {
+       m_SpawnPosition PointInfo "{68F6D3C161001349}" {
+        Offset 3 -0.5 12
+        Angles 0 14 0
+       }
+      }
+     }
+     ADM_ShopMerchandise "{68CCBE24DBCDC24C}" {
+      m_Merchandise ADM_MerchandiseVehicle "{68654EE0658F296E}" {
+       m_SpawnPosition PointInfo "{68654EE0658F296F}" {
+        Offset 3 -0.5 12.6748
+        Angles 0 14 0
+       }
+      }
+     }
+     ADM_ShopMerchandise "{68CCBE2435129A9F}" {
+      m_Merchandise ADM_MerchandiseVehicle "{68654EE0658F296E}" {
+       m_SpawnPosition PointInfo "{68654EE0658F296F}" {
+        Offset 3 -0.5 12
+        Angles 0 14 0
+       }
+      }
+     }
+     ADM_ShopMerchandise "{68CCBE2409030E87}" {
+      m_Merchandise ADM_MerchandiseVehicle "{68654EE0658F296E}" {
+       m_SpawnPosition PointInfo "{68654EE0658F296F}" {
+        Offset 3 -0.5 12
+        Angles 0 14 0
+       }
+      }
+     }
+     ADM_ShopMerchandise "{68CCBE24030D9D15}" {
+      m_Merchandise ADM_MerchandiseVehicle "{68654EE0658F296E}" {
+       m_SpawnPosition PointInfo "{68654EE0658F296F}" {
+        Offset 3 -0.5 12
+        Angles 0 14 0
+       }
+      }
+     }
+     ADM_ShopMerchandise "{68CCBE2405B77D2A}" {
+      m_Merchandise ADM_MerchandiseVehicle "{6869030837AB39A1}" {
+       m_SpawnPosition PointInfo "{6869030837AB39A7}" {
+        Offset 3 -0.5 12
+        Angles 0 14 0
+       }
+      }
+     }
+     ADM_ShopMerchandise "{68F6E3DD85088160}" {
+      m_Merchandise ADM_MerchandiseVehicle "{68F6E3DD85088180}" {
+       m_SpawnPosition PointInfo "{68F6E3DD85088182}" {
+        Offset 3 -0.5 12
+        Angles 0 14 0
+       }
+      }
+     }
+    }
+   }
+  }
+  coords 10140.789 3.267 1550.648
+  angles 0 178.366 0
+ }
+ {
+  components {
+   RRG_ShopComponent "{68CB4AC1D789BEB4}" {
+    m_AdditionalMerchandise {
+     ADM_ShopMerchandise "{68CCBE25520829B2}" {
+      m_Merchandise ADM_MerchandiseVehicle "{68654EE0658F296E}" {
+       m_SpawnPosition PointInfo "{68654EE0658F296F}" {
+        Offset 1 -0.5 9
+        Angles 0 14 0
+       }
+      }
+     }
+     ADM_ShopMerchandise "{68CCBE2555A91B11}" {
+      m_Merchandise ADM_MerchandiseVehicle "{68654EE0658F296E}" {
+       m_SpawnPosition PointInfo "{68654EE0658F296F}" {
+        Offset 1 -0.5 9
+        Angles 0 14 0
+       }
+      }
+     }
+     ADM_ShopMerchandise "{68CCBE24F7D785D5}" {
+      m_Merchandise ADM_MerchandiseVehicle "{68654EE0658F296E}" {
+       m_SpawnPosition PointInfo "{68654EE0658F296F}" {
+        Offset 1 -0.5 9
+        Angles 0 14 0
+       }
+      }
+     }
+     ADM_ShopMerchandise "{68F6D8D76F20CC12}" {
+      m_Merchandise ADM_MerchandiseVehicle "{68F6D8D76F20CCB3}" {
+       m_SpawnPosition PointInfo "{68F6D8D76F20CCBE}" {
+        Offset 1 -0.5 9
+        Angles 0 14 0
+       }
+      }
+     }
+     ADM_ShopMerchandise "{68CCBE24CE4B6AF4}" {
+      m_Merchandise ADM_MerchandiseVehicle "{68654EE0658F296E}" {
+       m_SpawnPosition PointInfo "{68654EE0658F296F}" {
+        Offset 1 -0.5 9
+        Angles 0 14 0
+       }
+      }
+     }
+     ADM_ShopMerchandise "{68F6D3C174FEA525}" {
+      m_Merchandise ADM_MerchandiseVehicle "{68F6D3C174FEA54F}" {
+       m_SpawnPosition PointInfo "{68F6D3C174FEA54A}" {
+        Offset 1 -0.5 9
+        Angles 0 14 0
+       }
+      }
+     }
+     ADM_ShopMerchandise "{68F6D3C161001324}" {
+      m_Merchandise ADM_MerchandiseVehicle "{68F6D3C16100134F}" {
+       m_SpawnPosition PointInfo "{68F6D3C161001349}" {
+        Offset 1 -0.5 9
+        Angles 0 14 0
+       }
+      }
+     }
+     ADM_ShopMerchandise "{68CCBE24DBCDC24C}" {
+      m_Merchandise ADM_MerchandiseVehicle "{68654EE0658F296E}" {
+       m_SpawnPosition PointInfo "{68654EE0658F296F}" {
+        Offset 1 -0.5 9
+        Angles 0 14 0
+       }
+      }
+     }
+     ADM_ShopMerchandise "{68CCBE2435129A9F}" {
+      m_Merchandise ADM_MerchandiseVehicle "{68654EE0658F296E}" {
+       m_SpawnPosition PointInfo "{68654EE0658F296F}" {
+        Offset 1 -0.5 9
+        Angles 0 14 0
+       }
+      }
+     }
+     ADM_ShopMerchandise "{68CCBE2409030E87}" {
+      m_Merchandise ADM_MerchandiseVehicle "{68654EE0658F296E}" {
+       m_SpawnPosition PointInfo "{68654EE0658F296F}" {
+        Offset 1 -0.5 9
+        Angles 0 14 0
+       }
+      }
+     }
+     ADM_ShopMerchandise "{68CCBE24030D9D15}" {
+      m_Merchandise ADM_MerchandiseVehicle "{68654EE0658F296E}" {
+       m_SpawnPosition PointInfo "{68654EE0658F296F}" {
+        Offset 1 -0.5 9
+        Angles 0 14 0
+       }
+      }
+     }
+     ADM_ShopMerchandise "{68CCBE2405B77D2A}" {
+      m_Merchandise ADM_MerchandiseVehicle "{6869030837AB39A1}" {
+       m_SpawnPosition PointInfo "{6869030837AB39A7}" {
+        Offset 1 -0.5 9
+        Angles 0 14 0
+       }
+      }
+     }
+     ADM_ShopMerchandise "{68F6E3DD85088160}" {
+      m_Merchandise ADM_MerchandiseVehicle "{68F6E3DD85088180}" {
+       m_SpawnPosition PointInfo "{68F6E3DD85088182}" {
+        Offset 1 -0.5 9
+        Angles 0 14 0
+       }
+      }
+     }
+    }
+   }
+  }
+  coords 10145.393 3.277 1549.491
+  angles 0 178.366 0
+ }
+}
+$grp GenericEntity : "{D0B05C0B2AEB98C6}Prefabs/Garage/Repair.et" {
+ Repair_686C810C7F8FCC5A3 {
+  coords 10083.559 2.531 1551.836
+  angles 0 14.956 0
+  {
+   GenericEntity Repair_Reamo_Station2 {
+    components {
+     SCR_EditableCommentComponent "{5DDE234C81331983}" {
+      m_EntityType COMMENT
+      m_UIInfo SCR_EditableCommentUIInfo "{5DDE234873CE99F2}" {
+       Name "Service Vehicles"
+       Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+      }
+      m_bAutoRegister ALWAYS
+      m_sColor 0.502 0 0 1
+     }
+     SCR_MapDescriptorComponent "{5DDE234C9A632375}" {
+      DisplayName "Service Veh"
+      MainType "Name Village"
+      Scale 0.5
+     }
+    }
+    coords 0.141 0.029 0.047
+    angles 0 -92.817 0
+   }
+  }
+ }
+ Repair_686C810C7F8FCC5A4 {
+  coords 10122.983 2.817 1372.718
+  angles 0 -52.672 0
+  {
+   GenericEntity Repair_Reamo_Station4 {
+    components {
+     SCR_EditableCommentComponent "{5DDE234C81331983}" {
+      m_EntityType COMMENT
+      m_UIInfo SCR_EditableCommentUIInfo "{5DDE234873CE99F2}" {
+       Name "Service Heli"
+       Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+      }
+      m_bAutoRegister ALWAYS
+      m_sColor 0.502 0 0 1
+     }
+     SCR_MapDescriptorComponent "{5DDE234C9A632375}" {
+      DisplayName "Service Heli"
+      MainType "Name Village"
+      Scale 0.5
+     }
+    }
+    coords 0.076 0.016 0.152
+    angles 0 -25.189 0
+   }
+  }
+ }
+}
+SCR_ChimeraCharacter : "{D981313486F9EC9A}Prefabs/Characters/Shop/US/US_Shop_Vehicles_Ground_IFVs.et" {
+ components {
+  RRG_ShopComponent "{68CB4AC1D789BEB4}" {
+   m_AdditionalMerchandise {
+    ADM_ShopMerchandise "{68CCBE26F86FE198}" {
+     m_Merchandise ADM_MerchandiseVehicle "{68688CB723394A2C}" {
+      m_SpawnPosition PointInfo "{68688CB723394A23}" {
+       Offset 3 0 7
+       Angles 0 -40 0
+      }
+     }
+    }
+    ADM_ShopMerchandise "{68CCBE26F8F80960}" {
+     m_Merchandise ADM_MerchandiseVehicle "{68654EE068B2F0D6}" {
+      m_SpawnPosition PointInfo "{68654EE068B2F0D1}" {
+       Offset 3 0 7
+       Angles 0 -40 0
+      }
+     }
+    }
+    ADM_ShopMerchandise "{68A4A4B2A8A888AE}" {
+     m_Merchandise ADM_MerchandiseVehicle "{68654EE068B2F0D6}" {
+      m_SpawnPosition PointInfo "{68654EE068B2F0D1}" {
+       Offset 3 0 7
+       Angles 0 -40 0
+      }
+     }
+    }
+    ADM_ShopMerchandise "{68F6C5DA55632143}" {
+     m_Merchandise ADM_MerchandiseVehicle "{68F6C5DA556321E1}" {
+      m_SpawnPosition PointInfo "{68F6C5DA556321ED}" {
+       Offset 3 0 7
+       Angles 0 -40 0
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 10130.607 2.531 1539.613
+ angles 0 -42.135 0
+}
+GenericEntity : "{DA426040CA301F8D}Prefabs/Structures/Signs/Anglais/Rules1.et" {
+ coords 10145.949 3.048 1553.899
+ angles 0 14.988 0
+}
+$grp GenericEntity : "{EA1DD6EE6534033A}Prefabs/Compositions/Misc/CustomEntities/InteractionPoints/ArsenalBox_USSR_Equipment_NoAffiliation.et" {
+ {
+  coords 4896.788 29.031 11921.42
+  angles 0 -95.573 0
+ }
+ {
+  coords 4896.721 29.031 11923.516
+  angles 0 -96.577 0
+ }
+}
+SCR_DestructibleBuildingEntity : "{F16324CB8CB07C00}Prefabs/Structures/Military/Houses/GarageMilitary_E_01/GarageMilitary_E_01.et" {
+ components {
+  SCR_DestructibleBuildingComponent "{5D7E937C4BC5C812}" {
+   EnableDamage 0
+  }
+ }
+ coords 10168.363 0.005 1554.27
+ angles 0 -165.089 0
+ {
+  GenericEntity {
+   ID "566CAD19960B749F"
+   components {
+    RigidBody "{5111E74C06F5C1E1}" {
+     Active AlwaysActive
+    }
+   }
+  }
+  GenericEntity {
+   ID "566CAD19960B74AF"
+   components {
+    RigidBody "{5111E74C06F5C1E1}" {
+     Active AlwaysActive
+    }
+   }
+  }
+  GenericEntity {
+   ID "566CAD19960B74CE"
+   components {
+    RigidBody "{5111E74C06F5C1E1}" {
+     Active AlwaysActive
+    }
+   }
+  }
+  GenericEntity {
+   ID "566CAD19960B74E4"
+   components {
+    RigidBody "{5111E74C06F5C1E1}" {
+     Active AlwaysActive
+    }
+    RplComponent "{58FC7CAC2034C3E2}" {
+     Enabled 1
+    }
+   }
+  }
+  GenericEntity {
+   ID "566CAD19960B7410"
+   components {
+    RigidBody "{5111E74C06F5C1E1}" {
+     Active AlwaysActive
+    }
+   }
+  }
+  GenericEntity {
+   ID "566CAD19960B741C"
+   components {
+    RigidBody "{5111E74C06F5C1E1}" {
+     Active AlwaysActive
+    }
+   }
+  }
+  GenericEntity {
+   ID "566CAD19960B744A"
+   components {
+    RigidBody "{5111E74C06F5C1E1}" {
+     Active AlwaysActive
+    }
+   }
+  }
+  GenericEntity {
+   ID "566CAD19960B74B9"
+   components {
+    RigidBody "{5111E74C06F5C1E1}" {
+     Active AlwaysActive
+    }
+   }
+  }
+  GenericEntity {
+   ID "566CAD19960B74D9"
+   components {
+    RigidBody "{5111E74C06F5C1E1}" {
+     Active AlwaysActive
+    }
+   }
+  }
+  $grp StaticModelEntity : "{E2971F2C529A6F83}Prefabs/Structures/Walls/Concrete/SilageWall_01/SilageWall_01_5m_M1.et" {
+   {
+    coords -5.651 0.391 6.319
+    angles 0 90.27 0
+   }
+   {
+    coords 23.879 0.576 6.145
+    angles 0 -0.439 0
+   }
+   {
+    coords 19.09 0.438 6.139
+    angles 0 0.023 0
+   }
+   {
+    coords 19.032 0.439 1.085
+    angles 0 -89.377 0
+   }
+   {
+    coords 14.179 0.439 1.139
+    angles 0 0.417 0
+   }
+   {
+    coords 9.169 0.439 1.153
+    angles 0 0.023 0
+   }
+   {
+    coords 4.333 0.439 1.204
+    angles 0 0.707 0
+   }
+   {
+    coords -0.67 0.44 1.255
+    angles 0 0.459 0
+   }
+   {
+    coords -5.66 0.415 1.289
+    angles 0 0.459 0
+   }
+  }
+  GenericEntity : "{F2174A927C3229F2}Prefabs/Compositions/Misc/SubCompositions/Furniture/Table_Desk_US_05.et" {
+   coords -16.75 0.439 -4.244
+   angles 0 -131.006 0
+   {
+    GameEntity {
+     ID "5CB0F589F6F73C99"
+     components {
+      SignalsManagerComponent "{594881874988D5AF}" {
+       Enabled 0
+      }
+      SoundComponent "{5876E7CFA79627F2}" {
+       Enabled 0
+      }
+      MeshObject "{5872F0EB7FA40561}" {
+       Enabled 0
+      }
+      ParametricMaterialInstanceComponent "{5876E7CF962A6687}" {
+       Enabled 0
+      }
+      RigidBody "{5872F0EB7DFB5A9D}" {
+       Enabled 0
+      }
+      SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+       Enabled 0
+      }
+      SCR_LampComponent "{5D2ABC12E93AB331}" {
+       Enabled 0
+      }
+      ActionsManagerComponent "{5876E7CFF5785C2B}" {
+       Enabled 0
+      }
+      RplComponent "{5624A88DC2D9928D}" {
+       Enabled 0
+      }
+      Hierarchy "{5CCCBEF35306205E}" {
+       Enabled 0
+      }
+     }
+     coords -0.211 0.908 -0.252
+     angles 0 51.625 0
+    }
+    GenericEntity {
+     ID "5CB0F589F6F73C91"
+     coords 0.119 0.908 -0.105
+     angles 0 -29.158 0
+    }
+    GenericEntity {
+     ID "5CB0F589F6F73CE5"
+     coords -0.525 0 0.006
+     angles 0 0 0
+    }
+    GenericEntity {
+     ID "5CB0F589F6F73C97"
+     coords -0.553 0.906 -0.14
+     angles 0 77.131 0
+    }
+    GenericEntity {
+     ID "5CB0F589F6F73C9B"
+     coords 0.93 0 -0.022
+     angles 0 2.109 0
+    }
+    GenericEntity {
+     ID "5CB0F589F6F73C95"
+     coords 0.393 0 0.061
+     angles 0 5.672 0
+    }
+    GenericEntity {
+     ID "5CB0F589F6F73C96"
+     coords 0.959 0.9 0.062
+     angles 0 -3.323 0
+    }
+    GenericEntity {
+     ID "5CB0F589F6F73C9C"
+     coords -1.236 0.906 -0.141
+     angles 0 13.635 0
+    }
+    GenericEntity : "{79B06351DC9A7237}Prefabs/Compositions/Misc/SubCompositions/Furniture/Table_Desk_US_10_Logistics.et" {
+     coords 1.227 0 1.014
+     angles 0 -87.842 0
+     {
+      GenericEntity {
+       ID "65C26D465A98F619"
+       coords 0.115 0.902 0.182
+       angles 0 176.251 0
+      }
+      GenericEntity {
+       ID "65C26D465A98A004"
+       coords -0.468 0.9 -0.143
+       angles 0 -38.44 0
+      }
+      GenericEntity {
+       ID "65C26D465A98A01A"
+       coords 0.254 0.9 -0.199
+      }
+      GenericEntity {
+       ID "65C26D465A98F61D"
+       coords -0.102 0.9 -0.215
+       angles 0 0.158 0
+      }
+      GenericEntity {
+       ID "65C26D465A98F61A"
+       coords 0.027 0.922 0.109
+       angles 0 107.493 0
+      }
+      GenericEntity {
+       ID "65C26D465A98F61C"
+       coords -0.146 0.9 0.129
+       angles 0 -3.005 0
+      }
+      GenericEntity {
+       ID "65C26D465A98F61F"
+       coords 0.452 0.9 0.166
+       angles 0 165.528 0
+      }
+     }
+    }
+   }
+  }
+ }
+}
+SCR_DestructibleEntity : "{F755F729EC8D5203}Prefabs/Structures/Walls/Concrete/ConcreteWall_02/ConcreteWall_02_2m.et" {
+ coords 10126.613 0.114 1510.798
+ angles 0 14.568 0
+}
+SCR_ChimeraCharacter : "{F95340D8FF22FD0B}Prefabs/Characters/Shop/US/US_Loadout_Character.et" {
+ coords 10186.482 3.277 1554.615
+ angles 0 -132.625 0
+}
