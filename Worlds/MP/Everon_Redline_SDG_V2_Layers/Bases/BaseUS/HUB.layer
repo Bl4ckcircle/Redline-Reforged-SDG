@@ -565,7 +565,7 @@ GenericEntity MOBUS : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMi
   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
    m_iSupplies 12000
    m_iSuppliesMax 25000
-   m_fOperationalRadius 50
+   m_fOperationalRadius 100
   }
   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
    "Encryption key" "chickenNuggets"
@@ -595,37 +595,6 @@ GenericEntity MOBUS : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMi
    coords -13.705 0.746 108.17
    angles 0 110.905 0
    m_sFaction "US"
-  }
-  GenericEntity : "{257DF319C13E580B}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Supplies_Containers_US_03.et" {
-   coords 41.769 0.086 69.009
-   angles 0 1.215 0
-   {
-    GenericEntity {
-     ID "5D4539330EC1F270"
-     coords -18.056 -0.143 3.597
-     angles 0 89.399 0
-    }
-    GenericEntity {
-     ID "5D4539330EC1FB4A"
-     coords -18.33 0.009 -1.855
-     angles 0 90.613 0
-    }
-    GenericEntity {
-     ID "5D4539330EC1FB4C"
-     coords -18.012 -0.085 -4.546
-     angles 0 88.91 0
-    }
-    GenericEntity {
-     ID "5D4539330EC1F26C"
-     coords -19.802 0.114 0.887
-     angles 0 88.269 0
-    }
-    GenericEntity {
-     ID "5D4539330EC1F26D"
-     coords -16.512 0.086 0.881
-     angles 0 91.026 0
-    }
-   }
   }
  }
 }
