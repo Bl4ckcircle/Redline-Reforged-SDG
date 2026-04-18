@@ -1171,7 +1171,19 @@ $grp SCR_ChimeraCharacter : "{CA9F8CBCA70E9CAA}Prefabs/Characters/Shop/US/US_Sho
 }
 $grp GenericEntity : "{D0B05C0B2AEB98C6}Prefabs/Garage/Repair.et" {
  Repair_686C810C7F8FCC5A3 {
-  coords 10083.559 2.531 1551.836
+  components {
+   ActionsManagerComponent "{6856B5B575AED13E}" {
+    additionalActions {
+     RY_Action_Rearm "{687CCC2EF16B4DAD}" {
+      m_fRadius 10
+     }
+     RY_ServiceRepair_Action "{687CCC2EEEB3C939}" {
+      m_fRadius 10
+     }
+    }
+   }
+  }
+  coords 10083.774 2.531 1552.381
   angles 0 14.956 0
   {
    GenericEntity Repair_Reamo_Station2 {
@@ -1191,7 +1203,7 @@ $grp GenericEntity : "{D0B05C0B2AEB98C6}Prefabs/Garage/Repair.et" {
       Scale 0.5
      }
     }
-    coords 0.141 0.029 0.047
+    coords -0.04 0.029 -0.087
     angles 0 -92.817 0
    }
   }

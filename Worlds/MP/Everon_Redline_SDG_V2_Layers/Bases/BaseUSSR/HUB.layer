@@ -1071,6 +1071,18 @@ SCR_ChimeraCharacter : "{CE45716F28FBE4E3}Prefabs/Characters/Shop/USSR/USSR_Shop
 }
 $grp GenericEntity : "{D0B05C0B2AEB98C6}Prefabs/Garage/Repair.et" {
  Repair_686C810C7F8FCC5A {
+  components {
+   ActionsManagerComponent "{6856B5B575AED13E}" {
+    additionalActions {
+     RY_Action_Rearm "{687CCC2EF16B4DAD}" {
+      m_fRadius 10
+     }
+     RY_ServiceRepair_Action "{687CCC2EEEB3C939}" {
+      m_fRadius 10
+     }
+    }
+   }
+  }
   coords 4917.372 28.775 11777.406
   angles 0 -97.101 0
   {
@@ -1091,12 +1103,24 @@ $grp GenericEntity : "{D0B05C0B2AEB98C6}Prefabs/Garage/Repair.et" {
       Scale 0.5
      }
     }
-    coords -0.111 0.001 0.171
+    coords -0.479 0.001 0.236
     angles 0 -77.861 0
    }
   }
  }
  Repair_686C810C7F8FCC5A2 {
+  components {
+   ActionsManagerComponent "{6856B5B575AED13E}" {
+    additionalActions {
+     RY_Action_Rearm "{687CCC2EF16B4DAD}" {
+      m_fRadius 10
+     }
+     RY_ServiceRepair_Action "{687CCC2EEEB3C939}" {
+      m_fRadius 10
+     }
+    }
+   }
+  }
   coords 4889.364 28.174 11735.79
   angles 0 -90.351 0
   {

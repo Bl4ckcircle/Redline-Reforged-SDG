@@ -3,7 +3,7 @@ $grp GenericEntity : "{0858A93EFDE04083}Prefabs/ATM.et" {
   coords 7025.209 118.56 6017.804
   angles 0 53.442 0
   {
-   GenericEntity ATM {
+   GenericEntity ATM8 {
     components {
      SCR_EditableCommentComponent "{5DDE234C81331983}" {
       m_EntityType COMMENT
@@ -20,8 +20,8 @@ $grp GenericEntity : "{0858A93EFDE04083}Prefabs/ATM.et" {
       Scale 0.5
      }
     }
-    coords 5409.053 -116 -203.334
-    angles 0 -131.303 0
+    coords 0.347 0.439 -0.019
+    angles 0 175.255 0
    }
   }
  }
