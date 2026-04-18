@@ -22,7 +22,7 @@ SCR_AIWorld : "{70CCCF16487C927F}Prefabs/AI/SCR_AIWorld_Eden.et" {
    }
   }
  }
- coords 12623.65 0 434.452
+ coords 6744.413 2.555 1683.978
 }
 RadioManagerEntity {
  coords 1529.132 -46.652 -6497.715
@@ -2634,7 +2634,4 @@ SCR_LoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManag
 GenericEntity BankManager_686AFCB2C70911CB : "{5AF85B85BB091A6A}Prefabs/Bank/BankManager.et" {
  coords 8576.039 11.891 -10213.866
  angles 5.585 0.84 8.572
-}
-SCR_MPDestructionManager : "{9BB369F2803C6F71}Prefabs/MP/MPDestructionManager.et" {
- coords 8722.412 0 533.99
 }

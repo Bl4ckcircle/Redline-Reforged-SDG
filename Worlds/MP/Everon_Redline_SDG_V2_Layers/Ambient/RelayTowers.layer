@@ -1231,16 +1231,6 @@ $grp GenericEntity {
     coords -4.627 -1.95 17.901
     angles 0 -9.271 0
    }
-   $grp GenericEntity : "{859995D75C355384}Prefabs/Compositions/Misc/SubCompositions/CrateWooden_Cluttered_US_01.et" {
-    {
-     coords 25.435 -3.418 28.612
-     angles 0 130.346 0
-    }
-    {
-     coords 36.261 -3.075 -20.233
-     angles 5.039 -179.287 -0.107
-    }
-   }
    $grp GenericEntity : "{869914063728EFF8}Prefabs/Props/Forest/WoodPile/WoodLog_01_D.et" {
     {
      coords 24.087 -4.851 33.122
@@ -2513,16 +2503,6 @@ $grp GenericEntity {
       ID "5706819A36EF5C4C"
       coords 0.073 -0.103 -1.119
      }
-     GenericEntity {
-      ID "5706819A36EF5C4D"
-      coords 0.643 -0.084 1.502
-      {
-       GenericEntity {
-        ID "5706818670C4360C"
-        coords -0.003 0.806 0.015
-       }
-      }
-     }
     }
    }
    $grp SCR_DestructibleBuildingEntity : "{F7B9B2DD8B512720}Prefabs/Structures/Walls/Concrete/ConcreteRetainingWall_02/ConcreteRetainingWall_02_8m.et" {
@@ -2620,15 +2600,6 @@ $grp GenericEntity {
       ID "58ECA7C45EDE5C37"
      }
     }
-   }
-   GenericEntity : "{8963CD1DC1CDB614}Prefabs/Props/Civilian/BeerBottle_01_brown.et" {
-    components {
-     Hierarchy "{54C68E708442AA9F}" {
-      Enabled 1
-     }
-    }
-    coords 2.98 37.098 1.833
-    angles -1.396 113.84 -0.64
    }
    $grp GenericEntity : "{C7A49C5B54C86903}Prefabs/Props/Military/Sandbags/Sandbag_01_single_burlap.et" {
     {
@@ -5763,11 +5734,6 @@ $grp GenericEntity : "{9E36120FECA41BE8}Prefabs/Compositions/Misc/SubComposition
     angles 0 -83.392 0
    }
    GenericEntity {
-    ID "5E3AB0A5FEC8ADBA"
-    coords 2.833 21.044 3.464
-    angles 0 -83.392 0
-   }
-   GenericEntity {
     ID "5E3AB0A5FEC8AEF4"
     coords 3.445 20.241 -1.719
     angles 0 -172.872 0
@@ -5809,16 +5775,6 @@ $grp GenericEntity : "{9E36120FECA41BE8}Prefabs/Compositions/Misc/SubComposition
     ID "5E3AB0A5FEC8A8B7"
     coords 9.195 -0.022 -7.645
     angles 1.504 2.986 -0.688
-   }
-   GenericEntity {
-    ID "5E3AB0A5FEC8A801"
-    coords 3.303 21.026 3.457
-    angles 0 -83.392 0
-   }
-   GenericEntity {
-    ID "5E3AB0A5FEC8A80C"
-    coords 3.032 21.026 3.457
-    angles 0 96.608 0
    }
    GenericEntity {
     ID "5E3AB0A5FEC8AA0A"
