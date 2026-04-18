@@ -114,26 +114,6 @@ $grp GenericEntity {
   coords 10181.193 3.273 1556.751
   angles 0 15.406 0
  }
- Garage2Ru3 {
-  components {
-   SCR_EditableCommentComponent "{5DDE234C81331983}" {
-    m_EntityType COMMENT
-    m_UIInfo SCR_EditableCommentUIInfo "{5DDE234873CE99F2}" {
-     Name "IFV"
-     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
-    }
-    m_bAutoRegister ALWAYS
-    m_sColor 0.502 0 0 1
-   }
-   SCR_MapDescriptorComponent "{5DDE234C9A632375}" {
-    DisplayName "IFV"
-    MainType "Name Village"
-    Scale 0.5
-   }
-  }
-  coords 4918.611 28.594 11880.681
-  angles 0 -11.877 0
- }
  Repair_Reamo_Station6 {
   components {
    SCR_EditableCommentComponent "{5DDE234C81331983}" {
