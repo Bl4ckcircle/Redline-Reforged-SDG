@@ -5,6 +5,8 @@ $grp GenericEntity {
     m_aPrefabList {
      "{70BAEEFC2D3FEE64}Prefabs/Vehicles/Helicopters/UH1H/UH1H.et"
     }
+    m_fRespawnDelay 120
+    m_fRespawnDelayOnDestroyed 120
    }
   }
   coords 10161.177 2.85 1483.374
@@ -16,6 +18,8 @@ $grp GenericEntity {
     m_aPrefabList {
      "{BDD5BF2D60C2F5F0}Prefabs/Vehicles/Helicopters/H47/CH47F_MY2.et"
     }
+    m_fRespawnDelay 300
+    m_fRespawnDelayOnDestroyed 300
    }
   }
   coords 10191.892 2.95 1485.298
@@ -27,6 +31,8 @@ $grp GenericEntity {
     m_aPrefabList {
      "{530F3A12ABA1CD7A}Prefabs/Vehicles/Wheeled/M1240A1_MATV/M1240A1_MATV_Base.et"
     }
+    m_fRespawnDelay 300
+    m_fRespawnDelayOnDestroyed 300
    }
   }
   coords 10150.527 3.277 1551.241
@@ -38,6 +44,8 @@ $grp GenericEntity {
     m_aPrefabList {
      "{530F3A12ABA1CD7A}Prefabs/Vehicles/Wheeled/M1240A1_MATV/M1240A1_MATV_Base.et"
     }
+    m_fRespawnDelay 300
+    m_fRespawnDelayOnDestroyed 300
    }
   }
   coords 10155.418 3.277 1550.323
@@ -49,6 +57,8 @@ $grp GenericEntity {
     m_aPrefabList {
      "{530F3A12ABA1CD7A}Prefabs/Vehicles/Wheeled/M1240A1_MATV/M1240A1_MATV_Base.et"
     }
+    m_fRespawnDelay 300
+    m_fRespawnDelayOnDestroyed 300
    }
   }
   coords 10160.35 3.277 1549.312
@@ -60,6 +70,8 @@ $grp GenericEntity {
     m_aPrefabList {
      "{38186F12F27A61C7}Prefabs/Vehicles/Wheeled/M923A1/MHQ_A.et"
     }
+    m_fRespawnDelay 300
+    m_fRespawnDelayOnDestroyed 300
    }
   }
   coords 10164.619 3.266 1547.749
@@ -71,6 +83,8 @@ $grp GenericEntity {
     m_aPrefabList {
      "{5EFEDD1782A6A5E2}Prefabs/Vehicles/Wheeled/M923A1/MHQ_B.et"
     }
+    m_fRespawnDelay 300
+    m_fRespawnDelayOnDestroyed 300
    }
   }
   coords 10169.723 3.266 1546.187

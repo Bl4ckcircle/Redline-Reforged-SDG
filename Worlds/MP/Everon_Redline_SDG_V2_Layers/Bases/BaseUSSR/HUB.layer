@@ -28,6 +28,8 @@ $grp GenericEntity {
     m_aPrefabList {
      "{6F4D5B56F4905A62}Prefabs/Vehicles/Wheeled/TIGR/Unarmed/GAZ_TIGR_v2_Unarmed_Green.et"
     }
+    m_fRespawnDelay 300
+    m_fRespawnDelayOnDestroyed 300
    }
   }
   coords 4882.766 29.104 11924.777
@@ -39,6 +41,8 @@ $grp GenericEntity {
     m_aPrefabList {
      "{629DB6996E2C3649}Prefabs/Vehicles/Helicopters/KA-27/KA-27_base.et"
     }
+    m_fRespawnDelay 120
+    m_fRespawnDelayOnDestroyed 120
    }
   }
   coords 4826.061 28.09 11937.442
@@ -50,6 +54,8 @@ $grp GenericEntity {
     m_aPrefabList {
      "{7BD282AF716ED63A}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed.et"
     }
+    m_fRespawnDelay 300
+    m_fRespawnDelayOnDestroyed 300
    }
   }
   coords 4826.65 28.572 11907.695
@@ -61,6 +67,8 @@ $grp GenericEntity {
     m_aPrefabList {
      "{6F4D5B56F4905A62}Prefabs/Vehicles/Wheeled/TIGR/Unarmed/GAZ_TIGR_v2_Unarmed_Green.et"
     }
+    m_fRespawnDelay 300
+    m_fRespawnDelayOnDestroyed 300
    }
   }
   coords 4882.222 29.009 11929.706
@@ -72,6 +80,8 @@ $grp GenericEntity {
     m_aPrefabList {
      "{6F4D5B56F4905A62}Prefabs/Vehicles/Wheeled/TIGR/Unarmed/GAZ_TIGR_v2_Unarmed_Green.et"
     }
+    m_fRespawnDelay 300
+    m_fRespawnDelayOnDestroyed 300
    }
   }
   coords 4882.051 29.027 11934.492
@@ -83,6 +93,8 @@ $grp GenericEntity {
     m_aPrefabList {
      "{1BABF6B33DA0AEB7}Prefabs/Vehicles/Wheeled/Ural4320/MHQ_A.et"
     }
+    m_fRespawnDelay 300
+    m_fRespawnDelayOnDestroyed 300
    }
   }
   coords 4882.923 29.031 11920.033
@@ -94,6 +106,8 @@ $grp GenericEntity {
     m_aPrefabList {
      "{047DDE56444CA348}Prefabs/Vehicles/Wheeled/Ural4320/MHQ_B.et"
     }
+    m_fRespawnDelay 300
+    m_fRespawnDelayOnDestroyed 300
    }
   }
   coords 4883.032 29.011 11914.959

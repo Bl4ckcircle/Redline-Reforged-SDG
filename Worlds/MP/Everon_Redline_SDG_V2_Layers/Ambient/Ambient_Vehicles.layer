@@ -2,7 +2,9 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -14,7 +16,9 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -26,7 +30,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -38,7 +45,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -50,7 +60,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -62,7 +75,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -74,7 +90,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -86,7 +105,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -98,7 +120,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -110,7 +135,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -122,7 +150,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -134,7 +165,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -146,7 +180,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -158,7 +195,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -169,7 +209,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -181,7 +224,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -192,7 +238,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -203,7 +252,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -215,7 +267,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -227,7 +282,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -239,7 +297,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -251,7 +312,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -263,7 +327,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -275,7 +342,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -287,7 +357,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -299,7 +372,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -311,7 +387,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -323,7 +402,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -335,7 +417,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -347,7 +432,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -359,7 +447,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -371,7 +462,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -383,7 +477,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -395,7 +492,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -407,7 +507,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -419,7 +522,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -431,7 +537,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -443,7 +552,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -455,7 +567,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -467,7 +582,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -479,7 +597,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -491,7 +612,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -503,7 +627,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -515,7 +642,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -527,7 +657,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -539,7 +672,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -551,7 +687,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -563,7 +702,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -575,7 +717,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -587,7 +732,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -599,7 +747,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -611,7 +762,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -623,7 +777,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -635,7 +792,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -647,7 +807,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -659,7 +822,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -671,7 +837,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -683,7 +852,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -695,7 +867,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -707,7 +882,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -719,7 +897,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -731,7 +912,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -743,7 +927,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -754,7 +941,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -766,7 +956,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -778,7 +971,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -790,7 +986,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -802,7 +1001,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -814,7 +1016,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -826,7 +1031,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -838,7 +1046,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
@@ -850,7 +1061,10 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    Enabled 0
+    m_iRespawnPeriod 1800
+    m_aIncludedEditableEntityLabels {
+     FACTION_CIV
+    }
    }
    SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
     Enabled 0
