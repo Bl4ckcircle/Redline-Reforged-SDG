@@ -35,7 +35,7 @@ SCR_GameModeCampaign GameMode_Campaign1 : "{3B230AAC5252108F}Prefabs/MP/Modes/Co
   GarbageSystemConfigComponent "{687F12B74C3E4FD7}" {
    Config "{6FF7850E245F2C45}Configs/Garbage/Garbage.conf"
   }
-  RY_LoadoutManager "{692291808FAB3F2A}" {
+  RY_LoadoutManager "{6926C5CE73F3E7BF}" {
   }
   SCR_TimeAndWeatherHandlerComponent "{67295C8D2DAC3749}" {
    m_iStartingHours 7
@@ -1424,7 +1424,7 @@ SCR_CampaignFactionManager CampaignOriginalFactionManager : "{9DBBC0F766BEF527}P
     }
     SCR_EntityCatalog "{5C68A0E9A51460AB}" : "{DDF17C8C140BD1F2}Configs/EntityCatalog/USSR/WeaponTripod_EntityCatalog_USSR.conf" {
     }
-    SCR_EntityCatalogMultiList "{5C68A0E9AFE1E631}" : "{FFD1DADF9B534F57}Configs/ShopCategories/USSR/Vetement.conf" {
+    SCR_EntityCatalogMultiList "{5C68A0E9AFE1E631}" : "{FFD1DADF9B534F57}Configs/ShopCategories/USSR/RU_Vetements.conf" {
      m_eEntityCatalogType ITEM
     }
     SCR_EntityCatalog "{5C9EDDD378BA3298}" : "{B4CA6761AC935808}Configs/EntityCatalog/USSR/SupplyContainerItems_EntityCatalog_USSR.conf" {
@@ -2319,7 +2319,7 @@ SCR_CampaignFactionManager CampaignOriginalFactionManager : "{9DBBC0F766BEF527}P
     }
     SCR_EntityCatalog "{5C68A0EEB7DB3E84}" : "{0E4B62F186F97C43}Configs/EntityCatalog/US/WeaponTripod_EntityCatalog_US.conf" {
     }
-    SCR_EntityCatalogMultiList "{5C68A0EEB3F124F9}" : "{6929790AC1B3A329}Configs/ShopCategories/US/Vetements.conf" {
+    SCR_EntityCatalogMultiList "{5C68A0EEB3F124F9}" : "{6929790AC1B3A329}Configs/ShopCategories/US/US_Vetements.conf" {
      m_eEntityCatalogType ITEM
     }
     SCR_EntityCatalog "{5C9EDDD37394AD40}" : "{0BF36EFF9FFAF92B}Configs/EntityCatalog/US/SupplyContainerItems_EntityCatalog_US.conf" {

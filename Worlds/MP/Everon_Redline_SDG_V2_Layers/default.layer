@@ -35,7 +35,7 @@ SCR_GameModeCampaign GameMode_Campaign1 : "{3B230AAC5252108F}Prefabs/MP/Modes/Co
   GarbageSystemConfigComponent "{687F12B74C3E4FD7}" {
    Config "{6FF7850E245F2C45}Configs/Garbage/Garbage.conf"
   }
-  RY_LoadoutManager "{692291808FAB3F2A}" {
+  RY_LoadoutManager "{6926C5CE0DFD4173}" {
   }
   SCR_TimeAndWeatherHandlerComponent "{67295C8D2DAC3749}" {
    m_iStartingHours 7
@@ -1424,7 +1424,7 @@ SCR_CampaignFactionManager CampaignOriginalFactionManager : "{9DBBC0F766BEF527}P
     }
     SCR_EntityCatalog "{5C68A0E9A51460AB}" : "{DDF17C8C140BD1F2}Configs/EntityCatalog/USSR/WeaponTripod_EntityCatalog_USSR.conf" {
     }
-    SCR_EntityCatalogMultiList "{5C68A0E9AFE1E631}" : "{FFD1DADF9B534F57}Configs/ShopCategories/USSR/Vetement.conf" {
+    SCR_EntityCatalogMultiList "{5C68A0E9AFE1E631}" : "{FFD1DADF9B534F57}Configs/ShopCategories/USSR/RU_Vetements.conf" {
      m_eEntityCatalogType ITEM
     }
     SCR_EntityCatalog "{5C9EDDD378BA3298}" : "{B4CA6761AC935808}Configs/EntityCatalog/USSR/SupplyContainerItems_EntityCatalog_USSR.conf" {
@@ -2319,7 +2319,7 @@ SCR_CampaignFactionManager CampaignOriginalFactionManager : "{9DBBC0F766BEF527}P
     }
     SCR_EntityCatalog "{5C68A0EEB7DB3E84}" : "{0E4B62F186F97C43}Configs/EntityCatalog/US/WeaponTripod_EntityCatalog_US.conf" {
     }
-    SCR_EntityCatalogMultiList "{5C68A0EEB3F124F9}" : "{6929790AC1B3A329}Configs/ShopCategories/US/Vetements.conf" {
+    SCR_EntityCatalogMultiList "{5C68A0EEB3F124F9}" : "{6929790AC1B3A329}Configs/ShopCategories/US/US_Vetements.conf" {
      m_eEntityCatalogType ITEM
     }
     SCR_EntityCatalog "{5C9EDDD37394AD40}" : "{0BF36EFF9FFAF92B}Configs/EntityCatalog/US/SupplyContainerItems_EntityCatalog_US.conf" {
@@ -2634,6 +2634,14 @@ SCR_LoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManag
 GenericEntity BankManager_686AFCB2C70911CB : "{5AF85B85BB091A6A}Prefabs/Bank/BankManager.et" {
  coords 8576.039 11.891 -10213.866
  angles 5.585 0.84 8.572
+}
+GenericEntity : "{B31A14BC1A0E7776}Prefabs/Props/Military/Sandbags/Sandbag_01_round_burlap.et" {
+ coords 10125.493 2.468 1526.982
+ angles 0 -14.444 0
+}
+GenericEntity : "{B547CF929FCC6BB7}Prefabs/Props/Military/Sandbags/Sandbag_01_end_high_burlap.et" {
+ coords 10132.407 2.416 1540.79
+ angles 0 -164.422 0
 }
 $grp GameEntity : "{E7FD0B8019E96F73}Prefabs/Structures/BuildingParts/Lights/LampTower_01.et" {
  {

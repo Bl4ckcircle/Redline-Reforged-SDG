@@ -207,10 +207,18 @@ SCR_ChimeraCharacter : "{1318606B854E15B7}Prefabs/Characters/Shop/US/US_Shop_Veh
       }
      }
     }
+    ADM_ShopMerchandise "{6924CD884AA0F694}" {
+     m_Merchandise ADM_MerchandiseVehicle "{6924CD884AA0F6C8}" {
+      m_SpawnPosition PointInfo "{6924CD884AA0F6CA}" {
+       Offset -10 0 1
+       Angles 0 20 0
+      }
+     }
+    }
    }
   }
  }
- coords 10126.727 2.472 1525.584
+ coords 10126.06 2.472 1526.184
  angles 0 -4.261 0
 }
 GenericEntity MOBUS : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
@@ -846,7 +854,7 @@ $grp SCR_DestructibleEntity : "{879865F07EA907B0}Prefabs/Structures/Walls/Concre
 }
 $grp GenericEntity : "{937999008F178E82}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_burlap.et" {
  {
-  coords 10124.981 2.523 1539.512
+  coords 10125.205 2.516 1539.03
   angles 0 -24.901 0
  }
  {
@@ -901,7 +909,7 @@ GenericEntity : "{A850C603FEF26E0C}Prefabs/Structures/Signs/Anglais/Rules2.et" {
 }
 $grp GenericEntity : "{B31A14BC1A0E7776}Prefabs/Props/Military/Sandbags/Sandbag_01_round_burlap.et" {
  {
-  coords 10129.531 2.446 1526.715
+  coords 10127.36 2.446 1525.366
   angles 0 98.598 0
  }
  {
@@ -909,7 +917,7 @@ $grp GenericEntity : "{B31A14BC1A0E7776}Prefabs/Props/Military/Sandbags/Sandbag_
   angles 0 56.025 0
  }
  {
-  coords 10129.946 2.442 1540.667
+  coords 10129.946 2.458 1540.667
   angles 0 -28.591 0
  }
  {
@@ -1236,7 +1244,7 @@ SCR_ChimeraCharacter : "{D981313486F9EC9A}Prefabs/Characters/Shop/US/US_Shop_Veh
     ADM_ShopMerchandise "{68CCBE26F86FE198}" {
      m_Merchandise ADM_MerchandiseVehicle "{68688CB723394A2C}" {
       m_SpawnPosition PointInfo "{68688CB723394A23}" {
-       Offset 3 0 7
+       Offset 1 0 10
        Angles 0 -40 0
       }
      }
@@ -1244,7 +1252,7 @@ SCR_ChimeraCharacter : "{D981313486F9EC9A}Prefabs/Characters/Shop/US/US_Shop_Veh
     ADM_ShopMerchandise "{68CCBE26F8F80960}" {
      m_Merchandise ADM_MerchandiseVehicle "{68654EE068B2F0D6}" {
       m_SpawnPosition PointInfo "{68654EE068B2F0D1}" {
-       Offset 3 0 7
+       Offset 1 0 10
        Angles 0 -40 0
       }
      }
@@ -1260,7 +1268,7 @@ SCR_ChimeraCharacter : "{D981313486F9EC9A}Prefabs/Characters/Shop/US/US_Shop_Veh
     ADM_ShopMerchandise "{68F6C5DA55632143}" {
      m_Merchandise ADM_MerchandiseVehicle "{68F6C5DA556321E1}" {
       m_SpawnPosition PointInfo "{68F6C5DA556321ED}" {
-       Offset 3 0 7
+       Offset 1 0 10
        Angles 0 -40 0
       }
      }
@@ -1268,7 +1276,7 @@ SCR_ChimeraCharacter : "{D981313486F9EC9A}Prefabs/Characters/Shop/US/US_Shop_Veh
    }
   }
  }
- coords 10130.607 2.531 1539.613
+ coords 10130.489 2.531 1539.815
  angles 0 -42.135 0
 }
 GenericEntity : "{DA426040CA301F8D}Prefabs/Structures/Signs/Anglais/Rules1.et" {
