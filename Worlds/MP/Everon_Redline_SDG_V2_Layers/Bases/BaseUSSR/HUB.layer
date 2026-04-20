@@ -578,6 +578,7 @@ SCR_ChimeraCharacter : "{91C403480E594EF8}Prefabs/Characters/Shop/USSR/USSR_Shop
     }
     ADM_ShopMerchandise "{6924CD8FA4046CF3}" {
      m_Merchandise ADM_MerchandiseVehicle "{6924CD8FA4046D52}" {
+      m_sPrefab "{753091E32C4E2EE3}Prefabs/Vehicles/Wheeled/Ural_4320_Grad/BM 21-1_9M22.et"
       m_SpawnPosition PointInfo "{6924CD8FA4046D5E}" {
        Offset 2 0 9
        Angles 0 10 0
@@ -668,7 +669,7 @@ $grp GenericEntity : "{9EA803E0D1DDCDB6}Prefabs/Garage/Garage.et" {
   }
  }
  {
-  coords 4889.359 28.594 11725.625
+  coords 4887.777 28.723 11728.03
   angles 0 -65.984 0
   {
    GenericEntity Garage2Ru2 {
@@ -1211,7 +1212,8 @@ $grp GenericEntity : "{D0B05C0B2AEB98C6}Prefabs/Garage/Repair.et" {
 }
 SCR_ChimeraCharacter : "{D9A4153EC721622D}Prefabs/Characters/Shop/USSR/USSR_Loadout_Character.et" {
  components {
-  RY_LoadoutNpcConfigComponent "{6926A6DB8F801D3B}" {
+  RY_LoadoutNpcConfigComponent "{6926A6DBE1EA681D}" {
+   m_sShopId "USSR_SHOP"
   }
  }
  coords 4894.938 29.065 11900.947
@@ -1714,6 +1716,286 @@ $grp GameEntity : "{E7FD0B8019E96F73}Prefabs/Structures/BuildingParts/Lights/Lam
     coords 0 0.192 0.185
     angles -30 0 0
     LV 12
+   }
+  }
+ }
+ {
+  components {
+   ParametricMaterialInstanceComponent "{5F1AD8DABB766727}" {
+   }
+   SCR_DestructionMultiPhaseComponent "{58F896B4CD371A8B}" {
+    EnableDamage 0
+   }
+   Hierarchy "{612AE78C95E98EEB}" {
+    PivotID "socket_light_01"
+   }
+  }
+  coords 4889.267 36.289 11941.615
+  angles -68.94 -8.714 -60.05
+  {
+   LightEntity : "{5BF23CDF9B8FB366}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01_light.et" {
+    components {
+     StreetLampComponent "{55A0954A909C9109}" {
+      "Emissive Color" 0.875 0.8203 0.6562 1
+     }
+     RplComponent "{585699AC653DD54C}" {
+      Enabled 1
+     }
+    }
+    coords 0 0.196 0.178
+    angles -30 0 0
+   }
+  }
+ }
+ {
+  components {
+   ParametricMaterialInstanceComponent "{5F1AD8DABB766727}" {
+   }
+   SCR_DestructionMultiPhaseComponent "{58F896B4CD371A8B}" {
+    EnableDamage 0
+   }
+   Hierarchy "{612AE78C95E98EEB}" {
+    PivotID "socket_light_01"
+   }
+  }
+  coords 4888.809 36.329 11936.692
+  angles -68.94 -8.714 -60.05
+  {
+   LightEntity : "{5BF23CDF9B8FB366}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01_light.et" {
+    components {
+     StreetLampComponent "{55A0954A909C9109}" {
+      "Emissive Color" 0.875 0.8203 0.6562 1
+     }
+     RplComponent "{585699AC653DD54C}" {
+      Enabled 1
+     }
+    }
+    coords 0 0.196 0.178
+    angles -30 0 0
+   }
+  }
+ }
+ {
+  components {
+   ParametricMaterialInstanceComponent "{5F1AD8DABB766727}" {
+   }
+   SCR_DestructionMultiPhaseComponent "{58F896B4CD371A8B}" {
+    EnableDamage 0
+   }
+   Hierarchy "{612AE78C95E98EEB}" {
+    PivotID "socket_light_01"
+   }
+  }
+  coords 4888.716 36.351 11931.894
+  angles -68.94 -8.714 -60.05
+  {
+   LightEntity : "{5BF23CDF9B8FB366}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01_light.et" {
+    components {
+     StreetLampComponent "{55A0954A909C9109}" {
+      "Emissive Color" 0.875 0.8203 0.6562 1
+     }
+     RplComponent "{585699AC653DD54C}" {
+      Enabled 1
+     }
+    }
+    coords 0 0.196 0.178
+    angles -30 0 0
+   }
+  }
+ }
+ {
+  components {
+   ParametricMaterialInstanceComponent "{5F1AD8DABB766727}" {
+   }
+   SCR_DestructionMultiPhaseComponent "{58F896B4CD371A8B}" {
+    EnableDamage 0
+   }
+   Hierarchy "{612AE78C95E98EEB}" {
+    PivotID "socket_light_01"
+   }
+  }
+  coords 4888.8 36.34 11927.093
+  angles -68.94 -8.714 -60.05
+  {
+   LightEntity : "{5BF23CDF9B8FB366}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01_light.et" {
+    components {
+     StreetLampComponent "{55A0954A909C9109}" {
+      "Emissive Color" 0.875 0.8203 0.6562 1
+     }
+     RplComponent "{585699AC653DD54C}" {
+      Enabled 1
+     }
+    }
+    coords 0 0.196 0.178
+    angles -30 0 0
+   }
+  }
+ }
+ {
+  components {
+   ParametricMaterialInstanceComponent "{5F1AD8DABB766727}" {
+   }
+   SCR_DestructionMultiPhaseComponent "{58F896B4CD371A8B}" {
+    EnableDamage 0
+   }
+   Hierarchy "{612AE78C95E98EEB}" {
+    PivotID "socket_light_01"
+   }
+  }
+  coords 4888.708 36.321 11922.293
+  angles -68.94 -8.714 -60.05
+  {
+   LightEntity : "{5BF23CDF9B8FB366}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01_light.et" {
+    components {
+     StreetLampComponent "{55A0954A909C9109}" {
+      "Emissive Color" 0.875 0.8203 0.6562 1
+     }
+     RplComponent "{585699AC653DD54C}" {
+      Enabled 1
+     }
+    }
+    coords 0 0.196 0.178
+    angles -30 0 0
+   }
+  }
+ }
+ {
+  components {
+   ParametricMaterialInstanceComponent "{5F1AD8DABB766727}" {
+   }
+   SCR_DestructionMultiPhaseComponent "{58F896B4CD371A8B}" {
+    EnableDamage 0
+   }
+   Hierarchy "{612AE78C95E98EEB}" {
+    PivotID "socket_light_01"
+   }
+  }
+  coords 4888.599 36.336 11917.494
+  angles -68.94 -8.714 -60.05
+  {
+   LightEntity : "{5BF23CDF9B8FB366}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01_light.et" {
+    components {
+     StreetLampComponent "{55A0954A909C9109}" {
+      "Emissive Color" 0.875 0.8203 0.6562 1
+     }
+     RplComponent "{585699AC653DD54C}" {
+      Enabled 1
+     }
+    }
+    coords 0 0.196 0.178
+    angles -30 0 0
+   }
+  }
+ }
+ {
+  components {
+   ParametricMaterialInstanceComponent "{5F1AD8DABB766727}" {
+   }
+   SCR_DestructionMultiPhaseComponent "{58F896B4CD371A8B}" {
+    EnableDamage 0
+   }
+   Hierarchy "{612AE78C95E98EEB}" {
+    PivotID "socket_light_01"
+   }
+  }
+  coords 4888.628 36.421 11912.693
+  angles -68.94 -8.714 -60.05
+  {
+   LightEntity : "{5BF23CDF9B8FB366}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01_light.et" {
+    components {
+     StreetLampComponent "{55A0954A909C9109}" {
+      "Emissive Color" 0.875 0.8203 0.6562 1
+     }
+     RplComponent "{585699AC653DD54C}" {
+      Enabled 1
+     }
+    }
+    coords 0 0.196 0.178
+    angles -30 0 0
+   }
+  }
+ }
+ {
+  components {
+   ParametricMaterialInstanceComponent "{5F1AD8DABB766727}" {
+   }
+   SCR_DestructionMultiPhaseComponent "{58F896B4CD371A8B}" {
+    EnableDamage 0
+   }
+   Hierarchy "{612AE78C95E98EEB}" {
+    PivotID "socket_light_01"
+   }
+  }
+  coords 4888.659 36.351 11907.894
+  angles -68.94 -8.714 -60.05
+  {
+   LightEntity : "{5BF23CDF9B8FB366}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01_light.et" {
+    components {
+     StreetLampComponent "{55A0954A909C9109}" {
+      "Emissive Color" 0.875 0.8203 0.6562 1
+     }
+     RplComponent "{585699AC653DD54C}" {
+      Enabled 1
+     }
+    }
+    coords 0 0.196 0.178
+    angles -30 0 0
+   }
+  }
+ }
+ {
+  components {
+   ParametricMaterialInstanceComponent "{5F1AD8DABB766727}" {
+   }
+   SCR_DestructionMultiPhaseComponent "{58F896B4CD371A8B}" {
+    EnableDamage 0
+   }
+   Hierarchy "{612AE78C95E98EEB}" {
+    PivotID "socket_light_01"
+   }
+  }
+  coords 4888.529 36.322 11903.094
+  angles -68.94 -8.714 -60.05
+  {
+   LightEntity : "{5BF23CDF9B8FB366}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01_light.et" {
+    components {
+     StreetLampComponent "{55A0954A909C9109}" {
+      "Emissive Color" 0.875 0.8203 0.6562 1
+     }
+     RplComponent "{585699AC653DD54C}" {
+      Enabled 1
+     }
+    }
+    coords 0 0.196 0.178
+    angles -30 0 0
+   }
+  }
+ }
+ {
+  components {
+   ParametricMaterialInstanceComponent "{5F1AD8DABB766727}" {
+   }
+   SCR_DestructionMultiPhaseComponent "{58F896B4CD371A8B}" {
+    EnableDamage 0
+   }
+   Hierarchy "{612AE78C95E98EEB}" {
+    PivotID "socket_light_01"
+   }
+  }
+  coords 4888.632 36.433 11898.619
+  angles -68.94 -8.714 -60.05
+  {
+   LightEntity : "{5BF23CDF9B8FB366}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01_light.et" {
+    components {
+     StreetLampComponent "{55A0954A909C9109}" {
+      "Emissive Color" 0.875 0.8203 0.6562 1
+     }
+     RplComponent "{585699AC653DD54C}" {
+      Enabled 1
+     }
+    }
+    coords 0 0.196 0.178
+    angles -30 0 0
    }
   }
  }

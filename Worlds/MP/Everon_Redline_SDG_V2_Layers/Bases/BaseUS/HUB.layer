@@ -928,10 +928,20 @@ $grp GenericEntity : "{B31A14BC1A0E7776}Prefabs/Props/Military/Sandbags/Sandbag_
   coords 10122.256 2.29 1513.221
   angles 0 -38.252 0
  }
+ {
+  coords 10125.493 2.468 1526.982
+  angles 0 -14.444 0
+ }
 }
-GenericEntity : "{B547CF929FCC6BB7}Prefabs/Props/Military/Sandbags/Sandbag_01_end_high_burlap.et" {
- coords 10128.089 2.578 1539.204
- angles 0 -57.423 0
+$grp GenericEntity : "{B547CF929FCC6BB7}Prefabs/Props/Military/Sandbags/Sandbag_01_end_high_burlap.et" {
+ {
+  coords 10128.089 2.578 1539.204
+  angles 0 -57.423 0
+ }
+ {
+  coords 10132.407 2.416 1540.79
+  angles 0 -164.422 0
+ }
 }
 GenericEntity : "{B6307C189CCCA0B9}Prefabs/Props/Military/Sandbags/Sandbag_01_round_high_plastic.et" {
  coords 4866.446 28.544 11885.093

@@ -2345,11 +2345,11 @@ $grp GenericEntity {
      angles 0 -150 0
     }
     {
-     coords -15.059 0.152 -30.21
+     coords -15.124 0.152 -30.188
      angles 0 -154.908 0
     }
     {
-     coords -13.179 0.28 -31.03
+     coords -13.09 0.28 -31.083
      angles 0 28.618 0
     }
     {

@@ -690,7 +690,7 @@ $grp GenericEntity {
     }
    }
    GenericEntity : "{2B24356C351A2538}Prefabs/Props/Wrecks/M113_wreck/M113_wreck.et" {
-    coords -148.009 -14.809 131.515
+    coords -150.258 -14.909 132.152
     angles -5.087 -43.256 1.107
    }
    $grp GenericEntity : "{3BAF6AA8C20D924D}Prefabs/Compositions/Misc/SubCompositions/Barricade_Logs_01.et" {
@@ -864,7 +864,7 @@ $grp GenericEntity {
      angles -5.48 -32.315 1.352
     }
     {
-     coords -139.615 -14.49 132.244
+     coords -139.077 -14.415 131.625
      angles -4.934 -47.558 2.743
     }
     {
@@ -891,7 +891,7 @@ $grp GenericEntity {
      Hierarchy "{59A2DAE3B8158416}" {
      }
     }
-    coords -147.919 -13.073 131.827
+    coords -148.91 -12.923 131.545
     angles 0 -25.537 0
    }
    GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et" {
@@ -925,7 +925,7 @@ $grp GenericEntity {
        m_eInitialLightState LIT
       }
      }
-     coords -147.986 -15 131.49
+     coords -149.091 -15.017 131.851
      angles -1.468 0.068 0.92
      scale 1.3
     }
@@ -948,7 +948,7 @@ $grp GenericEntity {
      angles 0.842 70.225 -0.303
     }
     {
-     coords -147.966 -15.109 134.96
+     coords -149.071 -15.126 135.32
      angles -0.843 -109.645 0.301
      {
       GenericEntity {
@@ -958,7 +958,11 @@ $grp GenericEntity {
       }
       GenericEntity {
        ID "552C73935697077C"
-       coords -2.278 0.012 1.87
+       coords -2.277 0.012 1.871
+      }
+      GenericEntity {
+       ID "552C739356970770"
+       coords -0.248 -0.098 0.872
       }
      }
     }

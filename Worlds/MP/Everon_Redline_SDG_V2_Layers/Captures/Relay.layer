@@ -4,12 +4,13 @@ $grp GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRel
    SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
     Transceivers {
      RelayTransceiver "{5C727AD73024FB39}" {
+      "Transmitting Range" 2900
      }
     }
    }
    SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
-    m_sBaseName "Oil Platform SUD"
-    m_sBaseNameUpper "Oil Platform SUD"
+    m_sBaseName "WesternHeigts Relay"
+    m_sBaseNameUpper "WesternHeigts Relay"
     m_aWhiteList {
      "Redland"
      "Daytona"
@@ -32,8 +33,8 @@ $grp GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRel
     }
    }
    SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
-    m_sBaseName "Oil Platform SUD"
-    m_sBaseNameUpper "Oil Platform SUD"
+    m_sBaseName "Wolf Relay"
+    m_sBaseNameUpper "Wolf Relay"
     m_aWhiteList {
      "Redland"
      "Daytona"
@@ -63,8 +64,8 @@ $grp GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRel
     }
    }
    SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
-    m_sBaseName "Oil Platform SUD"
-    m_sBaseNameUpper "Oil Platform SUD"
+    m_sBaseName "Calvary Relay"
+    m_sBaseNameUpper "Calvary Relay"
     m_aWhiteList {
      "Redland"
      "Daytona"
@@ -94,8 +95,8 @@ $grp GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRel
     }
    }
    SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
-    m_sBaseName "Oil Platform SUD"
-    m_sBaseNameUpper "Oil Platform SUD"
+    m_sBaseName "Entre Deux Relay"
+    m_sBaseNameUpper "Entre Deux Relay"
     m_aWhiteList {
      "Redland"
      "Daytona"
@@ -124,8 +125,8 @@ $grp GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRel
     }
    }
    SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
-    m_sBaseName "Oil Platform SUD"
-    m_sBaseNameUpper "Oil Platform SUD"
+    m_sBaseName "Farm Relay"
+    m_sBaseNameUpper "Farm Relay"
     m_aWhiteList {
      "Redland"
      "Daytona"
@@ -155,8 +156,8 @@ $grp GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRel
     }
    }
    SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
-    m_sBaseName "Oil Platform SUD"
-    m_sBaseNameUpper "Oil Platform SUD"
+    m_sBaseName "HedgeHog Relay"
+    m_sBaseNameUpper "HedgeHog Relay"
     m_aWhiteList {
      "Redland"
      "Daytona"
