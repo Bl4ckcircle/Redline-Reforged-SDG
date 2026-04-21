@@ -11,12 +11,6 @@ $grp GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRel
    SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
     m_sBaseName "WesternHeigts Relay"
     m_sBaseNameUpper "WesternHeigts Relay"
-    m_aWhiteList {
-     "Redland"
-     "Daytona"
-     "Marsh Relay"
-     "Boca Grande Relay"
-    }
    }
   }
   coords 7689.88 341.793 3055.713
@@ -35,12 +29,6 @@ $grp GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRel
    SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
     m_sBaseName "Wolf Relay"
     m_sBaseNameUpper "Wolf Relay"
-    m_aWhiteList {
-     "Redland"
-     "Daytona"
-     "Marsh Relay"
-     "Boca Grande Relay"
-    }
    }
   }
   coords 3839.08 164.532 4310.284
@@ -66,12 +54,6 @@ $grp GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRel
    SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
     m_sBaseName "Calvary Relay"
     m_sBaseNameUpper "Calvary Relay"
-    m_aWhiteList {
-     "Redland"
-     "Daytona"
-     "Marsh Relay"
-     "Boca Grande Relay"
-    }
    }
   }
   coords 3502.453 220.585 5827.966
@@ -97,12 +79,6 @@ $grp GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRel
    SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
     m_sBaseName "Entre Deux Relay"
     m_sBaseNameUpper "Entre Deux Relay"
-    m_aWhiteList {
-     "Redland"
-     "Daytona"
-     "Marsh Relay"
-     "Boca Grande Relay"
-    }
    }
   }
   coords 5857.962 274.356 7259.402
@@ -127,12 +103,6 @@ $grp GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRel
    SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
     m_sBaseName "Farm Relay"
     m_sBaseNameUpper "Farm Relay"
-    m_aWhiteList {
-     "Redland"
-     "Daytona"
-     "Marsh Relay"
-     "Boca Grande Relay"
-    }
    }
   }
   coords 6647.771 177.887 6167.406
@@ -158,12 +128,6 @@ $grp GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRel
    SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
     m_sBaseName "HedgeHog Relay"
     m_sBaseNameUpper "HedgeHog Relay"
-    m_aWhiteList {
-     "Redland"
-     "Daytona"
-     "Marsh Relay"
-     "Boca Grande Relay"
-    }
    }
   }
   coords 5022.79 47.811 9465.076

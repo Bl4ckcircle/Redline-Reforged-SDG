@@ -366,9 +366,109 @@ GenericEntity : "{45EB3A1FB7B8D559}Prefabs/Structures/Signs/Anglais/Deployment.e
  coords 4889.11 28.729 11915.272
  angles 0 90.799 0
 }
-GenericEntity : "{4B5D1DDB2B7C36E0}Prefabs/Props/Military/Sandbags/Sandbag_01_round_base.et" {
- coords 4912.312 28.593 11884.884
- angles 0 -135.307 0
+$grp GenericEntity : "{4A9E0C3D18D5A1B8}Prefabs/Props/Crates/LootCrateWooden_01_blue.et" {
+ {
+  components {
+   RRG_CrateAutoClearComponent "{692B2DFFFCD921D0}" {
+    m_iClearTimerSeconds 120
+   }
+   RY_LoadoutNpcConfigComponent "{692A8EE4C6EF796C}" {
+    m_sShopId "Black_Market"
+    m_ShopConfigs {
+     "{FDC4629ADFC04AC0}Configs/Shops/US_Items_Weapons.conf"
+     "{3D8F457E1B936663}Configs/Shops/US_Items_Weapons_Additional.conf"
+     "{98F849CEE48DE175}Configs/Shops/US_Items_Medical.conf"
+     "{365845681049D78D}Configs/Shops/USSR_Items_Weapons.conf"
+     "{E12F6D92B9F15CA7}Configs/Shops/USSR_Items_Weapons_Additional.conf"
+     "{18A66565FB5BB690}Configs/Shops/USSR_Items_Medical.conf"
+    }
+   }
+   SCR_DestructionMultiPhaseComponent "{6684B114DDC8D314}" {
+    m_fBaseHealth 100000
+   }
+   SCR_UniversalInventoryStorageComponent "{66E93283842D9CC3}" {
+    MaxCumulativeVolume 100000
+    m_fMaxWeight 100000
+   }
+   ActionsManagerComponent "{66E93283842D8C65}" {
+    additionalActions {
+     SCR_OpenStorageAction "{66E93283842D8C74}" {
+      "Sort Priority" 1
+     }
+     RRG_SellCrateAction "{692A8EE7CD8B546D}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{692A8EEADE5CE970}" {
+       Name "Black Market"
+      }
+      ActionTitle "Sell content"
+      VisibilityRange 3
+      Duration 0.5
+      "Sort Priority" 1
+     }
+    }
+   }
+  }
+  coords 4889.116 29.031 11899.398
+  angles 0 86.67 0
+ }
+ {
+  components {
+   RRG_CrateAutoClearComponent "{692B2DFF8056266E}" {
+    m_iClearTimerSeconds 120
+   }
+   RY_LoadoutNpcConfigComponent "{692A8EE4C6EF796C}" {
+    m_sShopId "Black_Market"
+    m_ShopConfigs {
+     "{FDC4629ADFC04AC0}Configs/Shops/US_Items_Weapons.conf"
+     "{3D8F457E1B936663}Configs/Shops/US_Items_Weapons_Additional.conf"
+     "{98F849CEE48DE175}Configs/Shops/US_Items_Medical.conf"
+     "{365845681049D78D}Configs/Shops/USSR_Items_Weapons.conf"
+     "{E12F6D92B9F15CA7}Configs/Shops/USSR_Items_Weapons_Additional.conf"
+     "{18A66565FB5BB690}Configs/Shops/USSR_Items_Medical.conf"
+    }
+   }
+   SCR_DestructionMultiPhaseComponent "{6684B114DDC8D314}" {
+    m_fBaseHealth 100000
+   }
+   SCR_UniversalInventoryStorageComponent "{66E93283842D9CC3}" {
+    MaxCumulativeVolume 100000
+    m_fMaxWeight 100000
+   }
+   ActionsManagerComponent "{66E93283842D8C65}" {
+    additionalActions {
+     SCR_OpenStorageAction "{66E93283842D8C74}" {
+      "Sort Priority" 1
+     }
+     RRG_SellCrateAction "{692A8EE7CD8B546D}" {
+      ParentContextList {
+       "default"
+      }
+      UIInfo UIInfo "{692A8EEADE5CE970}" {
+       Name "Black Market"
+      }
+      ActionTitle "Sell content"
+      VisibilityRange 3
+      Duration 0.5
+      "Sort Priority" 1
+     }
+    }
+   }
+  }
+  coords 4891.511 29.031 11899.513
+  angles 0 86.67 0
+ }
+}
+$grp GenericEntity : "{4B5D1DDB2B7C36E0}Prefabs/Props/Military/Sandbags/Sandbag_01_round_base.et" {
+ {
+  coords 4912.312 28.593 11884.884
+  angles 0 -135.307 0
+ }
+ {
+  coords 4880.72 28.936 11899.831
+  angles 0 -63.806 0
+ }
 }
 GenericEntity : "{5BA06BC67A0E808B}Prefabs/Structures/Signs/Anglais/How to start.et" {
  coords 4889.333 28.763 11929.902
@@ -458,9 +558,15 @@ GenericEntity : "{6FA9F22B1F80CA97}Prefabs/Structures/Signs/Anglais/Shop.et" {
  coords 4889.182 28.775 11920.267
  angles 0 91.144 0
 }
-GenericEntity : "{705D4C030A30D4A3}Prefabs/Compositions/Misc/CustomEntities/InteractionPoints/ArsenalBox_US_Equipment_NoAffiliation.et" {
- coords 10168.019 3.267 1560.782
- angles 0 -174.525 0
+$grp GenericEntity : "{705D4C030A30D4A3}Prefabs/Compositions/Misc/CustomEntities/InteractionPoints/ArsenalBox_US_Equipment_NoAffiliation.et" {
+ {
+  coords 10168.019 3.267 1560.782
+  angles 0 -174.525 0
+ }
+ {
+  coords 10184.087 3.267 1541.462
+  angles 0 -82.735 0
+ }
 }
 GenericEntity : "{76892C8AB5C677D3}Prefabs/Structures/Signs/Military/SignRectangle_01_140x100/Sign_FieldHospital_USSR_01.et" {
  components {
@@ -1032,9 +1138,15 @@ $grp StaticModelEntity : "{B00E14C07DEE788A}Prefabs/Compositions/Misc/SubComposi
   }
  }
 }
-GenericEntity : "{B31A14BC1A0E7776}Prefabs/Props/Military/Sandbags/Sandbag_01_round_burlap.et" {
- coords 10133.257 2.531 1535.85
- angles 0 135.414 0
+$grp GenericEntity : "{B31A14BC1A0E7776}Prefabs/Props/Military/Sandbags/Sandbag_01_round_burlap.et" {
+ {
+  coords 10133.257 2.531 1535.85
+  angles 0 135.414 0
+ }
+ {
+  coords 10183.488 3.207 1540.012
+  angles 0 -141.148 0
+ }
 }
 SCR_ChimeraCharacter : "{C0E50C2C872B4F34}Prefabs/Characters/Shop/USSR/USSR_Shop_Vehicles_Air_Transports.et" {
  components {
@@ -2000,15 +2112,9 @@ $grp GameEntity : "{E7FD0B8019E96F73}Prefabs/Structures/BuildingParts/Lights/Lam
   }
  }
 }
-$grp GenericEntity : "{EA1DD6EE6534033A}Prefabs/Compositions/Misc/CustomEntities/InteractionPoints/ArsenalBox_USSR_Equipment_NoAffiliation.et" {
- {
-  coords 4888.784 29.065 11900.27
-  angles 0 -3.742 0
- }
- {
-  coords 4886.687 29.065 11900.307
-  angles 0 -2.738 0
- }
+GenericEntity : "{EA1DD6EE6534033A}Prefabs/Compositions/Misc/CustomEntities/InteractionPoints/ArsenalBox_USSR_Equipment_NoAffiliation.et" {
+ coords 4882.239 29.031 11899.362
+ angles 0 -5.136 0
 }
 SCR_DestructibleBuildingEntity : "{F16324CB8CB07C00}Prefabs/Structures/Military/Houses/GarageMilitary_E_01/GarageMilitary_E_01.et" {
  components {

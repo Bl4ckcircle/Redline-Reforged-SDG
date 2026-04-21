@@ -2,8 +2,8 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  Meaux {
   components {
    RY_BaseCaptureComponent "{68F28815312C0F19}" {
-    m_iCaptureAmount 300
-    m_iPeriodicRewardAmount 50
+    m_iCaptureAmount 100
+    m_iPeriodicRewardAmount 30
     m_fPeriodicRewardInterval 600
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
@@ -44,7 +44,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   components {
    RY_BaseCaptureComponent "{68F288152AA2326C}" {
     m_iCaptureAmount 300
-    m_iPeriodicRewardAmount 50
+    m_iPeriodicRewardAmount 30
     m_fPeriodicRewardInterval 600
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
@@ -85,7 +85,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   components {
    RY_BaseCaptureComponent "{68F28812D35D4FDD}" {
     m_iCaptureAmount 500
-    m_iPeriodicRewardAmount 100
+    m_iPeriodicRewardAmount 50
     m_fPeriodicRewardInterval 600
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
@@ -127,7 +127,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   components {
    RY_BaseCaptureComponent "{68F288153FE7E2E8}" {
     m_iCaptureAmount 500
-    m_iPeriodicRewardAmount 100
+    m_iPeriodicRewardAmount 50
     m_fPeriodicRewardInterval 600
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
@@ -169,7 +169,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   components {
    RY_BaseCaptureComponent "{68F28815783BEE6F}" {
     m_iCaptureAmount 600
-    m_iPeriodicRewardAmount 100
+    m_iPeriodicRewardAmount 60
     m_fPeriodicRewardInterval 600
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
@@ -210,8 +210,8 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  EntreDeux {
   components {
    RY_BaseCaptureComponent "{68F2881574E5C5F5}" {
-    m_iCaptureAmount 800
-    m_iPeriodicRewardAmount 100
+    m_iCaptureAmount 400
+    m_iPeriodicRewardAmount 40
     m_fPeriodicRewardInterval 600
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
@@ -252,7 +252,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   components {
    RY_BaseCaptureComponent "{68F28812C51138C5}" {
     m_iCaptureAmount 800
-    m_iPeriodicRewardAmount 100
+    m_iPeriodicRewardAmount 80
     m_fPeriodicRewardInterval 600
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
@@ -294,11 +294,11 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   components {
    RY_BaseCaptureComponent "{68F28812D696A8D6}" {
     m_iCaptureAmount 1000
-    m_iPeriodicRewardAmount 300
+    m_iPeriodicRewardAmount 100
     m_fPeriodicRewardInterval 600
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
-    m_iRadius 80
+    m_iRadius 25
    }
    SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
     Transceivers {
@@ -315,7 +315,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     "faction affiliation" "FIA"
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_iRadius 100
+    m_iRadius 50
     m_bIsControlPoint 1
     m_sBaseName "Thales"
     m_sBaseNameUpper "Thales"
@@ -336,7 +336,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   components {
    RY_BaseCaptureComponent "{68F28812CDB9F9C0}" {
     m_iCaptureAmount 800
-    m_iPeriodicRewardAmount 100
+    m_iPeriodicRewardAmount 80
     m_fPeriodicRewardInterval 600
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
@@ -378,7 +378,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   components {
    RY_BaseCaptureComponent "{68F2882E21A19A0A}" {
     m_iCaptureAmount 400
-    m_iPeriodicRewardAmount 100
+    m_iPeriodicRewardAmount 40
     m_fPeriodicRewardInterval 600
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
@@ -419,8 +419,8 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  Morton {
   components {
    RY_BaseCaptureComponent "{68F2882E21A19A0A}" {
-    m_iCaptureAmount 200
-    m_iPeriodicRewardAmount 50
+    m_iCaptureAmount 400
+    m_iPeriodicRewardAmount 40
     m_fPeriodicRewardInterval 600
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
@@ -462,7 +462,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   components {
    RY_BaseCaptureComponent "{68F2882E21A19A0A}" {
     m_iCaptureAmount 400
-    m_iPeriodicRewardAmount 50
+    m_iPeriodicRewardAmount 40
     m_fPeriodicRewardInterval 600
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
@@ -503,7 +503,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   components {
    RY_BaseCaptureComponent "{68F2882E21A19A0A}" {
     m_iCaptureAmount 400
-    m_iPeriodicRewardAmount 100
+    m_iPeriodicRewardAmount 40
     m_fPeriodicRewardInterval 600
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
@@ -544,7 +544,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   components {
    RY_BaseCaptureComponent "{68F2882E21A19A0A}" {
     m_iCaptureAmount 500
-    m_iPeriodicRewardAmount 100
+    m_iPeriodicRewardAmount 50
     m_fPeriodicRewardInterval 600
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
@@ -585,7 +585,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   components {
    RY_BaseCaptureComponent "{68F2882E21A19A0A}" {
     m_iCaptureAmount 600
-    m_iPeriodicRewardAmount 100
+    m_iPeriodicRewardAmount 60
     m_fPeriodicRewardInterval 600
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
@@ -627,7 +627,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   components {
    RY_BaseCaptureComponent "{68F2882E21A19A0A}" {
     m_iCaptureAmount 800
-    m_iPeriodicRewardAmount 100
+    m_iPeriodicRewardAmount 80
     m_fPeriodicRewardInterval 600
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
@@ -669,7 +669,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   components {
    RY_BaseCaptureComponent "{68F2882E21A19A0A}" {
     m_iCaptureAmount 500
-    m_iPeriodicRewardAmount 100
+    m_iPeriodicRewardAmount 50
     m_fPeriodicRewardInterval 600
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
@@ -710,11 +710,11 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   components {
    RY_BaseCaptureComponent "{68F2882E21A19A0A}" {
     m_iCaptureAmount 500
-    m_iPeriodicRewardAmount 100
+    m_iPeriodicRewardAmount 50
     m_fPeriodicRewardInterval 600
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
-    m_iRadius 80
+    m_iRadius 30
    }
    SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
     Transceivers {
@@ -751,12 +751,9 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  Durras {
   components {
    RY_BaseCaptureComponent "{68F2882E21A19A0A}" {
-    m_iCaptureAmount 300
-    m_iPeriodicRewardAmount 50
+    m_iCaptureAmount 100
+    m_iPeriodicRewardAmount 30
     m_fPeriodicRewardInterval 600
-   }
-   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
-    m_iRadius 80
    }
    SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
     Transceivers {
@@ -793,7 +790,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   components {
    RY_BaseCaptureComponent "{68F2882E21A19A0A}" {
     m_iCaptureAmount 300
-    m_iPeriodicRewardAmount 50
+    m_iPeriodicRewardAmount 30
     m_fPeriodicRewardInterval 600
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
@@ -834,7 +831,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   components {
    RY_BaseCaptureComponent "{68F2882E21A19A0A}" {
     m_iCaptureAmount 400
-    m_iPeriodicRewardAmount 100
+    m_iPeriodicRewardAmount 40
     m_fPeriodicRewardInterval 600
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
@@ -875,7 +872,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   components {
    RY_BaseCaptureComponent "{68F2882E21A19A0A}" {
     m_iCaptureAmount 300
-    m_iPeriodicRewardAmount 50
+    m_iPeriodicRewardAmount 30
     m_fPeriodicRewardInterval 600
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
@@ -916,7 +913,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   components {
    RY_BaseCaptureComponent "{68F2882E21A19A0A}" {
     m_iCaptureAmount 400
-    m_iPeriodicRewardAmount 100
+    m_iPeriodicRewardAmount 40
     m_fPeriodicRewardInterval 600
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
@@ -958,7 +955,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   components {
    RY_BaseCaptureComponent "{68F2882E21A19A0A}" {
     m_iCaptureAmount 300
-    m_iPeriodicRewardAmount 50
+    m_iPeriodicRewardAmount 30
     m_fPeriodicRewardInterval 600
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
@@ -1000,7 +997,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   components {
    RY_BaseCaptureComponent "{68F2881574E5C5F5}" {
     m_iCaptureAmount 400
-    m_iPeriodicRewardAmount 100
+    m_iPeriodicRewardAmount 40
     m_fPeriodicRewardInterval 600
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
@@ -1041,7 +1038,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   components {
    RY_BaseCaptureComponent "{68F2882E21A19A0A}" {
     m_iCaptureAmount 300
-    m_iPeriodicRewardAmount 50
+    m_iPeriodicRewardAmount 30
     m_fPeriodicRewardInterval 600
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
@@ -1082,7 +1079,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   components {
    RY_BaseCaptureComponent "{68F2882E21A19A0A}" {
     m_iCaptureAmount 400
-    m_iPeriodicRewardAmount 100
+    m_iPeriodicRewardAmount 40
     m_fPeriodicRewardInterval 600
    }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {

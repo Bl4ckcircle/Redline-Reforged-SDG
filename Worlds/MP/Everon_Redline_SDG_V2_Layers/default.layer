@@ -36,7 +36,7 @@ SCR_GameModeCampaign GameMode_Campaign1 : "{3B230AAC5252108F}Prefabs/MP/Modes/Co
    Config "{6FF7850E245F2C45}Configs/Garbage/Garbage.conf"
   }
   RRG_AdditionalGameModeSettingsComponent "{692704D39377141B}" {
-   m_iNoEnemyRadius 30
+   m_iNoEnemyRadius 50
    m_bAllowFastTravelRenegade 1
    m_bRequireRadioSignal 0
    m_bEnableDebugLogs 1

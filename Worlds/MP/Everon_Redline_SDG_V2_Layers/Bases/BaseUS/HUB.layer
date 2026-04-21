@@ -179,13 +179,9 @@ $grp GenericEntity : "{0858A93EFDE04083}Prefabs/ATM.et" {
   angles 0 -163.371 0
  }
  {
-  coords 10185.255 3.241 1542.118
+  coords 10185.648 3.241 1543.806
   angles 0 -78.184 0
  }
-}
-GenericEntity : "{0FB92802AFA233FA}PrefabsEditable/Auto/Props/Military/Compositions/US/E_ArsenalBox_US_Equipment.et" {
- coords 10185.865 3.277 1548.968
- angles 0 -79.382 0
 }
 SCR_ChimeraCharacter : "{1318606B854E15B7}Prefabs/Characters/Shop/US/US_Shop_Vehicles_Ground_MBTs.et" {
  components {
@@ -701,10 +697,6 @@ GenericEntity : "{67E916CED2BFF274}Prefabs/Structures/Signs/Anglais/Informations
 GenericEntity : "{6FA9F22B1F80CA97}Prefabs/Structures/Signs/Anglais/Shop.et" {
  coords 10165.972 3.051 1553.639
  angles 0 15.41 0
-}
-GenericEntity : "{705D4C030A30D4A3}Prefabs/Compositions/Misc/CustomEntities/InteractionPoints/ArsenalBox_US_Equipment_NoAffiliation.et" {
- coords 10185.278 3.293 1546.219
- angles 0 -83.448 0
 }
 $grp GenericEntity : "{7762F50A860DD074}Prefabs/Props/Military/Furniture/TableMilitary_US_01.et" {
  {

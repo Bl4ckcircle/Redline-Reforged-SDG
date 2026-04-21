@@ -266,7 +266,7 @@ $grp GenericEntity : "{A4D0B331414901A5}Prefabs/Structures/Commercial/FuelStatio
     m_fBaseHealth 100000
    }
    SCR_FuelSupportStationComponent "{5E1CF3D7B715AF0E}" {
-    m_fRange 20
+    m_fRange 30
    }
    SCR_MapDescriptorComponent "{59F28EE6E3CC7029}" {
     DisplayName "Fuel"
@@ -281,7 +281,7 @@ $grp GenericEntity : "{A4D0B331414901A5}Prefabs/Structures/Commercial/FuelStatio
     m_fBaseHealth 100000
    }
    SCR_FuelSupportStationComponent "{5E1CF3D7B715AF0E}" {
-    m_fRange 20
+    m_fRange 30
    }
    SCR_MapDescriptorComponent "{59F28EE6E3CC7029}" {
     DisplayName "Fuel"
