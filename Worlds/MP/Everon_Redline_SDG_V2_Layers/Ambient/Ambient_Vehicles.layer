@@ -1611,9 +1611,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_AIRPLANE
     }
    }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
-   }
   }
   coords 9054.544 117.975 2688.393
   angles 7.063 -0.666 -5.397
@@ -1630,9 +1627,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_HELICOPTER
      VEHICLE_AIRPLANE
     }
-   }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
    }
   }
   coords 6915.454 58.779 4499.209
@@ -1651,9 +1645,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_AIRPLANE
     }
    }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
-   }
   }
   coords 4761.982 54.076 5817.023
   angles 1.687 -161.386 3.397
@@ -1670,9 +1661,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_HELICOPTER
      VEHICLE_AIRPLANE
     }
-   }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
    }
   }
   coords 4963.854 25.228 9980.959
@@ -1691,9 +1679,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_AIRPLANE
     }
    }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
-   }
   }
   coords 4837.823 118.26 8156.09
   angles -3.473 56.341 1.237
@@ -1710,9 +1695,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_HELICOPTER
      VEHICLE_AIRPLANE
     }
-   }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
    }
   }
   coords 6474.506 162.062 6477.981
@@ -1731,9 +1713,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_AIRPLANE
     }
    }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
-   }
   }
   coords 3036.828 113.926 5184.011
   angles 0 -40.446 0
@@ -1750,9 +1729,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_HELICOPTER
      VEHICLE_AIRPLANE
     }
-   }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
    }
   }
   coords 7083.048 156.812 2068.338
@@ -1771,9 +1747,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_AIRPLANE
     }
    }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
-   }
   }
   coords 4389.669 1.594 11041.724
   angles 0 -153.298 0
@@ -1790,9 +1763,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_HELICOPTER
      VEHICLE_AIRPLANE
     }
-   }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
    }
   }
   coords 10129.543 2.583 1547.356
@@ -1811,9 +1781,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_AIRPLANE
     }
    }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
-   }
   }
   coords 7456.896 7.875 6715.484
   angles 0 -132.979 0
@@ -1830,9 +1797,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_HELICOPTER
      VEHICLE_AIRPLANE
     }
-   }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
    }
   }
   coords 1086.905 3.305 6048.989
@@ -1851,9 +1815,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_AIRPLANE
     }
    }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
-   }
   }
   coords 4948.281 2.156 3908.659
   angles 0 34.042 0
@@ -1871,9 +1832,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_AIRPLANE
     }
    }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
-   }
   }
   coords 4905.063 28.594 11962.939
  }
@@ -1889,9 +1847,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_HELICOPTER
      VEHICLE_AIRPLANE
     }
-   }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
    }
   }
   coords 7429.868 163.064 4313.774
@@ -1910,9 +1865,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_AIRPLANE
     }
    }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
-   }
   }
   coords 3472.78 179.875 5805.254
  }
@@ -1929,9 +1881,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_AIRPLANE
     }
    }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
-   }
   }
   coords 3910.547 15.219 8416.948
  }
@@ -1947,9 +1896,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_HELICOPTER
      VEHICLE_AIRPLANE
     }
-   }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
    }
   }
   coords 6829.408 82.826 8199.928
@@ -1968,9 +1914,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_AIRPLANE
     }
    }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
-   }
   }
   coords 9464.003 208.138 2962.383
   angles -3.08 50.927 -0.955
@@ -1987,9 +1930,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_HELICOPTER
      VEHICLE_AIRPLANE
     }
-   }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
    }
   }
   coords 6629.614 5.221 3141.217
@@ -2008,9 +1948,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_AIRPLANE
     }
    }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
-   }
   }
   coords 5369.944 25.736 8354.39
   angles -0.152 109.415 -7.602
@@ -2027,9 +1964,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_HELICOPTER
      VEHICLE_AIRPLANE
     }
-   }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
    }
   }
   coords 4454.893 58.633 6221.48
@@ -2048,9 +1982,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_AIRPLANE
     }
    }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
-   }
   }
   coords 5265.114 34.814 10691.024
   angles 1.285 44.114 1.246
@@ -2067,9 +1998,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_HELICOPTER
      VEHICLE_AIRPLANE
     }
-   }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
    }
   }
   coords 8787.454 198.051 3926.864
@@ -2088,9 +2016,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_AIRPLANE
     }
    }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
-   }
   }
   coords 8206.497 223.125 2188.942
   angles 2.9 54.145 -2.094
@@ -2107,9 +2032,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_HELICOPTER
      VEHICLE_AIRPLANE
     }
-   }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
    }
   }
   coords 4513.997 64.202 4973.423
@@ -2128,9 +2050,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_AIRPLANE
     }
    }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
-   }
   }
   coords 3275.388 118.192 4455.146
   angles 1.383 -39.752 -8.081
@@ -2147,9 +2066,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_HELICOPTER
      VEHICLE_AIRPLANE
     }
-   }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
    }
   }
   coords 6566.715 84.372 5170.404
@@ -2168,9 +2084,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_AIRPLANE
     }
    }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
-   }
   }
   coords 3752.451 58.794 7020.698
   angles -7.123 0.112 -0.902
@@ -2187,9 +2100,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_HELICOPTER
      VEHICLE_AIRPLANE
     }
-   }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
    }
   }
   coords 6971.539 120.672 6060.935
@@ -2208,9 +2118,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_AIRPLANE
     }
    }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
-   }
   }
   coords 8910.895 96.312 2735.259
   angles 2.226 -167.307 2.334
@@ -2227,9 +2134,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_HELICOPTER
      VEHICLE_AIRPLANE
     }
-   }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
    }
   }
   coords 5980.217 218.845 7166.307
@@ -2248,9 +2152,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_AIRPLANE
     }
    }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
-   }
   }
   coords 5124.285 54.056 5458.051
   angles -2.71 35.085 -0.81
@@ -2267,9 +2168,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_HELICOPTER
      VEHICLE_AIRPLANE
     }
-   }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
    }
   }
   coords 4033.886 32.562 7876.108
@@ -2288,9 +2186,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_AIRPLANE
     }
    }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
-   }
   }
   coords 6434.069 7.813 9643.378
   angles 9.035 15.062 0.59
@@ -2307,9 +2202,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_HELICOPTER
      VEHICLE_AIRPLANE
     }
-   }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
    }
   }
   coords 7422.615 113.629 5326.617
@@ -2328,9 +2220,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_AIRPLANE
     }
    }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
-   }
   }
   coords 2465.685 102.735 5443.956
   angles 2.744 -99.74 -10.337
@@ -2347,9 +2236,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_HELICOPTER
      VEHICLE_AIRPLANE
     }
-   }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
    }
   }
   coords 7508.813 134.102 4793.763
@@ -2368,9 +2254,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_AIRPLANE
     }
    }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
-   }
   }
   coords 4491.708 20.008 9767.969
   angles -3.235 -133.655 3.082
@@ -2387,9 +2270,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_HELICOPTER
      VEHICLE_AIRPLANE
     }
-   }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
    }
   }
   coords 5093.168 176.892 6988.288
@@ -2408,9 +2288,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_AIRPLANE
     }
    }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
-   }
   }
   coords 5545.938 89.563 5901.062
   angles 0.754 42.654 0.74
@@ -2427,9 +2304,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_HELICOPTER
      VEHICLE_AIRPLANE
     }
-   }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
    }
   }
   coords 7260.123 137.456 2188.153
@@ -2448,9 +2322,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_AIRPLANE
     }
    }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
-   }
   }
   coords 5036.188 44.631 8963.584
   angles 3.457 -178.122 3.685
@@ -2467,9 +2338,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_HELICOPTER
      VEHICLE_AIRPLANE
     }
-   }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
    }
   }
   coords 9112.827 77.195 2285.01
@@ -2488,9 +2356,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_AIRPLANE
     }
    }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
-   }
   }
   coords 2916.18 77.651 6458.024
   angles 1.893 61.611 9.071
@@ -2507,9 +2372,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_HELICOPTER
      VEHICLE_AIRPLANE
     }
-   }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
    }
   }
   coords 5840.303 233.887 7271.664
@@ -2528,9 +2390,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_AIRPLANE
     }
    }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
-   }
   }
   coords 7681.231 340.875 3087.47
   angles 0 134.824 0
@@ -2547,9 +2406,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_HELICOPTER
      VEHICLE_AIRPLANE
     }
-   }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
    }
   }
   coords 9337.74 49.839 1958.841
@@ -2568,9 +2424,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_AIRPLANE
     }
    }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
-   }
   }
   coords 8581.419 125.226 3298
   angles 0 149.005 0
@@ -2587,9 +2440,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_HELICOPTER
      VEHICLE_AIRPLANE
     }
-   }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
    }
   }
   coords 8105.354 223.204 4153.853
@@ -2608,9 +2458,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_AIRPLANE
     }
    }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
-   }
   }
   coords 5828.201 102.327 5930.81
   angles 0 138.01 0
@@ -2627,9 +2474,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_HELICOPTER
      VEHICLE_AIRPLANE
     }
-   }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
    }
   }
   coords 4642.511 111.787 8235.297
@@ -2648,9 +2492,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_AIRPLANE
     }
    }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
-   }
   }
   coords 4553.279 21.781 9709.004
   angles 0 46.194 0
@@ -2667,9 +2508,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_HELICOPTER
      VEHICLE_AIRPLANE
     }
-   }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
    }
   }
   coords 4930.167 27.697 11494.371
@@ -2688,9 +2526,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_AIRPLANE
     }
    }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
-   }
   }
   coords 6823.518 72.763 4807.316
   angles 0 -20.524 0
@@ -2707,9 +2542,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_HELICOPTER
      VEHICLE_AIRPLANE
     }
-   }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
    }
   }
   coords 5894.735 12.809 4365.694
@@ -2728,9 +2560,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_AIRPLANE
     }
    }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
-   }
   }
   coords 5230.192 75.328 5082.019
   angles 0 -29.342 0
@@ -2747,9 +2576,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_HELICOPTER
      VEHICLE_AIRPLANE
     }
-   }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
    }
   }
   coords 3804.076 115.762 4959.617
@@ -2768,9 +2594,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_AIRPLANE
     }
    }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
-   }
   }
   coords 6737.891 146.734 7127.476
   angles -0.892 -0.056 3.577
@@ -2787,9 +2610,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_HELICOPTER
      VEHICLE_AIRPLANE
     }
-   }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
    }
   }
   coords 5612.096 212.692 7092.06
@@ -2808,9 +2628,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_AIRPLANE
     }
    }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
-   }
   }
   coords 2990.738 26.759 6981.428
   angles -2.652 -0.29 6.249
@@ -2827,9 +2644,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_HELICOPTER
      VEHICLE_AIRPLANE
     }
-   }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
    }
   }
   coords 4024.699 109.991 6699.114
@@ -2848,9 +2662,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_AIRPLANE
     }
    }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
-   }
   }
   coords 1507.116 53.403 5970.268
  }
@@ -2866,9 +2677,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_HELICOPTER
      VEHICLE_AIRPLANE
     }
-   }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
    }
   }
   coords 2114.549 109.788 5419.364
@@ -2887,9 +2695,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_AIRPLANE
     }
    }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
-   }
   }
   coords 7591.484 163.201 4518.732
   angles -1.266 -135.158 0.004
@@ -2906,9 +2711,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_HELICOPTER
      VEHICLE_AIRPLANE
     }
-   }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
    }
   }
   coords 8825.44 95.099 2767.433
@@ -2927,9 +2729,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_AIRPLANE
     }
    }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
-   }
   }
   coords 4914.009 36.567 9183.16
   angles 1.967 -142.869 0.367
@@ -2946,9 +2745,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_HELICOPTER
      VEHICLE_AIRPLANE
     }
-   }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
    }
   }
   coords 4958.278 28.361 10654.785
@@ -2967,9 +2763,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_AIRPLANE
     }
    }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
-   }
   }
   coords 5373.131 19.296 9978.159
   angles -9.226 11.376 0.856
@@ -2987,9 +2780,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_AIRPLANE
     }
    }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
-   }
   }
   coords 8665.647 181.115 3691.105
   angles 1.25 35.958 -0.199
@@ -3006,9 +2796,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
      VEHICLE_HELICOPTER
      VEHICLE_AIRPLANE
     }
-   }
-   SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
-    Enabled 0
    }
   }
   coords 7076.91 116.168 5432.674
