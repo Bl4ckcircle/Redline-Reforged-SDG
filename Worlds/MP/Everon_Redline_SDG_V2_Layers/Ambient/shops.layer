@@ -1,58 +1,254 @@
-$grp GenericEntity {
- shopUS {
-  components {
-   SCR_EditableCommentComponent "{5DDE234C81331983}" {
-    m_EntityType COMMENT
-    m_UIInfo SCR_EditableCommentUIInfo "{5DDE234873CE99F2}" {
-     Name "Shop"
-     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+SCR_ChimeraCharacter : "{20E8C3FC5F8EB560}Prefabs/Characters/Shop/Multi_Shop_Vehicles_Air.et" {
+ coords 5169.065 73.529 6283.853
+ angles 0 63.878 0
+ {
+  GenericEntity Air1 {
+   components {
+    SCR_EditableCommentComponent "{5DDE234C81331983}" {
+     m_EntityType COMMENT
+     m_UIInfo SCR_EditableCommentUIInfo "{5DDE234873CE99F2}" {
+      Name "AIR"
+      Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+     }
+     m_bAutoRegister ALWAYS
+     m_sColor 0.502 0 0 1
     }
-    m_bAutoRegister ALWAYS
-    m_sColor 0.502 0 0 1
-   }
-   SCR_MapDescriptorComponent "{5DDE234C9A632375}" {
-    DisplayName "Shop"
-    MainType "Name Village"
-    Scale 0.5
-   }
-  }
-  coords 7552.45 2.554 6721.568
-  angles 0 -25.189 0
- }
- ShopRU {
-  components {
-   SCR_EditableCommentComponent "{5DDE234C81331983}" {
-    m_EntityType COMMENT
-    m_UIInfo SCR_EditableCommentUIInfo "{5DDE234873CE99F2}" {
-     Name "Shop"
-     Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+    SCR_MapDescriptorComponent "{5DDE234C9A632375}" {
+     DisplayName "AIR"
+     MainType "Name Village"
+     Scale 0.5
     }
-    m_bAutoRegister ALWAYS
-    m_sColor 0.502 0 0 1
    }
-   SCR_MapDescriptorComponent "{5DDE234C9A632375}" {
-    DisplayName "Shop"
-    MainType "Name Village"
-    Scale 0.5
-   }
+   coords -1.183 -1.366 0.625
+   angles 0 75.709 0
   }
-  coords 3867.01 15.3 8460.927
-  angles 0 -25.189 0
  }
 }
-SCR_ChimeraCharacter : "{026CB319AEBCF010}Prefabs/Characters/Shop/USSR/USSR_Shop_Items_Weapons.et" {
- coords 3866.938 15.3 8462.191
- angles 0 76.326 0
+$grp SCR_ChimeraCharacter : "{8A9F960E73ED6631}Prefabs/Characters/Shop/Multi_Shop_Items_Weapons.et" {
+ {
+  coords 7552.961 2.554 6722.153
+  angles 0 -123.911 0
+  {
+   GenericEntity shopUS {
+    components {
+     SCR_EditableCommentComponent "{5DDE234C81331983}" {
+      m_EntityType COMMENT
+      m_UIInfo SCR_EditableCommentUIInfo "{5DDE234873CE99F2}" {
+       Name "Shop"
+       Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+      }
+      m_bAutoRegister ALWAYS
+      m_sColor 0.502 0 0 1
+     }
+     SCR_MapDescriptorComponent "{5DDE234C9A632375}" {
+      DisplayName "Shop"
+      MainType "Name Village"
+      Scale 0.5
+     }
+    }
+    coords -0.2 0 0.75
+    angles 0 98.723 0
+   }
+  }
+ }
+ {
+  coords 3866.808 15.3 8460.991
+  angles 0 88.749 0
+  {
+   GenericEntity ShopRU {
+    components {
+     SCR_EditableCommentComponent "{5DDE234C81331983}" {
+      m_EntityType COMMENT
+      m_UIInfo SCR_EditableCommentUIInfo "{5DDE234873CE99F2}" {
+       Name "Shop"
+       Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+      }
+      m_bAutoRegister ALWAYS
+      m_sColor 0.502 0 0 1
+     }
+     SCR_MapDescriptorComponent "{5DDE234C9A632375}" {
+      DisplayName "Shop"
+      MainType "Name Village"
+      Scale 0.5
+     }
+    }
+    coords 0.068 0 0.2
+    angles 0 -113.938 0
+   }
+  }
+ }
+ {
+  coords 4714.271 163.825 6932.863
+  angles 0 -135.822 0
+ }
+ {
+  coords 7023.459 118.573 6012.131
+  angles 0 -55.518 0
+ }
+ {
+  coords 1285.768 38.927 5899.951
+  angles 0 -52.217 0
+ }
+ {
+  coords 5054.228 16.001 3954.376
+  angles 0 -72.258 0
+ }
 }
-SCR_ChimeraCharacter : "{3986637F31E86985}Prefabs/Characters/Shop/US/US_Shop_Items_Medical.et" {
- coords 7553.199 2.554 6722.723
- angles 0 -107.627 0
-}
-SCR_ChimeraCharacter : "{66EA7C5A35EB7A6D}Prefabs/Characters/Shop/US/US_Shop_Items_Weapons.et" {
- coords 7553.688 2.554 6719.824
- angles 0 -123.623 0
-}
-SCR_ChimeraCharacter : "{E0C2546B051AE3A1}Prefabs/Characters/Shop/USSR/USSR_Shop_Items_Medical.et" {
- coords 3866.589 15.334 8459.389
- angles 0 94.036 0
+$grp SCR_ChimeraCharacter : "{F10FBA5F5FBEB379}Prefabs/Characters/Shop/Multi_Shop_Vehicles_Ground.et" {
+ {
+  coords 5001.151 2.188 3867.839
+  angles 0 -151.464 0
+  {
+   GenericEntity gound1 {
+    components {
+     SCR_EditableCommentComponent "{5DDE234C81331983}" {
+      m_EntityType COMMENT
+      m_UIInfo SCR_EditableCommentUIInfo "{5DDE234873CE99F2}" {
+       Name "VEH"
+       Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+      }
+      m_bAutoRegister ALWAYS
+      m_sColor 0.502 0 0 1
+     }
+     SCR_MapDescriptorComponent "{5DDE234C9A632375}" {
+      DisplayName "VEH"
+      MainType "Name Village"
+      Scale 0.5
+     }
+    }
+    coords 0.608 -0 1.09
+    angles 0 139.587 0
+   }
+  }
+ }
+ {
+  coords 7459.126 7.875 6723.354
+  angles 0 134.865 0
+  {
+   GenericEntity gound2 {
+    components {
+     SCR_EditableCommentComponent "{5DDE234C81331983}" {
+      m_EntityType COMMENT
+      m_UIInfo SCR_EditableCommentUIInfo "{5DDE234873CE99F2}" {
+       Name "VEH"
+       Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+      }
+      m_bAutoRegister ALWAYS
+      m_sColor 0.502 0 0 1
+     }
+     SCR_MapDescriptorComponent "{5DDE234C9A632375}" {
+      DisplayName "VEH"
+      MainType "Name Village"
+      Scale 0.5
+     }
+    }
+    coords 0.608 -0 1.09
+    angles 0 139.587 0
+   }
+  }
+ }
+ {
+  coords 7472.961 164.701 4274.039
+  angles 0 -12.371 0
+  {
+   GenericEntity gound3 {
+    components {
+     SCR_EditableCommentComponent "{5DDE234C81331983}" {
+      m_EntityType COMMENT
+      m_UIInfo SCR_EditableCommentUIInfo "{5DDE234873CE99F2}" {
+       Name "VEH"
+       Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+      }
+      m_bAutoRegister ALWAYS
+      m_sColor 0.502 0 0 1
+     }
+     SCR_MapDescriptorComponent "{5DDE234C9A632375}" {
+      DisplayName "VEH"
+      MainType "Name Village"
+      Scale 0.5
+     }
+    }
+    coords 0.608 -0 1.09
+    angles 0 139.587 0
+   }
+  }
+ }
+ {
+  coords 4879.104 35.344 9116.506
+  angles 0 92.526 0
+  {
+   GenericEntity gound4 {
+    components {
+     SCR_EditableCommentComponent "{5DDE234C81331983}" {
+      m_EntityType COMMENT
+      m_UIInfo SCR_EditableCommentUIInfo "{5DDE234873CE99F2}" {
+       Name "VEH"
+       Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+      }
+      m_bAutoRegister ALWAYS
+      m_sColor 0.502 0 0 1
+     }
+     SCR_MapDescriptorComponent "{5DDE234C9A632375}" {
+      DisplayName "VEH"
+      MainType "Name Village"
+      Scale 0.5
+     }
+    }
+    coords 0.608 -0 1.09
+    angles 0 139.587 0
+   }
+  }
+ }
+ {
+  coords 3877.622 15.25 8463.533
+  angles 0 79.771 0
+  {
+   GenericEntity gound5 {
+    components {
+     SCR_EditableCommentComponent "{5DDE234C81331983}" {
+      m_EntityType COMMENT
+      m_UIInfo SCR_EditableCommentUIInfo "{5DDE234873CE99F2}" {
+       Name "VEH"
+       Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+      }
+      m_bAutoRegister ALWAYS
+      m_sColor 0.502 0 0 1
+     }
+     SCR_MapDescriptorComponent "{5DDE234C9A632375}" {
+      DisplayName "VEH"
+      MainType "Name Village"
+      Scale 0.5
+     }
+    }
+    coords 0.608 -0 1.09
+    angles 0 139.587 0
+   }
+  }
+ }
+ {
+  coords 7719.709 13.719 8138.241
+  angles 0 -71.653 0
+  {
+   GenericEntity gound6 {
+    components {
+     SCR_EditableCommentComponent "{5DDE234C81331983}" {
+      m_EntityType COMMENT
+      m_UIInfo SCR_EditableCommentUIInfo "{5DDE234873CE99F2}" {
+       Name "VEH"
+       Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+      }
+      m_bAutoRegister ALWAYS
+      m_sColor 0.502 0 0 1
+     }
+     SCR_MapDescriptorComponent "{5DDE234C9A632375}" {
+      DisplayName "VEH"
+      MainType "Name Village"
+      Scale 0.5
+     }
+    }
+    coords 0.608 -0 1.09
+    angles 0 139.587 0
+   }
+  }
+ }
 }

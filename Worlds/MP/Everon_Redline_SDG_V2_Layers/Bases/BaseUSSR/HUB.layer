@@ -470,6 +470,16 @@ $grp GenericEntity : "{4B5D1DDB2B7C36E0}Prefabs/Props/Military/Sandbags/Sandbag_
   angles 0 -63.806 0
  }
 }
+$grp SCR_ChimeraCharacter : "{4F2AC4E2A4CE8426}Prefabs/Characters/Shop/USSR/USSR_Multi_Shop_Items_Weapons.et" {
+ {
+  coords 4896.466 29.031 11907.911
+  angles 0 -115.424 0
+ }
+ {
+  coords 4896.624 29.031 11905.234
+  angles 0 -115.424 0
+ }
+}
 GenericEntity : "{5BA06BC67A0E808B}Prefabs/Structures/Signs/Anglais/How to start.et" {
  coords 4889.333 28.763 11929.902
  angles 0 90.265 0
@@ -544,7 +554,7 @@ $grp SCR_DestructibleEntity : "{60E5729BEA18F875}Prefabs/Structures/Walls/Concre
 }
 $grp GenericEntity : "{651E545B53BBD034}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V1_USSR.et" {
  {
-  coords 4866.192 28.594 11887.039
+  coords 4866.955 28.594 11886.476
  }
  {
   coords 4878.684 35.742 11946.905
@@ -674,18 +684,18 @@ SCR_ChimeraCharacter : "{91C403480E594EF8}Prefabs/Characters/Shop/USSR/USSR_Shop
       }
      }
     }
-    ADM_ShopMerchandise "{68CB4AC55A642B23}" {
-     m_Merchandise ADM_MerchandiseVehicle "{686D14217FA067E1}" {
-      m_SpawnPosition PointInfo "{686D14217FA067E7}" {
+    ADM_ShopMerchandise "{6924CD8FA4046CF3}" {
+     m_Merchandise ADM_MerchandiseVehicle "{6924CD8FA4046D52}" {
+      m_sPrefab "{753091E32C4E2EE3}Prefabs/Vehicles/Wheeled/Ural_4320_Grad/BM 21-1_9M22.et"
+      m_SpawnPosition PointInfo "{6924CD8FA4046D5E}" {
        Offset 2 0 9
        Angles 0 10 0
       }
      }
     }
-    ADM_ShopMerchandise "{6924CD8FA4046CF3}" {
-     m_Merchandise ADM_MerchandiseVehicle "{6924CD8FA4046D52}" {
-      m_sPrefab "{753091E32C4E2EE3}Prefabs/Vehicles/Wheeled/Ural_4320_Grad/BM 21-1_9M22.et"
-      m_SpawnPosition PointInfo "{6924CD8FA4046D5E}" {
+    ADM_ShopMerchandise "{68CB4AC55A642B23}" {
+     m_Merchandise ADM_MerchandiseVehicle "{686D14217FA067E1}" {
+      m_SpawnPosition PointInfo "{686D14217FA067E7}" {
        Offset 2 0 9
        Angles 0 10 0
       }
@@ -696,48 +706,6 @@ SCR_ChimeraCharacter : "{91C403480E594EF8}Prefabs/Characters/Shop/USSR/USSR_Shop
  }
  coords 4920.926 28.593 11866.458
  angles 0 -104.926 0
-}
-SCR_ChimeraCharacter : "{91E504C50852278B}Prefabs/Characters/Shop/USSR/USSR_Shop_Vehicles_Ground_IFVs.et" {
- components {
-  RRG_ShopComponent "{68CB4AC1D789BEB4}" {
-   m_AdditionalMerchandise {
-    ADM_ShopMerchandise "{68CB4AC486C5C80E}" {
-     m_Merchandise ADM_MerchandiseVehicle "{6864A3F8B0BFF871}" {
-      m_SpawnPosition PointInfo "{6864A3F96E344221}" {
-       Offset 4 0 10
-       Angles 0 25 0
-      }
-     }
-    }
-    ADM_ShopMerchandise "{68CB4AC486E400CA}" {
-     m_Merchandise ADM_MerchandiseVehicle "{6864A3F8B0BFF871}" {
-      m_SpawnPosition PointInfo "{6864A3F96E344221}" {
-       Offset 4 0 10
-       Angles 0 25 0
-      }
-     }
-    }
-    ADM_ShopMerchandise "{68CB4AC4870A2861}" {
-     m_Merchandise ADM_MerchandiseVehicle "{6864A3F8B0BFF871}" {
-      m_SpawnPosition PointInfo "{6864A3F96E344221}" {
-       Offset 4 0 10
-       Angles 0 25 0
-      }
-     }
-    }
-    ADM_ShopMerchandise "{68F6D8D594E7037A}" {
-     m_Merchandise ADM_MerchandiseVehicle "{68F6D8D594E70392}" {
-      m_SpawnPosition PointInfo "{68F6D8D594E7039D}" {
-       Offset 4 0 10
-       Angles 0 25 0
-      }
-     }
-    }
-   }
-  }
- }
- coords 4920.028 28.593 11880.536
- angles 0 -116.986 0
 }
 GenericEntity : "{9562F2D8442364AC}Prefabs/Structures/Signs/Anglais/Game mode.et" {
  coords 4889.393 28.761 11934.848
@@ -775,8 +743,8 @@ $grp GenericEntity : "{9EA803E0D1DDCDB6}Prefabs/Garage/Garage.et" {
   }
  }
  {
-  coords 4887.777 28.723 11728.03
-  angles 0 -65.984 0
+  coords 4879.733 28.723 11726.003
+  angles 0 -0.025 0
   {
    GenericEntity Garage2Ru2 {
     components {
@@ -795,7 +763,7 @@ $grp GenericEntity : "{9EA803E0D1DDCDB6}Prefabs/Garage/Garage.et" {
       Scale 0.5
      }
     }
-    coords -0.146 0 -0.008
+    coords 0.074 0 0.099
     angles 0 -11.877 0
    }
   }
@@ -1206,14 +1174,6 @@ SCR_ChimeraCharacter : "{CE45716F28FBE4E3}Prefabs/Characters/Shop/USSR/USSR_Shop
       }
      }
     }
-    ADM_ShopMerchandise "{68CB4AC461404EDF}" {
-     m_Merchandise ADM_MerchandiseVehicle "{68589013F578E90F}" {
-      m_SpawnPosition PointInfo "{686D142BADEB991B}" {
-       Offset -1 2.3 -7
-       Angles 0 -29 0
-      }
-     }
-    }
     ADM_ShopMerchandise "{68CB4AC7BC6C6B43}" {
      m_Merchandise ADM_MerchandiseVehicle "{686CDD554D3641CD}" {
       m_SpawnPosition PointInfo "{686D142BDFA58EE9}" {
@@ -1233,6 +1193,14 @@ SCR_ChimeraCharacter : "{CE45716F28FBE4E3}Prefabs/Characters/Shop/USSR/USSR_Shop
     ADM_ShopMerchandise "{68CB4AC70C9D100F}" {
      m_Merchandise ADM_MerchandiseVehicle "{686CDD554CCE2E74}" {
       m_SpawnPosition PointInfo "{686D142BDB11A0EF}" {
+       Offset -1 2.3 -7
+       Angles 0 -29 0
+      }
+     }
+    }
+    ADM_ShopMerchandise "{68CB4AC461404EDF}" {
+     m_Merchandise ADM_MerchandiseVehicle "{68589013F578E90F}" {
+      m_SpawnPosition PointInfo "{686D142BADEB991B}" {
        Offset -1 2.3 -7
        Angles 0 -29 0
       }
@@ -1351,6 +1319,9 @@ $grp SCR_ChimeraCharacter : "{E0C2546B051AE3A1}Prefabs/Characters/Shop/USSR/USSR
 }
 StaticModelEntity : "{E17C840623164766}Prefabs/Statue/Statue_TP_USSR.et" {
  components {
+  SCR_DestructionMultiPhaseComponent "{616277EFC20B4829}" {
+   m_fBaseHealth 16384.189
+  }
   ActionsManagerComponent "{685952C7DE39FC30}" {
    additionalActions {
     RY_FastTravelFromTerminalAction "{689F0815E0796033}" {
@@ -1621,7 +1592,7 @@ StaticModelEntity : "{E17C840623164766}Prefabs/Statue/Statue_TP_USSR.et" {
    }
   }
  }
- coords 4863.863 -0.117 11887.891
+ coords 4865.134 -0.117 11886.349
  angles 0 -0.184 0
  {
   GenericEntity TP_MHQ2 {
@@ -1651,7 +1622,7 @@ StaticModelEntity : "{E17C840623164766}Prefabs/Statue/Statue_TP_USSR.et" {
      Enabled 0
     }
    }
-   coords -0.034 3.048 0.002
+   coords -0.034 3.048 0.003
   }
  }
 }
