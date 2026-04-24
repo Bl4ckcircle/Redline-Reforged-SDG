@@ -154,7 +154,7 @@ $grp GenericEntity {
     Scale 0.5
    }
   }
-  coords 4918.611 28.594 11880.681
+  coords 4920.374 28.594 11878.519
   angles 0 -11.877 0
  }
 }
@@ -267,7 +267,7 @@ GenericEntity : "{21D83950DF36F250}Prefabs/Props/Military/Sandbags/Sandbag_01_lo
 }
 $grp GenericEntity : "{31A455F7FD8DCE84}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_plastic.et" {
  {
-  coords 4910.419 28.486 11855.706
+  coords 4910.586 28.486 11854.71
  }
  {
   coords 4919.432 28.594 11873.233
@@ -291,6 +291,12 @@ $grp GenericEntity : "{3BC6C47BA2083D79}Prefabs/Structures/Signs/Warnings/SignNo
  {
   coords 4908.973 28.594 11855.194
   angles 0 170.446 0
+  {
+   GenericEntity {
+    ID "569AF6071F3E092F"
+    coords 0 0 1.01
+   }
+  }
  }
  {
   coords 10114.137 2.531 1557.013
@@ -311,6 +317,10 @@ $grp GenericEntity : "{3BC6C47BA2083D79}Prefabs/Structures/Signs/Warnings/SignNo
    }
   }
  }
+}
+GenericEntity : "{4116792E3871E999}Prefabs/Structures/Signs/Anglais/Air Attack USSR.et" {
+ coords 4862.79 28.697 11818.633
+ angles 0 -89.365 0
 }
 GenericEntity : "{42CBB95F9974FED4}Prefabs/Structures/Signs/Anglais/Money System.et" {
  coords 4889.271 28.773 11924.844
@@ -460,6 +470,14 @@ $grp GenericEntity : "{4A9E0C3D18D5A1B8}Prefabs/Props/Crates/LootCrateWooden_01_
   angles 0 86.67 0
  }
 }
+GenericEntity : "{4B0200DDEFF7AE90}Prefabs/Structures/Signs/Anglais/IFV.et" {
+ coords 4921.916 28.594 11876.531
+ angles 0 -89.179 0
+}
+GenericEntity : "{4B230750E9FCC7E3}Prefabs/Structures/Signs/Anglais/MBT.et" {
+ coords 4922.284 28.593 11863.805
+ angles 0 -92.565 0
+}
 $grp GenericEntity : "{4B5D1DDB2B7C36E0}Prefabs/Props/Military/Sandbags/Sandbag_01_round_base.et" {
  {
   coords 4912.312 28.593 11884.884
@@ -586,6 +604,10 @@ GenericEntity : "{76892C8AB5C677D3}Prefabs/Structures/Signs/Military/SignRectang
  coords 4895.222 28.504 11912.433
  angles 0 -91.165 0
 }
+GenericEntity : "{790DC2EBC5CE5074}Prefabs/Structures/Signs/Anglais/Air Transport USSR.et" {
+ coords 4863.423 28.894 11852.646
+ angles 0 -88.559 0
+}
 $grp SCR_ChimeraCharacter : "{7A799871A9868E42}Prefabs/Characters/Shop/USSR/USSR_Shop_Vehicles_Ground_Transports.et" {
  {
   coords 4879.891 29.065 11944.212
@@ -622,19 +644,19 @@ $grp GenericEntity : "{8777F96EBE817623}Prefabs/Props/Military/Sandbags/Sandbag_
   angles 0 -90.634 0
  }
  {
-  coords 4921.579 28.594 11856.014
+  coords 4921.747 28.594 11855.018
   angles 0 179.206 0
  }
  {
-  coords 4918.817 28.593 11855.883
+  coords 4918.984 28.593 11854.887
   angles 0 179.206 0
  }
  {
-  coords 4916.187 28.513 11855.908
+  coords 4916.355 28.513 11854.835
   angles 0 179.206 0
  }
  {
-  coords 4913.424 28.512 11855.777
+  coords 4913.591 28.512 11854.781
   angles 0 179.206 0
  }
 }
@@ -679,7 +701,7 @@ SCR_ChimeraCharacter : "{91C403480E594EF8}Prefabs/Characters/Shop/USSR/USSR_Shop
     ADM_ShopMerchandise "{68CB4AC55A3AC3F7}" {
      m_Merchandise ADM_MerchandiseVehicle "{686D142173870313}" {
       m_SpawnPosition PointInfo "{686D142173870311}" {
-       Offset 2 0 9
+       Offset 2 0 15
        Angles 0 10 0
       }
      }
@@ -688,15 +710,7 @@ SCR_ChimeraCharacter : "{91C403480E594EF8}Prefabs/Characters/Shop/USSR/USSR_Shop
      m_Merchandise ADM_MerchandiseVehicle "{6924CD8FA4046D52}" {
       m_sPrefab "{753091E32C4E2EE3}Prefabs/Vehicles/Wheeled/Ural_4320_Grad/BM 21-1_9M22.et"
       m_SpawnPosition PointInfo "{6924CD8FA4046D5E}" {
-       Offset 2 0 9
-       Angles 0 10 0
-      }
-     }
-    }
-    ADM_ShopMerchandise "{68CB4AC55A642B23}" {
-     m_Merchandise ADM_MerchandiseVehicle "{686D14217FA067E1}" {
-      m_SpawnPosition PointInfo "{686D14217FA067E7}" {
-       Offset 2 0 9
+       Offset 2 0 15
        Angles 0 10 0
       }
      }
@@ -704,7 +718,7 @@ SCR_ChimeraCharacter : "{91C403480E594EF8}Prefabs/Characters/Shop/USSR/USSR_Shop
    }
   }
  }
- coords 4920.926 28.593 11866.458
+ coords 4921.501 28.593 11865.51
  angles 0 -104.926 0
 }
 GenericEntity : "{9562F2D8442364AC}Prefabs/Structures/Signs/Anglais/Game mode.et" {
