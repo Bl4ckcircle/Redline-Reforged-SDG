@@ -47,7 +47,7 @@ $grp GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRel
    SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
     Transceivers {
      RelayTransceiver "{5C727AD73024FB39}" {
-      "Transmitting Range" 1700
+      "Transmitting Range" 1750
      }
     }
    }
@@ -133,5 +133,30 @@ $grp GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRel
   coords 5022.79 47.811 9465.076
   angles 0 164.714 0
   scale 0.9
+ }
+ TillersFind {
+  components {
+   SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
+    Transceivers {
+     RelayTransceiver "{5C727AD73024FB39}" {
+      "Transmitting Range" 1500
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_sBaseName "Tillers Relay"
+    m_sBaseNameUpper "Tillers Relay"
+   }
+  }
+  coords 3665.31 50.305 7131.785
+  angles 0 77.178 0
+  {
+   GenericEntity {
+    ID "5C727AD606EB0C1C"
+    coords 0.045 0 0.017
+    angles 0 4.941 0
+    scale 0.9
+   }
+  }
  }
 }
