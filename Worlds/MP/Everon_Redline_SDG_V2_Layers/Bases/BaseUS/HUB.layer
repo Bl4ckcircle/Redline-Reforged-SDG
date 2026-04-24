@@ -173,6 +173,10 @@ $grp GenericEntity : "{0858A93EFDE04083}Prefabs/ATM.et" {
   angles 0 -78.184 0
  }
 }
+GenericEntity : "{107A37280254E71D}Prefabs/Structures/Signs/Anglais/Air Attack US.et" {
+ coords 10149.277 2.5 1436.384
+ angles 0 0 0
+}
 SCR_ChimeraCharacter : "{1318606B854E15B7}Prefabs/Characters/Shop/US/US_Shop_Vehicles_Ground_MBTs.et" {
  components {
   RRG_ShopComponent "{68CB4AC1D789BEB4}" {
@@ -193,11 +197,22 @@ SCR_ChimeraCharacter : "{1318606B854E15B7}Prefabs/Characters/Shop/US/US_Shop_Veh
       }
      }
     }
-    ADM_ShopMerchandise "{6924CD884AA0F694}" {
-     m_Merchandise ADM_MerchandiseVehicle "{6924CD884AA0F6C8}" {
-      m_SpawnPosition PointInfo "{6924CD884AA0F6CA}" {
+    ADM_ShopMerchandise "{6931420274193D49}" {
+     m_Merchandise ADM_MerchandiseVehicle "{68688CAFE3AAF449}" {
+      m_sPrefab "{2775CB01FA413027}Prefabs/Vehicles/Wheeled/Ural_4320_Grad/BM 21-1_9M22_SmallRing.et"
+      m_SpawnPosition PointInfo "{68688CAFE3AAF448}" {
        Offset -10 0 1
        Angles 0 20 0
+      }
+     }
+     m_BuyPayment {
+      BNK_PaymentMethodCash "{68688CAFE3AAF44D}" {
+       m_Quantity 20000
+      }
+     }
+     m_SellPayment {
+      BNK_PaymentMethodCash "{688D0D1B8383AFAA}" {
+       m_Quantity 10000
       }
      }
     }
@@ -247,6 +262,10 @@ GenericEntity MOBUS : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMi
    m_sFaction "US"
   }
  }
+}
+GenericEntity : "{1DBAC6D6CAA1F843}Prefabs/Structures/Signs/Anglais/Air Transport US.et" {
+ coords 10166.443 2.473 1459.015
+ angles 0 0 0
 }
 $grp GenericEntity : "{21D83950DF36F250}Prefabs/Props/Military/Sandbags/Sandbag_01_long_burlap.et" {
  {
@@ -724,6 +743,14 @@ $grp GenericEntity : "{4A9E0C3D18D5A1B8}Prefabs/Props/Crates/LootCrateWooden_01_
   angles 0 15.262 0
  }
 }
+GenericEntity : "{4B0200DDEFF7AE90}Prefabs/Structures/Signs/Anglais/IFV.et" {
+ coords 10130.481 2.531 1537.41
+ angles 0 0 0
+}
+GenericEntity : "{4B230750E9FCC7E3}Prefabs/Structures/Signs/Anglais/MBT.et" {
+ coords 10125.903 2.449 1524.789
+ angles 0 12.777 0
+}
 $grp GenericEntity : "{4B5D1DDB2B7C36E0}Prefabs/Props/Military/Sandbags/Sandbag_01_round_base.et" {
  {
   coords 4867.568 28.593 11887.123
@@ -929,7 +956,45 @@ $grp SCR_DestructibleEntity : "{879865F07EA907B0}Prefabs/Structures/Walls/Concre
  }
 }
 SCR_ChimeraCharacter : "{91E504C50852278B}Prefabs/Characters/Shop/USSR/USSR_Shop_Vehicles_Ground_IFVs.et" {
- coords 4920.214 28.594 11880.894
+ components {
+  RRG_ShopComponent "{68CB4AC1D789BEB4}" {
+   m_AdditionalMerchandise {
+    ADM_ShopMerchandise "{68CB4AC486C5C80E}" {
+     m_Merchandise ADM_MerchandiseVehicle "{6864A3F8B0BFF871}" {
+      m_SpawnPosition PointInfo "{6864A3F96E344221}" {
+       Offset 5 0 12
+       Angles 0 300 0
+      }
+     }
+    }
+    ADM_ShopMerchandise "{68CB4AC486E400CA}" {
+     m_Merchandise ADM_MerchandiseVehicle "{6864A3F8B0BFF871}" {
+      m_SpawnPosition PointInfo "{6864A3F96E344221}" {
+       Offset 5 0 12
+       Angles 0 300 0
+      }
+     }
+    }
+    ADM_ShopMerchandise "{68F6D8D594E7037A}" {
+     m_Merchandise ADM_MerchandiseVehicle "{68F6D8D594E70392}" {
+      m_SpawnPosition PointInfo "{68F6D8D594E7039D}" {
+       Offset 5 0 12
+       Angles 0 300 0
+      }
+     }
+    }
+    ADM_ShopMerchandise "{692EFDFE1E34C3F7}" {
+     m_Merchandise ADM_MerchandiseVehicle "{692EFDFE1E34CC09}" {
+      m_SpawnPosition PointInfo "{692EFDFE1E34CC0B}" {
+       Offset 5 0 12
+       Angles 0 300 0
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 4920.638 28.594 11878.484
  angles 0 -114.2 0
 }
 $grp GenericEntity : "{937999008F178E82}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_burlap.et" {
