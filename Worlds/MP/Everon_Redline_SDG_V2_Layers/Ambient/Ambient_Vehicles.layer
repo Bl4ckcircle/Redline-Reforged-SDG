@@ -1270,108 +1270,6 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 9931.608 3.751 1625.375
-  angles 0 -172.84 0
- }
- {
-  components {
-   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    m_iRespawnPeriod 600
-    m_aIncludedEditableEntityLabels {
-     TRAIT_PASSENGERS_SMALL
-     TRAIT_PASSENGERS_LARGE
-    }
-    m_aExcludedEditableEntityLabels +{
-     VEHICLE_HELICOPTER
-     VEHICLE_AIRPLANE
-    }
-   }
-  }
-  coords 9830.697 7.809 1578.802
-  angles 0 -45.792 0
- }
- {
-  components {
-   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    m_iRespawnPeriod 600
-    m_aIncludedEditableEntityLabels {
-     TRAIT_PASSENGERS_SMALL
-     TRAIT_PASSENGERS_LARGE
-    }
-    m_aExcludedEditableEntityLabels +{
-     VEHICLE_HELICOPTER
-     VEHICLE_AIRPLANE
-    }
-   }
-  }
-  coords 9805.248 8.219 1588.069
-  angles 0 -176.594 0
- }
- {
-  components {
-   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    m_iRespawnPeriod 600
-    m_aIncludedEditableEntityLabels {
-     TRAIT_PASSENGERS_SMALL
-     TRAIT_PASSENGERS_LARGE
-    }
-    m_aExcludedEditableEntityLabels +{
-     VEHICLE_HELICOPTER
-     VEHICLE_AIRPLANE
-    }
-   }
-  }
-  coords 9653.14 13.878 1523.871
-  angles 0 133.099 0
- }
- {
-  components {
-   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    m_iRespawnPeriod 600
-    m_aIncludedEditableEntityLabels {
-     TRAIT_PASSENGERS_SMALL
-     TRAIT_PASSENGERS_LARGE
-    }
-    m_aExcludedEditableEntityLabels +{
-     VEHICLE_HELICOPTER
-     VEHICLE_AIRPLANE
-    }
-   }
-  }
-  coords 9632.564 17.877 1594.623
-  angles 0 -11.443 0
- }
- {
-  components {
-   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    m_iRespawnPeriod 600
-    m_aIncludedEditableEntityLabels {
-     TRAIT_PASSENGERS_SMALL
-     TRAIT_PASSENGERS_LARGE
-    }
-    m_aExcludedEditableEntityLabels +{
-     VEHICLE_HELICOPTER
-     VEHICLE_AIRPLANE
-    }
-   }
-  }
-  coords 9620.364 23.464 1671.347
-  angles 0 11.584 0
- }
- {
-  components {
-   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    m_iRespawnPeriod 600
-    m_aIncludedEditableEntityLabels {
-     TRAIT_PASSENGERS_SMALL
-     TRAIT_PASSENGERS_LARGE
-    }
-    m_aExcludedEditableEntityLabels +{
-     VEHICLE_HELICOPTER
-     VEHICLE_AIRPLANE
-    }
-   }
-  }
   coords 6352.604 5.728 9643.333
   angles 0 -51.167 0
  }
@@ -1425,40 +1323,6 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
   }
   coords 5573.103 22.734 10061.277
   angles 0 -164.425 0
- }
- {
-  components {
-   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    m_iRespawnPeriod 600
-    m_aIncludedEditableEntityLabels {
-     TRAIT_PASSENGERS_SMALL
-     TRAIT_PASSENGERS_LARGE
-    }
-    m_aExcludedEditableEntityLabels +{
-     VEHICLE_HELICOPTER
-     VEHICLE_AIRPLANE
-    }
-   }
-  }
-  coords 4931.644 28.568 11666.677
-  angles 0 -91.287 0
- }
- {
-  components {
-   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    m_iRespawnPeriod 600
-    m_aIncludedEditableEntityLabels {
-     TRAIT_PASSENGERS_SMALL
-     TRAIT_PASSENGERS_LARGE
-    }
-    m_aExcludedEditableEntityLabels +{
-     VEHICLE_HELICOPTER
-     VEHICLE_AIRPLANE
-    }
-   }
-  }
-  coords 4941.96 28.594 11817.605
-  angles 0 95.854 0
  }
  {
   components {
@@ -1765,23 +1629,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 10129.543 2.583 1547.356
-  angles -0.243 105.744 0.862
- }
- {
-  components {
-   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    m_iRespawnPeriod 1200
-    m_aIncludedEditableEntityLabels {
-     TRAIT_PASSENGERS_SMALL
-     TRAIT_PASSENGERS_LARGE
-    }
-    m_aExcludedEditableEntityLabels +{
-     VEHICLE_HELICOPTER
-     VEHICLE_AIRPLANE
-    }
-   }
-  }
   coords 7456.896 7.875 6715.484
   angles 0 -132.979 0
  }
@@ -1818,22 +1665,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
   }
   coords 4948.281 2.156 3908.659
   angles 0 34.042 0
- }
- {
-  components {
-   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    m_iRespawnPeriod 1200
-    m_aIncludedEditableEntityLabels {
-     TRAIT_PASSENGERS_SMALL
-     TRAIT_PASSENGERS_LARGE
-    }
-    m_aExcludedEditableEntityLabels +{
-     VEHICLE_HELICOPTER
-     VEHICLE_AIRPLANE
-    }
-   }
-  }
-  coords 4905.063 28.594 11962.939
  }
  {
   components {
@@ -2495,23 +2326,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
   }
   coords 4553.279 21.781 9709.004
   angles 0 46.194 0
- }
- {
-  components {
-   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    m_iRespawnPeriod 1200
-    m_aIncludedEditableEntityLabels {
-     TRAIT_PASSENGERS_SMALL
-     TRAIT_PASSENGERS_LARGE
-    }
-    m_aExcludedEditableEntityLabels +{
-     VEHICLE_HELICOPTER
-     VEHICLE_AIRPLANE
-    }
-   }
-  }
-  coords 4930.167 27.697 11494.371
-  angles 0 -153.234 0
  }
  {
   components {

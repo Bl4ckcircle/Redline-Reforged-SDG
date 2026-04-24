@@ -127,7 +127,7 @@ $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupp
   }
  }
  {
-  coords 4976.424 2.187 3859.316
+  coords 5771.996 6.062 3498.355
   angles -6.683 -95.035 -4.757
   {
    $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
@@ -302,8 +302,8 @@ $grp GenericEntity : "{A4D0B331414901A5}Prefabs/Structures/Commercial/FuelStatio
     DisplayName "Fuel"
    }
   }
-  coords 4882.35 0 11726.768
-  angles 0 -2.339 0
+  coords 4886.9 0.153 11727.325
+  angles 0 -26.775 0
  }
  {
   components {
