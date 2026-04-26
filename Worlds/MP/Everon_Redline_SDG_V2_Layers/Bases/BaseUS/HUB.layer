@@ -57,8 +57,8 @@ $grp GenericEntity {
     m_aPrefabList {
      "{530F3A12ABA1CD7A}Prefabs/Vehicles/Wheeled/M1240A1_MATV/M1240A1_MATV_Base.et"
     }
-    m_fRespawnDelay 300
-    m_fRespawnDelayOnDestroyed 300
+    m_fRespawnDelay 900
+    m_fRespawnDelayOnDestroyed 900
    }
   }
   coords 10160.35 3.277 1549.312
@@ -84,8 +84,8 @@ $grp GenericEntity {
     m_aPrefabList {
      "{5EFEDD1782A6A5E2}Prefabs/Vehicles/Wheeled/M923A1/MHQ_B.et"
     }
-    m_fRespawnDelay 300
-    m_fRespawnDelayOnDestroyed 300
+    m_fRespawnDelay 900
+    m_fRespawnDelayOnDestroyed 900
     m_bDeleteWreck 1
    }
   }
@@ -393,9 +393,9 @@ SCR_DestructibleEntity : "{2506C02B8564CABC}Prefabs/Statue/Statue_TP_US.et" {
      ParentContextList {
       "TP"
      }
-     m_sDestinationName "Farm"
-     m_sDestinationDisplayName "Farm"
-     m_sTargetBaseName "Farm"
+     m_sDestinationName "PeterPass"
+     m_sDestinationDisplayName "PeterPass"
+     m_sTargetBaseName "PeterPass"
     }
     RRG_FastTravelActionManager "{6916FC5D624A0B4D}" {
      ParentContextList {
@@ -1102,11 +1102,7 @@ $grp GenericEntity : "{9EA803E0D1DDCDB6}Prefabs/Garage/Garage.et" {
  {
   components {
    RY_GarageRpcComponent "{68A4A0B39C7CAA49}" {
-    m_aBlacklistedVehicles {
-     "{38186F12F27A61C7}Prefabs/Vehicles/Wheeled/M923A1/MHQ_A.et"
-     "{5EFEDD1782A6A5E2}Prefabs/Vehicles/Wheeled/M923A1/MHQ_B.et"
-     "{1BABF6B33DA0AEB7}Prefabs/Vehicles/Wheeled/Ural4320/MHQ_A.et"
-     "{047DDE56444CA348}Prefabs/Vehicles/Wheeled/Ural4320/MHQ_B.et"
+    m_aBlacklistedVehicles +{
     }
    }
   }

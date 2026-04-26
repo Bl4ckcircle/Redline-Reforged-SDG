@@ -286,436 +286,52 @@ $grp GenericEntity : "{0858A93EFDE04083}Prefabs/ATM.et" {
   }
  }
 }
-$grp GenericEntity : "{4A9E0C3D18D5A1B8}Prefabs/Props/Crates/LootCrateWooden_01_blue.et" {
- {
-  components {
-   RY_LoadoutNpcConfigComponent "{692A8EE4C6EF796C}" {
-    m_sShopId "Black_Market"
-    m_ShopConfigs {
-     "{FDC4629ADFC04AC0}Configs/Shops/US_Items_Weapons.conf"
-     "{3D8F457E1B936663}Configs/Shops/US_Items_Weapons_Additional.conf"
-     "{98F849CEE48DE175}Configs/Shops/US_Items_Medical.conf"
-     "{365845681049D78D}Configs/Shops/USSR_Items_Weapons.conf"
-     "{E12F6D92B9F15CA7}Configs/Shops/USSR_Items_Weapons_Additional.conf"
-     "{18A66565FB5BB690}Configs/Shops/USSR_Items_Medical.conf"
-    }
-   }
-   SCR_DestructionMultiPhaseComponent "{6684B114DDC8D314}" {
-    m_fBaseHealth 100000
-   }
-   SCR_UniversalInventoryStorageComponent "{66E93283842D9CC3}" {
-    MaxCumulativeVolume 100000
-    m_fMaxWeight 100000
-   }
-   ActionsManagerComponent "{66E93283842D8C65}" {
-    additionalActions {
-     SCR_OpenStorageAction "{66E93283842D8C74}" {
-      "Sort Priority" 1
-     }
-     RRG_SellCrateAction "{692A8EE7CD8B546D}" {
-      ParentContextList {
-       "default"
-      }
-      UIInfo UIInfo "{692A8EEADE5CE970}" {
-       Name "Black Market"
-      }
-      ActionTitle "Sell content"
-      VisibilityRange 3
-      Duration 0.5
-      "Sort Priority" 1
-     }
-    }
-   }
+GenericEntity : "{1CC4A1F04894BE0A}Prefabs/Decals/Core/Decal_GenericEntity_base.et" {
+ components {
+  RRG_AntiAFKComponent "{6934BBD183B6A569}" {
   }
-  coords 7020.827 118.573 6010.59
-  angles 0 49.937 0
+ }
+ coords 4606.991 18.935 12233.959
+}
+$grp GenericEntity : "{4A9E0C3D18D5A1B9}Prefabs/Props/Crates/LootCrateWooden_01_blue.et" {
+ {
+  coords 4715.637 163.825 6930.546
+  angles 0 -37.41 0
  }
  {
-  components {
-   RY_LoadoutNpcConfigComponent "{692A8EE4C6EF796C}" {
-    m_sShopId "Black_Market"
-    m_ShopConfigs {
-     "{FDC4629ADFC04AC0}Configs/Shops/US_Items_Weapons.conf"
-     "{3D8F457E1B936663}Configs/Shops/US_Items_Weapons_Additional.conf"
-     "{98F849CEE48DE175}Configs/Shops/US_Items_Medical.conf"
-     "{365845681049D78D}Configs/Shops/USSR_Items_Weapons.conf"
-     "{E12F6D92B9F15CA7}Configs/Shops/USSR_Items_Weapons_Additional.conf"
-     "{18A66565FB5BB690}Configs/Shops/USSR_Items_Medical.conf"
-    }
-   }
-   SCR_DestructionMultiPhaseComponent "{6684B114DDC8D314}" {
-    m_fBaseHealth 100000
-   }
-   SCR_UniversalInventoryStorageComponent "{66E93283842D9CC3}" {
-    MaxCumulativeVolume 100000
-    m_fMaxWeight 100000
-   }
-   ActionsManagerComponent "{66E93283842D8C65}" {
-    additionalActions {
-     SCR_OpenStorageAction "{66E93283842D8C74}" {
-      "Sort Priority" 1
-     }
-     RRG_SellCrateAction "{692A8EE7CD8B546D}" {
-      ParentContextList {
-       "default"
-      }
-      UIInfo UIInfo "{692A8EEADE5CE970}" {
-       Name "Black Market"
-      }
-      ActionTitle "Sell content"
-      VisibilityRange 3
-      Duration 0.5
-      "Sort Priority" 1
-     }
-    }
-   }
-  }
-  coords 4530.22 14.749 9428.667
-  angles 0 3.937 0
+  coords 7021.006 118.573 6010.813
+  angles 0 47.71 0
  }
  {
-  components {
-   RY_LoadoutNpcConfigComponent "{692A8EE4C6EF796C}" {
-    m_sShopId "Black_Market"
-    m_ShopConfigs {
-     "{FDC4629ADFC04AC0}Configs/Shops/US_Items_Weapons.conf"
-     "{3D8F457E1B936663}Configs/Shops/US_Items_Weapons_Additional.conf"
-     "{98F849CEE48DE175}Configs/Shops/US_Items_Medical.conf"
-     "{365845681049D78D}Configs/Shops/USSR_Items_Weapons.conf"
-     "{E12F6D92B9F15CA7}Configs/Shops/USSR_Items_Weapons_Additional.conf"
-     "{18A66565FB5BB690}Configs/Shops/USSR_Items_Medical.conf"
-    }
-   }
-   SCR_DestructionMultiPhaseComponent "{6684B114DDC8D314}" {
-    m_fBaseHealth 100000
-   }
-   SCR_UniversalInventoryStorageComponent "{66E93283842D9CC3}" {
-    MaxCumulativeVolume 100000
-    m_fMaxWeight 100000
-   }
-   ActionsManagerComponent "{66E93283842D8C65}" {
-    additionalActions {
-     SCR_OpenStorageAction "{66E93283842D8C74}" {
-      "Sort Priority" 1
-     }
-     RRG_SellCrateAction "{692A8EE7CD8B546D}" {
-      ParentContextList {
-       "default"
-      }
-      UIInfo UIInfo "{692A8EEADE5CE970}" {
-       Name "Black Market"
-      }
-      ActionTitle "Sell content"
-      VisibilityRange 3
-      Duration 0.5
-      "Sort Priority" 1
-     }
-    }
-   }
-  }
-  coords 1283.047 38.927 5898.602
-  angles 0 53.033 0
+  coords 4530.01 14.749 9428.467
  }
  {
-  components {
-   RY_LoadoutNpcConfigComponent "{692A8EE4C6EF796C}" {
-    m_sShopId "Black_Market"
-    m_ShopConfigs {
-     "{FDC4629ADFC04AC0}Configs/Shops/US_Items_Weapons.conf"
-     "{3D8F457E1B936663}Configs/Shops/US_Items_Weapons_Additional.conf"
-     "{98F849CEE48DE175}Configs/Shops/US_Items_Medical.conf"
-     "{365845681049D78D}Configs/Shops/USSR_Items_Weapons.conf"
-     "{E12F6D92B9F15CA7}Configs/Shops/USSR_Items_Weapons_Additional.conf"
-     "{18A66565FB5BB690}Configs/Shops/USSR_Items_Medical.conf"
-    }
-   }
-   SCR_DestructionMultiPhaseComponent "{6684B114DDC8D314}" {
-    m_fBaseHealth 100000
-   }
-   SCR_UniversalInventoryStorageComponent "{66E93283842D9CC3}" {
-    MaxCumulativeVolume 100000
-    m_fMaxWeight 100000
-   }
-   ActionsManagerComponent "{66E93283842D8C65}" {
-    additionalActions {
-     SCR_OpenStorageAction "{66E93283842D8C74}" {
-      "Sort Priority" 1
-     }
-     RRG_SellCrateAction "{692A8EE7CD8B546D}" {
-      ParentContextList {
-       "default"
-      }
-      UIInfo UIInfo "{692A8EEADE5CE970}" {
-       Name "Black Market"
-      }
-      ActionTitle "Sell content"
-      VisibilityRange 3
-      Duration 0.5
-      "Sort Priority" 1
-     }
-    }
-   }
-  }
-  coords 4715.638 163.825 6930.523
-  angles 0 -38.033 0
+  coords 1283.235 38.927 5898.334
+  angles 0 53.565 0
  }
  {
-  components {
-   RY_LoadoutNpcConfigComponent "{692A8EE4C6EF796C}" {
-    m_sShopId "Black_Market"
-    m_ShopConfigs {
-     "{FDC4629ADFC04AC0}Configs/Shops/US_Items_Weapons.conf"
-     "{3D8F457E1B936663}Configs/Shops/US_Items_Weapons_Additional.conf"
-     "{98F849CEE48DE175}Configs/Shops/US_Items_Medical.conf"
-     "{365845681049D78D}Configs/Shops/USSR_Items_Weapons.conf"
-     "{E12F6D92B9F15CA7}Configs/Shops/USSR_Items_Weapons_Additional.conf"
-     "{18A66565FB5BB690}Configs/Shops/USSR_Items_Medical.conf"
-    }
-   }
-   SCR_DestructionMultiPhaseComponent "{6684B114DDC8D314}" {
-    m_fBaseHealth 100000
-   }
-   SCR_UniversalInventoryStorageComponent "{66E93283842D9CC3}" {
-    MaxCumulativeVolume 100000
-    m_fMaxWeight 100000
-   }
-   ActionsManagerComponent "{66E93283842D8C65}" {
-    additionalActions {
-     SCR_OpenStorageAction "{66E93283842D8C74}" {
-      "Sort Priority" 1
-     }
-     RRG_SellCrateAction "{692A8EE7CD8B546D}" {
-      ParentContextList {
-       "default"
-      }
-      UIInfo UIInfo "{692A8EEADE5CE970}" {
-       Name "Black Market"
-      }
-      ActionTitle "Sell content"
-      VisibilityRange 3
-      Duration 0.5
-      "Sort Priority" 1
-     }
-    }
-   }
-  }
-  coords 5053.126 16.001 3951.906
-  angles 0 13.52 0
+  coords 5053.034 16.001 3952.27
+  angles 0 10.462 0
  }
  {
-  components {
-   RY_LoadoutNpcConfigComponent "{692A8EE4C6EF796C}" {
-    m_sShopId "Black_Market"
-    m_ShopConfigs {
-     "{FDC4629ADFC04AC0}Configs/Shops/US_Items_Weapons.conf"
-     "{3D8F457E1B936663}Configs/Shops/US_Items_Weapons_Additional.conf"
-     "{98F849CEE48DE175}Configs/Shops/US_Items_Medical.conf"
-     "{365845681049D78D}Configs/Shops/USSR_Items_Weapons.conf"
-     "{E12F6D92B9F15CA7}Configs/Shops/USSR_Items_Weapons_Additional.conf"
-     "{18A66565FB5BB690}Configs/Shops/USSR_Items_Medical.conf"
-    }
-   }
-   SCR_DestructionMultiPhaseComponent "{6684B114DDC8D314}" {
-    m_fBaseHealth 100000
-   }
-   SCR_UniversalInventoryStorageComponent "{66E93283842D9CC3}" {
-    MaxCumulativeVolume 100000
-    m_fMaxWeight 100000
-   }
-   ActionsManagerComponent "{66E93283842D8C65}" {
-    additionalActions {
-     SCR_OpenStorageAction "{66E93283842D8C74}" {
-      "Sort Priority" 1
-     }
-     RRG_SellCrateAction "{692A8EE7CD8B546D}" {
-      ParentContextList {
-       "default"
-      }
-      UIInfo UIInfo "{692A8EEADE5CE970}" {
-       Name "Black Market"
-      }
-      ActionTitle "Sell content"
-      VisibilityRange 3
-      Duration 0.5
-      "Sort Priority" 1
-     }
-    }
-   }
-  }
-  coords 5284.275 65.085 5304.729
-  angles 0 114.477 0
+  coords 5284.125 65.085 5304.819
+  angles 0 -64.536 0
  }
  {
-  components {
-   RY_LoadoutNpcConfigComponent "{692A8EE4C6EF796C}" {
-    m_sShopId "Black_Market"
-    m_ShopConfigs {
-     "{FDC4629ADFC04AC0}Configs/Shops/US_Items_Weapons.conf"
-     "{3D8F457E1B936663}Configs/Shops/US_Items_Weapons_Additional.conf"
-     "{98F849CEE48DE175}Configs/Shops/US_Items_Medical.conf"
-     "{365845681049D78D}Configs/Shops/USSR_Items_Weapons.conf"
-     "{E12F6D92B9F15CA7}Configs/Shops/USSR_Items_Weapons_Additional.conf"
-     "{18A66565FB5BB690}Configs/Shops/USSR_Items_Medical.conf"
-    }
-   }
-   SCR_DestructionMultiPhaseComponent "{6684B114DDC8D314}" {
-    m_fBaseHealth 100000
-   }
-   SCR_UniversalInventoryStorageComponent "{66E93283842D9CC3}" {
-    MaxCumulativeVolume 100000
-    m_fMaxWeight 100000
-   }
-   ActionsManagerComponent "{66E93283842D8C65}" {
-    additionalActions {
-     SCR_OpenStorageAction "{66E93283842D8C74}" {
-      "Sort Priority" 1
-     }
-     RRG_SellCrateAction "{692A8EE7CD8B546D}" {
-      ParentContextList {
-       "default"
-      }
-      UIInfo UIInfo "{692A8EEADE5CE970}" {
-       Name "Black Market"
-      }
-      ActionTitle "Sell content"
-      VisibilityRange 3
-      Duration 0.5
-      "Sort Priority" 1
-     }
-    }
-   }
-  }
-  coords 5727.398 218.869 7062.207
-  angles 0 12.714 0
+  coords 5727.309 218.869 7062.341
+  angles 0 12.607 0
  }
  {
-  components {
-   RY_LoadoutNpcConfigComponent "{692A8EE4C6EF796C}" {
-    m_sShopId "Black_Market"
-    m_ShopConfigs {
-     "{FDC4629ADFC04AC0}Configs/Shops/US_Items_Weapons.conf"
-     "{3D8F457E1B936663}Configs/Shops/US_Items_Weapons_Additional.conf"
-     "{98F849CEE48DE175}Configs/Shops/US_Items_Medical.conf"
-     "{365845681049D78D}Configs/Shops/USSR_Items_Weapons.conf"
-     "{E12F6D92B9F15CA7}Configs/Shops/USSR_Items_Weapons_Additional.conf"
-     "{18A66565FB5BB690}Configs/Shops/USSR_Items_Medical.conf"
-    }
-   }
-   SCR_DestructionMultiPhaseComponent "{6684B114DDC8D314}" {
-    m_fBaseHealth 100000
-   }
-   SCR_UniversalInventoryStorageComponent "{66E93283842D9CC3}" {
-    MaxCumulativeVolume 100000
-    m_fMaxWeight 100000
-   }
-   ActionsManagerComponent "{66E93283842D8C65}" {
-    additionalActions {
-     SCR_OpenStorageAction "{66E93283842D8C74}" {
-      "Sort Priority" 1
-     }
-     RRG_SellCrateAction "{692A8EE7CD8B546D}" {
-      ParentContextList {
-       "default"
-      }
-      UIInfo UIInfo "{692A8EEADE5CE970}" {
-       Name "Black Market"
-      }
-      ActionTitle "Sell content"
-      VisibilityRange 3
-      Duration 0.5
-      "Sort Priority" 1
-     }
-    }
-   }
-  }
-  coords 8225.694 219.695 4365.861
-  angles 0 68.07 0
+  coords 8225.614 219.695 4365.88
+  angles 0 66.072 0
  }
  {
-  components {
-   RY_LoadoutNpcConfigComponent "{692A8EE4C6EF796C}" {
-    m_sShopId "Black_Market"
-    m_ShopConfigs {
-     "{FDC4629ADFC04AC0}Configs/Shops/US_Items_Weapons.conf"
-     "{3D8F457E1B936663}Configs/Shops/US_Items_Weapons_Additional.conf"
-     "{98F849CEE48DE175}Configs/Shops/US_Items_Medical.conf"
-     "{365845681049D78D}Configs/Shops/USSR_Items_Weapons.conf"
-     "{E12F6D92B9F15CA7}Configs/Shops/USSR_Items_Weapons_Additional.conf"
-     "{18A66565FB5BB690}Configs/Shops/USSR_Items_Medical.conf"
-    }
-   }
-   SCR_DestructionMultiPhaseComponent "{6684B114DDC8D314}" {
-    m_fBaseHealth 100000
-   }
-   SCR_UniversalInventoryStorageComponent "{66E93283842D9CC3}" {
-    MaxCumulativeVolume 100000
-    m_fMaxWeight 100000
-   }
-   ActionsManagerComponent "{66E93283842D8C65}" {
-    additionalActions {
-     SCR_OpenStorageAction "{66E93283842D8C74}" {
-      "Sort Priority" 1
-     }
-     RRG_SellCrateAction "{692A8EE7CD8B546D}" {
-      ParentContextList {
-       "default"
-      }
-      UIInfo UIInfo "{692A8EEADE5CE970}" {
-       Name "Black Market"
-      }
-      ActionTitle "Sell content"
-      VisibilityRange 3
-      Duration 0.5
-      "Sort Priority" 1
-     }
-    }
-   }
-  }
-  coords 5391.057 10.57 8714.173
-  angles 0 65.884 0
+  coords 5390.974 10.573 8714.158
+  angles 0 63.415 0
  }
  {
-  components {
-   RY_LoadoutNpcConfigComponent "{692A8EE4C6EF796C}" {
-    m_sShopId "Black_Market"
-    m_ShopConfigs {
-     "{FDC4629ADFC04AC0}Configs/Shops/US_Items_Weapons.conf"
-     "{3D8F457E1B936663}Configs/Shops/US_Items_Weapons_Additional.conf"
-     "{98F849CEE48DE175}Configs/Shops/US_Items_Medical.conf"
-     "{365845681049D78D}Configs/Shops/USSR_Items_Weapons.conf"
-     "{E12F6D92B9F15CA7}Configs/Shops/USSR_Items_Weapons_Additional.conf"
-     "{18A66565FB5BB690}Configs/Shops/USSR_Items_Medical.conf"
-    }
-   }
-   SCR_DestructionMultiPhaseComponent "{6684B114DDC8D314}" {
-    m_fBaseHealth 100000
-   }
-   SCR_UniversalInventoryStorageComponent "{66E93283842D9CC3}" {
-    MaxCumulativeVolume 100000
-    m_fMaxWeight 100000
-   }
-   ActionsManagerComponent "{66E93283842D8C65}" {
-    additionalActions {
-     SCR_OpenStorageAction "{66E93283842D8C74}" {
-      "Sort Priority" 1
-     }
-     RRG_SellCrateAction "{692A8EE7CD8B546D}" {
-      ParentContextList {
-       "default"
-      }
-      UIInfo UIInfo "{692A8EEADE5CE970}" {
-       Name "Black Market"
-      }
-      ActionTitle "Sell content"
-      VisibilityRange 3
-      Duration 0.5
-      "Sort Priority" 1
-     }
-    }
-   }
-  }
-  coords 5207.979 75.02 6304.354
-  angles 0 -4.159 0
+  coords 5208.199 75.026 6304.603
+  angles 0 -2.544 0
  }
 }
 GenericEntity : "{4B5D1DDB2B7C36E0}Prefabs/Props/Military/Sandbags/Sandbag_01_round_base.et" {

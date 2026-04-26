@@ -41,6 +41,10 @@ SCR_GameModeCampaign GameMode_Campaign1 : "{3B230AAC5252108F}Prefabs/MP/Modes/Co
    m_bRequireRadioSignal 0
    m_bEnableDebugLogs 1
   }
+  RRG_AntiAFKComponent "{6934BBD361378F39}" {
+   m_iAntiAFKTimeMinutes 30
+   m_bEnableDebugLogs 1
+  }
   RY_LoadoutManager "{6926C5CE0DFD4173}" {
   }
   SCR_TimeAndWeatherHandlerComponent "{67295C8D2DAC3749}" {
