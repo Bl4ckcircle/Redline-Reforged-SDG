@@ -318,7 +318,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     "faction affiliation" "FIA"
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_iRadius 50
+    m_iRadius 30
     m_bIsControlPoint 1
     m_sBaseName "Thales"
     m_sBaseNameUpper "Thales"

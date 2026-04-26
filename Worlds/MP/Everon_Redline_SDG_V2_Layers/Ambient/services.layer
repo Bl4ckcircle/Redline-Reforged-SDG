@@ -1,0 +1,129 @@
+$grp GenericEntity : "{D0B05C0B2AEB98C6}Prefabs/Garage/Repair.et" {
+ {
+  coords 4439.077 149.548 6868.096
+  angles 0 179.501 0
+  {
+   GenericEntity Repair_Reamo_Station5 {
+    components {
+     SCR_EditableCommentComponent "{5DDE234C81331983}" {
+      m_EntityType COMMENT
+      m_UIInfo SCR_EditableCommentUIInfo "{5DDE234873CE99F2}" {
+       Name "Service Vehicles"
+       Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+      }
+      m_bAutoRegister ALWAYS
+      m_sColor 0.502 0 0 1
+     }
+     SCR_MapDescriptorComponent "{5DDE234C9A632375}" {
+      DisplayName "Service Veh"
+      MainType "Name Village"
+      Scale 0.5
+     }
+    }
+    coords 0.005 0.187 0.2
+    angles 0 87.682 0
+   }
+  }
+ }
+ {
+  coords 5658.398 91.687 5885.027
+  angles 0 12.538 0
+  {
+   GenericEntity Repair_Reamo_Station8 {
+    components {
+     SCR_EditableCommentComponent "{5DDE234C81331983}" {
+      m_EntityType COMMENT
+      m_UIInfo SCR_EditableCommentUIInfo "{5DDE234873CE99F2}" {
+       Name "Service Vehicles"
+       Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+      }
+      m_bAutoRegister ALWAYS
+      m_sColor 0.502 0 0 1
+     }
+     SCR_MapDescriptorComponent "{5DDE234C9A632375}" {
+      DisplayName "Service Veh"
+      MainType "Name Village"
+      Scale 1
+     }
+    }
+    coords 0.021 0.001 0.085
+    angles 0 -105.355 0
+   }
+  }
+ }
+ {
+  coords 7411.259 9.687 6748.892
+  angles 0 123.367 0
+  {
+   GenericEntity Repair_Reamo_Station9 {
+    components {
+     SCR_EditableCommentComponent "{5DDE234C81331983}" {
+      m_EntityType COMMENT
+      m_UIInfo SCR_EditableCommentUIInfo "{5DDE234873CE99F2}" {
+       Name "Service Vehicles"
+       Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+      }
+      m_bAutoRegister ALWAYS
+      m_sColor 0.502 0 0 1
+     }
+     SCR_MapDescriptorComponent "{5DDE234C9A632375}" {
+      DisplayName "Service Veh"
+      MainType "Name Village"
+      Scale 0.5
+     }
+    }
+    coords 0.293 0.001 0.384
+    angles 0 143.816 0
+   }
+  }
+ }
+ {
+  coords 3862.244 15.266 8429.014
+  angles 0 -178.152 0
+  {
+   GenericEntity Repair_Reamo_Station10 {
+    components {
+     SCR_EditableCommentComponent "{5DDE234C81331983}" {
+      m_EntityType COMMENT
+      m_UIInfo SCR_EditableCommentUIInfo "{5DDE234873CE99F2}" {
+       Name "Service Vehicles"
+       Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
+      }
+      m_bAutoRegister ALWAYS
+      m_sColor 0.502 0 0 1
+     }
+     SCR_MapDescriptorComponent "{5DDE234C9A632375}" {
+      DisplayName "Service Veh"
+      MainType "Name Village"
+      Scale 0.5
+     }
+    }
+    coords -0.03 0.015 0.105
+    angles 0 85.335 0
+   }
+  }
+ }
+}
+$grp GenericEntity : "{F31BE678DDF1480C}Prefabs/Structures/Signs/Anglais/ServicesVeh.et" {
+ {
+  coords 4438.979 149.548 6868.569
+  angles 0 178.941 0
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{6932A6469504FE04}" {
+    Enabled 0
+   }
+  }
+  coords 5658.376 91.9 5884.913
+  angles 0 12.292 0
+ }
+ {
+  coords 7411.078 9.687 6749.086
+  angles 0 126.358 0
+ }
+ {
+  coords 3862.348 15.264 8429.341
+  angles 0 -174.058 0
+ }
+}

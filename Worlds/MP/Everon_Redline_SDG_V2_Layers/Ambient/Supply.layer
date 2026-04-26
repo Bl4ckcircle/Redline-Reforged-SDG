@@ -1,12 +1,6 @@
-$grp GenericEntity : "{0B0C600941B2A6A8}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_plastic.et" {
- {
-  coords 4886.119 29.031 11904.856
-  angles 0 -89.785 0
- }
- {
-  coords 4884.437 29.031 11909.701
-  angles 0 -89.785 0
- }
+GenericEntity : "{0B0C600941B2A6A8}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_plastic.et" {
+ coords 4884.718 28.898 11901.338
+ angles 0 -89.785 0
 }
 $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
  {
@@ -244,20 +238,14 @@ $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupp
   }
  }
 }
-$grp GenericEntity : "{937999008F178E82}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_burlap.et" {
- {
-  components {
-   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
-    m_fBaseHealth 54132.238
-   }
+GenericEntity : "{937999008F178E82}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_burlap.et" {
+ components {
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   m_fBaseHealth 54132.238
   }
-  coords 10179.626 3.203 1546.979
-  angles 0 10.807 0
  }
- {
-  coords 10174.509 3.208 1546.369
-  angles 0 10.807 0
- }
+ coords 10182.383 3.109 1544.656
+ angles 0 17.532 0
 }
 $grp GenericEntity : "{A4D0B331414901A5}Prefabs/Structures/Commercial/FuelStations/FuelStation_E_01/HouseAddons/FuelStation_E_01_tankpistol.et" {
  {

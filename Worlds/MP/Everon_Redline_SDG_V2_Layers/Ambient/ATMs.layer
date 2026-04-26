@@ -286,10 +286,6 @@ $grp GenericEntity : "{0858A93EFDE04083}Prefabs/ATM.et" {
   }
  }
 }
-GenericEntity : "{21D83950DF36F250}Prefabs/Props/Military/Sandbags/Sandbag_01_long_burlap.et" {
- coords 10171.199 2.387 1522.751
- angles 0 -15.615 0
-}
 $grp GenericEntity : "{4A9E0C3D18D5A1B8}Prefabs/Props/Crates/LootCrateWooden_01_blue.et" {
  {
   components {
@@ -760,15 +756,15 @@ $grp GenericEntity : "{A4D0B331414901A5}Prefabs/Structures/Commercial/FuelStatio
 }
 $grp GenericEntity : "{B31A14BC1A0E7776}Prefabs/Props/Military/Sandbags/Sandbag_01_round_burlap.et" {
  {
-  coords 10174.665 2.531 1525.731
-  angles 0 127.906 0
+  coords 10171.009 2.531 1525.841
+  angles 0 61.207 0
  }
  {
-  coords 10167.439 2.531 1524.737
+  coords 10165.792 2.531 1523.154
   angles 0 -123.273 0
  }
  {
-  coords 10168.842 2.563 1530.303
+  coords 10166.81 2.563 1528.015
   angles 0 -33.768 0
  }
 }
