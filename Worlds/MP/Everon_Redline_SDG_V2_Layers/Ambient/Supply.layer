@@ -7,38 +7,9 @@ $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupp
   coords 9049.646 120.189 2703.245
   angles -6.683 -95.035 -4.757
   {
-   $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
-    {
-     components {
-      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-       m_eGroupType FIRETEAM
-       m_fAILimitThreshold 0.66
-      }
-     }
-     coords -8.366 0.236 7.413
-     angles 3.215 31.756 7.544
-    }
-    {
-     components {
-      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-       m_bPickRandomGroupType 1
-       m_iRespawnPeriod 600
-       m_fAILimitThreshold 0.66
-      }
-     }
-     coords -179.121 0.954 -61.581
-     angles -8.166 149.7 -0.71
-     {
-      SCR_DefendWaypoint : "{2A81753527971941}Prefabs/AI/Waypoints/AIWaypoint_Defend_CP.et" {
-       components {
-        Hierarchy "{5CD0765889102122}" {
-        }
-       }
-       coords -182.101 5.177 25.549
-       angles 0 -54.336 0
-      }
-     }
-    }
+   GenericEntity : "{FA7A86697340C58C}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_05.et" {
+    coords -417.604 306.105 1993.575
+    angles -3.954 -153.964 -7.186
    }
   }
  }
@@ -46,38 +17,9 @@ $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupp
   coords 3078.8 117.765 5195.536
   angles -6.683 -95.035 -4.757
   {
-   $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
-    {
-     components {
-      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-       m_eGroupType FIRETEAM
-       m_fAILimitThreshold 0.66
-      }
-     }
-     coords -8.366 0.236 7.413
-     angles 3.215 31.756 7.544
-    }
-    {
-     components {
-      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-       m_bPickRandomGroupType 1
-       m_iRespawnPeriod 600
-       m_fAILimitThreshold 0.66
-      }
-     }
-     coords -179.121 0.954 -61.581
-     angles -8.166 149.7 -0.71
-     {
-      SCR_DefendWaypoint : "{2A81753527971941}Prefabs/AI/Waypoints/AIWaypoint_Defend_CP.et" {
-       components {
-        Hierarchy "{5CD0765889102122}" {
-        }
-       }
-       coords -182.101 5.177 25.549
-       angles 0 -54.336 0
-      }
-     }
-    }
+   GenericEntity : "{FA7A86697340C58C}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_05.et" {
+    coords -0.794 0.109 0.113
+    angles -7.426 85.011 4.01
    }
   }
  }
@@ -85,38 +27,9 @@ $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupp
   coords 6466.073 162.166 6497.349
   angles -6.683 -95.035 -4.757
   {
-   $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
-    {
-     components {
-      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-       m_eGroupType FIRETEAM
-       m_fAILimitThreshold 0.66
-      }
-     }
-     coords -8.366 0.236 7.413
-     angles 3.215 31.756 7.544
-    }
-    {
-     components {
-      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-       m_bPickRandomGroupType 1
-       m_iRespawnPeriod 600
-       m_fAILimitThreshold 0.66
-      }
-     }
-     coords -179.121 0.954 -61.581
-     angles -8.166 149.7 -0.71
-     {
-      SCR_DefendWaypoint : "{2A81753527971941}Prefabs/AI/Waypoints/AIWaypoint_Defend_CP.et" {
-       components {
-        Hierarchy "{5CD0765889102122}" {
-        }
-       }
-       coords -182.101 5.177 25.549
-       angles 0 -54.336 0
-      }
-     }
-    }
+   GenericEntity : "{FA7A86697340C58C}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_05.et" {
+    coords 4.769 -0.32 -0.143
+    angles 7.49 -59.003 -5.288
    }
   }
  }
@@ -124,77 +37,19 @@ $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupp
   coords 5771.996 6.062 3498.355
   angles -6.683 -95.035 -4.757
   {
-   $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
-    {
-     components {
-      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-       m_eGroupType FIRETEAM
-       m_fAILimitThreshold 0.66
-      }
-     }
-     coords -8.366 0.236 7.413
-     angles 3.215 31.756 7.544
-    }
-    {
-     components {
-      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-       m_bPickRandomGroupType 1
-       m_iRespawnPeriod 600
-       m_fAILimitThreshold 0.66
-      }
-     }
-     coords -179.121 0.954 -61.581
-     angles -8.166 149.7 -0.71
-     {
-      SCR_DefendWaypoint : "{2A81753527971941}Prefabs/AI/Waypoints/AIWaypoint_Defend_CP.et" {
-       components {
-        Hierarchy "{5CD0765889102122}" {
-        }
-       }
-       coords -182.101 5.177 25.549
-       angles 0 -54.336 0
-      }
-     }
-    }
+   GenericEntity : "{FA7A86697340C58C}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_05.et" {
+    coords -5.152 0.419 -0.079
+    angles -7.977 131.326 1.891
    }
   }
  }
  {
-  coords 5135.047 175.008 7041.107
-  angles -6.683 -95.035 -4.757
+  coords 5124.24 175.975 7028.398
+  angles 0.058 86.274 0.893
   {
-   $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
-    {
-     components {
-      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-       m_eGroupType FIRETEAM
-       m_fAILimitThreshold 0.66
-      }
-     }
-     coords -8.366 0.236 7.413
-     angles 3.215 31.756 7.544
-    }
-    {
-     components {
-      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-       m_bPickRandomGroupType 1
-       m_iRespawnPeriod 600
-       m_fAILimitThreshold 0.66
-      }
-     }
-     coords -179.121 0.954 -61.581
-     angles -8.166 149.7 -0.71
-     {
-      SCR_DefendWaypoint : "{2A81753527971941}Prefabs/AI/Waypoints/AIWaypoint_Defend_CP.et" {
-       components {
-        Hierarchy "{5CD0765889102122}" {
-        }
-       }
-       coords -182.101 5.177 25.549
-       angles 0 -54.336 0
-      }
-     }
-    }
+   GenericEntity : "{FA7A86697340C58C}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_05.et" {
+    coords -1.89 0.004 2.688
+    angles 0.748 -51.597 0.489
    }
   }
  }
@@ -202,41 +57,16 @@ $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupp
   coords 5797.778 7.969 9738.332
   angles -6.683 -95.035 -4.757
   {
-   $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
-    {
-     components {
-      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-       m_eGroupType FIRETEAM
-       m_fAILimitThreshold 0.66
-      }
-     }
-     coords -8.366 0.236 7.413
-     angles 3.215 31.756 7.544
-    }
-    {
-     components {
-      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-       m_bPickRandomGroupType 1
-       m_iRespawnPeriod 600
-       m_fAILimitThreshold 0.66
-      }
-     }
-     coords -179.121 0.954 -61.581
-     angles -8.166 149.7 -0.71
-     {
-      SCR_DefendWaypoint : "{2A81753527971941}Prefabs/AI/Waypoints/AIWaypoint_Defend_CP.et" {
-       components {
-        Hierarchy "{5CD0765889102122}" {
-        }
-       }
-       coords -182.101 5.177 25.549
-       angles 0 -54.336 0
-      }
-     }
-    }
+   GenericEntity : "{FA7A86697340C58C}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_05.et" {
+    coords 0.352 -0.344 -2.672
+    angles 5.17 15.799 6.37
    }
   }
  }
+}
+GenericEntity : "{41300E72E049DF0F}Prefabs/Structures/Signs/Anglais/TPUSSR.et" {
+ coords 4865.14 27.834 11887.007
+ angles 0 0 0
 }
 GenericEntity : "{937999008F178E82}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_burlap.et" {
  components {
@@ -328,4 +158,8 @@ $grp SCR_DestructibleBuildingEntity : "{E169F93127A4ED8E}Prefabs/Structures/Indu
   coords 4860.765 0.252 11955.563
   angles 0 89.504 0
  }
+}
+GenericEntity : "{FE73D4EE6F46894F}Prefabs/Structures/Signs/Anglais/TPUS.et" {
+ coords 10167.604 1.797 1524.19
+ angles 0 -110.96 0
 }

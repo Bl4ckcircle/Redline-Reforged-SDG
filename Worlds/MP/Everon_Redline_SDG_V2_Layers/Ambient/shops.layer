@@ -1,5 +1,10 @@
 $grp GenericEntity : "{09A62EA7EAFEE27F}Prefabs/Structures/Signs/Anglais/Gun Shop.et" {
  {
+  components {
+   SCR_DestructionMultiPhaseComponent "{693126656B135436}" {
+    EnableDamage 0
+   }
+  }
   coords 4711.543 163.336 6938.918
   angles 0 52.557 0
  }
@@ -215,7 +220,7 @@ $grp SCR_ChimeraCharacter : "{8A9F960E73ED6631}Prefabs/Characters/Shop/Multi_Sho
      SCR_MapDescriptorComponent "{5DDE234C9A632375}" {
       DisplayName "Shop"
       MainType "Name Village"
-      Scale 0.5
+      Scale 1
      }
     }
     coords -0.2 0 0.75
@@ -348,13 +353,6 @@ $grp SCR_ChimeraCharacter : "{F10FBA5F5FBEB379}Prefabs/Characters/Shop/Multi_Sho
        }
       }
      }
-     ADM_ShopMerchandise "{693065367D673EC0}" {
-      m_Merchandise ADM_MerchandiseVehicle "{693065367D673F7F}" {
-       m_SpawnPosition PointInfo "{693065367D673F7E}" {
-        Offset 6 0 12
-       }
-      }
-     }
      ADM_ShopMerchandise "{69306536514AB0D5}" {
       m_Merchandise ADM_MerchandiseVehicle "{69306536514AB08F}" {
        m_SpawnPosition PointInfo "{69306536514AB088}" {
@@ -386,6 +384,13 @@ $grp SCR_ChimeraCharacter : "{F10FBA5F5FBEB379}Prefabs/Characters/Shop/Multi_Sho
      ADM_ShopMerchandise "{693065368952DED7}" {
       m_Merchandise ADM_MerchandiseVehicle "{693065368952DE85}" {
        m_SpawnPosition PointInfo "{693065368952DE84}" {
+        Offset 6 0 12
+       }
+      }
+     }
+     ADM_ShopMerchandise "{693065367D673EC0}" {
+      m_Merchandise ADM_MerchandiseVehicle "{693065367D673F7F}" {
+       m_SpawnPosition PointInfo "{693065367D673F7E}" {
         Offset 6 0 12
        }
       }
@@ -506,14 +511,6 @@ $grp SCR_ChimeraCharacter : "{F10FBA5F5FBEB379}Prefabs/Characters/Shop/Multi_Sho
        }
       }
      }
-     ADM_ShopMerchandise "{693065367D673EC0}" {
-      m_Merchandise ADM_MerchandiseVehicle "{693065367D673F7F}" {
-       m_SpawnPosition PointInfo "{693065367D673F7E}" {
-        Offset -1 0 10
-        Angles 0 -37 0
-       }
-      }
-     }
      ADM_ShopMerchandise "{69306536514AB0D5}" {
       m_Merchandise ADM_MerchandiseVehicle "{69306536514AB08F}" {
        m_SpawnPosition PointInfo "{69306536514AB088}" {
@@ -549,6 +546,14 @@ $grp SCR_ChimeraCharacter : "{F10FBA5F5FBEB379}Prefabs/Characters/Shop/Multi_Sho
      ADM_ShopMerchandise "{693065368952DED7}" {
       m_Merchandise ADM_MerchandiseVehicle "{693065368952DE85}" {
        m_SpawnPosition PointInfo "{693065368952DE84}" {
+        Offset -1 0 10
+        Angles 0 -37 0
+       }
+      }
+     }
+     ADM_ShopMerchandise "{693065367D673EC0}" {
+      m_Merchandise ADM_MerchandiseVehicle "{693065367D673F7F}" {
+       m_SpawnPosition PointInfo "{693065367D673F7E}" {
         Offset -1 0 10
         Angles 0 -37 0
        }
@@ -651,13 +656,6 @@ $grp SCR_ChimeraCharacter : "{F10FBA5F5FBEB379}Prefabs/Characters/Shop/Multi_Sho
        }
       }
      }
-     ADM_ShopMerchandise "{693065367D673EC0}" {
-      m_Merchandise ADM_MerchandiseVehicle "{693065367D673F7F}" {
-       m_SpawnPosition PointInfo "{693065367D673F7E}" {
-        Offset 0 0 10
-       }
-      }
-     }
      ADM_ShopMerchandise "{69306536514AB0D5}" {
       m_Merchandise ADM_MerchandiseVehicle "{69306536514AB08F}" {
        m_SpawnPosition PointInfo "{69306536514AB088}" {
@@ -689,6 +687,13 @@ $grp SCR_ChimeraCharacter : "{F10FBA5F5FBEB379}Prefabs/Characters/Shop/Multi_Sho
      ADM_ShopMerchandise "{693065368952DED7}" {
       m_Merchandise ADM_MerchandiseVehicle "{693065368952DE85}" {
        m_SpawnPosition PointInfo "{693065368952DE84}" {
+        Offset 0 0 10
+       }
+      }
+     }
+     ADM_ShopMerchandise "{693065367D673EC0}" {
+      m_Merchandise ADM_MerchandiseVehicle "{693065367D673F7F}" {
+       m_SpawnPosition PointInfo "{693065367D673F7E}" {
         Offset 0 0 10
        }
       }
@@ -790,13 +795,6 @@ $grp SCR_ChimeraCharacter : "{F10FBA5F5FBEB379}Prefabs/Characters/Shop/Multi_Sho
        }
       }
      }
-     ADM_ShopMerchandise "{693065367D673EC0}" {
-      m_Merchandise ADM_MerchandiseVehicle "{693065367D673F7F}" {
-       m_SpawnPosition PointInfo "{693065367D673F7E}" {
-        Offset 3 0 8
-       }
-      }
-     }
      ADM_ShopMerchandise "{69306536514AB0D5}" {
       m_Merchandise ADM_MerchandiseVehicle "{69306536514AB08F}" {
        m_SpawnPosition PointInfo "{69306536514AB088}" {
@@ -832,6 +830,13 @@ $grp SCR_ChimeraCharacter : "{F10FBA5F5FBEB379}Prefabs/Characters/Shop/Multi_Sho
        }
       }
      }
+     ADM_ShopMerchandise "{693065367D673EC0}" {
+      m_Merchandise ADM_MerchandiseVehicle "{693065367D673F7F}" {
+       m_SpawnPosition PointInfo "{693065367D673F7E}" {
+        Offset 3 0 8
+       }
+      }
+     }
     }
    }
   }
@@ -852,10 +857,10 @@ $grp SCR_ChimeraCharacter : "{F10FBA5F5FBEB379}Prefabs/Characters/Shop/Multi_Sho
      SCR_MapDescriptorComponent "{5DDE234C9A632375}" {
       DisplayName "VEH"
       MainType "Name Village"
-      Scale 0.5
+      Scale 1
      }
     }
-    coords 0.608 0 1.09
+    coords -0.002 0 0.17
     angles 0 139.587 0
    }
   }
@@ -929,13 +934,6 @@ $grp SCR_ChimeraCharacter : "{F10FBA5F5FBEB379}Prefabs/Characters/Shop/Multi_Sho
        }
       }
      }
-     ADM_ShopMerchandise "{693065367D673EC0}" {
-      m_Merchandise ADM_MerchandiseVehicle "{693065367D673F7F}" {
-       m_SpawnPosition PointInfo "{693065367D673F7E}" {
-        Offset 0 0 12
-       }
-      }
-     }
      ADM_ShopMerchandise "{69306536514AB0D5}" {
       m_Merchandise ADM_MerchandiseVehicle "{69306536514AB08F}" {
        m_SpawnPosition PointInfo "{69306536514AB088}" {
@@ -967,6 +965,13 @@ $grp SCR_ChimeraCharacter : "{F10FBA5F5FBEB379}Prefabs/Characters/Shop/Multi_Sho
      ADM_ShopMerchandise "{693065368952DED7}" {
       m_Merchandise ADM_MerchandiseVehicle "{693065368952DE85}" {
        m_SpawnPosition PointInfo "{693065368952DE84}" {
+        Offset 0 0 12
+       }
+      }
+     }
+     ADM_ShopMerchandise "{693065367D673EC0}" {
+      m_Merchandise ADM_MerchandiseVehicle "{693065367D673F7F}" {
+       m_SpawnPosition PointInfo "{693065367D673F7E}" {
         Offset 0 0 12
        }
       }
@@ -1068,13 +1073,6 @@ $grp SCR_ChimeraCharacter : "{F10FBA5F5FBEB379}Prefabs/Characters/Shop/Multi_Sho
        }
       }
      }
-     ADM_ShopMerchandise "{693065367D673EC0}" {
-      m_Merchandise ADM_MerchandiseVehicle "{693065367D673F7F}" {
-       m_SpawnPosition PointInfo "{693065367D673F7E}" {
-        Offset 0 0 12
-       }
-      }
-     }
      ADM_ShopMerchandise "{69306536514AB0D5}" {
       m_Merchandise ADM_MerchandiseVehicle "{69306536514AB08F}" {
        m_SpawnPosition PointInfo "{69306536514AB088}" {
@@ -1106,6 +1104,13 @@ $grp SCR_ChimeraCharacter : "{F10FBA5F5FBEB379}Prefabs/Characters/Shop/Multi_Sho
      ADM_ShopMerchandise "{693065368952DED7}" {
       m_Merchandise ADM_MerchandiseVehicle "{693065368952DE85}" {
        m_SpawnPosition PointInfo "{693065368952DE84}" {
+        Offset 0 0 12
+       }
+      }
+     }
+     ADM_ShopMerchandise "{693065367D673EC0}" {
+      m_Merchandise ADM_MerchandiseVehicle "{693065367D673F7F}" {
+       m_SpawnPosition PointInfo "{693065367D673F7E}" {
         Offset 0 0 12
        }
       }

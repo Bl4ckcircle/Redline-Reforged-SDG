@@ -24,12 +24,10 @@ $grp DecalEntity {
 $grp GenericEntity {
  GAZ3 {
   components {
-   EE_SimpleVehicleSpawner_DestroyOnly "{672A81C0177A2026}" {
-    m_aPrefabList {
-     "{6F4D5B56F4905A62}Prefabs/Vehicles/Wheeled/TIGR/Unarmed/GAZ_TIGR_v2_Unarmed_Green.et"
-    }
-    m_fRespawnDelay 300
-    m_fRespawnDelayOnDestroyed 300
+   RRG_VehicleRespawnManager "{6942F8100DD695CA}" {
+    m_VehiclePrefab "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et"
+    m_fDelayDestroyed 600
+    m_fDelayAbandoned 900
    }
   }
   coords 4882.766 29.104 11924.777
@@ -37,12 +35,10 @@ $grp GenericEntity {
  }
  Heli1 {
   components {
-   EE_SimpleVehicleSpawner_DestroyOnly "{672A81C0177A2026}" {
-    m_aPrefabList {
-     "{629DB6996E2C3649}Prefabs/Vehicles/Helicopters/KA-27/KA-27_base.et"
-    }
-    m_fRespawnDelay 120
-    m_fRespawnDelayOnDestroyed 120
+   RRG_VehicleRespawnManager "{6942F811A72351F1}" {
+    m_VehiclePrefab "{629DB6996E2C3649}Prefabs/Vehicles/Helicopters/KA-27/KA-27_base.et"
+    m_fDelayDestroyed 600
+    m_fDelayAbandoned 900
    }
   }
   coords 4826.061 28.09 11937.442
@@ -50,12 +46,10 @@ $grp GenericEntity {
  }
  HeliLourd1 {
   components {
-   EE_SimpleVehicleSpawner_DestroyOnly "{672A81C0177A2026}" {
-    m_aPrefabList {
-     "{7BD282AF716ED63A}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed.et"
-    }
-    m_fRespawnDelay 300
-    m_fRespawnDelayOnDestroyed 300
+   RRG_VehicleRespawnManager "{6942F811E0CA7065}" {
+    m_VehiclePrefab "{7BD282AF716ED63A}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed.et"
+    m_fDelayDestroyed 600
+    m_fDelayAbandoned 900
    }
   }
   coords 4826.65 28.572 11907.695
@@ -63,12 +57,10 @@ $grp GenericEntity {
  }
  GAZ2 {
   components {
-   EE_SimpleVehicleSpawner_DestroyOnly "{672A81C0177A2026}" {
-    m_aPrefabList {
-     "{6F4D5B56F4905A62}Prefabs/Vehicles/Wheeled/TIGR/Unarmed/GAZ_TIGR_v2_Unarmed_Green.et"
-    }
-    m_fRespawnDelay 300
-    m_fRespawnDelayOnDestroyed 300
+   RRG_VehicleRespawnManager "{6942F8102750D8B3}" {
+    m_VehiclePrefab "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et"
+    m_fDelayDestroyed 600
+    m_fDelayAbandoned 900
    }
   }
   coords 4882.222 29.009 11929.706
@@ -76,12 +68,10 @@ $grp GenericEntity {
  }
  GAZ {
   components {
-   EE_SimpleVehicleSpawner_DestroyOnly "{672A81C0177A2026}" {
-    m_aPrefabList {
-     "{6F4D5B56F4905A62}Prefabs/Vehicles/Wheeled/TIGR/Unarmed/GAZ_TIGR_v2_Unarmed_Green.et"
-    }
-    m_fRespawnDelay 300
-    m_fRespawnDelayOnDestroyed 300
+   RRG_VehicleRespawnManager "{6942F811D424D865}" {
+    m_VehiclePrefab "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et"
+    m_fDelayDestroyed 600
+    m_fDelayAbandoned 900
    }
   }
   coords 4882.051 29.027 11934.492
@@ -89,12 +79,10 @@ $grp GenericEntity {
  }
  MHQ_USSR_A {
   components {
-   EE_SimpleVehicleSpawner_DestroyOnly "{672A81C0177A2026}" {
-    m_aPrefabList {
-     "{1BABF6B33DA0AEB7}Prefabs/Vehicles/Wheeled/Ural4320/MHQ_A.et"
-    }
-    m_fRespawnDelay 900
-    m_fRespawnDelayOnDestroyed 900
+   RRG_VehicleRespawnManager "{6942F8107CF96A92}" {
+    m_VehiclePrefab "{1BABF6B33DA0AEB7}Prefabs/Vehicles/Wheeled/Ural4320/MHQ_A.et"
+    m_fDelayAbandoned 2400
+    m_fInteractionDistance 30
    }
   }
   coords 4882.923 29.031 11920.033
@@ -102,12 +90,10 @@ $grp GenericEntity {
  }
  MHQ_USSR_B {
   components {
-   EE_SimpleVehicleSpawner_DestroyOnly "{672A81C0177A2026}" {
-    m_aPrefabList {
-     "{047DDE56444CA348}Prefabs/Vehicles/Wheeled/Ural4320/MHQ_B.et"
-    }
-    m_fRespawnDelay 900
-    m_fRespawnDelayOnDestroyed 900
+   RRG_VehicleRespawnManager "{6942F8105BFA743A}" {
+    m_VehiclePrefab "{047DDE56444CA348}Prefabs/Vehicles/Wheeled/Ural4320/MHQ_B.et"
+    m_fDelayAbandoned 2400
+    m_fInteractionDistance 30
    }
   }
   coords 4883.032 29.011 11914.959
@@ -142,19 +128,19 @@ $grp GenericEntity {
    SCR_EditableCommentComponent "{5DDE234C81331983}" {
     m_EntityType COMMENT
     m_UIInfo SCR_EditableCommentUIInfo "{5DDE234873CE99F2}" {
-     Name "IFV"
+     Name "IFV / MBT"
      Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
     }
     m_bAutoRegister ALWAYS
     m_sColor 0.502 0 0 1
    }
    SCR_MapDescriptorComponent "{5DDE234C9A632375}" {
-    DisplayName "IFV"
+    DisplayName "IFV / MBT"
     MainType "Name Village"
     Scale 0.5
    }
   }
-  coords 4920.757 28.594 11878.111
+  coords 4921.433 28.594 11872.813
   angles 0 -11.877 0
  }
  {
@@ -196,10 +182,12 @@ $grp GenericEntity {
 }
 $grp GenericEntity : "{0858A93EFDE04083}Prefabs/ATM.et" {
  {
+  Flags 0x400 0
   coords 4897.266 29.031 11916.207
   angles 0 -87.889 0
  }
  {
+  Flags 0x400 0
   coords 4883.902 28.995 11899.001
   angles 0 0.903 0
  }
@@ -223,6 +211,7 @@ GenericEntity : "{0BAC6A82F4481CA0}Prefabs/Structures/Signs/FR/Loadout FR.et" {
  angles 0 90.858 0
 }
 GenericEntity : "{0FB92802AFA233FA}PrefabsEditable/Auto/Props/Military/Compositions/US/E_ArsenalBox_US_Equipment.et" {
+ Flags 0x400 0
  coords 10165.259 3.267 1561.318
  angles 0 -170.459 0
 }
@@ -232,7 +221,7 @@ GenericEntity MOBUSSR : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/Conflict
    Enabled 0
   }
   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
-   m_iSupplies 12000
+   m_iSupplies 20000
    m_iSuppliesMax 25000
    m_fOperationalRadius 100
   }
@@ -417,6 +406,10 @@ $grp GenericEntity : "{4B5D1DDB2B7C36E0}Prefabs/Props/Military/Sandbags/Sandbag_
   coords 4879.899 28.936 11900.5
   angles 0 -63.806 0
  }
+ {
+  coords 4863.253 28.594 11887.808
+  angles 0 -54.341 0
+ }
 }
 $grp SCR_ChimeraCharacter : "{4F2AC4E2A4CE8426}Prefabs/Characters/Shop/USSR/USSR_Multi_Shop_Items_Weapons.et" {
  {
@@ -506,10 +499,12 @@ $grp GenericEntity : "{651E545B53BBD034}Prefabs/Structures/Military/Flags/FlagPo
 }
 $grp GenericEntity : "{705D4C030A30D4A3}Prefabs/Compositions/Misc/CustomEntities/InteractionPoints/ArsenalBox_US_Equipment_NoAffiliation.et" {
  {
+  Flags 0x400 0
   coords 10168.019 3.267 1560.782
   angles 0 -174.525 0
  }
  {
+  Flags 0x400 0
   coords 10183.182 3.267 1540.774
   angles 0 -138.828 0
  }
@@ -1050,15 +1045,9 @@ $grp StaticModelEntity : "{B00E14C07DEE788A}Prefabs/Compositions/Misc/SubComposi
   }
  }
 }
-$grp GenericEntity : "{B31A14BC1A0E7776}Prefabs/Props/Military/Sandbags/Sandbag_01_round_burlap.et" {
- {
-  coords 10133.257 2.531 1535.85
-  angles 0 135.414 0
- }
- {
-  coords 10182.619 3.207 1539.688
-  angles 0 -141.148 0
- }
+GenericEntity : "{B31A14BC1A0E7776}Prefabs/Props/Military/Sandbags/Sandbag_01_round_burlap.et" {
+ coords 10182.619 3.207 1539.688
+ angles 0 -141.148 0
 }
 GenericEntity : "{BFB5C1775717E942}Prefabs/Structures/Signs/FR/infos FR.et" {
  coords 4884.589 28.91 11944.416
@@ -1299,6 +1288,25 @@ GenericEntity : "{D30916667E33CF16}Prefabs/Structures/Signs/Anglais/GarageVeh.et
  coords 4870.839 28.597 11960.677
  angles 0 178.202 0
 }
+GenericEntity : "{D774D8C83D10DB68}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_USSR_01.et" {
+ coords 4885.822 28.593 11891.445
+ angles 0 173.615 0
+ {
+  GenericEntity {
+   ID "62EACD0CC8BFE73D"
+   {
+    GenericEntity {
+     ID "62F4A41DAC20AB9A"
+     coords 3.433 -0.001 -0.111
+    }
+   }
+  }
+  GenericEntity {
+   ID "62EACD0CC8BFF749"
+   coords -3.226 0.008 2.902
+  }
+ }
+}
 SCR_ChimeraCharacter : "{D9A4153EC721622D}Prefabs/Characters/Shop/USSR/USSR_Loadout_Character.et" {
  components {
   RY_LoadoutNpcConfigComponent "{6926A6DBE1EA681D}" {
@@ -1352,6 +1360,7 @@ StaticModelEntity : "{E17C840623164766}Prefabs/Statue/Statue_TP_USSR.et" {
      ParentContextList {
       "TP"
      }
+     m_iTeleportCost 300
      m_sDestinationName "Bennac"
      m_sDestinationDisplayName "Bennac"
      m_sTargetBaseName "Bennac"
@@ -1360,6 +1369,7 @@ StaticModelEntity : "{E17C840623164766}Prefabs/Statue/Statue_TP_USSR.et" {
      ParentContextList {
       "TP"
      }
+     m_iTeleportCost 350
      m_sDestinationName "Chotain"
      m_sDestinationDisplayName "Chotain"
      m_sTargetBaseName "Chotain"
@@ -1368,6 +1378,7 @@ StaticModelEntity : "{E17C840623164766}Prefabs/Statue/Statue_TP_USSR.et" {
      ParentContextList {
       "TP"
      }
+     m_iTeleportCost 500
      m_sDestinationName "Durras"
      m_sDestinationDisplayName "Durras"
      m_sTargetBaseName "Durras"
@@ -1376,6 +1387,7 @@ StaticModelEntity : "{E17C840623164766}Prefabs/Statue/Statue_TP_USSR.et" {
      ParentContextList {
       "TP"
      }
+     m_iTeleportCost 300
      m_sDestinationName "EntreDeux"
      m_sDestinationDisplayName "Entre Deux"
      m_sTargetBaseName "EntreDeux"
@@ -1384,6 +1396,7 @@ StaticModelEntity : "{E17C840623164766}Prefabs/Statue/Statue_TP_USSR.et" {
      ParentContextList {
       "TP"
      }
+     m_iTeleportCost 400
      m_sDestinationName "PeterPass"
      m_sDestinationDisplayName "PeterPass"
      m_sTargetBaseName "PeterPass"
@@ -1392,6 +1405,7 @@ StaticModelEntity : "{E17C840623164766}Prefabs/Statue/Statue_TP_USSR.et" {
      ParentContextList {
       "TP"
      }
+     m_iTeleportCost 350
      m_sDestinationName "Figari"
      m_sDestinationDisplayName "Figari"
      m_sTargetBaseName "Figari"
@@ -1400,22 +1414,7 @@ StaticModelEntity : "{E17C840623164766}Prefabs/Statue/Statue_TP_USSR.et" {
      ParentContextList {
       "TP"
      }
-     m_sDestinationName "Fischerman_Military"
-     m_sDestinationDisplayName "Fischerman Military"
-     m_sTargetBaseName "Fischerman_Military"
-    }
-    RRG_FastTravelActionManager "{6916B032ED270D33}" {
-     ParentContextList {
-      "TP"
-     }
-     m_sDestinationName "Figari"
-     m_sDestinationDisplayName "Figari"
-     m_sTargetBaseName "Figari"
-    }
-    RRG_FastTravelActionManager "{6916B032EC453BCB}" {
-     ParentContextList {
-      "TP"
-     }
+     m_iTeleportCost 300
      m_sDestinationName "Fischerman_Military"
      m_sDestinationDisplayName "Fischerman Military"
      m_sTargetBaseName "Fischerman_Military"
@@ -1428,10 +1427,20 @@ StaticModelEntity : "{E17C840623164766}Prefabs/Statue/Statue_TP_USSR.et" {
      m_sDestinationDisplayName "Gravette"
      m_sTargetBaseName "Gravette"
     }
+    RRG_FastTravelActionManager "{693A9EDE773CFE68}" {
+     ParentContextList {
+      "TP"
+     }
+     m_iTeleportCost 450
+     m_sDestinationName "Levie"
+     m_sDestinationDisplayName "Levie"
+     m_sTargetBaseName "Levie"
+    }
     RRG_FastTravelActionManager "{6916B032E274E948}" {
      ParentContextList {
       "TP"
      }
+     m_iTeleportCost 50
      m_sDestinationName "Kermovan"
      m_sDestinationDisplayName "Kermovan"
      m_sTargetBaseName "Kermovan"
@@ -1440,6 +1449,7 @@ StaticModelEntity : "{E17C840623164766}Prefabs/Statue/Statue_TP_USSR.et" {
      ParentContextList {
       "TP"
      }
+     m_iTeleportCost 350
      m_sDestinationName "Laruns"
      m_sDestinationDisplayName "Laruns"
      m_sTargetBaseName "Laruns"
@@ -1448,6 +1458,7 @@ StaticModelEntity : "{E17C840623164766}Prefabs/Statue/Statue_TP_USSR.et" {
      ParentContextList {
       "TP"
      }
+     m_iTeleportCost 250
      m_sDestinationName "LeMoule"
      m_sDestinationDisplayName "Le Moule"
      m_sTargetBaseName "LeMoule"
@@ -1456,6 +1467,7 @@ StaticModelEntity : "{E17C840623164766}Prefabs/Statue/Statue_TP_USSR.et" {
      ParentContextList {
       "TP"
      }
+     m_iTeleportCost 400
      m_sDestinationName "Levie"
      m_sDestinationDisplayName "Levie"
      m_sTargetBaseName "Levie"
@@ -1464,6 +1476,7 @@ StaticModelEntity : "{E17C840623164766}Prefabs/Statue/Statue_TP_USSR.et" {
      ParentContextList {
       "TP"
      }
+     m_iTeleportCost 50
      m_sDestinationName "Meaux"
      m_sDestinationDisplayName "Meaux"
      m_sTargetBaseName "Meaux"
@@ -1472,6 +1485,7 @@ StaticModelEntity : "{E17C840623164766}Prefabs/Statue/Statue_TP_USSR.et" {
      ParentContextList {
       "TP"
      }
+     m_iTeleportCost 200
      m_sDestinationName "Military_Training"
      m_sDestinationDisplayName "Military Training"
      m_sTargetBaseName "Military_Training"
@@ -1488,6 +1502,7 @@ StaticModelEntity : "{E17C840623164766}Prefabs/Statue/Statue_TP_USSR.et" {
      ParentContextList {
       "TP"
      }
+     m_iTeleportCost 250
      m_sDestinationName "Montignac"
      m_sDestinationDisplayName "Montignac"
      m_sTargetBaseName "Montignac"
@@ -1496,6 +1511,7 @@ StaticModelEntity : "{E17C840623164766}Prefabs/Statue/Statue_TP_USSR.et" {
      ParentContextList {
       "TP"
      }
+     m_iTeleportCost 350
      m_sDestinationName "Morton"
      m_sDestinationDisplayName "Morton"
      m_sTargetBaseName "Morton"
@@ -1504,6 +1520,7 @@ StaticModelEntity : "{E17C840623164766}Prefabs/Statue/Statue_TP_USSR.et" {
      ParentContextList {
       "TP"
      }
+     m_iTeleportCost 300
      m_sDestinationName "MortonValley"
      m_sDestinationDisplayName "Morton Valley"
      m_sTargetBaseName "MortonValley"
@@ -1512,6 +1529,7 @@ StaticModelEntity : "{E17C840623164766}Prefabs/Statue/Statue_TP_USSR.et" {
      ParentContextList {
       "TP"
      }
+     m_iTeleportCost 300
      m_sDestinationName "Pinewood"
      m_sDestinationDisplayName "Pinewood"
      m_sTargetBaseName "Pinewood"
@@ -1520,6 +1538,7 @@ StaticModelEntity : "{E17C840623164766}Prefabs/Statue/Statue_TP_USSR.et" {
      ParentContextList {
       "TP"
      }
+     m_iTeleportCost 400
      m_sDestinationName "Provins"
      m_sDestinationDisplayName "Provins"
      m_sTargetBaseName "Provins"
@@ -1528,6 +1547,7 @@ StaticModelEntity : "{E17C840623164766}Prefabs/Statue/Statue_TP_USSR.et" {
      ParentContextList {
       "TP"
      }
+     m_iTeleportCost 500
      m_sDestinationName "Regina"
      m_sDestinationDisplayName "Regina"
      m_sTargetBaseName "Regina"
@@ -1536,6 +1556,7 @@ StaticModelEntity : "{E17C840623164766}Prefabs/Statue/Statue_TP_USSR.et" {
      ParentContextList {
       "TP"
      }
+     m_iTeleportCost 350
      m_sDestinationName "Richemont"
      m_sDestinationDisplayName "Richemont"
      m_sTargetBaseName "Richemont"
@@ -1544,6 +1565,7 @@ StaticModelEntity : "{E17C840623164766}Prefabs/Statue/Statue_TP_USSR.et" {
      ParentContextList {
       "TP"
      }
+     m_iTeleportCost 400
      m_sDestinationName "Seagull"
      m_sDestinationDisplayName "Seagull"
      m_sTargetBaseName "Seagull"
@@ -1552,6 +1574,7 @@ StaticModelEntity : "{E17C840623164766}Prefabs/Statue/Statue_TP_USSR.et" {
      ParentContextList {
       "TP"
      }
+     m_iTeleportCost 400
      m_sDestinationName "SimonWood"
      m_sDestinationDisplayName "Simon Wood"
      m_sTargetBaseName "SimonWood"
@@ -1560,6 +1583,7 @@ StaticModelEntity : "{E17C840623164766}Prefabs/Statue/Statue_TP_USSR.et" {
      ParentContextList {
       "TP"
      }
+     m_iTeleportCost 500
      m_sDestinationName "Thales"
      m_sDestinationDisplayName "Thales"
      m_sTargetBaseName "Thales"
@@ -1568,6 +1592,7 @@ StaticModelEntity : "{E17C840623164766}Prefabs/Statue/Statue_TP_USSR.et" {
      ParentContextList {
       "TP"
      }
+     m_iTeleportCost 50
      m_sDestinationName "Tyrone"
      m_sDestinationDisplayName "Tyrone"
      m_sTargetBaseName "Tyrone"
@@ -1576,6 +1601,7 @@ StaticModelEntity : "{E17C840623164766}Prefabs/Statue/Statue_TP_USSR.et" {
      ParentContextList {
       "TP"
      }
+     m_iTeleportCost 150
      m_sDestinationName "Villeneuf"
      m_sDestinationDisplayName "Villeneuf"
      m_sTargetBaseName "Villeneuf"
@@ -1584,6 +1610,7 @@ StaticModelEntity : "{E17C840623164766}Prefabs/Statue/Statue_TP_USSR.et" {
      ParentContextList {
       "TP"
      }
+     m_iTeleportCost 0
      m_sDestinationName "USSR_A"
      m_sDestinationDisplayName "MHQ A"
      m_sTargetBaseName "USSR_A"
@@ -1593,6 +1620,7 @@ StaticModelEntity : "{E17C840623164766}Prefabs/Statue/Statue_TP_USSR.et" {
      ParentContextList {
       "TP"
      }
+     m_iTeleportCost 0
      m_sDestinationName "USSR_B"
      m_sDestinationDisplayName "MHQ B"
      m_sTargetBaseName "USSR_B"
@@ -1679,7 +1707,7 @@ $grp GameEntity : "{E7FD0B8019E96F73}Prefabs/Structures/BuildingParts/Lights/Lam
     PivotID "socket_light_01"
    }
   }
-  coords 10149.893 10.609 1557.417
+  coords 10155.59 9.779 1559.375
   angles -66.41 0 0
   {
    LightEntity : "{5BF23CDF9B8FB366}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01_light.et" {
@@ -1693,20 +1721,6 @@ $grp GameEntity : "{E7FD0B8019E96F73}Prefabs/Structures/BuildingParts/Lights/Lam
     LV 15
    }
   }
- }
- {
-  components {
-   ParametricMaterialInstanceComponent "{5F1AD8DABB766727}" {
-   }
-   SCR_DestructionMultiPhaseComponent "{58F896B4CD371A8B}" {
-    EnableDamage 0
-   }
-   Hierarchy "{612AE78C95E98EEB}" {
-    PivotID "socket_light_01"
-   }
-  }
-  coords 10154.444 10.598 1556.038
-  angles -66.41 0 11.406
  }
  {
   components {
@@ -1733,50 +1747,8 @@ $grp GameEntity : "{E7FD0B8019E96F73}Prefabs/Structures/BuildingParts/Lights/Lam
     PivotID "socket_light_01"
    }
   }
-  coords 10163.781 10.605 1553.561
-  angles -66.41 0 0
-  {
-   LightEntity : "{5BF23CDF9B8FB366}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01_light.et" {
-    components {
-     StreetLampComponent "{55A0954A909C9109}" {
-      "Emissive Color" 0.875 0.8203 0.6562 1
-     }
-     RplComponent "{585699AC653DD54C}" {
-      Enabled 1
-     }
-    }
-    coords 0 0.196 0.178
-    angles -30 0 0
-   }
-  }
- }
- {
-  components {
-   ParametricMaterialInstanceComponent "{5F1AD8DABB766727}" {
-   }
-   SCR_DestructionMultiPhaseComponent "{58F896B4CD371A8B}" {
-    EnableDamage 0
-   }
-   Hierarchy "{612AE78C95E98EEB}" {
-    PivotID "socket_light_01"
-   }
-  }
-  coords 10168.429 10.519 1552.308
+  coords 10169.432 9.73 1555.894
   angles -53.361 0 0
- }
- {
-  components {
-   ParametricMaterialInstanceComponent "{5F1AD8DABB766727}" {
-   }
-   SCR_DestructionMultiPhaseComponent "{58F896B4CD371A8B}" {
-    EnableDamage 0
-   }
-   Hierarchy "{612AE78C95E98EEB}" {
-    PivotID "socket_light_01"
-   }
-  }
-  coords 10173.094 10.489 1551.027
-  angles -58.139 0 0
  }
  {
   components {
@@ -1788,32 +1760,6 @@ $grp GameEntity : "{E7FD0B8019E96F73}Prefabs/Structures/BuildingParts/Lights/Lam
   }
   coords 10177.682 10.49 1549.755
   angles -50.241 0 0
- }
- {
-  components {
-   ParametricMaterialInstanceComponent "{5F1AD8DABB766727}" {
-   }
-   SCR_DestructionMultiPhaseComponent "{58F896B4CD371A8B}" {
-    EnableDamage 0
-   }
-   Hierarchy "{612AE78C95E98EEB}" {
-    PivotID "socket_light_01"
-   }
-  }
-  coords 10182.268 10.481 1548.469
-  angles -45.558 0 0
-  {
-   LightEntity : "{5BF23CDF9B8FB366}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01_light.et" {
-    components {
-     RplComponent "{585699AC653DD54C}" {
-      Enabled 1
-     }
-    }
-    coords 0 0.192 0.185
-    angles -30 0 0
-    LV 12
-   }
-  }
  }
  {
   components {
@@ -1854,36 +1800,8 @@ $grp GameEntity : "{E7FD0B8019E96F73}Prefabs/Structures/BuildingParts/Lights/Lam
     PivotID "socket_light_01"
    }
   }
-  coords 4888.809 36.329 11936.692
-  angles -68.94 -8.714 -60.05
-  {
-   LightEntity : "{5BF23CDF9B8FB366}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01_light.et" {
-    components {
-     StreetLampComponent "{55A0954A909C9109}" {
-      "Emissive Color" 0.875 0.8203 0.6562 1
-     }
-     RplComponent "{585699AC653DD54C}" {
-      Enabled 1
-     }
-    }
-    coords 0 0.196 0.178
-    angles -30 0 0
-   }
-  }
- }
- {
-  components {
-   ParametricMaterialInstanceComponent "{5F1AD8DABB766727}" {
-   }
-   SCR_DestructionMultiPhaseComponent "{58F896B4CD371A8B}" {
-    EnableDamage 0
-   }
-   Hierarchy "{612AE78C95E98EEB}" {
-    PivotID "socket_light_01"
-   }
-  }
-  coords 4888.716 36.351 11931.894
-  angles -68.94 -8.714 -60.05
+  coords 4893.762 35.48 11933.191
+  angles -52.988 -41.261 -31.146
   {
    LightEntity : "{5BF23CDF9B8FB366}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01_light.et" {
     components {
@@ -1938,7 +1856,7 @@ $grp GameEntity : "{E7FD0B8019E96F73}Prefabs/Structures/BuildingParts/Lights/Lam
     PivotID "socket_light_01"
    }
   }
-  coords 4888.708 36.321 11922.293
+  coords 4893.055 35.563 11917.494
   angles -68.94 -8.714 -60.05
   {
    LightEntity : "{5BF23CDF9B8FB366}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01_light.et" {
@@ -1966,91 +1884,7 @@ $grp GameEntity : "{E7FD0B8019E96F73}Prefabs/Structures/BuildingParts/Lights/Lam
     PivotID "socket_light_01"
    }
   }
-  coords 4888.599 36.336 11917.494
-  angles -68.94 -8.714 -60.05
-  {
-   LightEntity : "{5BF23CDF9B8FB366}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01_light.et" {
-    components {
-     StreetLampComponent "{55A0954A909C9109}" {
-      "Emissive Color" 0.875 0.8203 0.6562 1
-     }
-     RplComponent "{585699AC653DD54C}" {
-      Enabled 1
-     }
-    }
-    coords 0 0.196 0.178
-    angles -30 0 0
-   }
-  }
- }
- {
-  components {
-   ParametricMaterialInstanceComponent "{5F1AD8DABB766727}" {
-   }
-   SCR_DestructionMultiPhaseComponent "{58F896B4CD371A8B}" {
-    EnableDamage 0
-   }
-   Hierarchy "{612AE78C95E98EEB}" {
-    PivotID "socket_light_01"
-   }
-  }
-  coords 4888.628 36.421 11912.693
-  angles -68.94 -8.714 -60.05
-  {
-   LightEntity : "{5BF23CDF9B8FB366}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01_light.et" {
-    components {
-     StreetLampComponent "{55A0954A909C9109}" {
-      "Emissive Color" 0.875 0.8203 0.6562 1
-     }
-     RplComponent "{585699AC653DD54C}" {
-      Enabled 1
-     }
-    }
-    coords 0 0.196 0.178
-    angles -30 0 0
-   }
-  }
- }
- {
-  components {
-   ParametricMaterialInstanceComponent "{5F1AD8DABB766727}" {
-   }
-   SCR_DestructionMultiPhaseComponent "{58F896B4CD371A8B}" {
-    EnableDamage 0
-   }
-   Hierarchy "{612AE78C95E98EEB}" {
-    PivotID "socket_light_01"
-   }
-  }
-  coords 4888.659 36.351 11907.894
-  angles -68.94 -8.714 -60.05
-  {
-   LightEntity : "{5BF23CDF9B8FB366}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01_light.et" {
-    components {
-     StreetLampComponent "{55A0954A909C9109}" {
-      "Emissive Color" 0.875 0.8203 0.6562 1
-     }
-     RplComponent "{585699AC653DD54C}" {
-      Enabled 1
-     }
-    }
-    coords 0 0.196 0.178
-    angles -30 0 0
-   }
-  }
- }
- {
-  components {
-   ParametricMaterialInstanceComponent "{5F1AD8DABB766727}" {
-   }
-   SCR_DestructionMultiPhaseComponent "{58F896B4CD371A8B}" {
-    EnableDamage 0
-   }
-   Hierarchy "{612AE78C95E98EEB}" {
-    PivotID "socket_light_01"
-   }
-  }
-  coords 4888.529 36.322 11903.094
+  coords 4894.982 35.192 11907.955
   angles -68.94 -8.714 -60.05
   {
    LightEntity : "{5BF23CDF9B8FB366}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01_light.et" {
@@ -2097,6 +1931,7 @@ $grp GameEntity : "{E7FD0B8019E96F73}Prefabs/Structures/BuildingParts/Lights/Lam
  }
 }
 GenericEntity : "{EA1DD6EE6534033A}Prefabs/Compositions/Misc/CustomEntities/InteractionPoints/ArsenalBox_USSR_Equipment_NoAffiliation.et" {
+ Flags 0x400 0
  coords 4880.91 29.031 11900.046
  angles 0 -66.16 0
 }
@@ -2423,8 +2258,8 @@ $grp GenericEntity : "{F31BE678DDF1480C}Prefabs/Structures/Signs/Anglais/Service
   angles 0 -91.98 0
  }
  {
-  coords 4889.776 28.295 11735.754
-  angles 0 -86.265 0
+  coords 4889.776 28.06 11735.754
+  angles 0 -89.838 0
  }
  {
   coords 10123.709 2.503 1372.391
