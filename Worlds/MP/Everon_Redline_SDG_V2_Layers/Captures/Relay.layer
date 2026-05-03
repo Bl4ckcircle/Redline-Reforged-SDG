@@ -56,7 +56,7 @@ $grp GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRel
     m_sBaseNameUpper "Calvary Relay"
    }
   }
-  coords 3502.453 220.585 5827.966
+  coords 3502.453 220.599 5827.966
   angles 0 105.675 0
   {
    GenericEntity {

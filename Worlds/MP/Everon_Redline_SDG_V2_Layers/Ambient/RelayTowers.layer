@@ -6304,17 +6304,9 @@ $grp GenericEntity : "{A16AAE4C47D5D264}Prefabs/L42/Campaign/RelayTower/Big01_Ba
   coords 3500.701 182.105 5829.352
   angles 0 -67.752 0
   {
-   GenericEntity : "{94DCE76C1FFBA9BA}Prefabs/Structures/BuildingParts/Eletrical/ElectricityBox_01.et" {
-    coords 2.26 0.357 14.288
-    angles 0 -91.248 0
-   }
-   GenericEntity : "{A419F4547954DA05}Prefabs/Props/Construction/CableReel/CableReelWooden_01.et" {
-    coords 2.01 0.357 17.917
-    angles 0 67.752 0
-   }
-   GenericEntity : "{D6EA45FE51108ADC}Prefabs/Structures/BuildingParts/Eletrical/ElectricCabinetInterior_02.et" {
-    coords 2.278 0.357 15.992
-    angles 0 -91.248 0
+   StaticModelEntity {
+    ID "5E3A03303E91B838"
+    coords 0.053 -0.545 -0.138
    }
   }
  }

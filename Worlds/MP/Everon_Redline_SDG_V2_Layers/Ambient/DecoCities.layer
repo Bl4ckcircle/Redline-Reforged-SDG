@@ -1701,6 +1701,12 @@ $grp GenericEntity {
     {
      coords 1.053 16.33 -6.472
      angles 0 -179.898 0
+     {
+      GenericEntity {
+       ID "59A297CB88FA386C"
+       coords -0.023 0.804 -0.007
+      }
+     }
     }
    }
    $grp GenericEntity : "{5040D5BB29F06E43}Prefabs/Props/Military/Sandbags/Sandbag_01_single_plastic.et" {
@@ -1749,7 +1755,7 @@ $grp GenericEntity {
    }
    $grp GenericEntity : "{78AB783E28EDEBD4}Prefabs/Props/Military/Sandbags/Sandbag_01_long_plastic.et" {
     {
-     coords 3.393 16.316 -7.397
+     coords 3.325 16.283 -7.344
      angles 0 90.085 0
     }
     {
@@ -1799,6 +1805,10 @@ $grp GenericEntity {
    }
    $grp SCR_DestructibleEntity : "{7979998AA08B8204}Prefabs/Structures/Walls/Wooden/WoodenWall_01/WoodenWall_01_weathered_8m.et" {
     {
+     components {
+      SCR_DestructionMultiPhaseComponent "{693AFCFB61E27FB1}" {
+      }
+     }
      coords 4.026 16.245 -7.756
      angles 90 -179.401 0.409
      Enabled 0
@@ -1849,8 +1859,17 @@ $grp GenericEntity {
      Enabled 0
     }
     {
+     components {
+      SCR_DestructionMultiPhaseComponent "{693A7286CC66AF24}" {
+      }
+     }
      coords 3.927 16.204 -25.825
      angles 90 -179.401 0.409
+     Enabled 0
+    }
+    {
+     coords 4.069 16.175 -25.747
+     angles 89.972 105.684 -73.6
      Enabled 0
     }
    }
@@ -2099,6 +2118,10 @@ $grp GenericEntity {
     angles 0 -88.634 0
    }
    GenericEntity : "{8FEA06CA746A084F}Prefabs/Compositions/Misc/SubCompositions/Sandbags_Mixed_Cluttered_US_01.et" {
+    components {
+     SCR_DestructionMultiPhaseComponent "{693AFCFB5C4912AB}" {
+     }
+    }
     coords -3.495 16.978 -18.05
     angles 0 90.085 0
     {
@@ -2230,6 +2253,11 @@ $grp GenericEntity {
     }
    }
    GenericEntity : "{D31D0F615378FA6B}Prefabs/Compositions/Misc/SubCompositions/CanvasCover_Cluttered_US_03.et" {
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 1
+     }
+    }
     coords 1.293 16.311 -16.754
     angles 0 -0.765 0
     {
