@@ -59,10 +59,53 @@ SCR_GameModeCampaign GameMode_Campaign1 : "{3B230AAC5252108F}Prefabs/MP/Modes/Co
   }
   SCR_XPHandlerComponent "{5CAAA397E5408ABF}" {
    m_sXPRewardsConfig "{DDD29FAEBFA35353}Configs/Campaign/RRG_XPRewards.conf"
+   m_iVeterancyXPAwardThreshold 0
+   m_iMedicalAssistanceRewardCooldown 240
+   m_fEnemyVehicleDestroyXPMultiplier 0
+   m_iSurvivalRewardCooldown 1800
+   m_fVehicleRepairXPMultiplier 0
+   m_mSeizeXPRewardConfig SCR_SeizeXpRewardConfig "{657C71E620E93E4A}" {
+    m_iXPRewardTimer 180
+    m_aSeizeCompletionXpRewardList {
+     SCR_SeizeCompletionXpRewardInfo "{657C71E63D8D0E79}" {
+      m_iXPReward 1
+     }
+     SCR_SeizeCompletionXpRewardInfo "{657C71E63A17E2AA}" {
+      m_iXPReward 1
+     }
+     SCR_SeizeCompletionXpRewardInfo "{657C71E639D75E88}" {
+      m_iXPReward 2
+     }
+    }
+    m_aSeizeProgressionXpRewardList {
+     SCR_SeizeProgressionXpRewardInfo "{657C71E63BC15986}" {
+      m_iXPReward 1
+     }
+     SCR_SeizeProgressionXpRewardInfo "{657C71E63B5DC55E}" {
+      m_iXPReward 2
+     }
+     SCR_SeizeProgressionXpRewardInfo "{657C71E63B176CCC}" {
+      m_iXPReward 2
+     }
+    }
+   }
+   m_fWCS_FIASeizeXpMultiplier 0
+   m_bWCS_CrewVehicleKillXpSharing 0
+   m_fWCS_CrewVehicleKillXpBonusPerMember 0
+   m_bWCS_SquadKillAssistBonus 0
+   m_iWCS_TransportPointThreshold 1800
+   m_iWCS_SquadLeaderCohesionInterval 0
+   m_iWCS_SquadLeaderCohesionActivityTimeout 1800
+   m_iWCS_TransportPassengerBonusCooldown 1800
+   m_iWCS_SquadLeaderCohesionXpPerMember 0
+   m_iWCS_SquadLeaderCohesionXpCap 0
   }
  }
  coords -1326.92 -135.944 -12776.934
- m_iLossReward 1000
+ m_iWinReward 10000
+ m_iLossReward 3000
+ m_iKillBonus 2000
+ m_iCapBonus 2000
  m_iControlPointsThreshold 10
  m_iRegularSuppliesIncome 250
  m_iRegularSuppliesIncomeBase 5
@@ -1426,17 +1469,6 @@ SCR_CampaignFactionManager CampaignOriginalFactionManager : "{9DBBC0F766BEF527}P
     }
     SCR_EntityCatalogMultiList "{5C9E82F285C09E24}" : "{09C2ED5F617A0390}Configs/EntityCatalog/USSR/USSR_Vehicles.conf" {
      m_eEntityCatalogType VEHICLE
-     m_aEntityEntryList {
-      SCR_EntityCatalogEntry "{5C54F92F4674F967}" {
-       m_bEnabled 0
-      }
-      SCR_EntityCatalogEntry "{5C54F92F466216D7}" {
-       m_bEnabled 0
-      }
-      SCR_EntityCatalogEntry "{5C54F92F54200650}" {
-       m_bEnabled 0
-      }
-     }
      m_aMultiLists {
       SCR_EntityCatalogMultiListEntry "{605697836F02AFD9}" {
        m_aEntities {
@@ -1456,10 +1488,6 @@ SCR_CampaignFactionManager CampaignOriginalFactionManager : "{9DBBC0F766BEF527}P
          m_bEnabled 0
         }
        }
-      }
-      SCR_EntityCatalogMultiListEntry "{60569783D4C68630}" {
-      }
-      SCR_EntityCatalogMultiListEntry "{60569783D41E7AAE}" {
       }
      }
     }
@@ -2356,7 +2384,7 @@ SCR_CampaignFactionManager CampaignOriginalFactionManager : "{9DBBC0F766BEF527}P
       }
      }
     }
-    SCR_EntityCatalogMultiList "{5C9E82F29B327997}" : "{D83A5EFEEF6CBF61}Configs/EntityCatalog/US/US_Vehicles.conf" {
+    SCR_EntityCatalogMultiList "{5C9E82F29B327997}" : "{D83A5EFEEF6CBF61}Configs/EntityCatalog/US/Vehicles_EntityCatalog_US.conf" {
      m_aMultiLists {
       SCR_EntityCatalogMultiListEntry "{60569780DE4EE17A}" {
        m_aEntities {
@@ -2413,6 +2441,12 @@ SCR_CampaignFactionManager CampaignOriginalFactionManager : "{9DBBC0F766BEF527}P
          m_bEnabled 0
         }
         SCR_EntityCatalogEntry "{68C31C1E469690D6}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{68908BED0969C308}" {
+         m_sEntityPrefab "{54838E573DCDC027}Prefabs/Weapons/Howitzers/M777/M777_Howitzer.et"
+        }
+        SCR_EntityCatalogEntry "{6518F7526EC41AB1}" {
          m_bEnabled 0
         }
        }

@@ -81,7 +81,7 @@ $grp GenericEntity {
   components {
    RRG_VehicleRespawnManager "{6942F8107CF96A92}" {
     m_VehiclePrefab "{1BABF6B33DA0AEB7}Prefabs/Vehicles/Wheeled/Ural4320/MHQ_A.et"
-    m_fDelayAbandoned 2400
+    m_fDelayAbandoned 7200
     m_fInteractionDistance 30
    }
   }
@@ -92,7 +92,7 @@ $grp GenericEntity {
   components {
    RRG_VehicleRespawnManager "{6942F8105BFA743A}" {
     m_VehiclePrefab "{047DDE56444CA348}Prefabs/Vehicles/Wheeled/Ural4320/MHQ_B.et"
-    m_fDelayAbandoned 2400
+    m_fDelayAbandoned 7200
     m_fInteractionDistance 30
    }
   }
@@ -1141,6 +1141,60 @@ SCR_ChimeraCharacter : "{CE45716F28FBE4E3}Prefabs/Characters/Shop/USSR/USSR_Shop
       }
      }
     }
+    ADM_ShopMerchandise "{6954B5C38F33B727}" {
+     m_Merchandise ADM_MerchandiseVehicle "{6954B5C38F33B743}" {
+      m_SpawnPosition PointInfo "{6954B5C38F33B742}" {
+       Offset -3.6337 3.5 -10
+       Angles 0 -30 0
+      }
+     }
+    }
+    ADM_ShopMerchandise "{6954B5C3E2E2BE70}" {
+     m_Merchandise ADM_MerchandiseVehicle "{6954B5C3E2E2BEA7}" {
+      m_iMaxPurchaseQuantity 4
+      m_SpawnPosition PointInfo "{6954B5C3E2E2BEA1}" {
+       Offset -3.6337 3.5 -10
+       Angles 0 -30 0
+      }
+     }
+    }
+    ADM_ShopMerchandise "{6954B5C3DC5B67AF}" {
+     m_Merchandise ADM_MerchandiseVehicle "{6954B5C3DC5B67DF}" {
+      m_SpawnPosition PointInfo "{6954B5C3DC5B67DE}" {
+       Offset -3.6337 3.5 -10
+       Angles 0 -30 0
+      }
+     }
+    }
+    ADM_ShopMerchandise "{6954B5C23F178DBC}" {
+     m_Merchandise ADM_MerchandiseVehicle "{6954B5C23F178DDE}" {
+      m_SpawnPosition PointInfo "{6954B5C23F178DD8}" {
+       Offset -3.6337 3.5 -10
+       Angles 0 -30 0
+      }
+     }
+     m_BuyPayment {
+      BNK_PaymentMethodCash "{6954B5C23F178DC5}" {
+       m_Quantity 27499
+      }
+     }
+    }
+    ADM_ShopMerchandise "{6954B5C2212B7447}" {
+     m_Merchandise ADM_MerchandiseVehicle "{6954B5C2212B74FC}" {
+      m_SpawnPosition PointInfo "{6954B5C2212B74FE}" {
+       Offset -3.6337 3.5 -10
+       Angles 0 -30 0
+      }
+     }
+    }
+    ADM_ShopMerchandise "{6954B5C208BF5604}" {
+     m_Merchandise ADM_MerchandiseVehicle "{6954B5C208BF56A5}" {
+      m_SpawnPosition PointInfo "{6954B5C208BF56A7}" {
+       Offset -3.6337 3.5 -10
+       Angles 0 -30 0
+      }
+     }
+    }
     ADM_ShopMerchandise "{68CB4AC7BC6C6B43}" {
      m_Merchandise ADM_MerchandiseVehicle "{686CDD554D3641CD}" {
       m_SpawnPosition PointInfo "{686D142BDFA58EE9}" {
@@ -1188,10 +1242,18 @@ SCR_ChimeraCharacter : "{CE45716F28FBE4E3}Prefabs/Characters/Shop/USSR/USSR_Shop
       }
      }
     }
-    ADM_ShopMerchandise "{68CB4AC461404EDF}" {
-     m_Merchandise ADM_MerchandiseVehicle "{68589013F578E90F}" {
-      m_SpawnPosition PointInfo "{686D142BADEB991B}" {
-       Offset -3.6 2.3 -10
+    ADM_ShopMerchandise "{6954BCAE10A12967}" {
+     m_Merchandise ADM_MerchandiseVehicle "{6954BCAE10A1298F}" {
+      m_SpawnPosition PointInfo "{6954BCAE10A12989}" {
+       Offset -3.6337 3 -10
+       Angles 0 -30 0
+      }
+     }
+    }
+    ADM_ShopMerchandise "{6954BCAE9AE63B07}" {
+     m_Merchandise ADM_MerchandiseVehicle "{6954BCAE9AE63BBE}" {
+      m_SpawnPosition PointInfo "{6954BCAE9AE63BB8}" {
+       Offset -3.6337 3 -10
        Angles 0 -30 0
       }
      }
@@ -1207,11 +1269,13 @@ $grp GenericEntity : "{D0B05C0B2AEB98C6}Prefabs/Garage/Repair.et" {
   components {
    ActionsManagerComponent "{6856B5B575AED13E}" {
     additionalActions {
-     RY_Action_Rearm "{687CCC2EF16B4DAD}" {
-      m_fRadius 10
+     RRG_ServiceRepair_Action "{6954897094449BDB}" {
+      ParentContextList +{
+      }
      }
-     RY_ServiceRepair_Action "{687CCC2EEEB3C939}" {
-      m_fRadius 10
+     RRG_ServiceRearm_Action "{69548970976DE28B}" {
+      ParentContextList +{
+      }
      }
     }
    }
@@ -1242,18 +1306,6 @@ $grp GenericEntity : "{D0B05C0B2AEB98C6}Prefabs/Garage/Repair.et" {
   }
  }
  Repair_686C810C7F8FCC5A2 {
-  components {
-   ActionsManagerComponent "{6856B5B575AED13E}" {
-    additionalActions {
-     RY_Action_Rearm "{687CCC2EF16B4DAD}" {
-      m_fRadius 10
-     }
-     RY_ServiceRepair_Action "{687CCC2EEEB3C939}" {
-      m_fRadius 10
-     }
-    }
-   }
-  }
   coords 4889.364 28.174 11735.79
   angles 0 -90.351 0
   {
