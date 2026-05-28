@@ -30,7 +30,7 @@ $grp GenericEntity : "{09A62EA7EAFEE27F}Prefabs/Structures/Signs/Anglais/Gun Sho
  }
 }
 GenericEntity : "{107A37280254E71D}Prefabs/Structures/Signs/Anglais/Air Attack US.et" {
- coords 10149.038 2.509 1436.625
+ coords 10152.178 2.509 1441.346
  angles 0 0 0
 }
 GenericEntity : "{176CB491E1DCF443}Prefabs/Structures/Signs/Anglais/Transport US.et" {
@@ -38,7 +38,7 @@ GenericEntity : "{176CB491E1DCF443}Prefabs/Structures/Signs/Anglais/Transport US
  angles 0 119.976 0
 }
 GenericEntity : "{1DBAC6D6CAA1F843}Prefabs/Structures/Signs/Anglais/Air Transport US.et" {
- coords 10166.272 2.48 1458.743
+ coords 10169.412 2.48 1463.464
  angles 0 0 0
 }
 SCR_ChimeraCharacter : "{20E8C3FC5F8EB560}Prefabs/Characters/Shop/Multi_Shop_Vehicles_Air.et" {
@@ -140,7 +140,7 @@ GenericEntity : "{31A455F7FD8DCE84}Prefabs/Props/Military/Sandbags/Sandbag_01_lo
  coords 4882.683 28.729 11901.573
 }
 GenericEntity : "{4116792E3871E999}Prefabs/Structures/Signs/Anglais/Air Attack USSR.et" {
- coords 4862.502 28.031 11817.189
+ coords 4862.672 28.031 11825.056
  angles 0 -89.681 0
 }
 $grp GenericEntity : "{4B0200DDEFF7AE90}Prefabs/Structures/Signs/Anglais/IFV.et" {
@@ -400,7 +400,7 @@ $grp SCR_ChimeraCharacter : "{F10FBA5F5FBEB379}Prefabs/Characters/Shop/Multi_Sho
    BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
     Slots {
      LoadoutSlotInfo Jacket {
-      Prefab "{DB053443800A3FCB}Prefabs/Characters/Uniforms/Jacket_Bandit/Jacket_Bandit.et"
+      Prefab "{DB053443800A3FCB}Prefabs/Characters/Uniforms/Jacket_Bandit/Jacket_Bandit_01.et"
      }
      LoadoutSlotInfo Pants {
       Prefab "{C542EA4B3ED3B61B}Prefabs/Characters/Uniforms/Pants_Cargo/Pants_Cargo_Tan.et"
@@ -1145,6 +1145,6 @@ $grp SCR_ChimeraCharacter : "{F10FBA5F5FBEB379}Prefabs/Characters/Shop/Multi_Sho
  }
 }
 GenericEntity : "{F31BE678DDF1480C}Prefabs/Structures/Signs/Anglais/ServicesVeh.et" {
- coords 10076.75 2.532 1542.735
- angles 0 13.447 0
+ coords 10134.068 2.532 1520.293
+ angles 0 105.005 0
 }

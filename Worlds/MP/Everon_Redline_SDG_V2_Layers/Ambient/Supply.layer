@@ -90,8 +90,26 @@ $grp GenericEntity : "{A4D0B331414901A5}Prefabs/Structures/Commercial/FuelStatio
     DisplayName "Fuel"
    }
   }
-  coords 10117.331 0.005 1363.474
+  coords 10117.35 0.005 1366.844
   angles 0 167.372 0
+  {
+   GenericEntity {
+    ID "5C74B5451771AAF0"
+    coords 0 0 0
+   }
+   GenericEntity {
+    ID "55C49DEA21F1B52E"
+    coords 0 0 0
+   }
+   GenericEntity {
+    ID "55C49DEA21F1B572"
+    coords 0 0 0
+   }
+   SCR_FuelNozzle {
+    ID "5C64CDC70F989713"
+    coords -0.381 1.256 0.091
+   }
+  }
  }
  {
   components {
@@ -120,8 +138,14 @@ $grp GenericEntity : "{A4D0B331414901A5}Prefabs/Structures/Commercial/FuelStatio
     DisplayName "Fuel"
    }
   }
-  coords 4886.9 0.153 11727.325
+  coords 4880.17 -0.137 11782.716
   angles 0 -26.775 0
+  {
+   GenericEntity {
+    ID "5C74B5451771AAF0"
+    coords 0 0 -0.002
+   }
+  }
  }
  {
   components {
@@ -158,8 +182,4 @@ $grp SCR_DestructibleBuildingEntity : "{E169F93127A4ED8E}Prefabs/Structures/Indu
   coords 4860.765 0.252 11955.563
   angles 0 89.504 0
  }
-}
-GenericEntity : "{FE73D4EE6F46894F}Prefabs/Structures/Signs/Anglais/TPUS.et" {
- coords 10167.604 1.797 1524.19
- angles 0 -110.96 0
 }

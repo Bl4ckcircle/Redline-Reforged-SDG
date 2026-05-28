@@ -5878,8 +5878,8 @@ $grp GenericEntity : "{9E36120FECA41BE8}Prefabs/Compositions/Misc/SubComposition
 }
 $grp GenericEntity : "{A16AAE4C47D5D264}Prefabs/L42/Campaign/RelayTower/Big01_Base.et" {
  DecoRelayRichemont {
-  coords 6249.985 172.263 7795.489
-  angles 0 -109.979 0
+  coords 6333.261 77.746 8448.639
+  angles 0 -35.803 0
   {
    DecalEntity : "{4AD6EB80A8B1FA3A}Prefabs/Decals/Dirt/Decal_Dirt_Patch_03.et" {
     components {

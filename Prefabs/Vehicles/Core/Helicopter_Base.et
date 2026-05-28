@@ -1,0 +1,10 @@
+Vehicle : "{4085446E2B406849}Prefabs/Vehicles/Core/Vehicle_Base.et" {
+ ID "57DA6675519A417B"
+ components {
+  RRG_RopeVisualComponent "{6963190966D67056}" {
+  }
+  RRG_SlingloadComponent "{6962B0685139AA5D}" {
+   m_fMaximumSlingloadMass 15000
+  }
+ }
+}

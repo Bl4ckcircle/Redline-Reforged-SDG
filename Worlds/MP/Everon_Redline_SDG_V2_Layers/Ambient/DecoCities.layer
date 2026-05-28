@@ -3965,7 +3965,7 @@ $grp GenericEntity {
      angles -5.13 102.207 -1.108
     }
     {
-     coords -103.35 5.152 -26.521
+     coords -103.359 5.056 -26.521
      angles -5.13 102.207 -1.108
     }
    }
@@ -4820,7 +4820,7 @@ $grp GenericEntity {
      angles -1.08 11.839 5.136
     }
     {
-     coords -104.096 5.092 -26.358
+     coords -104.1 5.047 -26.358
      angles -1.08 11.839 5.136
     }
     {
@@ -4875,7 +4875,7 @@ $grp GenericEntity {
     }
    }
    StaticModelEntity : "{E87BCD612EEDAC6D}Prefabs/Terrain/Erosion/ErodedEmbankment_01/ErodedEmbankment_01_forest_turnin.et" {
-    coords -103.647 3.623 -25.627
+    coords -103.725 2.781 -25.627
     angles 5.048 -74.097 1.436
    }
    Tree : "{F55BF63BAD1DCB7E}Prefabs/Vegetation/Bush/b_juniperus_communis_2s.et" {

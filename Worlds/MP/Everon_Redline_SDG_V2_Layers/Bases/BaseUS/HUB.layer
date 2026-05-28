@@ -126,7 +126,7 @@ $grp GenericEntity {
     Scale 0.5
    }
   }
-  coords 10109.722 2.5 1370.039
+  coords 10113.366 2.5 1371.038
   angles 0 -92.817 0
  }
  {
@@ -196,6 +196,10 @@ $grp GenericEntity : "{0858A93EFDE04083}Prefabs/ATM.et" {
 GenericEntity : "{0BAC6A82F4481CA0}Prefabs/Structures/Signs/FR/Loadout FR.et" {
  coords 10171.297 3.011 1552.189
  angles 0 15.381 0
+}
+SCR_DestructibleBuildingEntity : "{12310677867A85D4}Prefabs/Structures/Industrial/Houses/Warehouse_01/Warehouse_01.et" {
+ coords 7555.756 0.004 6725.186
+ angles 0 128.783 0
 }
 SCR_ChimeraCharacter : "{1318606B854E15B7}Prefabs/Characters/Shop/US/US_Shop_Vehicles_Ground_MBTs.et" {
  components {
@@ -496,15 +500,6 @@ SCR_DestructibleEntity : "{2506C02B8564CABC}Prefabs/Statue/Statue_TP_US.et" {
      m_sDestinationName "Morton"
      m_sDestinationDisplayName "Morton"
      m_sTargetBaseName "Morton"
-    }
-    RRG_FastTravelActionManager "{6916FC5D53A60E09}" {
-     ParentContextList {
-      "TP"
-     }
-     m_iTeleportCost 350
-     m_sDestinationName "MortonValley"
-     m_sDestinationDisplayName "Morton Valley"
-     m_sTargetBaseName "MortonValley"
     }
     RRG_FastTravelActionManager "{6916FC5D52C5E26A}" {
      ParentContextList {
@@ -828,7 +823,7 @@ SCR_ChimeraCharacter : "{665604EB465D4273}Prefabs/Characters/Shop/US/US_Shop_Veh
    }
   }
  }
- coords 10167.152 2.468 1459.922
+ coords 10170.292 2.468 1464.643
  angles 0 -26.032 0
 }
 $grp SCR_ChimeraCharacter : "{718B53EBDF53CAAC}Prefabs/Characters/Shop/US/US_Multi_Shop_Items_Weapons.et" {
@@ -971,12 +966,22 @@ SCR_ChimeraCharacter : "{80B78DBDD0DCB9C6}Prefabs/Characters/Shop/US/US_Shop_Veh
    }
   }
  }
- coords 10150.108 2.5 1438.073
+ coords 10153.248 2.5 1442.794
  angles 0 -14.175 0
 }
 GenericEntity : "{8217820F3B3BCEBD}Prefabs/Structures/Signs/FR/Regles1.et" {
  coords 10145.951 2.985 1553.889
  angles 0 14.934 0
+}
+$grp GenericEntity : "{869914063728EFF8}Prefabs/Props/Forest/WoodPile/WoodLog_01_D.et" {
+ {
+  coords 5605.603 203.537 6991.488
+  angles 81.099 97.877 163.309
+ }
+ {
+  coords 5608.438 203.524 6990.167
+  angles 81.099 97.877 173.856
+ }
 }
 $grp SCR_DestructibleEntity : "{879865F07EA907B0}Prefabs/Structures/Walls/Concrete/ConcreteWall_02/ConcreteWall_02_4m.et" {
  {
@@ -1047,6 +1052,10 @@ $grp SCR_DestructibleEntity : "{879865F07EA907B0}Prefabs/Structures/Walls/Concre
   coords 10124.916 -0.166 1555.568
   angles 0 -165.795 0
  }
+}
+SCR_ChimeraCharacter : "{8A9F960E73ED6631}Prefabs/Characters/Shop/Multi_Shop_Items_Weapons.et" {
+ coords 5289.896 65.085 5300.673
+ angles 0 -83.864 0
 }
 GenericEntity : "{8B0BEC5F8E649B16}Prefabs/Structures/Signs/FR/Marchands FR.et" {
  coords 10178.631 3.139 1558.934
@@ -1140,8 +1149,8 @@ $grp GenericEntity : "{9EA803E0D1DDCDB6}Prefabs/Garage/Garage.et" {
   angles 0 -91.122 0
  }
  {
-  coords 10109.691 2.5 1369.696
-  angles 0 42.71 0
+  coords 10113.434 2.5 1370.962
+  angles 0 25.845 0
  }
 }
 GenericEntity : "{A4D0B331414901A5}Prefabs/Structures/Commercial/FuelStations/FuelStation_E_01/HouseAddons/FuelStation_E_01_tankpistol.et" {
@@ -1509,11 +1518,11 @@ $grp SCR_ChimeraCharacter : "{CA9F8CBCA70E9CAA}Prefabs/Characters/Shop/US/US_Sho
 }
 $grp StaticModelEntity : "{CF1FFB7BAA1A0769}Prefabs/Structures/Military/Camps/HelipadImprovised_01/HelipadImprovised_US_01.et" {
  {
-  coords 10115.416 -0.351 1377.675
+  coords 10115.684 -0.229 1380.052
   angles 0 -55.395 0
  }
  {
-  coords 10154.669 -0.273 1429.365
+  coords 10157.809 -0.273 1434.086
   angles 0 -55.395 0
  }
  {
@@ -1525,14 +1534,14 @@ $grp StaticModelEntity : "{CF1FFB7BAA1A0769}Prefabs/Structures/Military/Camps/He
   angles 0 -55.395 0
  }
  {
-  coords 10168.405 -0.315 1448.283
+  coords 10171.545 -0.315 1453.004
   angles 0 -55.395 0
  }
 }
 $grp GenericEntity : "{D0B05C0B2AEB98C6}Prefabs/Garage/Repair.et" {
  Repair_686C810C7F8FCC5A3 {
-  coords 10076.913 2.531 1543.289
-  angles 0 14.956 0
+  coords 10134.618 2.531 1520.115
+  angles 0 106.514 0
   {
    GenericEntity Repair_Reamo_Station2 {
     components {
@@ -1551,13 +1560,13 @@ $grp GenericEntity : "{D0B05C0B2AEB98C6}Prefabs/Garage/Repair.et" {
       Scale 0.5
      }
     }
-    coords -0.04 0.029 -0.087
+    coords -0.042 0.029 -0.087
     angles 0 -92.817 0
    }
   }
  }
  Repair_686C810C7F8FCC5A4 {
-  coords 10122.983 2.817 1372.718
+  coords 10123.002 2.817 1376.088
   angles 0 -52.672 0
   {
    GenericEntity Repair_Reamo_Station4 {
@@ -1577,7 +1586,7 @@ $grp GenericEntity : "{D0B05C0B2AEB98C6}Prefabs/Garage/Repair.et" {
       Scale 0.5
      }
     }
-    coords 0.076 0.016 0.152
+    coords 0.075 0.016 0.153
     angles 0 -25.189 0
    }
   }
@@ -1916,4 +1925,8 @@ SCR_ChimeraCharacter : "{F95340D8FF22FD0B}Prefabs/Characters/Shop/US/US_Loadout_
 GenericEntity : "{FAE98D612DA908C6}Prefabs/Structures/Signs/FR/basiques FR.et" {
  coords 10151.954 3.032 1557.49
  angles 0 15.316 0
+}
+GenericEntity : "{FE73D4EE6F46894F}Prefabs/Structures/Signs/Anglais/TPUS.et" {
+ coords 10167.604 1.797 1524.19
+ angles 0 -110.96 0
 }

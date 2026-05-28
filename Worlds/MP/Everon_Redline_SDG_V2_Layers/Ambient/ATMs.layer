@@ -190,33 +190,6 @@ $grp GenericEntity : "{0858A93EFDE04083}Prefabs/ATM.et" {
  }
  {
   Flags 0x400 0
-  coords 5521.777 95.655 6091.354
-  angles 0 -145.47 0
-  {
-   GenericEntity ATM9 {
-    components {
-     SCR_EditableCommentComponent "{5DDE234C81331983}" {
-      m_EntityType COMMENT
-      m_UIInfo SCR_EditableCommentUIInfo "{5DDE234873CE99F2}" {
-       Name "ATM"
-       Icon "{D03F58B327C582D0}UI/Textures/Editor/EditableEntities/Locations/EditableEntity_Location_Base.edds"
-      }
-      m_bAutoRegister ALWAYS
-      m_sColor 0.502 0 0 1
-     }
-     SCR_MapDescriptorComponent "{5DDE234C9A632375}" {
-      DisplayName "ATM"
-      MainType "Name Village"
-      Scale 0.5
-     }
-    }
-    coords 5409.053 -116 -203.334
-    angles 0 -131.303 0
-   }
-  }
- }
- {
-  Flags 0x400 0
   coords 5727.021 218.95 7065.472
   angles 0 9.191 0
   {

@@ -455,7 +455,7 @@ $grp GenericEntity : "{604E7BB9A76B7ED9}Prefabs/Systems/Compositions/EntitySpawn
     Enabled 1
    }
   }
-  coords 4871.909 28.925 11818.503
+  coords 4872.08 28.925 11826.369
   angles 0 44.16 0
  }
  {
@@ -682,7 +682,7 @@ $grp GenericEntity : "{9EA803E0D1DDCDB6}Prefabs/Garage/Garage.et" {
   }
  }
  {
-  coords 4879.733 28.723 11726.003
+  coords 4872.305 28.433 11781.428
   angles 0 -0.025 0
   {
    GenericEntity Garage2Ru2 {
@@ -702,7 +702,7 @@ $grp GenericEntity : "{9EA803E0D1DDCDB6}Prefabs/Garage/Garage.et" {
       Scale 0.5
      }
     }
-    coords 0.074 0 0.099
+    coords 0.073 0 0.098
     angles 0 -11.877 0
    }
   }
@@ -878,11 +878,12 @@ $grp StaticModelEntity : "{B00E14C07DEE788A}Prefabs/Compositions/Misc/SubComposi
   }
  }
  {
-  coords 4871.474 0 11818.938
+  coords 4871.645 0 11826.805
   angles 0 179.575 0
   {
    GenericEntity {
     ID "5D1EB45A4E161DE0"
+    coords -7.896 0.343 -7.435
     {
      GenericEntity {
       ID "5A26B380A63C2147"
@@ -892,6 +893,7 @@ $grp StaticModelEntity : "{B00E14C07DEE788A}Prefabs/Compositions/Misc/SubComposi
    }
    GenericEntity {
     ID "5D1EB45A4E161DE9"
+    coords 7.774 0.343 8.054
     {
      GenericEntity {
       ID "5A26B380A63C2147"
@@ -901,42 +903,47 @@ $grp StaticModelEntity : "{B00E14C07DEE788A}Prefabs/Compositions/Misc/SubComposi
    }
    GenericEntity {
     ID "5D1EB45A4E161DEA"
+    coords -7.824 0.343 0.325
     {
      GenericEntity {
       ID "5A26B380A63C2147"
-      coords 0.45 0.339 -8.391
+      coords 0.451 0.339 -8.39
      }
     }
    }
    GenericEntity {
     ID "5D1EB45A4E161DEB"
+    coords -7.674 0.343 8.055
     {
      GenericEntity {
       ID "5A26B380A63C2147"
-      coords 0.49 0.339 8.512
+      coords 0.491 0.339 8.513
      }
     }
    }
    GenericEntity {
     ID "5D1EB45A4E161DED"
+    coords 7.883 0.343 -7.398
     {
      GenericEntity {
       ID "5A26B380A63C2147"
-      coords 0.708 0.339 -8.368
+      coords 0.709 0.339 -8.37
      }
     }
    }
    GenericEntity {
     ID "5D1EB45A4E161DEE"
+    coords -0.061 0.343 8.079
     {
      GenericEntity {
       ID "5A26B380A63C2147"
-      coords 8.354 0.339 -1.268
+      coords 8.354 0.339 -1.267
      }
     }
    }
    GenericEntity {
     ID "5D1EB45A4E161DEF"
+    coords -0.061 0.343 -7.436
     {
      GenericEntity {
       ID "5A26B380A63C2147"
@@ -946,10 +953,11 @@ $grp StaticModelEntity : "{B00E14C07DEE788A}Prefabs/Compositions/Misc/SubComposi
    }
    GenericEntity {
     ID "5D1EB45A4E161DF5"
+    coords 7.853 0.343 0.325
     {
      GenericEntity {
       ID "5A26B380A63C2147"
-      coords 0.142 0.339 -8.396
+      coords 0.141 0.339 -8.396
      }
     }
    }
@@ -964,14 +972,14 @@ $grp StaticModelEntity : "{B00E14C07DEE788A}Prefabs/Compositions/Misc/SubComposi
   angles 0 -178.624 0
  }
  {
-  coords 4878.668 -0.001 11735.27
+  coords 4871.529 -0.291 11791.052
   {
    GenericEntity {
     ID "5D1EB45A4E161DE0"
     {
      GenericEntity {
       ID "5A26B380A63C2147"
-      coords 0.232 0.339 -0.32
+      coords -0.223 0.339 0.018
      }
     }
    }
@@ -980,7 +988,7 @@ $grp StaticModelEntity : "{B00E14C07DEE788A}Prefabs/Compositions/Misc/SubComposi
     {
      GenericEntity {
       ID "5A26B380A63C2147"
-      coords -0.819 -0.025 -28.027
+      coords -0.994 -0.025 -35.893
      }
     }
    }
@@ -989,7 +997,7 @@ $grp StaticModelEntity : "{B00E14C07DEE788A}Prefabs/Compositions/Misc/SubComposi
     {
      GenericEntity {
       ID "5A26B380A63C2147"
-      coords -0.202 0.339 0.464
+      coords 0.225 0.339 0.091
      }
     }
    }
@@ -998,7 +1006,7 @@ $grp StaticModelEntity : "{B00E14C07DEE788A}Prefabs/Compositions/Misc/SubComposi
     {
      GenericEntity {
       ID "5A26B380A63C2147"
-      coords 0.157 0.339 -0.356
+      coords -0.225 0.339 0.063
      }
     }
    }
@@ -1007,7 +1015,7 @@ $grp StaticModelEntity : "{B00E14C07DEE788A}Prefabs/Compositions/Misc/SubComposi
     {
      GenericEntity {
       ID "5A26B380A63C2147"
-      coords -0.216 0.339 0.459
+      coords 0.221 0.339 0.099
      }
     }
    }
@@ -1016,7 +1024,7 @@ $grp StaticModelEntity : "{B00E14C07DEE788A}Prefabs/Compositions/Misc/SubComposi
     {
      GenericEntity {
       ID "5A26B380A63C2147"
-      coords -0.435 0.339 -0.053
+      coords 0.021 0.339 0.284
      }
     }
    }
@@ -1025,7 +1033,7 @@ $grp StaticModelEntity : "{B00E14C07DEE788A}Prefabs/Compositions/Misc/SubComposi
     {
      GenericEntity {
       ID "5A26B380A63C2147"
-      coords -0.406 0.339 -0.133
+      coords -0.023 0.339 0.286
      }
     }
    }
@@ -1034,13 +1042,13 @@ $grp StaticModelEntity : "{B00E14C07DEE788A}Prefabs/Compositions/Misc/SubComposi
     {
      GenericEntity {
       ID "5A26B380A63C2147"
-      coords -0.187 0.339 0.471
+      coords 0.224 0.339 0.081
      }
     }
    }
    GenericEntity {
     ID "5E92E7227A7E45AB"
-    coords -0.187 0.85 0.658
+    coords 0.224 0.85 0.267
    }
   }
  }
@@ -1261,7 +1269,7 @@ SCR_ChimeraCharacter : "{CE45716F28FBE4E3}Prefabs/Characters/Shop/USSR/USSR_Shop
    }
   }
  }
- coords 4861.894 28.593 11818.662
+ coords 4862.064 28.593 11826.528
  angles 0 -98.191 0
 }
 $grp GenericEntity : "{D0B05C0B2AEB98C6}Prefabs/Garage/Repair.et" {
@@ -1306,7 +1314,7 @@ $grp GenericEntity : "{D0B05C0B2AEB98C6}Prefabs/Garage/Repair.et" {
   }
  }
  Repair_686C810C7F8FCC5A2 {
-  coords 4889.364 28.174 11735.79
+  coords 4880.957 28.049 11791.17
   angles 0 -90.351 0
   {
    GenericEntity Repair_Rearm_Heli {
@@ -1326,7 +1334,7 @@ $grp GenericEntity : "{D0B05C0B2AEB98C6}Prefabs/Garage/Repair.et" {
       Scale 0.5
      }
     }
-    coords -0.068 0.419 -0.052
+    coords -0.064 0.419 -0.051
     angles 0 -77.86 0
    }
   }
@@ -1567,15 +1575,6 @@ StaticModelEntity : "{E17C840623164766}Prefabs/Statue/Statue_TP_USSR.et" {
      m_sDestinationName "Morton"
      m_sDestinationDisplayName "Morton"
      m_sTargetBaseName "Morton"
-    }
-    RRG_FastTravelActionManager "{6916B0319EE289EE}" {
-     ParentContextList {
-      "TP"
-     }
-     m_iTeleportCost 300
-     m_sDestinationName "MortonValley"
-     m_sDestinationDisplayName "Morton Valley"
-     m_sTargetBaseName "MortonValley"
     }
     RRG_FastTravelActionManager "{6916B0319C71ED7B}" {
      ParentContextList {
@@ -2310,11 +2309,11 @@ $grp GenericEntity : "{F31BE678DDF1480C}Prefabs/Structures/Signs/Anglais/Service
   angles 0 -91.98 0
  }
  {
-  coords 4889.776 28.06 11735.754
+  coords 4881.09 27.77 11791.15
   angles 0 -89.838 0
  }
  {
-  coords 10123.709 2.503 1372.391
+  coords 10123.728 2.503 1375.761
   angles 0 -52.629 0
  }
 }

@@ -36,7 +36,7 @@ SCR_GameModeCampaign GameMode_Campaign1 : "{3B230AAC5252108F}Prefabs/MP/Modes/Co
    Config "{6FF7850E245F2C45}Configs/Garbage/Garbage.conf"
   }
   RRG_AdditionalGameModeSettingsComponent "{692704D39377141B}" {
-   m_iNoEnemyRadius 50
+   m_iNoEnemyRadius 80
    m_bAllowFastTravelRenegade 1
    m_bRequireRadioSignal 0
    m_bEnableDebugLogs 1
@@ -47,6 +47,29 @@ SCR_GameModeCampaign GameMode_Campaign1 : "{3B230AAC5252108F}Prefabs/MP/Modes/Co
    m_bEnableDebugLogs 1
   }
   RRG_ReconnectGearFixComponent "{693703FF8A129AC3}" {
+  }
+  RRG_SlingloadManagerComponent "{6963190FB3D6AE14}" {
+   m_aSupportedHelicopters {
+    RRG_HelicopterSlingloadConfig "{6963190FB2AF8374}" {
+     m_sHelicopterPrefab "{D03C0F6044DB5208}Prefabs/Vehicles/Helicopters/UH1H/UH1H_base.et"
+     m_fMaxSlingloadMass 2000
+    }
+    RRG_HelicopterSlingloadConfig "{6963190FA1FFCC67}" {
+     m_sHelicopterPrefab "{AFF6067A5CE8A853}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_base.et"
+     m_fMaxSlingloadMass 12000
+    }
+    RRG_HelicopterSlingloadConfig "{6963190F881F593E}" {
+     m_sHelicopterPrefab "{BDD5BF2D60C2F5F0}Prefabs/Vehicles/Helicopters/H47/CH47F_MY2.et"
+     m_fMaxSlingloadMass 12000
+    }
+    RRG_HelicopterSlingloadConfig "{6963190FEA973510}" {
+     m_sHelicopterPrefab "{629DB6996E2C3649}Prefabs/Vehicles/Helicopters/KA-27/KA-27_base.et"
+     m_fMaxSlingloadMass 2000
+    }
+    RRG_HelicopterSlingloadConfig "{696D4B2FC8297325}" {
+     m_sHelicopterPrefab "{7BD282AF716ED63A}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed.et"
+    }
+   }
   }
   RY_LoadoutManager "{6926C5CE0DFD4173}" {
   }
@@ -106,6 +129,7 @@ SCR_GameModeCampaign GameMode_Campaign1 : "{3B230AAC5252108F}Prefabs/MP/Modes/Co
  m_iLossReward 3000
  m_iKillBonus 2000
  m_iCapBonus 2000
+ m_iAiKillReward 1000
  m_iControlPointsThreshold 10
  m_iRegularSuppliesIncome 250
  m_iRegularSuppliesIncomeBase 5
@@ -2448,6 +2472,9 @@ SCR_CampaignFactionManager CampaignOriginalFactionManager : "{9DBBC0F766BEF527}P
         }
         SCR_EntityCatalogEntry "{6518F7526EC41AB1}" {
          m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{69714A169F826352}" {
+         m_sEntityPrefab "{7F83A4E92F16D1A6}ZPU1_placeable_FIA.et"
         }
        }
       }

@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{CFE7C3C790BCFF66}Prefabs/Devs/L42_paneauLoadout.et"
+ Name "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -8,6 +8,8 @@ MetaFileClass {
   EntityTemplateResourceClass XBOX_SERIES : PC {
   }
   EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
   }
   EntityTemplateResourceClass HEADLESS : PC {
   }
