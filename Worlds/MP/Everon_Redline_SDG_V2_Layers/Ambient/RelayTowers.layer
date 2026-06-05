@@ -6301,7 +6301,7 @@ $grp GenericEntity : "{A16AAE4C47D5D264}Prefabs/L42/Campaign/RelayTower/Big01_Ba
   }
  }
  DecoRelayCalvary {
-  coords 3500.701 182.105 5829.352
+  coords 3500.701 182.546 5829.352
   angles 0 -67.752 0
   {
    StaticModelEntity {

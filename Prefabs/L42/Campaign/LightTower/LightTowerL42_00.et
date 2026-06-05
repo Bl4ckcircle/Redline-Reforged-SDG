@@ -2,7 +2,7 @@ GenericEntity {
  ID "5EB2DEF9805136E1"
  coords 7528.235 166.854 4210.942
  {
-  StaticModelEntity : "{6391A9AAB77069C9}Prefabs/Structures/Industrial/Towers/LightTower_02/LightTower_02.et" {
+  SCR_DestructibleBuildingEntity : "{6391A9AAB77069C9}Prefabs/Structures/Industrial/Towers/LightTower_02/LightTower_02.et" {
    ID "5EB2DEF9805136C9"
    coords 0 0 0
    {

@@ -1,12 +1,5 @@
 $grp DecalEntity {
  {
-  coords 4872.047 0.452 11958.839
-  angles -90 132.112 -131.903
-  scale 7.061
-  FarPlane 2.64
-  Stretch 6.37
- }
- {
   coords 4870.742 0.235 11949.865
   angles -90 132.112 -131.903
   scale 7.061
@@ -22,83 +15,6 @@ $grp DecalEntity {
  }
 }
 $grp GenericEntity {
- GAZ3 {
-  components {
-   RRG_VehicleRespawnManager "{6942F8100DD695CA}" {
-    m_VehiclePrefab "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et"
-    m_fDelayDestroyed 600
-    m_fDelayAbandoned 900
-   }
-  }
-  coords 4882.766 29.104 11924.777
-  angles 1.065 -90.176 1.152
- }
- Heli1 {
-  components {
-   RRG_VehicleRespawnManager "{6942F811A72351F1}" {
-    m_VehiclePrefab "{629DB6996E2C3649}Prefabs/Vehicles/Helicopters/KA-27/KA-27_base.et"
-    m_fDelayDestroyed 600
-    m_fDelayAbandoned 900
-   }
-  }
-  coords 4826.061 28.09 11937.442
-  angles 0 -129.384 0
- }
- HeliLourd1 {
-  components {
-   RRG_VehicleRespawnManager "{6942F811E0CA7065}" {
-    m_VehiclePrefab "{7BD282AF716ED63A}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed.et"
-    m_fDelayDestroyed 600
-    m_fDelayAbandoned 900
-   }
-  }
-  coords 4826.65 28.572 11907.695
-  angles 0 -145.183 0
- }
- GAZ2 {
-  components {
-   RRG_VehicleRespawnManager "{6942F8102750D8B3}" {
-    m_VehiclePrefab "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et"
-    m_fDelayDestroyed 600
-    m_fDelayAbandoned 900
-   }
-  }
-  coords 4882.222 29.009 11929.706
-  angles 1.04 -88.852 1.175
- }
- GAZ {
-  components {
-   RRG_VehicleRespawnManager "{6942F811D424D865}" {
-    m_VehiclePrefab "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et"
-    m_fDelayDestroyed 600
-    m_fDelayAbandoned 900
-   }
-  }
-  coords 4882.051 29.027 11934.492
-  angles 1.013 -87.59 1.197
- }
- MHQ_USSR_A {
-  components {
-   RRG_VehicleRespawnManager "{6942F8107CF96A92}" {
-    m_VehiclePrefab "{1BABF6B33DA0AEB7}Prefabs/Vehicles/Wheeled/Ural4320/MHQ_A.et"
-    m_fDelayAbandoned 7200
-    m_fInteractionDistance 30
-   }
-  }
-  coords 4882.923 29.031 11920.033
-  angles 1.065 -90.176 1.152
- }
- MHQ_USSR_B {
-  components {
-   RRG_VehicleRespawnManager "{6942F8105BFA743A}" {
-    m_VehiclePrefab "{047DDE56444CA348}Prefabs/Vehicles/Wheeled/Ural4320/MHQ_B.et"
-    m_fDelayAbandoned 7200
-    m_fInteractionDistance 30
-   }
-  }
-  coords 4883.032 29.011 11914.959
-  angles 1.065 -90.176 1.152
- }
  {
   coords 4895.667 29.031 11911.13
   angles 0 90.803 0
@@ -179,6 +95,83 @@ $grp GenericEntity {
   coords 4884.416 28.772 11939.71
   angles 0 90.407 0
  }
+ Heli2 {
+  components {
+   RRG_VehicleRespawnManager "{698312062479161F}" {
+    m_VehiclePrefab "{7BD282AF716ED639}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed.et"
+    m_fDelayDestroyed 300
+    m_fDelayAbandoned 900
+   }
+  }
+  coords 4826.612 28.326 11937.024
+  angles 0 -33.64 0
+ }
+ Gaz {
+  components {
+   RRG_VehicleRespawnManager "{698312064F4C8F48}" {
+    m_VehiclePrefab "{2C9B4D8196812513}Prefabs/Vehicles/Wheeled/TIGR/Unarmed/GAZ_TIGR_v2_Unarmed.et"
+    m_fDelayDestroyed 300
+    m_fDelayAbandoned 900
+   }
+  }
+  coords 4882.631 29.031 11934.523
+  angles 0 -93.748 0
+ }
+ Gaz2 {
+  components {
+   RRG_VehicleRespawnManager "{698312064F4C8F48}" {
+    m_VehiclePrefab "{2C9B4D8196812513}Prefabs/Vehicles/Wheeled/TIGR/Unarmed/GAZ_TIGR_v2_Unarmed.et"
+    m_fDelayDestroyed 300
+    m_fDelayAbandoned 900
+   }
+  }
+  coords 4882.612 29.031 11929.517
+  angles 0 -93.748 0
+ }
+ Gaz3 {
+  components {
+   RRG_VehicleRespawnManager "{698312064F4C8F48}" {
+    m_VehiclePrefab "{2C9B4D8196812513}Prefabs/Vehicles/Wheeled/TIGR/Unarmed/GAZ_TIGR_v2_Unarmed.et"
+    m_fDelayDestroyed 300
+    m_fDelayAbandoned 900
+   }
+  }
+  coords 4882.422 29.031 11924.288
+  angles 0 -93.748 0
+ }
+ MHQ_USSR_A {
+  components {
+   RRG_VehicleRespawnManager "{698312068650FCE7}" {
+    m_VehiclePrefab "{1BABF6B33DA0AEB7}Prefabs/Vehicles/Wheeled/Ural4320/MHQ_A.et"
+    m_fDelayDestroyed 600
+    m_fDelayAbandoned 10800
+   }
+  }
+  coords 4883.604 29.055 11920.074
+  angles 1.048 -89.336 1.168
+ }
+ MHQ_USSR_B {
+  components {
+   RRG_VehicleRespawnManager "{69831206F08B0DD0}" {
+    m_VehiclePrefab "{047DDE56444CA348}Prefabs/Vehicles/Wheeled/Ural4320/MHQ_B.et"
+    m_fDelayDestroyed 600
+    m_fDelayAbandoned 10800
+   }
+  }
+  coords 4883.178 29.031 11915.08
+  angles 1.087 -91.229 1.133
+ }
+ Heli_lourd2 {
+  components {
+   RRG_VehicleRespawnManager "{698312066490D75B}" {
+    m_VehiclePrefab "{7BD282AF716ED63A}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed.et"
+    m_fDelayDestroyed 600
+    m_fDelayAbandoned 900
+   }
+  }
+  coords 4827.57 28.934 11908.023
+  angles -2.85 -136.896 3.405
+ }
 }
 $grp GenericEntity : "{0858A93EFDE04083}Prefabs/ATM.et" {
  {
@@ -239,18 +232,19 @@ GenericEntity MOBUSSR : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/Conflict
    "faction affiliation" "USSR"
   }
   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+   m_iRadius 140
    m_bCanBeHQ 1
    m_bDisableWhenUnusedAsHQ 0
    m_sBaseName "MOB USSR"
    m_sBaseNameUpper "MOB USSR"
   }
  }
- coords 4877.092 28.593 11834.469
+ coords 4872.518 28.651 11802.392
  angles 2.772 -83.076 -0.564
  {
   SCR_CampaignSpawnPointGroup {
    ID "5C6696731466AF36"
-   coords 110.623 -0.458 -2.626
+   coords 143.176 -0.852 -3.66
    angles 0 -49.508 0
    m_sFaction "USSR"
   }
@@ -1401,21 +1395,6 @@ StaticModelEntity : "{E17C840623164766}Prefabs/Statue/Statue_TP_USSR.et" {
   }
   ActionsManagerComponent "{685952C7DE39FC30}" {
    additionalActions {
-    RY_FastTravelFromTerminalAction "{689F0815E0796033}" {
-     ParentContextList {
-      ""
-     }
-     ActionTitle ""
-     VisibilityRange 0
-     m_ActionLabel ""
-     m_TargetMHQId ""
-    }
-    RY_FastTravelFromTerminalAction "{689F08158FAF9A02}" {
-     ActionTitle ""
-     VisibilityRange 0
-     m_ActionLabel ""
-     m_TargetMHQId ""
-    }
     RRG_FastTravelActionManager "{6916B032A515D1E3}" {
      ParentContextList {
       "TP"
@@ -1540,15 +1519,6 @@ StaticModelEntity : "{E17C840623164766}Prefabs/Statue/Statue_TP_USSR.et" {
      m_sDestinationName "Meaux"
      m_sDestinationDisplayName "Meaux"
      m_sTargetBaseName "Meaux"
-    }
-    RRG_FastTravelActionManager "{6916B0316963DF87}" {
-     ParentContextList {
-      "TP"
-     }
-     m_iTeleportCost 200
-     m_sDestinationName "Military_Training"
-     m_sDestinationDisplayName "Military Training"
-     m_sTargetBaseName "Military_Training"
     }
     RRG_FastTravelActionManager "{6916B03199E0B43E}" {
      ParentContextList {
@@ -2190,6 +2160,9 @@ SCR_DestructibleBuildingEntity : "{F16324CB8CB07C00}Prefabs/Structures/Military/
     GameEntity {
      ID "5CB0F589F6F73C99"
      components {
+      ParametricMaterialInstanceComponent "{5876E7CF962A6687}" {
+       Enabled 0
+      }
       SignalsManagerComponent "{594881874988D5AF}" {
        Enabled 0
       }
@@ -2197,9 +2170,6 @@ SCR_DestructibleBuildingEntity : "{F16324CB8CB07C00}Prefabs/Structures/Military/
        Enabled 0
       }
       MeshObject "{5872F0EB7FA40561}" {
-       Enabled 0
-      }
-      ParametricMaterialInstanceComponent "{5876E7CF962A6687}" {
        Enabled 0
       }
       RigidBody "{5872F0EB7DFB5A9D}" {

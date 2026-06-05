@@ -1,65 +1,21 @@
 $grp GenericEntity {
- Heli {
-  components {
-   RRG_VehicleRespawnManager "{6942F813122A91A2}" {
-    m_VehiclePrefab "{70BAEEFC2D3FEE64}Prefabs/Vehicles/Helicopters/UH1H/UH1H.et"
-    m_fDelayDestroyed 600
-    m_fDelayAbandoned 900
-   }
-  }
-  coords 10157.896 2.85 1489.929
-  angles 0 -33.64 0
- }
- Heli_lourd {
-  components {
-   RRG_VehicleRespawnManager "{6942F81307233F44}" {
-    m_VehiclePrefab "{BDD5BF2D60C2F5F0}Prefabs/Vehicles/Helicopters/H47/CH47F_MY2.et"
-    m_fDelayDestroyed 600
-    m_fDelayAbandoned 900
-   }
-  }
-  coords 10191.892 2.95 1485.298
-  angles -2.85 -136.896 3.405
- }
  JLTV {
   components {
-   RRG_VehicleRespawnManager "{6942F81CE4110A1E}" {
-    m_VehiclePrefab "{94DE32169691AC34}Prefabs/Vehicles/Wheeled/M151A2/M151A2_transport_MERDC.et"
-    m_fDelayDestroyed 600
+   RRG_VehicleRespawnManager "{698312064F4C8F48}" {
+    m_VehiclePrefab "{CBC466F92C9E1AE6}Prefabs/Vehicles/Wheeled/JLTV/Unarmed/JLTV_Unarmed_Woodland.et"
+    m_fDelayDestroyed 300
     m_fDelayAbandoned 900
    }
   }
   coords 10150.527 3.277 1551.241
   angles 0 -167.2 0
  }
- JLTV2 {
-  components {
-   RRG_VehicleRespawnManager "{6942F81CE9927932}" {
-    m_VehiclePrefab "{94DE32169691AC34}Prefabs/Vehicles/Wheeled/M151A2/M151A2_transport_MERDC.et"
-    m_fDelayDestroyed 600
-    m_fDelayAbandoned 900
-   }
-  }
-  coords 10155.584 3.277 1550.217
-  angles 0 -163.101 0
- }
- JLTV3 {
-  components {
-   RRG_VehicleRespawnManager "{6942F81CFF45F534}" {
-    m_VehiclePrefab "{94DE32169691AC34}Prefabs/Vehicles/Wheeled/M151A2/M151A2_transport_MERDC.et"
-    m_fDelayDestroyed 600
-    m_fDelayAbandoned 900
-   }
-  }
-  coords 10160.099 3.277 1549.469
-  angles 0 -167.152 0
- }
  MHQ_US_B {
   components {
-   RRG_VehicleRespawnManager "{6942F819DB621800}" {
+   RRG_VehicleRespawnManager "{69831206F08B0DD0}" {
     m_VehiclePrefab "{5EFEDD1782A6A5E2}Prefabs/Vehicles/Wheeled/M923A1/MHQ_B.et"
-    m_fDelayAbandoned 7200
-    m_fInteractionDistance 30
+    m_fDelayDestroyed 600
+    m_fDelayAbandoned 10800
    }
   }
   coords 10169.49 3.267 1546.429
@@ -167,14 +123,58 @@ $grp GenericEntity {
  }
  MHQ_US_A {
   components {
-   RRG_VehicleRespawnManager "{6942F819DB621800}" {
+   RRG_VehicleRespawnManager "{698312068650FCE7}" {
     m_VehiclePrefab "{38186F12F27A61C7}Prefabs/Vehicles/Wheeled/M923A1/MHQ_A.et"
-    m_fDelayAbandoned 7200
-    m_fInteractionDistance 30
+    m_fDelayDestroyed 600
+    m_fDelayAbandoned 10800
    }
   }
   coords 10164.649 3.267 1547.635
   angles 1.396 -164.61 -0.717
+ }
+ JLTV2 {
+  components {
+   RRG_VehicleRespawnManager "{698312064F4C8F48}" {
+    m_VehiclePrefab "{CBC466F92C9E1AE6}Prefabs/Vehicles/Wheeled/JLTV/Unarmed/JLTV_Unarmed_Woodland.et"
+    m_fDelayDestroyed 300
+    m_fDelayAbandoned 900
+   }
+  }
+  coords 10155.782 3.267 1549.409
+  angles 0 -167.2 0
+ }
+ JLTV3 {
+  components {
+   RRG_VehicleRespawnManager "{698312064F4C8F48}" {
+    m_VehiclePrefab "{CBC466F92C9E1AE6}Prefabs/Vehicles/Wheeled/JLTV/Unarmed/JLTV_Unarmed_Woodland.et"
+    m_fDelayDestroyed 300
+    m_fDelayAbandoned 900
+   }
+  }
+  coords 10160.268 3.267 1547.937
+  angles 0 -167.2 0
+ }
+ Heli_lourd3 {
+  components {
+   RRG_VehicleRespawnManager "{698312066490D75B}" {
+    m_VehiclePrefab "{DDDD9B51F1234DF3}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed.et"
+    m_fDelayDestroyed 600
+    m_fDelayAbandoned 900
+   }
+  }
+  coords 10191.267 3.038 1486.046
+  angles -2.85 -136.896 3.405
+ }
+ Heli3 {
+  components {
+   RRG_VehicleRespawnManager "{698312062479161F}" {
+    m_VehiclePrefab "{DDDD9B51F1234DF3}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed.et"
+    m_fDelayDestroyed 300
+    m_fDelayAbandoned 900
+   }
+  }
+  coords 10159.554 2.82 1490.163
+  angles 0 -33.64 0
  }
 }
 GenericEntity : "{025DB189A1A9B438}Prefabs/Compositions/Misc/SubCompositions/Sign_Medical_US_01.et" {
@@ -328,29 +328,8 @@ GenericEntity : "{22D2EFA80AC9DBD1}Prefabs/Compositions/Slotted/SlotFlatSmall/Su
 }
 SCR_DestructibleEntity : "{2506C02B8564CABC}Prefabs/Statue/Statue_TP_US.et" {
  components {
-  RY_FastTravelTerminalComponent "{68ACE40F848CCCDC}" {
-   Enabled 0
-  }
   ActionsManagerComponent "{685952C514E5635C}" {
    additionalActions {
-    RY_FastTravelFromTerminalAction "{68ACE40FA3C77E70}" {
-     ParentContextList {
-      ""
-     }
-     ActionTitle ""
-     VisibilityRange 0
-     m_ActionLabel ""
-     m_TargetMHQId ""
-    }
-    RY_FastTravelFromTerminalAction "{68ACE40E52D31A3B}" {
-     ParentContextList {
-      ""
-     }
-     ActionTitle ""
-     VisibilityRange 0
-     m_ActionLabel ""
-     m_TargetMHQId ""
-    }
     RRG_FastTravelActionManager "{6916FC5D0BFD6EE7}" {
      ParentContextList {
       "TP"
@@ -464,15 +443,6 @@ SCR_DestructibleEntity : "{2506C02B8564CABC}Prefabs/Statue/Statue_TP_US.et" {
      m_sDestinationName "Meaux"
      m_sDestinationDisplayName "Meaux"
      m_sTargetBaseName "Meaux"
-    }
-    RRG_FastTravelActionManager "{6916FC5D5E15E478}" {
-     ParentContextList {
-      "TP"
-     }
-     m_iTeleportCost 400
-     m_sDestinationName "Military_Training"
-     m_sDestinationDisplayName "Military Training"
-     m_sTargetBaseName "Military_Training"
     }
     RRG_FastTravelActionManager "{6916FC5D5D34745A}" {
      ParentContextList {
@@ -651,7 +621,7 @@ $grp SCR_ChimeraCharacter : "{3986637F31E86985}Prefabs/Characters/Shop/US/US_Sho
   angles 0 179.127 0
  }
 }
-$grp GenericEntity : "{4A9E0C3D18D5A1B8}Prefabs/Props/Crates/LootCrateWooden_01_blue.et" {
+$grp GenericEntity : "{4A9E0C3D18D5A1B9}Prefabs/Props/Crates/LootCrateWooden_01_blue.et" {
  {
   components {
    RRG_CrateAutoClearComponent "{692B2DFFD9C38EF0}" {
@@ -1801,6 +1771,9 @@ SCR_DestructibleBuildingEntity : "{F16324CB8CB07C00}Prefabs/Structures/Military/
     GameEntity {
      ID "5CB0F589F6F73C99"
      components {
+      ParametricMaterialInstanceComponent "{5876E7CF962A6687}" {
+       Enabled 0
+      }
       SignalsManagerComponent "{594881874988D5AF}" {
        Enabled 0
       }
@@ -1808,9 +1781,6 @@ SCR_DestructibleBuildingEntity : "{F16324CB8CB07C00}Prefabs/Structures/Military/
        Enabled 0
       }
       MeshObject "{5872F0EB7FA40561}" {
-       Enabled 0
-      }
-      ParametricMaterialInstanceComponent "{5876E7CF962A6687}" {
        Enabled 0
       }
       RigidBody "{5872F0EB7DFB5A9D}" {

@@ -3,21 +3,21 @@ SCR_AIWorld : "{70CCCF16487C927F}Prefabs/AI/SCR_AIWorld_Eden.et" {
   NavmeshWorldComponent "{5584F30E67F617AD}" {
    NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
     NavmeshFilesConfig BaseNavmeshFilesConfig "{60B8A297F9E52831}" {
-     NavmeshFile "{8DA6FDE98507719A}Worlds/Navmesh/soldiersEveron.nmn"
+     NavmeshFile "{BA41723F3F314964}Worlds/Navmesh/Soldiers.nmn"
     }
    }
   }
   NavmeshWorldComponent "{5584F30EEFEE1223}" {
    NavmeshSettings ChimeraNavmeshWorld "{50FC63BEBE3973C5}" {
     NavmeshFilesConfig BaseNavmeshFilesConfig "{60B8A297F3B4EE8A}" {
-     NavmeshFile "{43F3A11FA982AC54}Worlds/Navmesh/BTRlikeEveron.nmn"
+     NavmeshFile "{496DB79F7F4F33BE}Worlds/Navmesh/BTRlike.nmn"
     }
    }
   }
   NavmeshWorldComponent "{5C8C9B750D124A63}" {
    NavmeshSettings NavmeshWorld "{5C8C9B750B60C6E2}" {
     NavmeshFilesConfig BaseNavmeshFilesConfig "{5C90BD0EC793647D}" {
-     NavmeshFile "{E453466835540B2B}Worlds/Navmesh/LowResEveron.nmn"
+     NavmeshFile "{7C34271D8EC6FA18}Worlds/Navmesh/LowRes.nmn"
     }
    }
   }
@@ -46,31 +46,6 @@ SCR_GameModeCampaign GameMode_Campaign1 : "{3B230AAC5252108F}Prefabs/MP/Modes/Co
    m_iAntiAFKTimeMinutes 30
    m_bEnableDebugLogs 1
   }
-  RRG_ReconnectGearFixComponent "{693703FF8A129AC3}" {
-  }
-  RRG_SlingloadManagerComponent "{6963190FB3D6AE14}" {
-   m_aSupportedHelicopters {
-    RRG_HelicopterSlingloadConfig "{6963190FB2AF8374}" {
-     m_sHelicopterPrefab "{D03C0F6044DB5208}Prefabs/Vehicles/Helicopters/UH1H/UH1H_base.et"
-     m_fMaxSlingloadMass 2000
-    }
-    RRG_HelicopterSlingloadConfig "{6963190FA1FFCC67}" {
-     m_sHelicopterPrefab "{AFF6067A5CE8A853}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_base.et"
-     m_fMaxSlingloadMass 12000
-    }
-    RRG_HelicopterSlingloadConfig "{6963190F881F593E}" {
-     m_sHelicopterPrefab "{BDD5BF2D60C2F5F0}Prefabs/Vehicles/Helicopters/H47/CH47F_MY2.et"
-     m_fMaxSlingloadMass 12000
-    }
-    RRG_HelicopterSlingloadConfig "{6963190FEA973510}" {
-     m_sHelicopterPrefab "{629DB6996E2C3649}Prefabs/Vehicles/Helicopters/KA-27/KA-27_base.et"
-     m_fMaxSlingloadMass 2000
-    }
-    RRG_HelicopterSlingloadConfig "{696D4B2FC8297325}" {
-     m_sHelicopterPrefab "{7BD282AF716ED63A}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed.et"
-    }
-   }
-  }
   RY_LoadoutManager "{6926C5CE0DFD4173}" {
   }
   SCR_TimeAndWeatherHandlerComponent "{67295C8D2DAC3749}" {
@@ -83,35 +58,9 @@ SCR_GameModeCampaign GameMode_Campaign1 : "{3B230AAC5252108F}Prefabs/MP/Modes/Co
   SCR_XPHandlerComponent "{5CAAA397E5408ABF}" {
    m_sXPRewardsConfig "{DDD29FAEBFA35353}Configs/Campaign/RRG_XPRewards.conf"
    m_iVeterancyXPAwardThreshold 0
-   m_iMedicalAssistanceRewardCooldown 240
    m_fEnemyVehicleDestroyXPMultiplier 0
    m_iSurvivalRewardCooldown 1800
    m_fVehicleRepairXPMultiplier 0
-   m_mSeizeXPRewardConfig SCR_SeizeXpRewardConfig "{657C71E620E93E4A}" {
-    m_iXPRewardTimer 180
-    m_aSeizeCompletionXpRewardList {
-     SCR_SeizeCompletionXpRewardInfo "{657C71E63D8D0E79}" {
-      m_iXPReward 1
-     }
-     SCR_SeizeCompletionXpRewardInfo "{657C71E63A17E2AA}" {
-      m_iXPReward 1
-     }
-     SCR_SeizeCompletionXpRewardInfo "{657C71E639D75E88}" {
-      m_iXPReward 2
-     }
-    }
-    m_aSeizeProgressionXpRewardList {
-     SCR_SeizeProgressionXpRewardInfo "{657C71E63BC15986}" {
-      m_iXPReward 1
-     }
-     SCR_SeizeProgressionXpRewardInfo "{657C71E63B5DC55E}" {
-      m_iXPReward 2
-     }
-     SCR_SeizeProgressionXpRewardInfo "{657C71E63B176CCC}" {
-      m_iXPReward 2
-     }
-    }
-   }
    m_fWCS_FIASeizeXpMultiplier 0
    m_bWCS_CrewVehicleKillXpSharing 0
    m_fWCS_CrewVehicleKillXpBonusPerMember 0
@@ -152,6 +101,7 @@ SCR_CampaignFactionManager CampaignOriginalFactionManager : "{9DBBC0F766BEF527}P
    UIInfo SCR_FactionUIInfo "{528C96127F8B6B08}" {
     Name "Russia"
    }
+   m_bIsCommanderAvailable 0
    m_aEntityCatalogs {
     SCR_EntityCatalogMultiList "{5C68A0E9BD5E5DD9}" {
      m_aEntityEntryList {
@@ -1046,6 +996,7 @@ SCR_CampaignFactionManager CampaignOriginalFactionManager : "{9DBBC0F766BEF527}P
       SCR_EntityCatalogMultiListEntry "{6056A0A567970496}" {
        m_aEntities {
         SCR_EntityCatalogEntry "{5DF695795800BF62}" {
+         m_sEntityPrefab "{AEE0CE0D6D8EBBEA}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/RRG_Campaign_USSR_Player.et"
          m_aEntityDataList {
           SCR_EntityCatalogSpawnerData "{5DF6957955A19E10}" {
            m_eSlotTypes GROUP_SMALL
@@ -1481,6 +1432,7 @@ SCR_CampaignFactionManager CampaignOriginalFactionManager : "{9DBBC0F766BEF527}P
          }
         }
         SCR_EntityCatalogEntry "{6126B736FE8FDB25}" {
+         m_sEntityPrefab "{2CFE375A287FB241}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Campaign_USSR_Player_Variant_1.et"
          m_aEntityDataList {
           SCR_EntityCatalogLoadoutData "{6126B50274D4A4A6}" {
            m_fSpawnSupplyCost 20
@@ -1531,6 +1483,7 @@ SCR_CampaignFactionManager CampaignOriginalFactionManager : "{9DBBC0F766BEF527}P
    m_BaseBuildingHQ ""
   }
   SCR_CampaignFaction "{50B30C3ADB052C80}" {
+   m_bIsCommanderAvailable 0
    m_aEntityCatalogs {
     SCR_EntityCatalogMultiList "{5C68A0EE815FA292}" {
      m_aEntityEntryList {
@@ -1986,6 +1939,7 @@ SCR_CampaignFactionManager CampaignOriginalFactionManager : "{9DBBC0F766BEF527}P
       SCR_EntityCatalogMultiListEntry "{6056BD5F6A436153}" {
        m_aEntities {
         SCR_EntityCatalogEntry "{5DF69575F4160EE2}" {
+         m_sEntityPrefab "{881AE8FC5FC1F6F6}Prefabs/Characters/Campaign/Final/BLUFOR/US_army/RRG_Campaign_US_Player.et"
          m_aEntityDataList {
           SCR_EntityCatalogSpawnerData "{5DF6957609E74636}" {
            m_eSlotTypes GROUP_SMALL
@@ -2398,6 +2352,7 @@ SCR_CampaignFactionManager CampaignOriginalFactionManager : "{9DBBC0F766BEF527}P
          }
         }
         SCR_EntityCatalogEntry "{6126B736DC04AF30}" {
+         m_sEntityPrefab "{6A0432BF7774D08E}Prefabs/Characters/Campaign/Final/BLUFOR/US_army/Campaign_US_Player_Variant_1.et"
          m_aEntityDataList {
           SCR_EntityCatalogLoadoutData "{6126B502A1DAABD4}" {
            m_fSpawnSupplyCost 20
@@ -2408,7 +2363,7 @@ SCR_CampaignFactionManager CampaignOriginalFactionManager : "{9DBBC0F766BEF527}P
       }
      }
     }
-    SCR_EntityCatalogMultiList "{5C9E82F29B327997}" : "{D83A5EFEEF6CBF61}Configs/EntityCatalog/US/Vehicles_EntityCatalog_US.conf" {
+    SCR_EntityCatalogMultiList "{5C9E82F29B327997}" : "{D83A5EFEEF6CBF61}Configs/EntityCatalog/US/US_Vehicles.conf" {
      m_aMultiLists {
       SCR_EntityCatalogMultiListEntry "{60569780DE4EE17A}" {
        m_aEntities {
@@ -2446,6 +2401,9 @@ SCR_CampaignFactionManager CampaignOriginalFactionManager : "{9DBBC0F766BEF527}P
         SCR_EntityCatalogEntry "{652B36FB5FB2E3EF}" {
          m_bEnabled 0
         }
+        SCR_EntityCatalogEntry "{68908BED0969C308}" {
+         m_sEntityPrefab "{54838E573DCDC027}Prefabs/Weapons/Howitzers/M777/M777_Howitzer.et"
+        }
         SCR_EntityCatalogEntry "{65FD205F13F6A50C}" {
          m_bEnabled 0
         }
@@ -2466,9 +2424,6 @@ SCR_CampaignFactionManager CampaignOriginalFactionManager : "{9DBBC0F766BEF527}P
         }
         SCR_EntityCatalogEntry "{68C31C1E469690D6}" {
          m_bEnabled 0
-        }
-        SCR_EntityCatalogEntry "{68908BED0969C308}" {
-         m_sEntityPrefab "{54838E573DCDC027}Prefabs/Weapons/Howitzers/M777/M777_Howitzer.et"
         }
         SCR_EntityCatalogEntry "{6518F7526EC41AB1}" {
          m_bEnabled 0
@@ -2576,29 +2531,7 @@ SCR_CampaignFactionManager CampaignOriginalFactionManager : "{9DBBC0F766BEF527}P
    m_bIsPlayable 0
   }
   SCR_Faction "{60DCF47AEF40BD72}" : "{3FA20B01D950D31F}Configs/Factions/CIV.conf" {
-  }
- }
- m_aRanks {
-  SCR_RankIDCampaign "{5CB0777E83631136}" {
-   m_iRequiredXP -500
-  }
-  SCR_RankIDCampaign "{5CB0777E828E61F3}" {
-   m_iRequiredXP -100
-  }
-  SCR_RankIDCampaign "{5CB0777E803B7EA2}" {
-   m_iRequiredXP -90
-  }
-  SCR_RankIDCampaign "{5CB0777E8F0E82AF}" {
-   m_iRequiredXP -70
-  }
-  SCR_RankIDCampaign "{5CB0777E8BE66EC2}" {
-   m_iRequiredXP -50
-  }
-  SCR_RankIDCampaign "{5CB0777E8AD658D6}" {
-   m_iRequiredXP -30
-  }
-  SCR_RankIDCampaign "{5CB0777E88380770}" {
-   m_iRequiredXP -10
+   m_bIsCommanderAvailable 0
   }
  }
 }
